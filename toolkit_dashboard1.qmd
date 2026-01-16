@@ -1,6 +1,8 @@
 ---
 title: Toolkit Dashboard
 format: dashboard
+execute: 
+  enabled: false
 ---
 ```{r, setup}
 #| include: false
@@ -16,13 +18,13 @@ library(htmlwidgets)
 
 ```{r}
 # save data to object
-softwarecompare_data <- data.frame(read_csv("../ProspectResearchToolkit/data/pr_tool_comparisons.csv"))
-software_term_data <- data.frame(read_csv("../ProspectResearchToolkit/data/pr_jobs_dataset_softwarefreq_10-9-25.csv"))
-prompt_library <- data.frame(read_csv("../ProspectResearchToolkit/tools/ApraUtahTools/ProspectResearch_PromptLibrary/PR_PromptLibrary_v3.csv))
+# softwarecompare_data <- data.frame(read_csv("../ProspectResearchToolkit/data/pr_tool_comparisons.csv"))
+# software_term_data <- data.frame(read_csv("../ProspectResearchToolkit/data/pr_jobs_dataset_softwarefreq_10-9-25.csv"))
+# prompt_library <- data.frame(read_csv("../ProspectResearchToolkit/tools/ApraUtahTools/ProspectResearch_PromptLibrary/PR_PromptLibrary_v3.csv))
 
-jobs <- 22
+# jobs <- 22
 
-jobtitle_pr_dataset <- data.frame(read_csv("../ProspectResearchToolkit/data/job_titles/CMAP/cleanCMAP_dataset/PRSPDEV_JobTitles_CMAP_2017_ALLSECTORS.csv"))
+# jobtitle_pr_dataset <- data.frame(read_csv("../ProspectResearchToolkit/data/job_titles/CMAP/cleanCMAP_dataset/PRSPDEV_JobTitles_CMAP_2017_ALLSECTORS.csv"))
 
 
 ```

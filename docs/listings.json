@@ -3,16 +3,21 @@
     "listing": "/tutorials.html",
     "items": [
       "/toolkit_tutorials/CodeBlockTesting/index.html",
+      "/toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html",
       "/toolkit_tutorials/UsingPowerQuery/index.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
+      "/toolkit_blog/datacontracts/index.html",
+      "/toolkit_blog/first_blog/index.html",
       "/toolkit_blog/Creating_Jobs_Dataset/index.html",
+      "/toolkit_blog/LibraryDatabases/index.html",
       "/toolkit_blog/PRSPCT-L_roundup/index.html",
+      "/toolkit_blog/HelpfulTechDocumentation/index.html",
       "/toolkit_blog/technical_field_guide/index.html",
-      "/toolkit_blog/first_blog/index.html"
+      "/toolkit_blog/Tool_reviews/index.html"
     ]
   }
 ]

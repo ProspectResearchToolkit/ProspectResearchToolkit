@@ -2,3 +2,4 @@
 **/*.quarto_ipynb
 
 /.luarc.json
+.Rproj.user

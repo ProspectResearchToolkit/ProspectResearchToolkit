@@ -2,12 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Greg Brooks">
+<meta name="dcterms.date" content="2025-10-14">
 
-<title>index – Prospect Research Toolkit</title>
+<title>Internal Data Contracts – Prospect Research Toolkit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-3245b0a8c8b363e97e890577a37d29ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-5e1263a3e648c3fb134f0f0789b12e9b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,8 +72,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Prospect Research Toolkit">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Internal Data Contracts – Prospect Research Toolkit">
 <meta property="og:site_name" content="Prospect Research Toolkit">
 </head>
 
@@ -82,9 +84,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Prospect Research Toolkit</span>
     </a>
   </div>
@@ -95,11 +95,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../../../index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -118,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Internal Data Contracts</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -131,10 +131,6 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="../../../index.html" class="sidebar-logo-link">
-      </a>
-      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -148,13 +144,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../templates.html" class="sidebar-item-text sidebar-link">
+  <a href="../../templates.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Templates</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../toolkit_dashboard1.html" class="sidebar-item-text sidebar-link">
+  <a href="../../toolkit_dashboard1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Toolkit Dashboard</span></a>
   </div>
 </li>
@@ -171,13 +167,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../tutorials.html" class="sidebar-item-text sidebar-link">
+  <a href="../../tutorials.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tutorials &amp; How-to</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../blog.html" class="sidebar-item-text sidebar-link">
+  <a href="../../blog.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Toolkit Blog</span></a>
   </div>
 </li>
@@ -194,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../free_resources_links.html" class="sidebar-item-text sidebar-link">
+  <a href="../../free_resources_links.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Free External Resources</span></a>
   </div>
 </li>
@@ -205,17 +201,216 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#creating-internal-data-contracts-a-practical-guide" id="toc-creating-internal-data-contracts-a-practical-guide" class="nav-link active" data-scroll-target="#creating-internal-data-contracts-a-practical-guide">Creating Internal Data Contracts: A Practical Guide</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#what-is-an-internal-data-contract" id="toc-what-is-an-internal-data-contract" class="nav-link" data-scroll-target="#what-is-an-internal-data-contract">What is an Internal Data Contract?</a></li>
+  <li><a href="#sample-internal-data-contract-template" id="toc-sample-internal-data-contract-template" class="nav-link" data-scroll-target="#sample-internal-data-contract-template">Sample Internal Data Contract Template</a>
+  <ul class="collapse">
+  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose">1. Purpose</a></li>
+  <li><a href="#schema-definition" id="toc-schema-definition" class="nav-link" data-scroll-target="#schema-definition">2. Schema Definition</a></li>
+  <li><a href="#data-quality-guarantees" id="toc-data-quality-guarantees" class="nav-link" data-scroll-target="#data-quality-guarantees">3. Data Quality Guarantees</a></li>
+  <li><a href="#ownership-responsibilities" id="toc-ownership-responsibilities" class="nav-link" data-scroll-target="#ownership-responsibilities">4. Ownership &amp; Responsibilities</a></li>
+  <li><a href="#access-security" id="toc-access-security" class="nav-link" data-scroll-target="#access-security">5. Access &amp; Security</a></li>
+  <li><a href="#change-management" id="toc-change-management" class="nav-link" data-scroll-target="#change-management">6. Change Management</a></li>
+  </ul></li>
+  <li><a href="#best-practices-for-internal-data-contracts" id="toc-best-practices-for-internal-data-contracts" class="nav-link" data-scroll-target="#best-practices-for-internal-data-contracts">Best Practices for Internal Data Contracts</a></li>
+  <li><a href="#applying-internal-data-contracts-to-fundraising-analysis-teams" id="toc-applying-internal-data-contracts-to-fundraising-analysis-teams" class="nav-link" data-scroll-target="#applying-internal-data-contracts-to-fundraising-analysis-teams">Applying Internal Data Contracts to Fundraising Analysis Teams</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Internal Data Contracts</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Greg Brooks </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 14, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<section id="creating-internal-data-contracts-a-practical-guide" class="level1">
+<h1>Creating Internal Data Contracts: A Practical Guide</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>As organizations grow, data becomes increasingly complex and distributed across multiple teams and systems. Without clear agreements on how data is structured, maintained, and shared, teams risk miscommunication, broken pipelines, and unreliable analytics. <strong>Internal data contracts</strong> solve this problem by formalizing expectations between data producers and consumers—similar to API contracts, but for data.</p>
+<p>This post will cover: - What internal data contracts are - A sample contract template - Best practices for implementation - How they can apply to fundraising analysis teams</p>
+<hr>
+</section>
+<section id="what-is-an-internal-data-contract" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-an-internal-data-contract">What is an Internal Data Contract?</h2>
+<p>An internal data contract is a documented agreement that defines: - <strong>Schema</strong>: The structure and types of data fields - <strong>Quality guarantees</strong>: Rules for completeness, accuracy, and freshness - <strong>Ownership</strong>: Who is responsible for producing and consuming the data - <strong>Access and security</strong>: Permissions and compliance requirements - <strong>Change management</strong>: How updates are communicated and versioned</p>
+<p>These contracts reduce breakages, improve trust, and enable scalable data sharing across teams.</p>
+<hr>
+</section>
+<section id="sample-internal-data-contract-template" class="level2">
+<h2 class="anchored" data-anchor-id="sample-internal-data-contract-template">Sample Internal Data Contract Template</h2>
+<p><strong>Title:</strong> Customer Data Contract<br>
+<strong>Version:</strong> 1.0<br>
+<strong>Owner:</strong> Data Engineering Team<br>
+<strong>Effective Date:</strong> 2025-11-12</p>
+<hr>
+<section id="purpose" class="level3">
+<h3 class="anchored" data-anchor-id="purpose">1. Purpose</h3>
+<p>This contract defines the structure, quality, and governance of the <code>customer</code> dataset shared between the <strong>CRM system</strong> (producer) and <strong>Analytics team</strong> (consumer).</p>
+<hr>
+</section>
+<section id="schema-definition" class="level3">
+<h3 class="anchored" data-anchor-id="schema-definition">2. Schema Definition</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 17%">
+<col style="width: 14%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field Name</th>
+<th>Data Type</th>
+<th>Nullable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>customer_id</td>
+<td>STRING</td>
+<td>No</td>
+<td>Unique customer identifier</td>
+</tr>
+<tr class="even">
+<td>name</td>
+<td>STRING</td>
+<td>No</td>
+<td>Full name of the customer</td>
+</tr>
+<tr class="odd">
+<td>email</td>
+<td>STRING</td>
+<td>No</td>
+<td>Customer email address</td>
+</tr>
+<tr class="even">
+<td>signup_date</td>
+<td>DATE</td>
+<td>No</td>
+<td>Date of account creation</td>
+</tr>
+<tr class="odd">
+<td>status</td>
+<td>STRING</td>
+<td>Yes</td>
+<td>Active, Inactive, Pending</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Versioning:</strong><br>
+- Backward-compatible changes allowed (adding new nullable fields).<br>
+- Breaking changes require <strong>30-day notice</strong> and version increment.</p>
+<hr>
+</section>
+<section id="data-quality-guarantees" class="level3">
+<h3 class="anchored" data-anchor-id="data-quality-guarantees">3. Data Quality Guarantees</h3>
+<ul>
+<li><strong>Freshness:</strong> Data updated within 15 minutes of CRM changes.<br>
+</li>
+<li><strong>Completeness:</strong> 99% of records must have <code>email</code> populated.<br>
+</li>
+<li><strong>Accuracy:</strong> <code>status</code> must match CRM system values.</li>
+</ul>
+<hr>
+</section>
+<section id="ownership-responsibilities" class="level3">
+<h3 class="anchored" data-anchor-id="ownership-responsibilities">4. Ownership &amp; Responsibilities</h3>
+<ul>
+<li><strong>Producer:</strong> CRM Engineering Team<br>
+</li>
+<li><strong>Consumer:</strong> Analytics Team<br>
+</li>
+<li><strong>Escalation:</strong> Contact <code>data-support@company.com</code> for issues.</li>
+</ul>
+<hr>
+</section>
+<section id="access-security" class="level3">
+<h3 class="anchored" data-anchor-id="access-security">5. Access &amp; Security</h3>
+<ul>
+<li>Data accessible via internal data warehouse with role-based permissions.<br>
+</li>
+<li>PII fields (e.g., email) must comply with GDPR and internal privacy policies.</li>
+</ul>
+<hr>
+</section>
+<section id="change-management" class="level3">
+<h3 class="anchored" data-anchor-id="change-management">6. Change Management</h3>
+<ul>
+<li>All schema changes documented in the internal data catalog.<br>
+</li>
+<li>Breaking changes require approval from both producer and consumer teams.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="best-practices-for-internal-data-contracts" class="level2">
+<h2 class="anchored" data-anchor-id="best-practices-for-internal-data-contracts">Best Practices for Internal Data Contracts</h2>
+<ol type="1">
+<li><p><strong>Start Simple, Iterate</strong> Begin with critical datasets and expand as adoption grows.</p></li>
+<li><p><strong>Use Versioning</strong> Always version schemas to avoid breaking downstream systems.</p></li>
+<li><p><strong>Automate Validation</strong> Implement automated checks for schema compliance and data quality.</p></li>
+<li><p><strong>Centralize Documentation</strong> Maintain contracts in a shared repository or data catalog for visibility.</p></li>
+<li><p><strong>Define SLAs</strong> Include clear expectations for freshness, completeness, and uptime.</p></li>
+<li><p><strong>Communicate Changes Early</strong> Use automated alerts or Slack notifications for schema updates.</p></li>
+<li><p><strong>Enforce Ownership</strong> Assign clear owners for both producer and consumer sides.</p></li>
+<li><p><strong>Integrate with CI/CD</strong> Validate data contracts during deployment to catch issues before production.</p></li>
+<li><p><strong>Monitor &amp; Audit</strong> Track compliance and log violations for continuous improvement.</p></li>
+<li><p><strong>Align with Governance</strong> Ensure contracts comply with regulatory and internal security standards.</p></li>
+</ol>
+<hr>
+</section>
+<section id="applying-internal-data-contracts-to-fundraising-analysis-teams" class="level2">
+<h2 class="anchored" data-anchor-id="applying-internal-data-contracts-to-fundraising-analysis-teams">Applying Internal Data Contracts to Fundraising Analysis Teams</h2>
+<p><em>Placeholder: Explain how prospect research and development teams can use data contracts to ensure donor data consistency and reliability across CRM, wealth screening tools, and analytics platforms.</em></p>
+<p>One obstacle when writing profiles is getting accurate information from your own institution. If you have many internal boards, the chairs and members of those boards are always in flux, and there isn’t necessarily accurate information in the database or websites to verify the reality on the ground. In theory, it makes sense to have board memberships strictly tracked in your CRM. But like with anything, it all depends on the people responsible for maintaining and providing the data in the first place.</p>
+<p>Old or inacurrate information in your internal systems is a constant battle, and there may be some areas where you know the information tends to be more inaccurate than others, a “quirk of the system” that you’ve just learned to deal with, and one where a fix is not necessarily going to happen soon.</p>
+<p>However, if you are ever in the position to try and fix some of these data problems, at a director-level, you can advocate for creating internal data contracts specifically to benefit your prospect development and research teams.</p>
+<p>With the board membership example, a strong internal data contract that provides accurate, timely board information means that profiles get done faster, obvious mistakes are avoided, and researchers can spend less time spinning their wheels trying to find information that the institution already knows. Ideally, the goal of a prospect research team should be to get the most efficient process possible for highly accurate profiles, so there is more time for proactive research and expanding the prospect pool. The amount of money that is lost every year is staggering: any given team is being paid for their time, and expanding the prospect pool actually increases campaign revenues, while fiddling around with verifications can run counter to the overall momentum needed to meet fundraising goals.</p>
+<p>Of course, if you aren’t tracking your efficiency, then it would be hard to know for sure.</p>
+<hr>
+<p>Related to Obstacle what?</p>
+
+
+</section>
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,268 +1,87 @@
 [
   {
-    "objectID": "tutorials.html",
-    "href": "tutorials.html",
-    "title": "Tutorials & How-to",
+    "objectID": "toolkit_blog/Tool_reviews/index.html",
+    "href": "toolkit_blog/Tool_reviews/index.html",
+    "title": "Tool Reviews",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAnalysis of Cars - an example from quarto\n\n\n\n\n\n\nn/a\n\n\nOct 14, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery\n\n\n\nPaid tool\n\nExcel\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items\n Back to top",
-    "crumbs": [
-      "Home",
-      "Education",
-      "Tutorials & How-to"
-    ]
+    "text": "Factiva could be a great place to hit first when researching a company, but may be less useful the deeper your research project goes and the more private the company happens to be. The company snapshot looks familiar because it is using the same data that many other tools use. However, I appreciate that Factiva often includes its source in any given module. Its weaknesses are shared by many other platforms that rely on data brokers: public data just rerendered, not necessarily any original research being done on the platform, which means many other services have the same exact data. Factivity’s main strength is its simplicity.\n\n\n\nCompany Snapshot\nNews\n\nLatest News\nWeb News\n\nSignals\nKey Developments\nPeer Comparison\n\nLots of options here, with spreadsheet export\nYou can see similar companies based on sales, employee count, or market cap\nPotentially useful when brainstorming proactive research, since you can see the top 10 most similar companies, the names attached to those companies may also be relevant to your project.\n\nCorporate Family\n\nOne of the best features, in my opinion, very simple rendering of Dun & Bradstreet information but with some nice additional touches\nThey have developed different symbols to indicate parent vs. primary subsidiary vs. regular subsidiary vs. branch location\nYou can see all branch and subsidiary names and locations\n\nFinancial Results\n\nMost of this category is not relevant for prospect research,\n\nOwnership\n\nInstead of digging through SEC filings to find insiders who own stock, Factiva has the top 10 within a couple clicks, which could save time\n\nAnalysis and Profiles\n\nGeared more toward investment advice, but provides some useful or interesting context about a company when you look at the most recent financials. The Wright Quality rating, for example, gives you an at-a-glance letter grade to consider when evaluating the company’s charitability, and could be a useful small infographic to include in a report from a prospect researcher.\n\nReports\n\nThe “company report” stitches together almost all of the individual pieces into one PDF or html, and seems like the most comprehensive, but most is potentially irrelevant to a prospect research\n\nChrome/Edge Browser Extension\n\nHaven’t tested it yet, but it functions as an additional way to search during your workflow\n\n\n\n\n\n\n3-source verify: Factiva is a quick place to verify public information about companies, especially the relationship between parent or holding companies and their subsidiaries.\nWrangling Corporate Sprawl: When deep diving in on companies, mapping out the parents and subsidiaries is only the beginning. Factiva provides a concise, sourced, and reliable source of industry information that can help understand big companies and their so-called sprawl sometimes across several markets.\nC-Suite Searching: In the subjects on the right side of the News module, you can click “Senior Level Management” and it will bring up the latest news regarding senior management. One of the unique sources there: “The Official Board” which is sometimes behind a pay wall"
   },
   {
-    "objectID": "tools/free_tools/software/index.html",
-    "href": "tools/free_tools/software/index.html",
-    "title": "Prospect Research Toolkit",
+    "objectID": "toolkit_blog/Tool_reviews/index.html#factiva-features",
+    "href": "toolkit_blog/Tool_reviews/index.html#factiva-features",
+    "title": "Tool Reviews",
     "section": "",
-    "text": "Back to top"
+    "text": "Company Snapshot\nNews\n\nLatest News\nWeb News\n\nSignals\nKey Developments\nPeer Comparison\n\nLots of options here, with spreadsheet export\nYou can see similar companies based on sales, employee count, or market cap\nPotentially useful when brainstorming proactive research, since you can see the top 10 most similar companies, the names attached to those companies may also be relevant to your project.\n\nCorporate Family\n\nOne of the best features, in my opinion, very simple rendering of Dun & Bradstreet information but with some nice additional touches\nThey have developed different symbols to indicate parent vs. primary subsidiary vs. regular subsidiary vs. branch location\nYou can see all branch and subsidiary names and locations\n\nFinancial Results\n\nMost of this category is not relevant for prospect research,\n\nOwnership\n\nInstead of digging through SEC filings to find insiders who own stock, Factiva has the top 10 within a couple clicks, which could save time\n\nAnalysis and Profiles\n\nGeared more toward investment advice, but provides some useful or interesting context about a company when you look at the most recent financials. The Wright Quality rating, for example, gives you an at-a-glance letter grade to consider when evaluating the company’s charitability, and could be a useful small infographic to include in a report from a prospect researcher.\n\nReports\n\nThe “company report” stitches together almost all of the individual pieces into one PDF or html, and seems like the most comprehensive, but most is potentially irrelevant to a prospect research\n\nChrome/Edge Browser Extension\n\nHaven’t tested it yet, but it functions as an additional way to search during your workflow"
   },
   {
-    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html",
-    "href": "toolkit_tutorials/UsingPowerQuery/index.html",
-    "title": "Using PowerQuery",
+    "objectID": "toolkit_blog/Tool_reviews/index.html#use-cases",
+    "href": "toolkit_blog/Tool_reviews/index.html#use-cases",
+    "title": "Tool Reviews",
     "section": "",
-    "text": "Power Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\n\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
-  },
-  {
-    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#what-is-powerquery",
-    "href": "toolkit_tutorials/UsingPowerQuery/index.html#what-is-powerquery",
-    "title": "Using PowerQuery",
-    "section": "",
-    "text": "Power Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\n\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
-  },
-  {
-    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
-    "href": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
-    "title": "Using PowerQuery",
-    "section": "PowerQuery vs. VLookup",
-    "text": "PowerQuery vs. VLookup\n\n\n\n\n\n\n\n\nFeature\nPower Query\nVLOOKUP\n\n\n\n\nPurpose\nData transformation and preparation\nLook up and retrieve specific data values\n\n\nData Sources\nConnects to multiple sources (Excel, SQL, web, etc.)\nLimited to data within the worksheet\n\n\nComplexity\nMore complex with advanced capabilities\nSimpler and straightforward\n\n\nOutput\nCreates tables or queries in Excel\nReturns a single value based on a match\n\n\nFlexibility\nHighly versatile, allows for data shaping\nLess flexible; limited to a single match type\n\n\nUse Cases\nIdeal for ETL processes and bulk data manipulation\nBest for simple lookups within a single dataset\n\n\nMaintenance\nRequires more setup but easier to update over time\nSimple to set up but can be error-prone if data changes"
-  },
-  {
-    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#use-cases",
-    "href": "toolkit_tutorials/UsingPowerQuery/index.html#use-cases",
-    "title": "Using PowerQuery",
-    "section": "Use-cases",
-    "text": "Use-cases\nYour workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.\n\nAbstrqct Example\nYou have data in your CRM that you want to combine with another dataset you’ve found or created. For example, perhaps you’ve created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.\n\n\nSteps to Achieve This\n\nExport Data from CRM: Start by exporting the relevant data from your CRM into a CSV or Excel format.\nImport Data into Power Query: Open Excel, go to the Data tab, and select “Get Data” to import your CRM data and your custom dataset.\nCombine Datasets: Use Power Query tools to merge or append the datasets based on a common identifier.\nTransform Data: Clean, filter, or reshape the data as necessary.\nLoad the Combined Data: Once satisfied with the combined data, load it back into Excel for analysis or reporting.\n\nMore complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI"
-  },
-  {
-    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#power-query-m-code-for-filtering-job-titles-with-dynamic-keywords",
-    "href": "toolkit_tutorials/UsingPowerQuery/index.html#power-query-m-code-for-filtering-job-titles-with-dynamic-keywords",
-    "title": "Using PowerQuery",
-    "section": "Power Query M Code for Filtering Job Titles with Dynamic Keywords",
-    "text": "Power Query M Code for Filtering Job Titles with Dynamic Keywords\nThis document outlines a Power Query M script that dynamically loads keyword lists from parameters and filters job title datasets across multiple sectors. The goal is to identify roles related to Major Gifts while excluding irrelevant ones.\n\nDynamic Keyword Parameters\nInstead of hardcoding the keywords, we define them as parameters:\nlet\n    IncludeKeywords = Text.Split(\"Major Gift,Director Of Development,Development Officer,Major Gift Officer,Fundraiser,Philanthropy Officer,Philanthropy Manager\", \",\"),\n    ExcludeKeywords = Text.Split(\"Prospect Research,Event\", \",\")\n\n\nLoad and Filter Nonprofit Dataset\nWe load the nonprofit dataset and filter it using the dynamic keyword lists:\n    Source = Csv.Document(File.Contents(\"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198385_nonprofit.csv\"), [Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),\n    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {\n        {\"sector\", type text}, \n        {\"title_cleaned\", type text}, \n        {\"frequency_cleaned\", Int64.Type}, \n        {\"title_generalized\", type text}, \n        {\"frequency_generalized\", Int64.Type}, \n        {\"title_simplified\", type text}, \n        {\"frequency_simplified\", Int64.Type}\n    }),\n    IncludedRows = Table.SelectRows(ChangedType, each List.AnyTrue(List.Transform(IncludeKeywords, (kw) =&gt; Text.Contains([title_cleaned], kw)))),\n    FinalFilteredRows = Table.SelectRows(IncludedRows, each List.AllTrue(List.Transform(ExcludeKeywords, (kw) =&gt; not Text.Contains([title_cleaned], kw)))),\n    TitleList = Table.SelectColumns(FinalFilteredRows, {\"title_cleaned\"}),\n\n\nReusable Filtering Function\nWe define a reusable function to apply the same filtering logic to other datasets:\n    FilterDataset = (filePath as text) =&gt;\n        let\n            Source = Csv.Document(File.Contents(filePath), [Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),\n            Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),\n            ChangedType = Table.TransformColumnTypes(Promoted, {\n                {\"sector\", type text}, \n                {\"title_cleaned\", type text}, \n                {\"frequency_cleaned\", Int64.Type}, \n                {\"title_generalized\", type text}, \n                {\"frequency_generalized\", Int64.Type}, \n                {\"title_simplified\", type text}, \n                {\"frequency_simplified\", Int64.Type}\n            }),\n            Matched = Table.Join(ChangedType, \"title_cleaned\", TitleList, \"title_cleaned\", JoinKind.Inner)\n        in\n            Matched,\n\n\nDataset Paths and Execution\nWe list all dataset paths and apply the filtering function:\n    DatasetPaths = {\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198352_travel_and_tourism.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198376_transportation_and_logistics.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55197857_restaurants_bars_and_food_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198349_real_estate.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198379_telecommunications.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198388_oil_gas_energy_and_utilities.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198394_retail.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198373_media.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198403_manufacturing.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198358_insurance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198406_information_technology.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198382_government.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198397_health_care.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198391_education.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198400_finance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198190_consumer_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198364_construction_repair_and_maintenance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198409_business_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55197803_agriculture_and_forestry.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198355_arts_entertainment_and_recreation.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198370_biotech_and_pharmaceuticals.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198361_aerospace_and_defense.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198367_accounting_and_legal.csv\"\n    },\n    FilteredTables = List.Transform(DatasetPaths, each FilterDataset(_)),\n    CombinedResults = Table.Combine(FilteredTables)\nin\n    CombinedResults\n\n\nSummary\nThis script dynamically loads keyword lists and applies consistent filtering across multiple datasets. It improves maintainability and scalability by avoiding hardcoded values."
+    "text": "3-source verify: Factiva is a quick place to verify public information about companies, especially the relationship between parent or holding companies and their subsidiaries.\nWrangling Corporate Sprawl: When deep diving in on companies, mapping out the parents and subsidiaries is only the beginning. Factiva provides a concise, sourced, and reliable source of industry information that can help understand big companies and their so-called sprawl sometimes across several markets.\nC-Suite Searching: In the subjects on the right side of the News module, you can click “Senior Level Management” and it will bring up the latest news regarding senior management. One of the unique sources there: “The Official Board” which is sometimes behind a pay wall"
   },
   {
     "objectID": "toolkit_blog/PRSPCT-L_roundup/index.html",
     "href": "toolkit_blog/PRSPCT-L_roundup/index.html",
     "title": "unfinished PRSPCT-L Roundup",
     "section": "",
-    "text": "A compilation of some of my favorite resources / comments / things I’ve learned from PRSPCT-L from 2025. (still working on this!)\n\nReferences\nI’ve included links to the posts, so you can follow the original conversation. Not sure how folks would like me to attribute their contributions, so in lieu of posting names / job titles here, I figure folks can follow the links and log into PRSPCT-L to thank folks directly. In every case, I am transforming the content somehow, not directly quoting.\n\n\n\n\n Back to top"
+    "text": "A compilation of some of my favorite resources / comments / things I’ve learned from PRSPCT-L from 2025. (still working on this!)"
   },
   {
-    "objectID": "toolkit_blog/Creating_Jobs_Dataset/index.html",
-    "href": "toolkit_blog/Creating_Jobs_Dataset/index.html",
-    "title": "Creating the Fundraising Jobs Dataset (round 1)",
+    "objectID": "toolkit_blog/PRSPCT-L_roundup/index.html#prspct-l-roundup",
+    "href": "toolkit_blog/PRSPCT-L_roundup/index.html#prspct-l-roundup",
+    "title": "unfinished PRSPCT-L Roundup",
+    "section": "PRSPCT-L Roundup",
+    "text": "PRSPCT-L Roundup\n\nCommon Questions"
+  },
+  {
+    "objectID": "toolkit_blog/PRSPCT-L_roundup/index.html#prospect-research-articles-beyond-prspct-l",
+    "href": "toolkit_blog/PRSPCT-L_roundup/index.html#prospect-research-articles-beyond-prspct-l",
+    "title": "unfinished PRSPCT-L Roundup",
+    "section": "Prospect Research articles beyond PRSPCT-L",
+    "text": "Prospect Research articles beyond PRSPCT-L\n\nThe Major Gifts Report\n\n\n\n\n\n\n\nReferences\nI’ve included links to the posts, so you can follow the original conversation. Not sure how folks would like me to attribute their contributions, so in lieu of posting names / job titles here, I figure folks can follow the links and log into PRSPCT-L to thank folks directly. In every case, I am transforming the content somehow, not directly quoting."
+  },
+  {
+    "objectID": "toolkit_blog/datacontracts/index.html",
+    "href": "toolkit_blog/datacontracts/index.html",
+    "title": "Internal Data Contracts",
     "section": "",
-    "text": "Perhaps this has already been done - but I’ve been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I’ll list below. I have a very small private dataset of recent job titles / descriptions, but the most comprehensive info exists within a recently published public dataset called CMAP.\n\n\n\n\n\n\nTotal Records: 430\nUnique Job Titles: 113\nUnique Sectors: 22\n\n\n\n\n\n\n\n\n```\n\n\n\n…\n\n\n\n\n\n\n\n\n\nI’ve attempted to subset Prospect Development and Major Gift Officer job titles from the 2025 Career Map (CMap) dataset released in July 2025 (citation below) from the CMAP readme.\nQuoting from the paper:\n“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017.\nHowever, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.”\nTangent: You’ll notice that “Prospect Researcher” is the most common job title, by far, for that niche, and ends up becoming their standardized term for that role at a junior level. However, as soon as you add the word “analyst” to the title (e.g. Senior Prospect Research Analyst), that word becomes the standard - so Senior Prospect Research Analysts become standardized into Senior Analysts. This was useful for their analysis, but to properly understand how many “Prospect Researchers” there are - those aggregates will have to be recalculated using a more ecclectic definition. However, given the massive overlap between these niche Prospect Dev roles, perhaps the best aggregate is actually “Prospect Development Professional” to get more accurate totals from the dataset.\n\n\n\n\nThere are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche’s, something especially difficult given the variety of titles especially for Major Gift Officers.\nI have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.\nI created a smaller dataset for the MGO niche, that only includes the non-profit sector. If you sort by frequency, you’ll see familiar titles at the top. The “title_generalized” column is arguably the most helpful, because it attempts to standardize the highly variable development officer roles into several categories.\nIn my dataset filenames, I have been calling this CMAP 2017, to remind me that this is somewhat old data. But because of how comprehensive this data is, and because the methods and code are open-source, future dataset creation could follow in the same vein: the main limiting factor being the cost of purchasing public and anonymized CV data. There may be more recent public sector-specific datasets out there that could be appended to this one, or transformed to match their unique standardization system, and potentially avoid this cost.\nI have not uploaded the sector files or massive original dataset, to save on repo space, but they can be downloaded here.\n\n\n\n\nDirect links, if you want to download my filtered data from GitHub as .csv: - Prospect Development job titles - Major Gift Officer nonprofit sector titles - Major Gift Officer all sector titles - full of irrelevant titles right now, until I filter it better\n\n\n\n\nCitation: Subhani, S., Memon, S.A. & AlShebli, B. CMap: a database for mapping job titles, sector specialization, and promotions across 24 sectors. Sci Data 12, 1214 (2025). https://doi.org/10.1038/s41597-025-05526-3"
+    "text": "As organizations grow, data becomes increasingly complex and distributed across multiple teams and systems. Without clear agreements on how data is structured, maintained, and shared, teams risk miscommunication, broken pipelines, and unreliable analytics. Internal data contracts solve this problem by formalizing expectations between data producers and consumers—similar to API contracts, but for data.\nThis post will cover: - What internal data contracts are - A sample contract template - Best practices for implementation - How they can apply to fundraising analysis teams\n\n\n\n\nAn internal data contract is a documented agreement that defines: - Schema: The structure and types of data fields - Quality guarantees: Rules for completeness, accuracy, and freshness - Ownership: Who is responsible for producing and consuming the data - Access and security: Permissions and compliance requirements - Change management: How updates are communicated and versioned\nThese contracts reduce breakages, improve trust, and enable scalable data sharing across teams.\n\n\n\n\nTitle: Customer Data Contract\nVersion: 1.0\nOwner: Data Engineering Team\nEffective Date: 2025-11-12\n\n\n\nThis contract defines the structure, quality, and governance of the customer dataset shared between the CRM system (producer) and Analytics team (consumer).\n\n\n\n\n\n\n\n\n\n\n\n\n\nField Name\nData Type\nNullable\nDescription\n\n\n\n\ncustomer_id\nSTRING\nNo\nUnique customer identifier\n\n\nname\nSTRING\nNo\nFull name of the customer\n\n\nemail\nSTRING\nNo\nCustomer email address\n\n\nsignup_date\nDATE\nNo\nDate of account creation\n\n\nstatus\nSTRING\nYes\nActive, Inactive, Pending\n\n\n\nVersioning:\n- Backward-compatible changes allowed (adding new nullable fields).\n- Breaking changes require 30-day notice and version increment.\n\n\n\n\n\nFreshness: Data updated within 15 minutes of CRM changes.\n\nCompleteness: 99% of records must have email populated.\n\nAccuracy: status must match CRM system values.\n\n\n\n\n\n\nProducer: CRM Engineering Team\n\nConsumer: Analytics Team\n\nEscalation: Contact data-support@company.com for issues.\n\n\n\n\n\n\nData accessible via internal data warehouse with role-based permissions.\n\nPII fields (e.g., email) must comply with GDPR and internal privacy policies.\n\n\n\n\n\n\nAll schema changes documented in the internal data catalog.\n\nBreaking changes require approval from both producer and consumer teams.\n\n\n\n\n\n\n\nStart Simple, Iterate Begin with critical datasets and expand as adoption grows.\nUse Versioning Always version schemas to avoid breaking downstream systems.\nAutomate Validation Implement automated checks for schema compliance and data quality.\nCentralize Documentation Maintain contracts in a shared repository or data catalog for visibility.\nDefine SLAs Include clear expectations for freshness, completeness, and uptime.\nCommunicate Changes Early Use automated alerts or Slack notifications for schema updates.\nEnforce Ownership Assign clear owners for both producer and consumer sides.\nIntegrate with CI/CD Validate data contracts during deployment to catch issues before production.\nMonitor & Audit Track compliance and log violations for continuous improvement.\nAlign with Governance Ensure contracts comply with regulatory and internal security standards.\n\n\n\n\n\nPlaceholder: Explain how prospect research and development teams can use data contracts to ensure donor data consistency and reliability across CRM, wealth screening tools, and analytics platforms.\nOne obstacle when writing profiles is getting accurate information from your own institution. If you have many internal boards, the chairs and members of those boards are always in flux, and there isn’t necessarily accurate information in the database or websites to verify the reality on the ground. In theory, it makes sense to have board memberships strictly tracked in your CRM. But like with anything, it all depends on the people responsible for maintaining and providing the data in the first place.\nOld or inacurrate information in your internal systems is a constant battle, and there may be some areas where you know the information tends to be more inaccurate than others, a “quirk of the system” that you’ve just learned to deal with, and one where a fix is not necessarily going to happen soon.\nHowever, if you are ever in the position to try and fix some of these data problems, at a director-level, you can advocate for creating internal data contracts specifically to benefit your prospect development and research teams.\nWith the board membership example, a strong internal data contract that provides accurate, timely board information means that profiles get done faster, obvious mistakes are avoided, and researchers can spend less time spinning their wheels trying to find information that the institution already knows. Ideally, the goal of a prospect research team should be to get the most efficient process possible for highly accurate profiles, so there is more time for proactive research and expanding the prospect pool. The amount of money that is lost every year is staggering: any given team is being paid for their time, and expanding the prospect pool actually increases campaign revenues, while fiddling around with verifications can run counter to the overall momentum needed to meet fundraising goals.\nOf course, if you aren’t tracking your efficiency, then it would be hard to know for sure.\n\nRelated to Obstacle what?"
   },
   {
-    "objectID": "toolkit_blog/Creating_Jobs_Dataset/index.html#cmap-prospect-research-subset",
-    "href": "toolkit_blog/Creating_Jobs_Dataset/index.html#cmap-prospect-research-subset",
-    "title": "Creating the Fundraising Jobs Dataset (round 1)",
+    "objectID": "toolkit_blog/datacontracts/index.html#introduction",
+    "href": "toolkit_blog/datacontracts/index.html#introduction",
+    "title": "Internal Data Contracts",
     "section": "",
-    "text": "Total Records: 430\nUnique Job Titles: 113\nUnique Sectors: 22\n\n\n\n\n\n\n\n\n```\n\n\n\n…"
+    "text": "As organizations grow, data becomes increasingly complex and distributed across multiple teams and systems. Without clear agreements on how data is structured, maintained, and shared, teams risk miscommunication, broken pipelines, and unreliable analytics. Internal data contracts solve this problem by formalizing expectations between data producers and consumers—similar to API contracts, but for data.\nThis post will cover: - What internal data contracts are - A sample contract template - Best practices for implementation - How they can apply to fundraising analysis teams"
   },
   {
-    "objectID": "toolkit_blog/Creating_Jobs_Dataset/index.html#cmap-2017",
-    "href": "toolkit_blog/Creating_Jobs_Dataset/index.html#cmap-2017",
-    "title": "Creating the Fundraising Jobs Dataset (round 1)",
+    "objectID": "toolkit_blog/datacontracts/index.html#what-is-an-internal-data-contract",
+    "href": "toolkit_blog/datacontracts/index.html#what-is-an-internal-data-contract",
+    "title": "Internal Data Contracts",
     "section": "",
-    "text": "I’ve attempted to subset Prospect Development and Major Gift Officer job titles from the 2025 Career Map (CMap) dataset released in July 2025 (citation below) from the CMAP readme.\nQuoting from the paper:\n“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017.\nHowever, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.”\nTangent: You’ll notice that “Prospect Researcher” is the most common job title, by far, for that niche, and ends up becoming their standardized term for that role at a junior level. However, as soon as you add the word “analyst” to the title (e.g. Senior Prospect Research Analyst), that word becomes the standard - so Senior Prospect Research Analysts become standardized into Senior Analysts. This was useful for their analysis, but to properly understand how many “Prospect Researchers” there are - those aggregates will have to be recalculated using a more ecclectic definition. However, given the massive overlap between these niche Prospect Dev roles, perhaps the best aggregate is actually “Prospect Development Professional” to get more accurate totals from the dataset.\n\n\n\n\nThere are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche’s, something especially difficult given the variety of titles especially for Major Gift Officers.\nI have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.\nI created a smaller dataset for the MGO niche, that only includes the non-profit sector. If you sort by frequency, you’ll see familiar titles at the top. The “title_generalized” column is arguably the most helpful, because it attempts to standardize the highly variable development officer roles into several categories.\nIn my dataset filenames, I have been calling this CMAP 2017, to remind me that this is somewhat old data. But because of how comprehensive this data is, and because the methods and code are open-source, future dataset creation could follow in the same vein: the main limiting factor being the cost of purchasing public and anonymized CV data. There may be more recent public sector-specific datasets out there that could be appended to this one, or transformed to match their unique standardization system, and potentially avoid this cost.\nI have not uploaded the sector files or massive original dataset, to save on repo space, but they can be downloaded here.\n\n\n\n\nDirect links, if you want to download my filtered data from GitHub as .csv: - Prospect Development job titles - Major Gift Officer nonprofit sector titles - Major Gift Officer all sector titles - full of irrelevant titles right now, until I filter it better\n\n\n\n\nCitation: Subhani, S., Memon, S.A. & AlShebli, B. CMap: a database for mapping job titles, sector specialization, and promotions across 24 sectors. Sci Data 12, 1214 (2025). https://doi.org/10.1038/s41597-025-05526-3"
+    "text": "An internal data contract is a documented agreement that defines: - Schema: The structure and types of data fields - Quality guarantees: Rules for completeness, accuracy, and freshness - Ownership: Who is responsible for producing and consuming the data - Access and security: Permissions and compliance requirements - Change management: How updates are communicated and versioned\nThese contracts reduce breakages, improve trust, and enable scalable data sharing across teams."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Prospect Research Toolkit",
+    "objectID": "toolkit_blog/datacontracts/index.html#sample-internal-data-contract-template",
+    "href": "toolkit_blog/datacontracts/index.html#sample-internal-data-contract-template",
+    "title": "Internal Data Contracts",
     "section": "",
-    "text": "…\n\n\nVersion: 0.1.1-alpha\n\nHowdy, partner. Welcome to camp!\nYou know how they say, “there’s gold in them thar hills?” - well, I’ve set out to create the resource I always wish existed: a free, community-driven library of tools for the scrappy fundraising prospector, along with a field guide to put all of them into practice.\nI hope this toolkit will expand to be an invaluable resource for those splashing through the data streams, Excel sluice boxes and CRM picks a’clankin’!\nFor more info about the who, what, where, and why…feel free to check out the About page.\nThanks for reading and happy trails.\n\n\n\n\n Back to top"
+    "text": "Title: Customer Data Contract\nVersion: 1.0\nOwner: Data Engineering Team\nEffective Date: 2025-11-12\n\n\n\nThis contract defines the structure, quality, and governance of the customer dataset shared between the CRM system (producer) and Analytics team (consumer).\n\n\n\n\n\n\n\n\n\n\n\n\n\nField Name\nData Type\nNullable\nDescription\n\n\n\n\ncustomer_id\nSTRING\nNo\nUnique customer identifier\n\n\nname\nSTRING\nNo\nFull name of the customer\n\n\nemail\nSTRING\nNo\nCustomer email address\n\n\nsignup_date\nDATE\nNo\nDate of account creation\n\n\nstatus\nSTRING\nYes\nActive, Inactive, Pending\n\n\n\nVersioning:\n- Backward-compatible changes allowed (adding new nullable fields).\n- Breaking changes require 30-day notice and version increment.\n\n\n\n\n\nFreshness: Data updated within 15 minutes of CRM changes.\n\nCompleteness: 99% of records must have email populated.\n\nAccuracy: status must match CRM system values.\n\n\n\n\n\n\nProducer: CRM Engineering Team\n\nConsumer: Analytics Team\n\nEscalation: Contact data-support@company.com for issues.\n\n\n\n\n\n\nData accessible via internal data warehouse with role-based permissions.\n\nPII fields (e.g., email) must comply with GDPR and internal privacy policies.\n\n\n\n\n\n\nAll schema changes documented in the internal data catalog.\n\nBreaking changes require approval from both producer and consumer teams."
   },
   {
-    "objectID": "data/readme.html",
-    "href": "data/readme.html",
-    "title": "Prospect Research Toolkit",
+    "objectID": "toolkit_blog/datacontracts/index.html#best-practices-for-internal-data-contracts",
+    "href": "toolkit_blog/datacontracts/index.html#best-practices-for-internal-data-contracts",
+    "title": "Internal Data Contracts",
     "section": "",
-    "text": "Back to top"
+    "text": "Start Simple, Iterate Begin with critical datasets and expand as adoption grows.\nUse Versioning Always version schemas to avoid breaking downstream systems.\nAutomate Validation Implement automated checks for schema compliance and data quality.\nCentralize Documentation Maintain contracts in a shared repository or data catalog for visibility.\nDefine SLAs Include clear expectations for freshness, completeness, and uptime.\nCommunicate Changes Early Use automated alerts or Slack notifications for schema updates.\nEnforce Ownership Assign clear owners for both producer and consumer sides.\nIntegrate with CI/CD Validate data contracts during deployment to catch issues before production.\nMonitor & Audit Track compliance and log violations for continuous improvement.\nAlign with Governance Ensure contracts comply with regulatory and internal security standards."
   },
   {
-    "objectID": "data/job_titles/readme.html",
-    "href": "data/job_titles/readme.html",
-    "title": "Prospect Research Toolkit",
+    "objectID": "toolkit_blog/datacontracts/index.html#applying-internal-data-contracts-to-fundraising-analysis-teams",
+    "href": "toolkit_blog/datacontracts/index.html#applying-internal-data-contracts-to-fundraising-analysis-teams",
+    "title": "Internal Data Contracts",
     "section": "",
-    "text": "Working on expanding the fundraising sector job titles dataset, using data gathered myself, and cross-comparing with public datasets like CMap\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "data/job_titles/CMAP/figure_4.html",
-    "href": "data/job_titles/CMAP/figure_4.html",
-    "title": "Prospect Research Toolkit",
-    "section": "",
-    "text": "import numpy as np\nimport pandas as pd\n\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nimport os\nimport glob\nimport matplotlib.gridspec as gridspec\n\nfrom tqdm import tqdm\ntqdm.pandas()\n\n\ndef read_files(folder, add_file_column=False, **kwargs):\n    def read_file(path, add_file_column=False, **kwargs):\n        file = os.path.basename(path)\n        try:\n            df = pd.read_csv(path, low_memory=False, **kwargs)\n        except pd.errors.EmptyDataError:\n            print(f\"{file} is empty\")\n            return pd.DataFrame()\n\n        if add_file_column:\n            df['file'] = file\n\n        return df\n\n    return pd.concat([read_file(path, add_file_column, **kwargs) for path in tqdm(glob.glob(os.path.join(folder, '*.csv')))], ignore_index=True)\n\n\ndf_titles_map = read_files('dataset/titles/map')\ndf_titles_si = read_files('dataset/titles/si')\ndf_promotions_unvalidated = pd.concat([read_files('dataset/promotions/unvalidated/edges')], ignore_index=True)\ndf_promotions_validated = pd.concat([read_files('dataset/promotions/validated/edges')], ignore_index=True)\n\n100%|██████████| 24/24 [00:10&lt;00:00,  2.33it/s]\n100%|██████████| 24/24 [00:00&lt;00:00, 27.58it/s]\n100%|██████████| 144/144 [00:00&lt;00:00, 480.33it/s]\n100%|██████████| 48/48 [00:00&lt;00:00, 480.23it/s]\n\n\n\n# Recreate df_sector_counts\ndf_sector_counts = df_titles_map.groupby('sector')['title_generalized'].nunique().reset_index().rename(columns={'title_generalized': 'count'})\ndf_sector_counts['percentage'] = (df_sector_counts['count'] / df_sector_counts['count'].sum()) * 100\n\n# Recreate df_sector_promotions\ndf_sector_promotions_unvalidated = df_promotions_unvalidated.groupby('sector').size().reset_index(name='count')\ndf_sector_promotions_unvalidated['percentage'] = (df_sector_promotions_unvalidated['count'] / df_sector_promotions_unvalidated['count'].sum()) * 100\n\ndf_sector_promotions_validated = df_promotions_validated.groupby('sector').size().reset_index(name='count')\ndf_sector_promotions_validated['percentage'] = (df_sector_promotions_validated['count'] / df_sector_promotions_validated['count'].sum()) * 100\n\n# Recreate df_grouped (for world map)\ndf_grouped = df_promotions_unvalidated.groupby('country_binned').size().reset_index(name='count')\ndf_grouped['percentage'] = (df_grouped['count'] / df_grouped['count'].sum()) * 100\n\n\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nimport matplotlib.gridspec as gridspec\n\n# Create a figure with a gridspec layout\nfig = plt.figure(figsize=(10, 16))\ngs = gridspec.GridSpec(4, 1, height_ratios=[2, 3, 2, 2], figure=fig)\n\n# Create axes for each subplot using gridspec\nax1 = fig.add_subplot(gs[0])  # Bar plot of unique titles per sector\nax2 = fig.add_subplot(gs[1])  # Boxplot of SI per sector\nax3 = fig.add_subplot(gs[2])  # Bar plot of promotions (unvalidated)\nax4 = fig.add_subplot(gs[3])  # Bar plot of promotions (validated)\n\n# --- Plot 1: Bar plot of unique titles per sector ---\nsns.barplot(data=df_sector_counts, x='sector', y='count', ax=ax1, color='tab:blue')\nax1.set_ylabel(\"Number of titles\", fontsize=10)\n\n# Add percentage labels on top of each bar\nfor index, row in enumerate(df_sector_counts.itertuples()):\n    percentage_text = f\"{int(row.percentage)}%\" if row.percentage &gt; 9 else f\"{row.percentage:.1f}%\"\n    ax1.text(index, row.count + 2500, percentage_text, ha='center', fontsize=9)\n\n# Format y-axis to show count in thousands (K format)\nax1.set_yticks(ax1.get_yticks())\nax1.set_yticklabels([f\"{int(y/1e3)}K\" for y in ax1.get_yticks()])\n\n# Remove x-axis labels and ticks completely\nax1.set_xticklabels([])\nax1.set_xticks([])\n\nsns.despine(ax=ax1)\nax1.set_xlabel(\"\")\n\n# --- Plot 2: Boxplot of Specialization Index (SI) per sector ---\nsns.boxplot(\n    data=df_titles_si, x='sector', y='SI', ax=ax2, showmeans=True,\n    meanline=False, meanprops={'marker': 'D', 'markerfacecolor': 'black', 'markeredgecolor': 'black', 'markersize': 4},\n    whis=[0, 100]\n)\n\n# Draw the horizontal mean line\noverall_mean = df_titles_si['SI'].mean()\nax2.axhline(overall_mean, linestyle='dotted', color='red', linewidth=1.5)\nax2.set_ylabel(\"Specialization Index (SI)\\n\", fontsize=10)\n\n# Rotate x-axis labels for readability\nax2.set_xticklabels(ax2.get_xticklabels(), rotation=45, ha='right')\nax2.set_xlabel(\"\")\n\nsns.despine(ax=ax2)\n\n# --- Plot 3: Bar plot of promotions (Validated) ---\nsns.barplot(data=df_sector_promotions_validated, x='sector', y='count', ax=ax3, color='tab:blue')\nax3.set_ylabel(\"Number of promotions\\n\", fontsize=10)\n\n# Add percentage labels on top of each bar\nfor index, row in enumerate(df_sector_promotions_validated.itertuples()):\n    percentage_text = f\"{int(row.percentage)}%\" if row.percentage &gt; 9 else f\"{row.percentage:.1f}%\"\n    ax3.text(index, row.count + 400, percentage_text, ha='center', fontsize=9)\n\n# Format y-axis to show count in thousands (K format)\nax3.set_yticks(ax3.get_yticks())\nax3.set_yticklabels([f\"{int(y/1e3)}K\" for y in ax3.get_yticks()])\n\n# Remove x-axis labels and ticks completely\nax3.set_xticklabels([])\nax3.set_xticks([])\n\nsns.despine(ax=ax3)\nax3.set_xlabel(\"\")\n\n# --- Plot 4: Bar plot of promotions (Unvalidated) ---\nsns.barplot(data=df_sector_promotions_unvalidated, x='sector', y='count', ax=ax4, color='tab:blue')\nax4.set_ylabel(\"Number of promotions\\n\", fontsize=10)\n\n# Add percentage labels on top of each bar\nfor index, row in enumerate(df_sector_promotions_unvalidated.itertuples()):\n    percentage_text = f\"{int(row.percentage)}%\" if row.percentage &gt; 9 else f\"{row.percentage:.1f}%\"\n    ax4.text(index, row.count + 1500, percentage_text, ha='center', fontsize=9)\n\n# Format y-axis to show count in thousands (K format)\nax4.set_yticks(ax4.get_yticks())\nax4.set_yticklabels([f\"{int(y/1e3)}K\" for y in ax4.get_yticks()])\n\n# Rotate x-axis labels for readability\nax4.set_xticklabels(ax4.get_xticklabels(), rotation=45, ha='right')\n\n# Rotate x-axis labels for readability\nax4.set_xticklabels(ax4.get_xticklabels(), rotation=45, ha='right')\n\nsns.despine(ax=ax4)\nax4.set_xlabel(\"\")\n\n# Adjust layout\nplt.tight_layout()\n\n# Show the combined plot\nplt.show()\n\n# Save in high resolution\nfig.savefig('figure_4.png', dpi=600)\n\nC:\\Users\\Shehryar\\AppData\\Local\\Temp\\ipykernel_39828\\2159619807.py:48: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.\n  ax2.set_xticklabels(ax2.get_xticklabels(), rotation=45, ha='right')\nC:\\Users\\Shehryar\\AppData\\Local\\Temp\\ipykernel_39828\\2159619807.py:87: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.\n  ax4.set_xticklabels(ax4.get_xticklabels(), rotation=45, ha='right')\nC:\\Users\\Shehryar\\AppData\\Local\\Temp\\ipykernel_39828\\2159619807.py:90: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.\n  ax4.set_xticklabels(ax4.get_xticklabels(), rotation=45, ha='right')\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Toolkit Blog",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nCreating the Fundraising Jobs Dataset (round 1)\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 13, 2025\n\n\n\n\n\n\n\n\n\n\n\nunfinished PRSPCT-L Roundup\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 4, 2025\n\n\n\n\n\n\n\n\n\n\n\nTechnical Field Guide\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\n\n\n\n\n\nLet’s talk data privacy\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items\n Back to top",
-    "crumbs": [
-      "Home",
-      "Education",
-      "Toolkit Blog"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "…\nThis toolkit is maintained by Greg Brooks in association with Apra Utah."
-  },
-  {
-    "objectID": "about.html#why-does-this-exist",
-    "href": "about.html#why-does-this-exist",
-    "title": "About",
-    "section": "Why does this exist?",
-    "text": "Why does this exist?\nThere are plenty of excellent paid resources available: Apra, private consultants, subscription tools, books, but not everyone has the budget to access them. This toolkit is being created to bridge that gap, or supplement what’s already out there, not to replace any of those things. The goal is to keep it simple, open-source, community-driven, free and regularly updated."
-  },
-  {
-    "objectID": "about.html#who-is-this-guy-anyway",
-    "href": "about.html#who-is-this-guy-anyway",
-    "title": "About",
-    "section": "Who is this guy anyway?",
-    "text": "Who is this guy anyway?\nI come from a psychology background and am largely self-taught in data analytics, information science, data science, etc. So keep an eye out for mistakes, and feel free to let me by raising an issue on our (Github issue page)[https://github.com/ApraUtah/ProspectResearchToolkit/issues]."
-  },
-  {
-    "objectID": "about.html#how-often-is-the-website-updated",
-    "href": "about.html#how-often-is-the-website-updated",
-    "title": "About",
-    "section": "How often is the website updated?",
-    "text": "How often is the website updated?\nIn small ways, frequently! Larger changes and resources are on a slower schedule, since I’m doing this in my free time. I expect to have more tutorials, resources, and tools online by 2026. Click here to see the features / goals currently being worked on!"
-  },
-  {
-    "objectID": "about.html#how-is-apra-utah-involved",
-    "href": "about.html#how-is-apra-utah-involved",
-    "title": "About",
-    "section": "How is Apra Utah involved?",
-    "text": "How is Apra Utah involved?\nI started this website as part of my education initiative for 2025 while I’m serving on the Apra Utah board. In the future (e.g. when I figure out how to do it without breaking too many things) the repository and website name will be changed to a more general one, with participating Apra chapters listed on the website’s About page. The dream would be to have an open-source collective of contributors / volunteers who help maintain the project and add to its longevity, since right now it is almost entirely a one-man show."
-  },
-  {
-    "objectID": "data/job_titles/CMAP/cleanCMAP_dataset/readme.html",
-    "href": "data/job_titles/CMAP/cleanCMAP_dataset/readme.html",
-    "title": "Prospect Research Toolkit",
-    "section": "",
-    "text": "Used PowerQuery to attempt to filter out various fundraising specific job titles from the CMAP data (Nature paper on this dataset was published in 2025).\n\n3500+ instances of 100+ job titles in the prospect development dataset, across all sectors. Curious how close that is to an actual workforce estimate for prospect dev as a field in 2017. Almost certainly an undercount, but by how much? And how has that changed in 2025?\nGoing to add a front-line fundraiser dataset soon\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "data/job_titles/CMAP/readme.html",
-    "href": "data/job_titles/CMAP/readme.html",
-    "title": "Greg’s Overview",
-    "section": "",
-    "text": "I’ve attempted to subset Prospect Development and Major Gift Officer job titles from the 2025 Career Map (CMap) dataset released in July 2025 (citation below) from the CMAP readme:\n\nQuoting from the (paper)[https://www.nature.com/articles/s41597-025-05526-3#Abs1]: # Career Map Dataset (CMap)\n“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017. However, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category” This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.\n\nSo there are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche’s, something especially difficult given the variety of titles especially for Major Gift Officers.\nI have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.\nI created a smaller dataset for the MGO niche, that only includes the non-profit sector. If you sort by frequency, you’ll see familiar titles at the top. The “title_generalized” column is arguably the most helpful, because it attempts to standardize the highly variable development officer roles into several categories.\nIn my dataset filenames, I have been calling this CMAP 2017, to remind me that this is somewhat old data. But because of how comprehensive this data is, and because the methods and code are open-source, future dataset creation could follow in the same vein: the main limiting factor being the cost of purchasing public and anonymized CV data. There may be more recent public sector-specific datasets out there that could be appended to this one, or transformed to match their unique standardization system, and potentially avoid this cost.\nI have not uploaded the sector files or massive original dataset, to save on repo space, but they can be downloaded here. ## Archive Overview\nCitation: Subhani, S., Memon, S.A. & AlShebli, B. CMap: a database for mapping job titles, sector specialization, and promotions across 24 sectors. Sci Data 12, 1214 (2025). https://doi.org/10.1038/s41597-025-05526-3 The dataset is split into three downloadable archives, each serving a different purpose:"
-  },
-  {
-    "objectID": "data/job_titles/CMAP/readme.html#job-promotions-and-titles-dataset",
-    "href": "data/job_titles/CMAP/readme.html#job-promotions-and-titles-dataset",
-    "title": "Greg’s Overview",
-    "section": "Job Promotions and Titles Dataset",
-    "text": "Job Promotions and Titles Dataset\n\n1. dataset.zip\nContains the core dataset, structured into the following directories:\nThis repository contains structured datasets related to job promotions, title mappings, and sector specializations across various industries. The data is organized into directories based on its purpose and validation status. #### titles/ - map/: Cleaned and generalized job title mappings for each of the 24 sectors. - si/: Specialization Index (SI) scores for job titles by sector, decomposed into: - Sector Breadth (SB): Measures how widely a job title is distributed across sectors. - Sector Depth (SD): Measures how dominant a job title is within a sector."
-  },
-  {
-    "objectID": "data/job_titles/CMAP/readme.html#directory-structure",
-    "href": "data/job_titles/CMAP/readme.html#directory-structure",
-    "title": "Greg’s Overview",
-    "section": "Directory Structure",
-    "text": "Directory Structure\n\npromotions/\n\nvalidated/: Empirically validated job promotions across sectors in the US and UK.\nunvalidated/: Statistically inferred promotions across six regions, unvalidated manually.\nnodes/: Title-level job counts associated with promotion movements.\nedges/: Directed job transitions labeled with promotion probabilities.\n\ndataset/ │── promotions/ │ │── validated/ # Contains validated job promotion data │ │── unvalidated/ # Contains unvalidated job promotion data │── titles/ │ │── map/ # Contains mappings of job titles before and after standardization │ │── si/ # Contains specialization index (SI) scores for job titles #### network/ - Interactive HTML visualizations of sector-specific job promotion networks by country/region.\n\n\n1. promotions/\nThis directory contains job movements identified as promotions. The data is divided into: - validated/: Contains human-validated promotions for job movements across different sectors in the United States and United Kingdom. - unvalidated/: Contains statistically inferred promotions for job movements across six continents, but without manual validation. —\nEach CSV file follows the naming convention: ### 2. dataset_ext.zip Provides an extended dataset for advanced modeling and custom data cleaning applications.\n&lt;REGION&gt;_\\&lt;sector&gt;.csv #### map-raw/ - Contains a step-by-step mapping of 56.4 million titles (after processing step J2) to 126 thousand standardized titles (as in step J7 of the manuscript). - The files are split into 100 parts for scalability. - This extended mapping is ideal for: - Matching messy job titles in external datasets (e.g., LinkedIn, Glassdoor, Indeed). - Training supervised learning models for job title normalization using techniques such as: - Logistic regression - Support Vector Machines (SVM) - Transformer-based models (e.g., BERT, RoBERTa)\n\n\n2. titles/"
-  },
-  {
-    "objectID": "data/job_titles/CMAP/readme.html#this-directory-contains-information-about-job-titles-their-frequencies-and-sector-specialization.",
-    "href": "data/job_titles/CMAP/readme.html#this-directory-contains-information-about-job-titles-their-frequencies-and-sector-specialization.",
-    "title": "Greg’s Overview",
-    "section": "This directory contains information about job titles, their frequencies, and sector specialization.",
-    "text": "This directory contains information about job titles, their frequencies, and sector specialization.\n\nmap/: Contains mappings of job titles before and after cleaning and standardization for different sectors.\nsi/: Contains Specialization Index (SI) scores, which quantify how unique or general a job title is within a sector. ### 3. examples.zip Includes hand-picked examples used throughout the manuscript for:\nAnnotated Prolific validation tasks\nVisual illustrations of SI distributions and promotion transitions\nComparative examples between US and UK sectors"
-  },
-  {
-    "objectID": "data/job_titles/CMAP/readme.html#dataset-highlights",
-    "href": "data/job_titles/CMAP/readme.html#dataset-highlights",
-    "title": "Greg’s Overview",
-    "section": "Dataset Highlights",
-    "text": "Dataset Highlights\n\nSource: 227 million anonymized CVs across 197 countries (1970–2017)\nScope: 572 million job experiences, 691,000+ unique cleaned job titles\nSector Coverage: 24 industry sectors, from Health Care to Information Technology\nPromotion Records: Over 310,000 transitions labeled with promotion probabilities\nO*NET Integration: Titles are mapped to standardized O*NET SOC occupation codes\n\n\nEach CSV file in the above folders follows the naming convention: ## Suggested Applications\n&lt;sector&gt;.csv - Labor market segmentation, job taxonomy construction, promotion inequality analysis - Creation of custom job title cleaning models - Enrichment of external datasets using structured title mappings and SI scores"
-  },
-  {
-    "objectID": "data/job_titles/CMAP/readme.html#usage",
-    "href": "data/job_titles/CMAP/readme.html#usage",
-    "title": "Greg’s Overview",
-    "section": "Usage",
-    "text": "Usage\nThis dataset can be used for various research purposes, including: - Analyzing career progression trends across sectors and regions. - Understanding job title variations and sector specializations. - Developing machine learning models for job transition predictions. - Developng generalized models for cleaning job titles. For implementation examples and integration tips, refer to the Usage Notes section in the accompanying manuscript.\n\nLast updated: 4/22/25"
-  },
-  {
-    "objectID": "data/NA_donation_sample.html",
-    "href": "data/NA_donation_sample.html",
-    "title": "Donated Money Data",
-    "section": "",
-    "text": "Donated Money Data\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeography\nTime\nDemographic\nDemographic Value\nYes\nNo\nDK/RF\nN Size\n\n\n\n\nNorthern America\n2024\nAggregate\nAggregate\n55%\n45%\n0%\n2,024\n\n\nNorthern America\n2023\nAggregate\nAggregate\n61%\n39%\n0%\n2,009\n\n\nNorthern America\n2022\nAggregate\nAggregate\n62%\n38%\n0%\n2,017\n\n\nNorthern America\n2021\nAggregate\nAggregate\n61%\n39%\n0%\n2,013\n\n\nNorthern America\n2020\nAggregate\nAggregate\n45%\n55%\n0%\n2,013\n\n\nNorthern America\n2019\nAggregate\nAggregate\n56%\n44%\n0%\n2,057\n\n\nNorthern America\n2018\nAggregate\nAggregate\n53%\n47%\n0%\n2,013\n\n\nNorthern America\n2017\nAggregate\nAggregate\n61%\n39%\n0%\n2,018\n\n\nNorthern America\n2016\nAggregate\nAggregate\n56%\n44%\n0%\n2,048\n\n\nNorthern America\n2015\nAggregate\nAggregate\n63%\n37%\n0%\n1,281\n\n\nNorthern America\n2014\nAggregate\nAggregate\n63%\n36%\n0%\n2,048\n\n\nNorthern America\n2013\nAggregate\nAggregate\n68%\n31%\n0%\n1,092\n\n\nNorthern America\n2012\nAggregate\nAggregate\n63%\n37%\n0%\n2,076\n\n\nNorthern America\n2011\nAggregate\nAggregate\n58%\n42%\n0%\n1,274\n\n\nNorthern America\n2010\nAggregate\nAggregate\n65%\n35%\n—\n2,012\n\n\nNorthern America\n2009\nAggregate\nAggregate\n60%\n39%\n1%\n2,014\n\n\nNorthern America\n2008\nAggregate\nAggregate\n66%\n34%\n0%\n2,009\n\n\nNorthern America\n2007\nAggregate\nAggregate\n61%\n39%\n0%\n2,235\n\n\nNorthern America\n2006\nAggregate\nAggregate\n64%\n36%\n—\n1,355\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "free_resources_links.html",
-    "href": "free_resources_links.html",
-    "title": "Free External Resources",
-    "section": "",
-    "text": "Back to top",
-    "crumbs": [
-      "Home",
-      "External Resources",
-      "Free External Resources"
-    ]
-  },
-  {
-    "objectID": "templates.html",
-    "href": "templates.html",
-    "title": "Templates",
-    "section": "",
-    "text": "Excel templates\n\n\nother templates (?)\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Home",
-      "Tools",
-      "Templates"
-    ]
-  },
-  {
-    "objectID": "toolkit_blog/first_blog/index.html",
-    "href": "toolkit_blog/first_blog/index.html",
-    "title": "Let’s talk data privacy",
-    "section": "",
-    "text": "I wanted to explore a few issues of data privacy as they affect your average prospect development, management, or research professional.\nThis toolkit, at least in the alpha stages, will be focused on tools that are available / compliant in the USA, simply because that’s where I am based. Some resources mentioned here may not be available internationally, or may be subject to stricter privacy laws.\nProspect researchers take ethics very seriously, and some of the tools or methods that are available in America - or some of the more experimental proactive research I prototype in this toolkit - may not be appropriate for every organization.\nThese days, donor trust on an institutional level can be hard to gain and easy to lose. We exist in a difficult data privacy environment, where many competing interests are involved. I once had a job where leadership jokingly started referring to us prospect research and dev folks as “stalkers”, including, to my horror, in the presence of donors that happened to be touring the building.\nI had to eventually step up in a meeting and attempt to explain that it was really a short-sighted way of getting a laugh, considering the damage it could cause to morale and with donor relations. Being a lowly analyst, I tried to be diplomatic - and hopefully succeeded. But the incident stands out in my mind as a good example of the natural tension that exists in prospect research: we need to be experts on donors, which means having an expert handle on donor data. We must use our expertise that complies with institutional bylaws, legal requirements, and the standards spelled out by our professional organizations.\nEven when we are doing our best, however, those efforts may be perceived as invasive or inappropriate. It’s easy to reframe the conversation with ourselves, of course, because we believe in the mission of our organization. Philanthropy benefits many stakeholders, but we also exist in a competitive funding environment, which means we have to chase down leads to a certain extent - before passing them on to front-line fundraisers.\nStill, there is a natural tension in our jobs - and one that merits discussion every year, as technology and laws change.\n\n\nIn May 2025, LexisNexis had a data breach that originated from an attacker accessing their Github account. Data breaches are unfortunately common, but they are also a smaller issue compared to the larger questions they tend to evoke: what info IS ethical to gather about individuals? Just because something is available, does not mean that it is ethical to use… of course, there is an interesting wrinkle to the digital ecosystem in which prospect researchers attempt to apply ethics: data brokers are not just vulnerable to breaches, they actively purchase or scrape breach data themselves.\nBreach data is sometimes considered “public”, but that definition is used loosely by companies, similar to how AI companies have scraped both copywrighted works and public items on the internet - through a variety of means - with the argument that their final product is transformative enough to dodge legal challenges.\nOne fascinating aspect of the fundraising industry is the fact that many of us tend to use tools (like LexisNexis) that live somewhat in the heart of an unfolding controversy - an ongoing worldwide conversation that can get quite heated. Don’t get me wrong, I love using LexisNexis, but it’s important to understand the technology we use, and to vet how data is curated. Ultimately, we don’t have much power as analysts to impact these discussions, but it can help us gain fidelity in our understanding of the waters in which we swim - and when there is less mystery, even if we don’t always like what we find, I think it can give a measure of confidence when making decisions.\nThere are countless round tables and think pieces and meetings about compliance, of course, that dig deeper into these issues - but I think it’s important to point out the tensions or stressors that exist in a job.\n\n\n\nIt’s hard to be a circumspect prospect researcher and abide by the ethos of “data minimalism” - the minimum viable amount of data to complete a research project on a prospective donor - when we swim in an ocean of tools and companies that rely on data maximalism as their core business model.\n\n\n\nFor prospect researchers, they may feel conflicted about using AI tools or platforms that collate information from data brokers with black box methods that are subject to legal scrutiny (e.g. data privacy laws in California, or Europe).\nResearch is not always a cold, logical, straightforward deal. I mean, when I first started as a prospect development analyst…I would find that reading too many obituaries in one day would make me feel kinda rough, especially if they were for individuals near my own age.\nWhat we research, and how we research, can have downstream effects on our moods– positive or negative. Curiosity, for example, is an example of a positive trait that I think can accompany positive moods while researching - research can be quite fun! Alternatively, getting bogged down in a research rabbit hole without finding the answer to your key research question…while competing deadlines threaten to derail the session…not fun.\nSome folks are better at managing the “research posture”, the way one mentally approaches the job, and I think it’s one of the key skills that blends both hard and soft skills.\nWhat does this have to do with data privacy? Well, being compliant and training in ethics affects our research posture and how we react to different tools, use-cases, requests, or situations.\nIn some cases, you may be put in a position where you are requested to find information about a donor that crosses a line - a request that often happens by accident - and it’s important to understand your job well enough to educate others, even your supervisors sometimes, about the lines in the sand."
-  },
-  {
-    "objectID": "toolkit_blog/first_blog/index.html#data-breaches",
-    "href": "toolkit_blog/first_blog/index.html#data-breaches",
-    "title": "Let’s talk data privacy",
-    "section": "",
-    "text": "In May 2025, LexisNexis had a data breach that originated from an attacker accessing their Github account. Data breaches are unfortunately common, but they are also a smaller issue compared to the larger questions they tend to evoke: what info IS ethical to gather about individuals? Just because something is available, does not mean that it is ethical to use… of course, there is an interesting wrinkle to the digital ecosystem in which prospect researchers attempt to apply ethics: data brokers are not just vulnerable to breaches, they actively purchase or scrape breach data themselves.\nBreach data is sometimes considered “public”, but that definition is used loosely by companies, similar to how AI companies have scraped both copywrighted works and public items on the internet - through a variety of means - with the argument that their final product is transformative enough to dodge legal challenges.\nOne fascinating aspect of the fundraising industry is the fact that many of us tend to use tools (like LexisNexis) that live somewhat in the heart of an unfolding controversy - an ongoing worldwide conversation that can get quite heated. Don’t get me wrong, I love using LexisNexis, but it’s important to understand the technology we use, and to vet how data is curated. Ultimately, we don’t have much power as analysts to impact these discussions, but it can help us gain fidelity in our understanding of the waters in which we swim - and when there is less mystery, even if we don’t always like what we find, I think it can give a measure of confidence when making decisions.\nThere are countless round tables and think pieces and meetings about compliance, of course, that dig deeper into these issues - but I think it’s important to point out the tensions or stressors that exist in a job."
-  },
-  {
-    "objectID": "toolkit_blog/first_blog/index.html#data-minimalism-vs.-data-maximalism",
-    "href": "toolkit_blog/first_blog/index.html#data-minimalism-vs.-data-maximalism",
-    "title": "Let’s talk data privacy",
-    "section": "",
-    "text": "It’s hard to be a circumspect prospect researcher and abide by the ethos of “data minimalism” - the minimum viable amount of data to complete a research project on a prospective donor - when we swim in an ocean of tools and companies that rely on data maximalism as their core business model."
-  },
-  {
-    "objectID": "toolkit_blog/first_blog/index.html#research-and-emotions",
-    "href": "toolkit_blog/first_blog/index.html#research-and-emotions",
-    "title": "Let’s talk data privacy",
-    "section": "",
-    "text": "For prospect researchers, they may feel conflicted about using AI tools or platforms that collate information from data brokers with black box methods that are subject to legal scrutiny (e.g. data privacy laws in California, or Europe).\nResearch is not always a cold, logical, straightforward deal. I mean, when I first started as a prospect development analyst…I would find that reading too many obituaries in one day would make me feel kinda rough, especially if they were for individuals near my own age.\nWhat we research, and how we research, can have downstream effects on our moods– positive or negative. Curiosity, for example, is an example of a positive trait that I think can accompany positive moods while researching - research can be quite fun! Alternatively, getting bogged down in a research rabbit hole without finding the answer to your key research question…while competing deadlines threaten to derail the session…not fun.\nSome folks are better at managing the “research posture”, the way one mentally approaches the job, and I think it’s one of the key skills that blends both hard and soft skills.\nWhat does this have to do with data privacy? Well, being compliant and training in ethics affects our research posture and how we react to different tools, use-cases, requests, or situations.\nIn some cases, you may be put in a position where you are requested to find information about a donor that crosses a line - a request that often happens by accident - and it’s important to understand your job well enough to educate others, even your supervisors sometimes, about the lines in the sand."
+    "text": "Placeholder: Explain how prospect research and development teams can use data contracts to ensure donor data consistency and reliability across CRM, wealth screening tools, and analytics platforms.\nOne obstacle when writing profiles is getting accurate information from your own institution. If you have many internal boards, the chairs and members of those boards are always in flux, and there isn’t necessarily accurate information in the database or websites to verify the reality on the ground. In theory, it makes sense to have board memberships strictly tracked in your CRM. But like with anything, it all depends on the people responsible for maintaining and providing the data in the first place.\nOld or inacurrate information in your internal systems is a constant battle, and there may be some areas where you know the information tends to be more inaccurate than others, a “quirk of the system” that you’ve just learned to deal with, and one where a fix is not necessarily going to happen soon.\nHowever, if you are ever in the position to try and fix some of these data problems, at a director-level, you can advocate for creating internal data contracts specifically to benefit your prospect development and research teams.\nWith the board membership example, a strong internal data contract that provides accurate, timely board information means that profiles get done faster, obvious mistakes are avoided, and researchers can spend less time spinning their wheels trying to find information that the institution already knows. Ideally, the goal of a prospect research team should be to get the most efficient process possible for highly accurate profiles, so there is more time for proactive research and expanding the prospect pool. The amount of money that is lost every year is staggering: any given team is being paid for their time, and expanding the prospect pool actually increases campaign revenues, while fiddling around with verifications can run counter to the overall momentum needed to meet fundraising goals.\nOf course, if you aren’t tracking your efficiency, then it would be hard to know for sure.\n\nRelated to Obstacle what?"
   },
   {
     "objectID": "toolkit_blog/technical_field_guide/index.html",
@@ -314,6 +133,441 @@
     "text": "Section VI: Case Studies\n\nChapter 22: Higher Education\n\n\nChapter 23: Healthcare\n\n\nChapter 24: Other Niches"
   },
   {
+    "objectID": "tools.html#free-tools",
+    "href": "tools.html#free-tools",
+    "title": "Tools",
+    "section": "Free tools",
+    "text": "Free tools"
+  },
+  {
+    "objectID": "tools.html#paid-tools",
+    "href": "tools.html#paid-tools",
+    "title": "Tools",
+    "section": "Paid tools",
+    "text": "Paid tools"
+  },
+  {
+    "objectID": "resources/education/free_external/index.html",
+    "href": "resources/education/free_external/index.html",
+    "title": "Free External Resources",
+    "section": "",
+    "text": "The Prospect Research Institute has free resources available, but some of them are out of date, since their focus is currently on creating paid training with clients. See some research specific pages here: Prospect Research.\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "free_resources_links.html",
+    "href": "free_resources_links.html",
+    "title": "Free External Resources",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Home",
+      "External Resources",
+      "Free External Resources"
+    ]
+  },
+  {
+    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html",
+    "href": "toolkit_tutorials/UsingPowerQuery/index.html",
+    "title": "Using PowerQuery",
+    "section": "",
+    "text": "Power Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\n\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
+  },
+  {
+    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#what-is-powerquery",
+    "href": "toolkit_tutorials/UsingPowerQuery/index.html#what-is-powerquery",
+    "title": "Using PowerQuery",
+    "section": "",
+    "text": "Power Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\n\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
+  },
+  {
+    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
+    "href": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
+    "title": "Using PowerQuery",
+    "section": "PowerQuery vs. VLookup",
+    "text": "PowerQuery vs. VLookup\n\n\n\n\n\n\n\n\nFeature\nPower Query\nVLOOKUP\n\n\n\n\nPurpose\nData transformation and preparation\nLook up and retrieve specific data values\n\n\nData Sources\nConnects to multiple sources (Excel, SQL, web, etc.)\nLimited to data within the worksheet\n\n\nComplexity\nMore complex with advanced capabilities\nSimpler and straightforward\n\n\nOutput\nCreates tables or queries in Excel\nReturns a single value based on a match\n\n\nFlexibility\nHighly versatile, allows for data shaping\nLess flexible; limited to a single match type\n\n\nUse Cases\nIdeal for ETL processes and bulk data manipulation\nBest for simple lookups within a single dataset\n\n\nMaintenance\nRequires more setup but easier to update over time\nSimple to set up but can be error-prone if data changes"
+  },
+  {
+    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#use-cases",
+    "href": "toolkit_tutorials/UsingPowerQuery/index.html#use-cases",
+    "title": "Using PowerQuery",
+    "section": "Use-cases",
+    "text": "Use-cases\nYour workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.\n\nAbstrqct Example\nYou have data in your CRM that you want to combine with another dataset you’ve found or created. For example, perhaps you’ve created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.\n\n\nSteps to Achieve This\n\nExport Data from CRM: Start by exporting the relevant data from your CRM into a CSV or Excel format.\nImport Data into Power Query: Open Excel, go to the Data tab, and select “Get Data” to import your CRM data and your custom dataset.\nCombine Datasets: Use Power Query tools to merge or append the datasets based on a common identifier.\nTransform Data: Clean, filter, or reshape the data as necessary.\nLoad the Combined Data: Once satisfied with the combined data, load it back into Excel for analysis or reporting.\n\nMore complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI"
+  },
+  {
+    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#power-query-m-code-for-filtering-job-titles-with-dynamic-keywords",
+    "href": "toolkit_tutorials/UsingPowerQuery/index.html#power-query-m-code-for-filtering-job-titles-with-dynamic-keywords",
+    "title": "Using PowerQuery",
+    "section": "Power Query M Code for Filtering Job Titles with Dynamic Keywords",
+    "text": "Power Query M Code for Filtering Job Titles with Dynamic Keywords\nThis document outlines a Power Query M script that dynamically loads keyword lists from parameters and filters job title datasets across multiple sectors. The goal is to identify roles related to Major Gifts while excluding irrelevant ones.\n\nDynamic Keyword Parameters\nInstead of hardcoding the keywords, we define them as parameters:\nlet\n    IncludeKeywords = Text.Split(\"Major Gift,Director Of Development,Development Officer,Major Gift Officer,Fundraiser,Philanthropy Officer,Philanthropy Manager\", \",\"),\n    ExcludeKeywords = Text.Split(\"Prospect Research,Event\", \",\")\n\n\nLoad and Filter Nonprofit Dataset\nWe load the nonprofit dataset and filter it using the dynamic keyword lists:\n    Source = Csv.Document(File.Contents(\"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198385_nonprofit.csv\"), [Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),\n    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {\n        {\"sector\", type text}, \n        {\"title_cleaned\", type text}, \n        {\"frequency_cleaned\", Int64.Type}, \n        {\"title_generalized\", type text}, \n        {\"frequency_generalized\", Int64.Type}, \n        {\"title_simplified\", type text}, \n        {\"frequency_simplified\", Int64.Type}\n    }),\n    IncludedRows = Table.SelectRows(ChangedType, each List.AnyTrue(List.Transform(IncludeKeywords, (kw) =&gt; Text.Contains([title_cleaned], kw)))),\n    FinalFilteredRows = Table.SelectRows(IncludedRows, each List.AllTrue(List.Transform(ExcludeKeywords, (kw) =&gt; not Text.Contains([title_cleaned], kw)))),\n    TitleList = Table.SelectColumns(FinalFilteredRows, {\"title_cleaned\"}),\n\n\nReusable Filtering Function\nWe define a reusable function to apply the same filtering logic to other datasets:\n    FilterDataset = (filePath as text) =&gt;\n        let\n            Source = Csv.Document(File.Contents(filePath), [Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),\n            Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),\n            ChangedType = Table.TransformColumnTypes(Promoted, {\n                {\"sector\", type text}, \n                {\"title_cleaned\", type text}, \n                {\"frequency_cleaned\", Int64.Type}, \n                {\"title_generalized\", type text}, \n                {\"frequency_generalized\", Int64.Type}, \n                {\"title_simplified\", type text}, \n                {\"frequency_simplified\", Int64.Type}\n            }),\n            Matched = Table.Join(ChangedType, \"title_cleaned\", TitleList, \"title_cleaned\", JoinKind.Inner)\n        in\n            Matched,\n\n\nDataset Paths and Execution\nWe list all dataset paths and apply the filtering function:\n    DatasetPaths = {\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198352_travel_and_tourism.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198376_transportation_and_logistics.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55197857_restaurants_bars_and_food_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198349_real_estate.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198379_telecommunications.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198388_oil_gas_energy_and_utilities.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198394_retail.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198373_media.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198403_manufacturing.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198358_insurance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198406_information_technology.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198382_government.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198397_health_care.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198391_education.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198400_finance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198190_consumer_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198364_construction_repair_and_maintenance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198409_business_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55197803_agriculture_and_forestry.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198355_arts_entertainment_and_recreation.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198370_biotech_and_pharmaceuticals.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198361_aerospace_and_defense.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198367_accounting_and_legal.csv\"\n    },\n    FilteredTables = List.Transform(DatasetPaths, each FilterDataset(_)),\n    CombinedResults = Table.Combine(FilteredTables)\nin\n    CombinedResults\n\n\nSummary\nThis script dynamically loads keyword lists and applies consistent filtering across multiple datasets. It improves maintainability and scalability by avoiding hardcoded values."
+  },
+  {
+    "objectID": "data/readme.html",
+    "href": "data/readme.html",
+    "title": "Overview: Data Flow and Actors",
+    "section": "",
+    "text": "From ChatGPT:\nHere is the same breakdown of the relationship between data brokers, financial intelligence services, and niche fundraising tools — with a References section including plaintext URLs at the end so you can follow the sources yourself."
+  },
+  {
+    "objectID": "data/readme.html#data-brokers",
+    "href": "data/readme.html#data-brokers",
+    "title": "Overview: Data Flow and Actors",
+    "section": "1. Data Brokers",
+    "text": "1. Data Brokers\nWhat they are: Data brokers collect, clean, link, standardize, and resell data about people and businesses to third parties. They pull from public records, commercial databases, and other sources and package the information for clients. (Wikipedia)\nWhat they provide:\n\nAggregated datasets\nIdentity attributes\nEmployment histories\nWealth proxies\nProprietary linkages used for analytics Clients include marketers, compliance teams, financial institutions, and software vendors. (Wikipedia)\n\nAcademic perspective: Studies on data marketplaces show how brokers function as intermediaries in commoditized information markets, pricing and trading data between owners and consumers. (arXiv)"
+  },
+  {
+    "objectID": "data/readme.html#financial-intelligence-services-fius-private-finint-vendors",
+    "href": "data/readme.html#financial-intelligence-services-fius-private-finint-vendors",
+    "title": "Overview: Data Flow and Actors",
+    "section": "2. Financial Intelligence Services (FIUs & Private FININT Vendors)",
+    "text": "2. Financial Intelligence Services (FIUs & Private FININT Vendors)\nWhat they are: Financial intelligence services include government Financial Intelligence Units (FIUs) and private FININT vendors that analyze data for purposes such as anti–money-laundering (AML), sanctions screening, risk assessment, and compliance.\nHow they use data: They ingest:\n\nTransaction records\nWatchlists\nProprietary and open source intelligence\nBroker data\n\nto produce actionable intelligence. Open-source intelligence (OSINT) — including public records and some broker data — is explicitly used to support investigations. (Egmont Group)\nFIUs and OSINT: The Egmont Group, which coordinates global FIU collaboration, reports that OSINT contributes to operational and strategic analysis by helping identify links, patterns, and risks not visible in transaction data alone. (Egmont Group)"
+  },
+  {
+    "objectID": "data/readme.html#niche-fundraising-tools-e.g.-researchpoint-livealumni",
+    "href": "data/readme.html#niche-fundraising-tools-e.g.-researchpoint-livealumni",
+    "title": "Overview: Data Flow and Actors",
+    "section": "3. Niche Fundraising Tools (e.g., ResearchPoint & LiveAlumni)",
+    "text": "3. Niche Fundraising Tools (e.g., ResearchPoint & LiveAlumni)\nThese products are end-user applications built for nonprofit development, advancement, and alumni relations. They consume data from brokers and other sources to help fundraising professionals prioritize prospects and manage engagement.\n\nBlackbaud ResearchPoint\n\nA donor prospect research platform that integrates multiple data feeds (including wealth, philanthropic history, biographical, and asset data). (Blackbaud Help)\nIt supports bulk lists, wealth screening, and rich prospect profiles used to guide major gift fundraising. (Blackbaud Help)\n\n\n\nLiveAlumni\n\nA niche provider focused on verified alumni and donor employment data, job changes, industry and employer details. (LiveAlumni)\nUseful in fundraising to identify job changes, matching gift eligibility, and engagement signals.\n\nThese platforms often license or embed multiple broker data feeds to enrich constituent records and analytics."
+  },
+  {
+    "objectID": "data/industry_data/job_titles/readme.html",
+    "href": "data/industry_data/job_titles/readme.html",
+    "title": "Prospect Research Toolkit",
+    "section": "",
+    "text": "Working on expanding the fundraising sector job titles dataset, using data gathered myself, and cross-comparing with public datasets like CMap\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "data/industry_data/job_titles/CMAP/figure_4.html",
+    "href": "data/industry_data/job_titles/CMAP/figure_4.html",
+    "title": "Prospect Research Toolkit",
+    "section": "",
+    "text": "import numpy as np\nimport pandas as pd\n\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nimport os\nimport glob\nimport matplotlib.gridspec as gridspec\n\nfrom tqdm import tqdm\ntqdm.pandas()\n\n\ndef read_files(folder, add_file_column=False, **kwargs):\n    def read_file(path, add_file_column=False, **kwargs):\n        file = os.path.basename(path)\n        try:\n            df = pd.read_csv(path, low_memory=False, **kwargs)\n        except pd.errors.EmptyDataError:\n            print(f\"{file} is empty\")\n            return pd.DataFrame()\n\n        if add_file_column:\n            df['file'] = file\n\n        return df\n\n    return pd.concat([read_file(path, add_file_column, **kwargs) for path in tqdm(glob.glob(os.path.join(folder, '*.csv')))], ignore_index=True)\n\n\ndf_titles_map = read_files('dataset/titles/map')\ndf_titles_si = read_files('dataset/titles/si')\ndf_promotions_unvalidated = pd.concat([read_files('dataset/promotions/unvalidated/edges')], ignore_index=True)\ndf_promotions_validated = pd.concat([read_files('dataset/promotions/validated/edges')], ignore_index=True)\n\n100%|██████████| 24/24 [00:10&lt;00:00,  2.33it/s]\n100%|██████████| 24/24 [00:00&lt;00:00, 27.58it/s]\n100%|██████████| 144/144 [00:00&lt;00:00, 480.33it/s]\n100%|██████████| 48/48 [00:00&lt;00:00, 480.23it/s]\n\n\n\n# Recreate df_sector_counts\ndf_sector_counts = df_titles_map.groupby('sector')['title_generalized'].nunique().reset_index().rename(columns={'title_generalized': 'count'})\ndf_sector_counts['percentage'] = (df_sector_counts['count'] / df_sector_counts['count'].sum()) * 100\n\n# Recreate df_sector_promotions\ndf_sector_promotions_unvalidated = df_promotions_unvalidated.groupby('sector').size().reset_index(name='count')\ndf_sector_promotions_unvalidated['percentage'] = (df_sector_promotions_unvalidated['count'] / df_sector_promotions_unvalidated['count'].sum()) * 100\n\ndf_sector_promotions_validated = df_promotions_validated.groupby('sector').size().reset_index(name='count')\ndf_sector_promotions_validated['percentage'] = (df_sector_promotions_validated['count'] / df_sector_promotions_validated['count'].sum()) * 100\n\n# Recreate df_grouped (for world map)\ndf_grouped = df_promotions_unvalidated.groupby('country_binned').size().reset_index(name='count')\ndf_grouped['percentage'] = (df_grouped['count'] / df_grouped['count'].sum()) * 100\n\n\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nimport matplotlib.gridspec as gridspec\n\n# Create a figure with a gridspec layout\nfig = plt.figure(figsize=(10, 16))\ngs = gridspec.GridSpec(4, 1, height_ratios=[2, 3, 2, 2], figure=fig)\n\n# Create axes for each subplot using gridspec\nax1 = fig.add_subplot(gs[0])  # Bar plot of unique titles per sector\nax2 = fig.add_subplot(gs[1])  # Boxplot of SI per sector\nax3 = fig.add_subplot(gs[2])  # Bar plot of promotions (unvalidated)\nax4 = fig.add_subplot(gs[3])  # Bar plot of promotions (validated)\n\n# --- Plot 1: Bar plot of unique titles per sector ---\nsns.barplot(data=df_sector_counts, x='sector', y='count', ax=ax1, color='tab:blue')\nax1.set_ylabel(\"Number of titles\", fontsize=10)\n\n# Add percentage labels on top of each bar\nfor index, row in enumerate(df_sector_counts.itertuples()):\n    percentage_text = f\"{int(row.percentage)}%\" if row.percentage &gt; 9 else f\"{row.percentage:.1f}%\"\n    ax1.text(index, row.count + 2500, percentage_text, ha='center', fontsize=9)\n\n# Format y-axis to show count in thousands (K format)\nax1.set_yticks(ax1.get_yticks())\nax1.set_yticklabels([f\"{int(y/1e3)}K\" for y in ax1.get_yticks()])\n\n# Remove x-axis labels and ticks completely\nax1.set_xticklabels([])\nax1.set_xticks([])\n\nsns.despine(ax=ax1)\nax1.set_xlabel(\"\")\n\n# --- Plot 2: Boxplot of Specialization Index (SI) per sector ---\nsns.boxplot(\n    data=df_titles_si, x='sector', y='SI', ax=ax2, showmeans=True,\n    meanline=False, meanprops={'marker': 'D', 'markerfacecolor': 'black', 'markeredgecolor': 'black', 'markersize': 4},\n    whis=[0, 100]\n)\n\n# Draw the horizontal mean line\noverall_mean = df_titles_si['SI'].mean()\nax2.axhline(overall_mean, linestyle='dotted', color='red', linewidth=1.5)\nax2.set_ylabel(\"Specialization Index (SI)\\n\", fontsize=10)\n\n# Rotate x-axis labels for readability\nax2.set_xticklabels(ax2.get_xticklabels(), rotation=45, ha='right')\nax2.set_xlabel(\"\")\n\nsns.despine(ax=ax2)\n\n# --- Plot 3: Bar plot of promotions (Validated) ---\nsns.barplot(data=df_sector_promotions_validated, x='sector', y='count', ax=ax3, color='tab:blue')\nax3.set_ylabel(\"Number of promotions\\n\", fontsize=10)\n\n# Add percentage labels on top of each bar\nfor index, row in enumerate(df_sector_promotions_validated.itertuples()):\n    percentage_text = f\"{int(row.percentage)}%\" if row.percentage &gt; 9 else f\"{row.percentage:.1f}%\"\n    ax3.text(index, row.count + 400, percentage_text, ha='center', fontsize=9)\n\n# Format y-axis to show count in thousands (K format)\nax3.set_yticks(ax3.get_yticks())\nax3.set_yticklabels([f\"{int(y/1e3)}K\" for y in ax3.get_yticks()])\n\n# Remove x-axis labels and ticks completely\nax3.set_xticklabels([])\nax3.set_xticks([])\n\nsns.despine(ax=ax3)\nax3.set_xlabel(\"\")\n\n# --- Plot 4: Bar plot of promotions (Unvalidated) ---\nsns.barplot(data=df_sector_promotions_unvalidated, x='sector', y='count', ax=ax4, color='tab:blue')\nax4.set_ylabel(\"Number of promotions\\n\", fontsize=10)\n\n# Add percentage labels on top of each bar\nfor index, row in enumerate(df_sector_promotions_unvalidated.itertuples()):\n    percentage_text = f\"{int(row.percentage)}%\" if row.percentage &gt; 9 else f\"{row.percentage:.1f}%\"\n    ax4.text(index, row.count + 1500, percentage_text, ha='center', fontsize=9)\n\n# Format y-axis to show count in thousands (K format)\nax4.set_yticks(ax4.get_yticks())\nax4.set_yticklabels([f\"{int(y/1e3)}K\" for y in ax4.get_yticks()])\n\n# Rotate x-axis labels for readability\nax4.set_xticklabels(ax4.get_xticklabels(), rotation=45, ha='right')\n\n# Rotate x-axis labels for readability\nax4.set_xticklabels(ax4.get_xticklabels(), rotation=45, ha='right')\n\nsns.despine(ax=ax4)\nax4.set_xlabel(\"\")\n\n# Adjust layout\nplt.tight_layout()\n\n# Show the combined plot\nplt.show()\n\n# Save in high resolution\nfig.savefig('figure_4.png', dpi=600)\n\nC:\\Users\\Shehryar\\AppData\\Local\\Temp\\ipykernel_39828\\2159619807.py:48: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.\n  ax2.set_xticklabels(ax2.get_xticklabels(), rotation=45, ha='right')\nC:\\Users\\Shehryar\\AppData\\Local\\Temp\\ipykernel_39828\\2159619807.py:87: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.\n  ax4.set_xticklabels(ax4.get_xticklabels(), rotation=45, ha='right')\nC:\\Users\\Shehryar\\AppData\\Local\\Temp\\ipykernel_39828\\2159619807.py:90: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.\n  ax4.set_xticklabels(ax4.get_xticklabels(), rotation=45, ha='right')\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html",
+    "href": "data/industry_data/FundraisingDataMarketplace.html",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "",
+    "text": "From ChatGPT, after prompting about surveying the fundraising data marketplace."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#citations-supporting-key-points",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#citations-supporting-key-points",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "Citations Supporting Key Points",
+    "text": "Citations Supporting Key Points\n\nFundraising Intelligence as a Data-Driven Practice\nFundraising and prospect research are explicitly described as involving data analytics and business intelligence methods to identify, analyze, and prioritize potential donors. This illustrates how fundraising adopts general analytic approaches from larger intelligence fields. (DataCalculus)\nCitation: Prospect research has evolved to include advanced data analytics and BI methods for donor identification and engagement. (DataCalculus)\n\n\n\nProspect Research Tools and Market Context\nMultiple survey and overview pages list and describe specialized prospect research software used by nonprofits, situating them within a broader landscape of data-driven tools. This supports your point that nonprofit platforms are part of a larger technology ecosystem rather than isolated inventions. (Double the Donation)\nCitations:\n\nSpecialized fundraising tools now rely on integrated data and analytics to help nonprofits focus on high-value prospects. (Double the Donation)\nProspect research tools include software, data appending services, and integration with donor databases—all drawing on underlying business data sources. (DonorSearch)\n\n\n\n\nBusiness Intelligence as Foundational Technology\nDescriptions of business intelligence (BI) show how broad data aggregation and analysis tools are used across sectors, and by analogy how similar practices underlie fundraising analytics. This supports the point that fundraising borrows from general BI. (Data Stack Hub)\nCitations:\n\nBusiness intelligence refers broadly to data collection, analysis, visualization, and decision support across organizations. (Data Stack Hub)\nOpen-source BI tools connect to many data sources and support reporting and analytic workflows. (FanRuan Software)\n\n\n\n\nExamples of Larger Business Intelligence Databases\nWhile not strictly academic, public descriptions of widely used business data platforms (such as Crunchbase) illustrate how rich business datasets exist outside nonprofit-specific tooling and underlie broader intelligence work. (Wikipedia)\nCitation: Crunchbase is a public/private business intelligence database of companies and startups used across industries for market research and analysis. (Wikipedia)"
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#possible-additional-academic-support-contextual",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#possible-additional-academic-support-contextual",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "Possible Additional Academic Support (Contextual)",
+    "text": "Possible Additional Academic Support (Contextual)\nAlthough not specific to fundraising, scholarly work on open-source intelligence ecosystems and curated intelligence databases demonstrates how specialized domains can be supported by broader intelligence infrastructure. This analogy reinforces your argument about niche markets drawing on shared technical foundations. (arXiv)\nCitation: The Intelligence Studies Network shows how intelligence fields build shared infrastructure and curated resources using open-source tools and data. (arXiv)"
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#how-you-could-cite-these-in-your-text",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#how-you-could-cite-these-in-your-text",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "How You Could Cite These in Your Text",
+    "text": "How You Could Cite These in Your Text\nHere are examples of how you might weave them into your framing:\n\nModern fundraising and prospect research increasingly relies on data analytics and business intelligence techniques to identify and prioritize prospective donors, moving beyond intuition toward structured analytic workflows derived from broader BI practice. (DataCalculus)\n\n\nSpecialized fundraising tools sit atop wider data markets: they leverage integrated datasets and analytic services much like other sectors do for strategic decision-making and insight generation. (Double the Donation)\n\n\nBusiness intelligence encompasses a wide range of data integration, visualization and analytics capabilities, illustrating the larger infrastructure that fundraising analytics borrows from. (Data Stack Hub)\n\n\nPublic business intelligence platforms such as Crunchbase show how rich commercial datasets are used across industries, including research functions often repurposed in academic and nonprofit environments. (Wikipedia)"
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#plaintext-urls-for-your-reference-list",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#plaintext-urls-for-your-reference-list",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "Plaintext URLs for Your Reference List",
+    "text": "Plaintext URLs for Your Reference List\n\nhttps://datacalculus.com/en/blog/fundraising/fundraising-engagement-manager/prospect-research-and-identification-for-fundraising\nhttps://doublethedonation.com/prospect-research-tools\nhttps://www.donorsearch.net/resources/prospect-research-tools\nhttps://www.datastackhub.com/top-tools/open-source-business-intelligence-tools\nhttps://www.fanruan.com/en/blog/open-source-business-intelligence-tools\nhttps://en.wikipedia.org/wiki/Crunchbase\nhttps://arxiv.org/abs/2408.03868\n\n\nIf you want academic sources specifically on the economic structure of data markets (not specific to fundraising), I can provide titles with open-access links from SSRN, arXiv, or university repositories that explain data brokerage ecosystems, pricing theory, and marketplace design.\n\nIf the analysis is primary and the paper is a downstream artifact then the outline should reflect a living research program, not a one off publication.\nBelow is a structure that is deliberately analysis first, paper second, and explicitly incorporates everything we discussed about data brokers, financial intelligence services, fundraising tools, and pricing opacity.\nI will separate the research program architecture from the eventual paper outline so you can evolve the work without being constrained by publication format."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#core-research-question",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#core-research-question",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "1. Core research question",
+    "text": "1. Core research question\nHow is fundraising intelligence data priced structured and bundled and how does that pricing reflect deeper market dynamics in data brokerage and financial intelligence ecosystems\nThis framing lets you pivot across:\n\nEconomics\nInformation systems\nGovernance\nEthics\nMarket design\n\nwithout changing the underlying dataset."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#object-of-study",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#object-of-study",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "2. Object of study",
+    "text": "2. Object of study\nDefine the market operationally not rhetorically.\n\nMarket boundary\n\nProspect research data\nWealth screening services\nAlumni employment verification\nDonor enrichment and scoring\nEmbedded intelligence within CRMs\n\nExplicitly exclude:\n\nPure marketing lists\nConsumer ad tech\nPublic filings databases without enrichment\n\nThis distinction matters for credibility."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#data-lineage-model",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#data-lineage-model",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "3. Data lineage model",
+    "text": "3. Data lineage model\nYou already have this conceptually. Formalize it.\nPrimary sources → Data brokers → Financial intelligence style enrichment → Fundraising platforms → End users\nThis is your analytic backbone. Everything else attaches to it."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#pricing-observation-layer",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#pricing-observation-layer",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "4. Pricing observation layer",
+    "text": "4. Pricing observation layer\nThis is the heart of the project.\n\nRaw pricing inputs\n\nVendor quotes\nContracts or invoices\nRFP responses\nPublic nonprofit disclosures\nInterview reported price bands\nHistorical snapshots\n\n\n\nNormalize across dimensions\n\nOrganization size\nRecords screened\nAttributes appended\nUpdate frequency\nIntegration depth\n\nTreat this as a time series dataset, even if sparsely populated at first."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#analytical-lenses",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#analytical-lenses",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "5. Analytical lenses",
+    "text": "5. Analytical lenses\nYou will return to these repeatedly.\n\nMarket structure\n\nBundling vs unbundling\nVertical integration\nSwitching costs\nLock in via CRM ecosystems\n\n\n\nPricing mechanics\n\nSubscription vs usage\nPrice discrimination\nOpaque negotiation\nValue based pricing claims\n\n\n\nInformation asymmetry\n\nVendors know prices\nBuyers do not\nDonors are unaware\n\nThis directly connects to data market theory."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#comparative-anchors",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#comparative-anchors",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "6. Comparative anchors",
+    "text": "6. Comparative anchors\nYou need comparison points to avoid being seen as niche.\nUse:\n\nGeneral data marketplace pricing theory\nFinancial intelligence data pricing\nOSINT monetization models\nLEI DUNS identity markets\n\nYou are not claiming uniqueness you are showing structural similarity."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#governance-and-ethics-layer",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#governance-and-ethics-layer",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "7. Governance and ethics layer",
+    "text": "7. Governance and ethics layer\nNot moralizing but analytical.\n\nConsent structures\nData provenance\nRegulatory oversight gaps\nNonprofit exceptionalism narratives\n\nThis expands the relevance of the work."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#iterative-outputs",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#iterative-outputs",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "8. Iterative outputs",
+    "text": "8. Iterative outputs\nYour project should produce:\n\nInternal memos\nWorking datasets\nVisualizations\nMethod notes\nInterim blog posts if desired\n\nThe paper comes last."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#introduction",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#introduction",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "1. Introduction",
+    "text": "1. Introduction\n\nFundraising intelligence is a large but understudied data market\nPricing is opaque yet consequential\nThis paper provides the first structured analysis of pricing in this domain\n\nState the contribution narrowly and defensibly."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#related-work",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#related-work",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "2. Related Work",
+    "text": "2. Related Work\n\n2.1 Data brokers and data markets\nDraw from general pricing surveys and broker literature.\n\n\n2.2 Financial intelligence and OSINT\nShow conceptual overlap with AML and FININT markets.\n\n\n2.3 Fundraising and prospect research\nDemonstrate descriptive gap not ignorance."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#market-and-data-description",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#market-and-data-description",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "3. Market and Data Description",
+    "text": "3. Market and Data Description\n\n3.1 Actors and data flows\nReuse your lineage model.\n\n\n3.2 Products and bundles\nDefine what is being priced."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#data-and-methods",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#data-and-methods",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "4. Data and Methods",
+    "text": "4. Data and Methods\n\n4.1 Data sources\nBe explicit about estimation and uncertainty.\n\n\n4.2 Normalization methodology\nThis is where novelty lives.\n\n\n4.3 Limitations\nDisarm reviewers early."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#pricing-structures-and-patterns",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#pricing-structures-and-patterns",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "5. Pricing Structures and Patterns",
+    "text": "5. Pricing Structures and Patterns\n\n5.1 Price levels and dispersion\n\n\n5.2 Bundling strategies\n\n\n5.3 Evidence of price discrimination\n\n\n5.4 Lock in and switching costs\nThis is the analytic core."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#interpretation",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#interpretation",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "6. Interpretation",
+    "text": "6. Interpretation\n\n6.1 Comparison to general data markets\n\n\n6.2 Comparison to financial intelligence services\n\n\n6.3 Implications for nonprofits\nYou are synthesizing not advocating."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#governance-and-policy-implications",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#governance-and-policy-implications",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "7. Governance and Policy Implications",
+    "text": "7. Governance and Policy Implications\n\nTransparency\nAccountability\nSector specific regulation\nRisks of unexamined intelligence markets\n\nKeep this restrained."
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#conclusion",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#conclusion",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "8. Conclusion",
+    "text": "8. Conclusion\n\nRestate contributions\nEmphasize dataset and method\nPoint to future research"
+  },
+  {
+    "objectID": "data/industry_data/FundraisingDataMarketplace.html#one-sentence-synthesis",
+    "href": "data/industry_data/FundraisingDataMarketplace.html#one-sentence-synthesis",
+    "title": "I. Research Program Architecture (Primary)",
+    "section": "One sentence synthesis",
+    "text": "One sentence synthesis\nYou are not writing a paper about fundraising tools; you are building the first empirical window into a hidden data market, and the paper is simply how that window eventually gets formal recognition.\n\nNo peer reviewed paper that I can find systematically catalogs the exact data fields provided by prospect research / fundraising vendors (e.g., WealthEngine DonorSearch iWave ResearchPoint LiveAlumni) and maps them side-by-side. What does exist are vendor data dictionaries product datasheets KB articles and practitioner guides that together let you construct the field-level map yourself. (Blackbaud Web Files)\nBelow I’ll give a compact evidence-backed plan for how to build that mapping the typical field set you’ll find across vendors and a recommended data model so you can start collecting or estimating pricing and coverage in parallel."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Prospect Research Toolkit",
+    "section": "",
+    "text": "…\n\n\nVersion: 0.1.1-alpha\n\nHowdy, partner. Welcome to camp!\nYou know how they say, “there’s gold in them thar hills?” - well, I’ve set out to create the resource I always wish existed: a free, community-driven library of tools for the scrappy fundraising prospector, along with a field guide to put all of them into practice.\nI hope this toolkit will expand to be an invaluable resource for those splashing through the data streams, Excel sluice boxes and CRM picks a’clankin’!\nFor more info about the who, what, where, and why…feel free to check out the About page.\nThanks for reading and happy trails.\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "tutorials.html",
+    "href": "tutorials.html",
+    "title": "Tutorials & How-to",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAnalysis of Cars - an example from quarto\n\n\n\n\n\n\nn/a\n\n\nJan 16, 2026\n\n\n\n\n\n\n\n\n\n\n\nObsidian as a Research Notebook\n\n\n\n\n\n\nGreg Brooks\n\n\nDec 9, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery\n\n\n\nPaid tool\n\nExcel\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items\n Back to top",
+    "crumbs": [
+      "Home",
+      "Education",
+      "Tutorials & How-to"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "…\nThis toolkit is maintained by Greg Brooks in association with Apra Utah."
+  },
+  {
+    "objectID": "about.html#why-does-this-exist",
+    "href": "about.html#why-does-this-exist",
+    "title": "About",
+    "section": "Why does this exist?",
+    "text": "Why does this exist?\nThere are plenty of excellent paid resources available: Apra, private consultants, subscription tools, books, but not everyone has the budget to access them. This toolkit is being created to bridge that gap, or supplement what’s already out there, not to replace any of those things. The goal is to keep it simple, open-source, community-driven, free and regularly updated."
+  },
+  {
+    "objectID": "about.html#who-is-this-guy-anyway",
+    "href": "about.html#who-is-this-guy-anyway",
+    "title": "About",
+    "section": "Who is this guy anyway?",
+    "text": "Who is this guy anyway?\nI come from a psychology background and am largely self-taught in data analytics, information science, data science, etc. So keep an eye out for mistakes, and feel free to let me by raising an issue on our (Github issue page)[https://github.com/ApraUtah/ProspectResearchToolkit/issues]."
+  },
+  {
+    "objectID": "about.html#how-often-is-the-website-updated",
+    "href": "about.html#how-often-is-the-website-updated",
+    "title": "About",
+    "section": "How often is the website updated?",
+    "text": "How often is the website updated?\nIn small ways, frequently! Larger changes and resources are on a slower schedule, since I’m doing this in my free time. I expect to have more tutorials, resources, and tools online by 2026. Click here to see the features / goals currently being worked on!"
+  },
+  {
+    "objectID": "about.html#how-is-apra-utah-involved",
+    "href": "about.html#how-is-apra-utah-involved",
+    "title": "About",
+    "section": "How is Apra Utah involved?",
+    "text": "How is Apra Utah involved?\nI started this website as part of my education initiative for 2025 while I’m serving on the Apra Utah board. In the future (e.g. when I figure out how to do it without breaking too many things) the repository and website name will be changed to a more general one, with participating Apra chapters listed on the website’s About page. The dream would be to have an open-source collective of contributors / volunteers who help maintain the project and add to its longevity, since right now it is almost entirely a one-man show."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Toolkit Blog",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nInternal Data Contracts\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 14, 2025\n\n\n\n\n\n\n\n\n\n\n\nQuarto Resources\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 14, 2025\n\n\n\n\n\n\n\n\n\n\n\nCreating the Fundraising Jobs Dataset (round 1)\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 13, 2025\n\n\n\n\n\n\n\n\n\n\n\nLibrary Databases for University Advancement Staffers\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 4, 2025\n\n\n\n\n\n\n\n\n\n\n\nunfinished PRSPCT-L Roundup\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 4, 2025\n\n\n\n\n\n\n\n\n\n\n\nHelpful Technical Documentation\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 4, 2025\n\n\n\n\n\n\n\n\n\n\n\nTechnical Field Guide\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\n\n\n\n\n\nTool Reviews\n\n\n\n\n\n\nGreg Brooks\n\n\nJan 9, 2025\n\n\n\n\n\n\nNo matching items\n Back to top",
+    "crumbs": [
+      "Home",
+      "Education",
+      "Toolkit Blog"
+    ]
+  },
+  {
+    "objectID": "data/industry_data/NA_donation_sample.html",
+    "href": "data/industry_data/NA_donation_sample.html",
+    "title": "Donated Money Trends (from Gallup)",
+    "section": "",
+    "text": "Donated Money Trends (from Gallup)\n(example of data, I think this was asking people about willingness to donate, it could be interesting to visualize some of these results - though I don’t think we can publish the full datasets? just the charts? not high priority though)\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeography\nTime\nDemographic\nDemographic Value\nYes\nNo\nDK/RF\nN Size\n\n\n\n\nNorthern America\n2024\nAggregate\nAggregate\n55%\n45%\n0%\n2,024\n\n\nNorthern America\n2023\nAggregate\nAggregate\n61%\n39%\n0%\n2,009\n\n\nNorthern America\n2022\nAggregate\nAggregate\n62%\n38%\n0%\n2,017\n\n\nNorthern America\n2021\nAggregate\nAggregate\n61%\n39%\n0%\n2,013\n\n\nNorthern America\n2020\nAggregate\nAggregate\n45%\n55%\n0%\n2,013\n\n\nNorthern America\n2019\nAggregate\nAggregate\n56%\n44%\n0%\n2,057\n\n\nNorthern America\n2018\nAggregate\nAggregate\n53%\n47%\n0%\n2,013\n\n\nNorthern America\n2017\nAggregate\nAggregate\n61%\n39%\n0%\n2,018\n\n\nNorthern America\n2016\nAggregate\nAggregate\n56%\n44%\n0%\n2,048\n\n\nNorthern America\n2015\nAggregate\nAggregate\n63%\n37%\n0%\n1,281\n\n\nNorthern America\n2014\nAggregate\nAggregate\n63%\n36%\n0%\n2,048\n\n\nNorthern America\n2013\nAggregate\nAggregate\n68%\n31%\n0%\n1,092\n\n\nNorthern America\n2012\nAggregate\nAggregate\n63%\n37%\n0%\n2,076\n\n\nNorthern America\n2011\nAggregate\nAggregate\n58%\n42%\n0%\n1,274\n\n\nNorthern America\n2010\nAggregate\nAggregate\n65%\n35%\n—\n2,012\n\n\nNorthern America\n2009\nAggregate\nAggregate\n60%\n39%\n1%\n2,014\n\n\nNorthern America\n2008\nAggregate\nAggregate\n66%\n34%\n0%\n2,009\n\n\nNorthern America\n2007\nAggregate\nAggregate\n61%\n39%\n0%\n2,235\n\n\nNorthern America\n2006\nAggregate\nAggregate\n64%\n36%\n—\n1,355\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "data/industry_data/job_titles/CMAP/cleanCMAP_dataset/readme.html",
+    "href": "data/industry_data/job_titles/CMAP/cleanCMAP_dataset/readme.html",
+    "title": "Prospect Research Toolkit",
+    "section": "",
+    "text": "Used PowerQuery to attempt to filter out various fundraising specific job titles from the CMAP data (Nature paper on this dataset was published in 2025).\n\n3500+ instances of 100+ job titles in the prospect development dataset, across all sectors. Curious how close that is to an actual workforce estimate for prospect dev as a field in 2017. Almost certainly an undercount, but by how much? And how has that changed in 2025?\nGoing to add a front-line fundraiser dataset soon\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "data/industry_data/job_titles/CMAP/readme.html",
+    "href": "data/industry_data/job_titles/CMAP/readme.html",
+    "title": "Greg’s Overview",
+    "section": "",
+    "text": "I’ve attempted to subset Prospect Development and Major Gift Officer job titles from the 2025 Career Map (CMap) dataset released in July 2025 (citation below) from the CMAP readme:\n\nQuoting from the (paper)[https://www.nature.com/articles/s41597-025-05526-3#Abs1]: # Career Map Dataset (CMap)\n“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017. However, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category” This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.\n\nSo there are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche’s, something especially difficult given the variety of titles especially for Major Gift Officers.\nI have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.\nI created a smaller dataset for the MGO niche, that only includes the non-profit sector. If you sort by frequency, you’ll see familiar titles at the top. The “title_generalized” column is arguably the most helpful, because it attempts to standardize the highly variable development officer roles into several categories.\nIn my dataset filenames, I have been calling this CMAP 2017, to remind me that this is somewhat old data. But because of how comprehensive this data is, and because the methods and code are open-source, future dataset creation could follow in the same vein: the main limiting factor being the cost of purchasing public and anonymized CV data. There may be more recent public sector-specific datasets out there that could be appended to this one, or transformed to match their unique standardization system, and potentially avoid this cost.\nI have not uploaded the sector files or massive original dataset, to save on repo space, but they can be downloaded here. ## Archive Overview\nCitation: Subhani, S., Memon, S.A. & AlShebli, B. CMap: a database for mapping job titles, sector specialization, and promotions across 24 sectors. Sci Data 12, 1214 (2025). https://doi.org/10.1038/s41597-025-05526-3 The dataset is split into three downloadable archives, each serving a different purpose:"
+  },
+  {
+    "objectID": "data/industry_data/job_titles/CMAP/readme.html#job-promotions-and-titles-dataset",
+    "href": "data/industry_data/job_titles/CMAP/readme.html#job-promotions-and-titles-dataset",
+    "title": "Greg’s Overview",
+    "section": "Job Promotions and Titles Dataset",
+    "text": "Job Promotions and Titles Dataset\n\n1. dataset.zip\nContains the core dataset, structured into the following directories:\nThis repository contains structured datasets related to job promotions, title mappings, and sector specializations across various industries. The data is organized into directories based on its purpose and validation status. #### titles/ - map/: Cleaned and generalized job title mappings for each of the 24 sectors. - si/: Specialization Index (SI) scores for job titles by sector, decomposed into: - Sector Breadth (SB): Measures how widely a job title is distributed across sectors. - Sector Depth (SD): Measures how dominant a job title is within a sector."
+  },
+  {
+    "objectID": "data/industry_data/job_titles/CMAP/readme.html#directory-structure",
+    "href": "data/industry_data/job_titles/CMAP/readme.html#directory-structure",
+    "title": "Greg’s Overview",
+    "section": "Directory Structure",
+    "text": "Directory Structure\n\npromotions/\n\nvalidated/: Empirically validated job promotions across sectors in the US and UK.\nunvalidated/: Statistically inferred promotions across six regions, unvalidated manually.\nnodes/: Title-level job counts associated with promotion movements.\nedges/: Directed job transitions labeled with promotion probabilities.\n\ndataset/ │── promotions/ │ │── validated/ # Contains validated job promotion data │ │── unvalidated/ # Contains unvalidated job promotion data │── titles/ │ │── map/ # Contains mappings of job titles before and after standardization │ │── si/ # Contains specialization index (SI) scores for job titles #### network/ - Interactive HTML visualizations of sector-specific job promotion networks by country/region.\n\n\n1. promotions/\nThis directory contains job movements identified as promotions. The data is divided into: - validated/: Contains human-validated promotions for job movements across different sectors in the United States and United Kingdom. - unvalidated/: Contains statistically inferred promotions for job movements across six continents, but without manual validation. —\nEach CSV file follows the naming convention: ### 2. dataset_ext.zip Provides an extended dataset for advanced modeling and custom data cleaning applications.\n&lt;REGION&gt;_\\&lt;sector&gt;.csv #### map-raw/ - Contains a step-by-step mapping of 56.4 million titles (after processing step J2) to 126 thousand standardized titles (as in step J7 of the manuscript). - The files are split into 100 parts for scalability. - This extended mapping is ideal for: - Matching messy job titles in external datasets (e.g., LinkedIn, Glassdoor, Indeed). - Training supervised learning models for job title normalization using techniques such as: - Logistic regression - Support Vector Machines (SVM) - Transformer-based models (e.g., BERT, RoBERTa)\n\n\n2. titles/"
+  },
+  {
+    "objectID": "data/industry_data/job_titles/CMAP/readme.html#this-directory-contains-information-about-job-titles-their-frequencies-and-sector-specialization.",
+    "href": "data/industry_data/job_titles/CMAP/readme.html#this-directory-contains-information-about-job-titles-their-frequencies-and-sector-specialization.",
+    "title": "Greg’s Overview",
+    "section": "This directory contains information about job titles, their frequencies, and sector specialization.",
+    "text": "This directory contains information about job titles, their frequencies, and sector specialization.\n\nmap/: Contains mappings of job titles before and after cleaning and standardization for different sectors.\nsi/: Contains Specialization Index (SI) scores, which quantify how unique or general a job title is within a sector. ### 3. examples.zip Includes hand-picked examples used throughout the manuscript for:\nAnnotated Prolific validation tasks\nVisual illustrations of SI distributions and promotion transitions\nComparative examples between US and UK sectors"
+  },
+  {
+    "objectID": "data/industry_data/job_titles/CMAP/readme.html#dataset-highlights",
+    "href": "data/industry_data/job_titles/CMAP/readme.html#dataset-highlights",
+    "title": "Greg’s Overview",
+    "section": "Dataset Highlights",
+    "text": "Dataset Highlights\n\nSource: 227 million anonymized CVs across 197 countries (1970–2017)\nScope: 572 million job experiences, 691,000+ unique cleaned job titles\nSector Coverage: 24 industry sectors, from Health Care to Information Technology\nPromotion Records: Over 310,000 transitions labeled with promotion probabilities\nO*NET Integration: Titles are mapped to standardized O*NET SOC occupation codes\n\n\nEach CSV file in the above folders follows the naming convention: ## Suggested Applications\n&lt;sector&gt;.csv - Labor market segmentation, job taxonomy construction, promotion inequality analysis - Creation of custom job title cleaning models - Enrichment of external datasets using structured title mappings and SI scores"
+  },
+  {
+    "objectID": "data/industry_data/job_titles/CMAP/readme.html#usage",
+    "href": "data/industry_data/job_titles/CMAP/readme.html#usage",
+    "title": "Greg’s Overview",
+    "section": "Usage",
+    "text": "Usage\nThis dataset can be used for various research purposes, including: - Analyzing career progression trends across sectors and regions. - Understanding job title variations and sector specializations. - Developing machine learning models for job transition predictions. - Developng generalized models for cleaning job titles. For implementation examples and integration tips, refer to the Usage Notes section in the accompanying manuscript.\n\nLast updated: 4/22/25"
+  },
+  {
+    "objectID": "data/database/gregs_mermaid_db_experiment.html",
+    "href": "data/database/gregs_mermaid_db_experiment.html",
+    "title": "Database ERD draft",
+    "section": "",
+    "text": "Database ERD draft\n2025-12-9 Mermaid documentation for ERDs\n\n\n\n\n\n---\ntitle: Prospect Research Toolkit ERD\n---\nerDiagram\n\n%% ===TOOLS===\n  tools{\n    int id PK\n    str name\n    str type\n    int cost\n    str integrations\n    str notes\n    int company_id FK\n    numeric created_at\n  }\n  companies{}\n  university_tools{}\n  universities{}\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html",
+    "href": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html",
+    "title": "Obsidian as a Research Notebook",
+    "section": "",
+    "text": "Obsidian is a local-first note-taking and knowledge management tool. It stores all your information as plain text Markdown files on your computer. Because of this, it works well for people who want control over their data, prefer offline tools, or need flexibility in how they organize research."
+  },
+  {
+    "objectID": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html#offline-storage-and-strong-data-control",
+    "href": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html#offline-storage-and-strong-data-control",
+    "title": "Obsidian as a Research Notebook",
+    "section": "1. Offline Storage and Strong Data Control",
+    "text": "1. Offline Storage and Strong Data Control\nProspect research often involves handling sensitive donor information, internal notes, or due-diligence findings. Obsidian helps with this because:\n\nNotes are stored locally, not automatically uploaded to any external server.\nYou can work entirely offline, which reduces exposure risks.\nFiles can be placed inside encrypted drives or secure institutional storage systems.\nNothing is locked behind a proprietary format; everything remains accessible as plain text.\n\nThis provides a level of privacy and control that is often not possible in cloud-based tools like Google Docs or Notion."
+  },
+  {
+    "objectID": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html#creating-a-simple-flexible-research-database",
+    "href": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html#creating-a-simple-flexible-research-database",
+    "title": "Obsidian as a Research Notebook",
+    "section": "2. Creating a Simple, Flexible Research Database",
+    "text": "2. Creating a Simple, Flexible Research Database\nAlthough Obsidian is a note-taking tool, it can function like a lightweight database.\n\nStructured fields\nYou can add fields (frontmatter) to each prospect file, such as:\n---\nname: Jane Doe\nnet_worth_est: 40M\nsource_of_wealth: technology\nrisk_level: medium\ninterests: [arts, education]\n---\nThese fields can be queried if you use the optional Dataview plugin.\n\n\nDataview\nDataview allows you to generate tables and lists from your notes. For example:\nTABLE name, net_worth_est, risk_level\nFROM \"Prospects\"\nWHERE risk_level = \"high\"\nSORT net_worth_est DESC\nThis enables you to filter, sort, and group prospects without exporting to spreadsheets or databases.\n\n\nLinking\nObsidian automatically tracks connections between notes. Research on organizations, family members, boards, political activity, and philanthropic interests can all be linked together, creating a useful network of relationships."
+  },
+  {
+    "objectID": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html#effective-for-deep-dive-research-sessions",
+    "href": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html#effective-for-deep-dive-research-sessions",
+    "title": "Obsidian as a Research Notebook",
+    "section": "3. Effective for Deep-Dive Research Sessions",
+    "text": "3. Effective for Deep-Dive Research Sessions\nProspect research often involves reviewing multiple sources and compiling information quickly. Obsidian supports this in several ways:\n\nMultiple-pane views allow you to keep several notes or documents visible at once.\nTemplates let you create consistent research profiles.\nYou can take notes rapidly without worrying about formatting until later.\nDaily notes or session logs help track what you discovered during a particular research pass.\n\nThis leads to a smooth workflow for investigations, background checks, or donor qualification."
+  },
+  {
+    "objectID": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html#organizing-unstructured-information",
+    "href": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html#organizing-unstructured-information",
+    "title": "Obsidian as a Research Notebook",
+    "section": "4. Organizing Unstructured Information",
+    "text": "4. Organizing Unstructured Information\nProspect research frequently starts with incomplete or unstructured material. Obsidian is well-suited to gradually shaping this type of information into structured profiles. You can begin with pasted text, excerpts, or raw observations, and then refine them into:\n\nbullet points\nsummary sections\nstandardized tables\nlinks to related files\n\nObsidian does not enforce a rigid structure, so you can adapt it to your organization’s workflow rather than the other way around."
+  },
+  {
+    "objectID": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html#long-term-stability-and-no-vendor-lock-in",
+    "href": "toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html#long-term-stability-and-no-vendor-lock-in",
+    "title": "Obsidian as a Research Notebook",
+    "section": "5. Long-Term Stability and No Vendor Lock-In",
+    "text": "5. Long-Term Stability and No Vendor Lock-In\nBecause Obsidian uses plain-text files:\n\nThe information is easy to archive.\nIt will be readable in the future without relying on a specific app.\nFiles can be migrated, searched, or processed with other tools.\nThere is no concern about losing access if a service changes pricing, policies, or availability.\n\nFor teams that maintain prospect information for years, this long-term stability is an advantage."
+  },
+  {
     "objectID": "toolkit_tutorials/CodeBlockTesting/index.html",
     "href": "toolkit_tutorials/CodeBlockTesting/index.html",
     "title": "Analysis of Cars - an example from quarto",
@@ -328,24 +582,134 @@
     "text": "Sub-Header\nHere is a plot:\n\nlibrary(tidyverse)\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
   },
   {
-    "objectID": "tools/free_tools/free_external/index.html",
-    "href": "tools/free_tools/free_external/index.html",
-    "title": "Free External Resources",
+    "objectID": "resources/education/fundraising_flashcards/fundraising_learning.html",
+    "href": "resources/education/fundraising_flashcards/fundraising_learning.html",
+    "title": "Prospect Research Toolkit",
     "section": "",
-    "text": "The Prospect Research Institute has free resources available, but some of them are out of date, since their focus is currently on creating paid training with clients. See some research specific pages here: Prospect Research.\n\n\n\n\n\n Back to top"
+    "text": "Working to make quizzes, flashcards, and discussion questions that can used for prospect development conferences.\nIn the future, may also have a “Portfolio building game” where you play as a prospect manager, researcher, or fundraiser - a simple RPG that uses the artificial donor dataset (still needs to be built) as the backend. Instead of being a simple quiz, you essentially solve problems via your character, you can upgrade your prospect development shop, but the bigger the institution the more obstacles show up and the more challenging it gets. It’s highly simplified, so it is useable in conferences (e.g. take 10 minutes to play as a team).\nFor now, I’m building all the pieces, like the actual knowledge base and obstacles that will eventually be incorporated by the RPG.\n\n\n\n Back to top"
   },
   {
-    "objectID": "tools.html#free-tools",
-    "href": "tools.html#free-tools",
-    "title": "Tools",
-    "section": "Free tools",
-    "text": "Free tools"
+    "objectID": "templates.html",
+    "href": "templates.html",
+    "title": "Templates",
+    "section": "",
+    "text": "Excel templates\n\n\nother templates (?)\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "Tools",
+      "Templates"
+    ]
   },
   {
-    "objectID": "tools.html#paid-tools",
-    "href": "tools.html#paid-tools",
-    "title": "Tools",
-    "section": "Paid tools",
-    "text": "Paid tools"
+    "objectID": "toolkit_blog/LibraryDatabases/index.html",
+    "href": "toolkit_blog/LibraryDatabases/index.html",
+    "title": "Library Databases for University Advancement Staffers",
+    "section": "",
+    "text": "outlined by copilot, needs to be rewritten"
+  },
+  {
+    "objectID": "toolkit_blog/LibraryDatabases/index.html#potential-use-cases",
+    "href": "toolkit_blog/LibraryDatabases/index.html#potential-use-cases",
+    "title": "Library Databases for University Advancement Staffers",
+    "section": "Potential Use Cases",
+    "text": "Potential Use Cases\nIdentifying potential tools is fairly easy. The real challenge lies in defining use cases and determining how to export and correlate information from different systems. This process also helps us understand our data sources better. For example, many platforms—such as iWave, Factiva, and others—rely on Dun & Bradstreet data when compiling reports. Factiva even publishes a monthly update listing new sources, with a total of 30,000+ sources available."
+  },
+  {
+    "objectID": "toolkit_blog/LibraryDatabases/index.html#verification-and-spot-checks",
+    "href": "toolkit_blog/LibraryDatabases/index.html#verification-and-spot-checks",
+    "title": "Library Databases for University Advancement Staffers",
+    "section": "Verification and “Spot Checks”",
+    "text": "Verification and “Spot Checks”\nA detailed list of tools gives us more confidence when verifying research. The reliability of any piece of information increases when it appears across multiple sources (e.g., two independent news articles confirming a job title). These tools can be great for spot checks when confirming details."
+  },
+  {
+    "objectID": "toolkit_blog/LibraryDatabases/index.html#addressing-the-black-box-problem",
+    "href": "toolkit_blog/LibraryDatabases/index.html#addressing-the-black-box-problem",
+    "title": "Library Databases for University Advancement Staffers",
+    "section": "Addressing the “Black Box” Problem",
+    "text": "Addressing the “Black Box” Problem\nMost platforms aggregate data from large brokerages, but each has its own way of processing and presenting that information. For example, iWave uses proprietary techniques to build profiles. While these methods likely follow standard data science practices, the exact process is often unclear—this is known as the “black box” problem.\nWe can reduce this uncertainty by:\n\nIdentifying as many sources as possible.\nUnderstanding the data brokers behind those sources.\nDrawing conclusions about how platforms transform raw data.\n\nThis knowledge adds confidence to the reports we share internally and helps us explain where information originates—even if some steps remain opaque."
+  },
+  {
+    "objectID": "toolkit_blog/LibraryDatabases/index.html#original-research",
+    "href": "toolkit_blog/LibraryDatabases/index.html#original-research",
+    "title": "Library Databases for University Advancement Staffers",
+    "section": "Original Research",
+    "text": "Original Research\nSome tools specialize in niche areas. For example, Pitchbook focuses on venture capital and startup funding rounds. This project may reveal which tools are best suited for specific research problems."
+  },
+  {
+    "objectID": "toolkit_blog/LibraryDatabases/index.html#multi-channel-search",
+    "href": "toolkit_blog/LibraryDatabases/index.html#multi-channel-search",
+    "title": "Library Databases for University Advancement Staffers",
+    "section": "Multi-Channel Search",
+    "text": "Multi-Channel Search\nComparing results across multiple sources is a common practice for prospect researchers. Doing this manually across 20+ tools can be time-consuming. In OSINT (open-source intelligence), developers have created tools that search hundreds of sources simultaneously and categorize results. However, most OSINT tools aren’t ethical for prospect research because they rely on breach data or are designed for law enforcement.\nOur use case is different, so we’d need to build our own multi-channel search solution or support existing efforts like the Prospect Research Toolkit. Possible approaches include:\n\nPower Automate Desktop: Create a flow that prompts for a search term and runs searches across selected channels (e.g., Privco, Mergent Online).\nPower Query Integration: Automate data export and correlation for comprehensive reports. For example, if we have a list of names for an event, automation could pull data from multiple databases and compile it into a spreadsheet with columns for each source.\n\nCompanies like Xapien already do advanced versions of this using custom algorithms and web scraping to verify information."
+  },
+  {
+    "objectID": "toolkit_blog/LibraryDatabases/index.html#next-steps",
+    "href": "toolkit_blog/LibraryDatabases/index.html#next-steps",
+    "title": "Library Databases for University Advancement Staffers",
+    "section": "Next Steps",
+    "text": "Next Steps\nWe’re building a spreadsheet with links and feature comparisons for all tools under review. This will serve as a reference for choosing the right tool for the right research problem."
+  },
+  {
+    "objectID": "toolkit_blog/Creating_Jobs_Dataset/index.html",
+    "href": "toolkit_blog/Creating_Jobs_Dataset/index.html",
+    "title": "Creating the Fundraising Jobs Dataset (round 1)",
+    "section": "",
+    "text": "Perhaps this has already been done - but I’ve been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I’ll list below. I have a very small private dataset of recent job titles / descriptions, but the most comprehensive info exists within a recently published public dataset called CMAP.\n\n\n\n\n\n\nTotal Records: 430\nUnique Job Titles: 113\nUnique Sectors: 22\n\n\n\n\n\n\n\n\n```\n\n\n\n…\n\n\n\n\n\n\n\n\n\nI’ve attempted to subset Prospect Development and Major Gift Officer job titles from the 2025 Career Map (CMap) dataset released in July 2025 (citation below) from the CMAP readme.\nQuoting from the paper:\n“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017.\nHowever, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.”\nTangent: You’ll notice that “Prospect Researcher” is the most common job title, by far, for that niche, and ends up becoming their standardized term for that role at a junior level. However, as soon as you add the word “analyst” to the title (e.g. Senior Prospect Research Analyst), that word becomes the standard - so Senior Prospect Research Analysts become standardized into Senior Analysts. This was useful for their analysis, but to properly understand how many “Prospect Researchers” there are - those aggregates will have to be recalculated using a more ecclectic definition. However, given the massive overlap between these niche Prospect Dev roles, perhaps the best aggregate is actually “Prospect Development Professional” to get more accurate totals from the dataset.\n\n\n\n\nThere are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche’s, something especially difficult given the variety of titles especially for Major Gift Officers.\nI have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.\nI created a smaller dataset for the MGO niche, that only includes the non-profit sector. If you sort by frequency, you’ll see familiar titles at the top. The “title_generalized” column is arguably the most helpful, because it attempts to standardize the highly variable development officer roles into several categories.\nIn my dataset filenames, I have been calling this CMAP 2017, to remind me that this is somewhat old data. But because of how comprehensive this data is, and because the methods and code are open-source, future dataset creation could follow in the same vein: the main limiting factor being the cost of purchasing public and anonymized CV data. There may be more recent public sector-specific datasets out there that could be appended to this one, or transformed to match their unique standardization system, and potentially avoid this cost.\nI have not uploaded the sector files or massive original dataset, to save on repo space, but they can be downloaded here.\n\n\n\n\nDirect links, if you want to download my filtered data from GitHub as .csv: - Prospect Development job titles - Major Gift Officer nonprofit sector titles - Major Gift Officer all sector titles - full of irrelevant titles right now, until I filter it better\n\n\n\n\nCitation: Subhani, S., Memon, S.A. & AlShebli, B. CMap: a database for mapping job titles, sector specialization, and promotions across 24 sectors. Sci Data 12, 1214 (2025). https://doi.org/10.1038/s41597-025-05526-3"
+  },
+  {
+    "objectID": "toolkit_blog/Creating_Jobs_Dataset/index.html#cmap-prospect-research-subset",
+    "href": "toolkit_blog/Creating_Jobs_Dataset/index.html#cmap-prospect-research-subset",
+    "title": "Creating the Fundraising Jobs Dataset (round 1)",
+    "section": "",
+    "text": "Total Records: 430\nUnique Job Titles: 113\nUnique Sectors: 22\n\n\n\n\n\n\n\n\n```\n\n\n\n…"
+  },
+  {
+    "objectID": "toolkit_blog/Creating_Jobs_Dataset/index.html#cmap-2017",
+    "href": "toolkit_blog/Creating_Jobs_Dataset/index.html#cmap-2017",
+    "title": "Creating the Fundraising Jobs Dataset (round 1)",
+    "section": "",
+    "text": "I’ve attempted to subset Prospect Development and Major Gift Officer job titles from the 2025 Career Map (CMap) dataset released in July 2025 (citation below) from the CMAP readme.\nQuoting from the paper:\n“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017.\nHowever, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.”\nTangent: You’ll notice that “Prospect Researcher” is the most common job title, by far, for that niche, and ends up becoming their standardized term for that role at a junior level. However, as soon as you add the word “analyst” to the title (e.g. Senior Prospect Research Analyst), that word becomes the standard - so Senior Prospect Research Analysts become standardized into Senior Analysts. This was useful for their analysis, but to properly understand how many “Prospect Researchers” there are - those aggregates will have to be recalculated using a more ecclectic definition. However, given the massive overlap between these niche Prospect Dev roles, perhaps the best aggregate is actually “Prospect Development Professional” to get more accurate totals from the dataset.\n\n\n\n\nThere are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche’s, something especially difficult given the variety of titles especially for Major Gift Officers.\nI have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.\nI created a smaller dataset for the MGO niche, that only includes the non-profit sector. If you sort by frequency, you’ll see familiar titles at the top. The “title_generalized” column is arguably the most helpful, because it attempts to standardize the highly variable development officer roles into several categories.\nIn my dataset filenames, I have been calling this CMAP 2017, to remind me that this is somewhat old data. But because of how comprehensive this data is, and because the methods and code are open-source, future dataset creation could follow in the same vein: the main limiting factor being the cost of purchasing public and anonymized CV data. There may be more recent public sector-specific datasets out there that could be appended to this one, or transformed to match their unique standardization system, and potentially avoid this cost.\nI have not uploaded the sector files or massive original dataset, to save on repo space, but they can be downloaded here.\n\n\n\n\nDirect links, if you want to download my filtered data from GitHub as .csv: - Prospect Development job titles - Major Gift Officer nonprofit sector titles - Major Gift Officer all sector titles - full of irrelevant titles right now, until I filter it better\n\n\n\n\nCitation: Subhani, S., Memon, S.A. & AlShebli, B. CMap: a database for mapping job titles, sector specialization, and promotions across 24 sectors. Sci Data 12, 1214 (2025). https://doi.org/10.1038/s41597-025-05526-3"
+  },
+  {
+    "objectID": "toolkit_blog/first_blog/index.html",
+    "href": "toolkit_blog/first_blog/index.html",
+    "title": "Quarto Resources",
+    "section": "",
+    "text": "I wanted to explore a few issues of data privacy as they affect your average prospect development, management, or research professional.\nThis toolkit, at least in the alpha stages, will be focused on tools that are available / compliant in the USA, simply because that’s where I am based. Some resources mentioned here may not be available internationally, or may be subject to stricter privacy laws.\nProspect researchers take ethics very seriously, and some of the tools or methods that are available in America - or some of the more experimental proactive research I prototype in this toolkit - may not be appropriate for every organization.\nThese days, donor trust on an institutional level can be hard to gain and easy to lose. We exist in a difficult data privacy environment, where many competing interests are involved. I once had a job where leadership jokingly started referring to us prospect research and dev folks as “stalkers”, including, to my horror, in the presence of donors that happened to be touring the building.\nI had to eventually step up in a meeting and attempt to explain that it was really a short-sighted way of getting a laugh, considering the damage it could cause to morale and with donor relations. Being a lowly analyst, I tried to be diplomatic - and hopefully succeeded. But the incident stands out in my mind as a good example of the natural tension that exists in prospect research: we need to be experts on donors, which means having an expert handle on donor data. We must use our expertise that complies with institutional bylaws, legal requirements, and the standards spelled out by our professional organizations.\nEven when we are doing our best, however, those efforts may be perceived as invasive or inappropriate. It’s easy to reframe the conversation with ourselves, of course, because we believe in the mission of our organization. Philanthropy benefits many stakeholders, but we also exist in a competitive funding environment, which means we have to chase down leads to a certain extent - before passing them on to front-line fundraisers.\nStill, there is a natural tension in our jobs - and one that merits discussion every year, as technology and laws change.\n\n\nIn May 2025, LexisNexis had a data breach that originated from an attacker accessing their Github account. Data breaches are unfortunately common, but they are also a smaller issue compared to the larger questions they tend to evoke: what info IS ethical to gather about individuals? Just because something is available, does not mean that it is ethical to use… of course, there is an interesting wrinkle to the digital ecosystem in which prospect researchers attempt to apply ethics: data brokers are not just vulnerable to breaches, they actively purchase or scrape breach data themselves.\nBreach data is sometimes considered “public”, but that definition is used loosely by companies, similar to how AI companies have scraped both copywrighted works and public items on the internet - through a variety of means - with the argument that their final product is transformative enough to dodge legal challenges.\nOne fascinating aspect of the fundraising industry is the fact that many of us tend to use tools (like LexisNexis) that live somewhat in the heart of an unfolding controversy - an ongoing worldwide conversation that can get quite heated. Don’t get me wrong, I love using LexisNexis, but it’s important to understand the technology we use, and to vet how data is curated. Ultimately, we don’t have much power as analysts to impact these discussions, but it can help us gain fidelity in our understanding of the waters in which we swim - and when there is less mystery, even if we don’t always like what we find, I think it can give a measure of confidence when making decisions.\nThere are countless round tables and think pieces and meetings about compliance, of course, that dig deeper into these issues - but I think it’s important to point out the tensions or stressors that exist in a job.\n\n\n\nIt’s hard to be a circumspect prospect researcher and abide by the ethos of “data minimalism” - the minimum viable amount of data to complete a research project on a prospective donor - when we swim in an ocean of tools and companies that rely on data maximalism as their core business model.\n\n\n\nFor prospect researchers, they may feel conflicted about using AI tools or platforms that collate information from data brokers with black box methods that are subject to legal scrutiny (e.g. data privacy laws in California, or Europe).\nResearch is not always a cold, logical, straightforward deal. I mean, when I first started as a prospect development analyst…I would find that reading too many obituaries in one day would make me feel kinda rough, especially if they were for individuals near my own age.\nWhat we research, and how we research, can have downstream effects on our moods– positive or negative. Curiosity, for example, is an example of a positive trait that I think can accompany positive moods while researching - research can be quite fun! Alternatively, getting bogged down in a research rabbit hole without finding the answer to your key research question…while competing deadlines threaten to derail the session…not fun.\nSome folks are better at managing the “research posture”, the way one mentally approaches the job, and I think it’s one of the key skills that blends both hard and soft skills.\nWhat does this have to do with data privacy? Well, being compliant and training in ethics affects our research posture and how we react to different tools, use-cases, requests, or situations.\nIn some cases, you may be put in a position where you are requested to find information about a donor that crosses a line - a request that often happens by accident - and it’s important to understand your job well enough to educate others, even your supervisors sometimes, about the lines in the sand."
+  },
+  {
+    "objectID": "toolkit_blog/first_blog/index.html#data-breaches",
+    "href": "toolkit_blog/first_blog/index.html#data-breaches",
+    "title": "Quarto Resources",
+    "section": "",
+    "text": "In May 2025, LexisNexis had a data breach that originated from an attacker accessing their Github account. Data breaches are unfortunately common, but they are also a smaller issue compared to the larger questions they tend to evoke: what info IS ethical to gather about individuals? Just because something is available, does not mean that it is ethical to use… of course, there is an interesting wrinkle to the digital ecosystem in which prospect researchers attempt to apply ethics: data brokers are not just vulnerable to breaches, they actively purchase or scrape breach data themselves.\nBreach data is sometimes considered “public”, but that definition is used loosely by companies, similar to how AI companies have scraped both copywrighted works and public items on the internet - through a variety of means - with the argument that their final product is transformative enough to dodge legal challenges.\nOne fascinating aspect of the fundraising industry is the fact that many of us tend to use tools (like LexisNexis) that live somewhat in the heart of an unfolding controversy - an ongoing worldwide conversation that can get quite heated. Don’t get me wrong, I love using LexisNexis, but it’s important to understand the technology we use, and to vet how data is curated. Ultimately, we don’t have much power as analysts to impact these discussions, but it can help us gain fidelity in our understanding of the waters in which we swim - and when there is less mystery, even if we don’t always like what we find, I think it can give a measure of confidence when making decisions.\nThere are countless round tables and think pieces and meetings about compliance, of course, that dig deeper into these issues - but I think it’s important to point out the tensions or stressors that exist in a job."
+  },
+  {
+    "objectID": "toolkit_blog/first_blog/index.html#data-minimalism-vs.-data-maximalism",
+    "href": "toolkit_blog/first_blog/index.html#data-minimalism-vs.-data-maximalism",
+    "title": "Quarto Resources",
+    "section": "",
+    "text": "It’s hard to be a circumspect prospect researcher and abide by the ethos of “data minimalism” - the minimum viable amount of data to complete a research project on a prospective donor - when we swim in an ocean of tools and companies that rely on data maximalism as their core business model."
+  },
+  {
+    "objectID": "toolkit_blog/first_blog/index.html#research-and-emotions",
+    "href": "toolkit_blog/first_blog/index.html#research-and-emotions",
+    "title": "Quarto Resources",
+    "section": "",
+    "text": "For prospect researchers, they may feel conflicted about using AI tools or platforms that collate information from data brokers with black box methods that are subject to legal scrutiny (e.g. data privacy laws in California, or Europe).\nResearch is not always a cold, logical, straightforward deal. I mean, when I first started as a prospect development analyst…I would find that reading too many obituaries in one day would make me feel kinda rough, especially if they were for individuals near my own age.\nWhat we research, and how we research, can have downstream effects on our moods– positive or negative. Curiosity, for example, is an example of a positive trait that I think can accompany positive moods while researching - research can be quite fun! Alternatively, getting bogged down in a research rabbit hole without finding the answer to your key research question…while competing deadlines threaten to derail the session…not fun.\nSome folks are better at managing the “research posture”, the way one mentally approaches the job, and I think it’s one of the key skills that blends both hard and soft skills.\nWhat does this have to do with data privacy? Well, being compliant and training in ethics affects our research posture and how we react to different tools, use-cases, requests, or situations.\nIn some cases, you may be put in a position where you are requested to find information about a donor that crosses a line - a request that often happens by accident - and it’s important to understand your job well enough to educate others, even your supervisors sometimes, about the lines in the sand."
+  },
+  {
+    "objectID": "toolkit_blog/HelpfulTechDocumentation/index.html",
+    "href": "toolkit_blog/HelpfulTechDocumentation/index.html",
+    "title": "Helpful Technical Documentation",
+    "section": "",
+    "text": "This list is mostly for Greg as he maintains this website."
+  },
+  {
+    "objectID": "toolkit_blog/HelpfulTechDocumentation/index.html#vs-code",
+    "href": "toolkit_blog/HelpfulTechDocumentation/index.html#vs-code",
+    "title": "Helpful Technical Documentation",
+    "section": "VS-Code",
+    "text": "VS-Code\n\nMarkdown All-in-One commands"
   }
 ]
