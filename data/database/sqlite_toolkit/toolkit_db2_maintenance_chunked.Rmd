@@ -1,0 +1,57 @@
+---
+title: "toolkitdb2_maintenance_chunks"
+output: html_document
+date: "2026-01-21"
+---
+
+```{r packages}
+# packages
+library(DBI)
+
+setwd("/cloud/project/data/database/sqlite_toolkit") # set working directory to sqlite database folder and scripts
+```
+
+```{r csv imports}
+tools_csv <- read.csv("csv_data_import/tools.csv")
+companies_csv <- read.csv("csv_data_import/companies.csv")
+features_csv <- read.csv("csv_data_import/features.csv")
+research_datapoints_csv <- read.csv("csv_data_import/research_datapoints.csv")
+research_methods_csv <- read.csv("csv_data_import/research_methods.csv")
+research_obstacles_csv <- read.csv("csv_data_import/research_obstacles.csv")
+research_usecases_csv <- read.csv("csv_data_import/research_usecases.csv")
+universities_csv <- read.csv("csv_data_import/universities.csv")
+university_tools_csv <- read.csv("csv_data_import/university_tools.csv")
+
+```
+
+```{r data cleaning}
+names(tools_csv)[1] <- "tool_id"
+names(companies_csv) <- c("company_id", "company_name", "company_type", "company_website", "company_extracolumn")
+
+
+```
+
+```{r SQLite db connect}
+# connect to database (will create a new .db file if path doesn't exist)
+toolkit_db2 <- dbConnect(RSQLite::SQLite(), "toolkit_db2.db")
+```
+
+```{r initial tables}
+# sqlite notes: not null needs to be specified explicitly for primary keys
+dbExecute(toolkit_db2, "CREATE TABLE companies (
+          company_id INTEGER NOT NULL PRIMARY KEY,
+          company_name TEXT,
+          company_website TEXT
+          );")
+
+```
+
+```{r test queries}
+dbGetQuery(toolkit_db2, "SELECT * FROM companies LIMIT 10;") # empty right now
+
+```
+
+```{r SQLite db disconnect}
+dbDisconnect()
+
+```
