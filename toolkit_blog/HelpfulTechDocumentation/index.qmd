@@ -7,8 +7,9 @@ date: 10-4-2025
 This list is mostly for Greg as he maintains this website.
 
 ---
-## Database
+## Database Architecture
 - [RSQLite](https://ecorepsci.github.io/reproducible-science/rsqlite.html#a-note-on-reproducibility)
+- [SQLite mobile editing](https://sqliteonline.com/)
 
 ## VS-Code
 

@@ -27,6 +27,8 @@ university_tools_csv <- read.csv("csv_data_import/university_tools.csv")
 ```{r data cleaning}
 names(tools_csv)[1] <- "tool_id"
 names(companies_csv) <- c("company_id", "company_name", "company_type", "company_website", "company_extracolumn")
+names(research_datapoints_csv) <- c("datapoint_id", "datapoint_name", "datapoint_category", "datapoint_comparison_temp", "datapoint_blank_temp")
+names(research_methods_csv) <- c("research_method_id", "research_method_name", "method_category", "method_description", "related_use_cases")
 
 
 ```
@@ -38,11 +40,30 @@ toolkit_db2 <- dbConnect(RSQLite::SQLite(), "toolkit_db2.db")
 
 ```{r initial tables}
 # sqlite notes: not null needs to be specified explicitly for primary keys
+
+# companies table
 dbExecute(toolkit_db2, "CREATE TABLE companies (
           company_id INTEGER NOT NULL PRIMARY KEY,
           company_name TEXT,
-          company_website TEXT
+          company_type TEXT,
+          company_website TEXT,
+          company_extracolumn TEXT
           );")
+
+# tools table
+
+# research datapoints table
+
+# research methods table
+
+# research obstacles table
+
+# add the rest
+
+```
+```{r initial write}
+dbWriteTable(toolkit_db2, "companies_csv", company, append = TRUE)
+
 
 ```
 
