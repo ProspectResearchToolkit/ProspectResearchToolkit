@@ -1,8 +1,10 @@
 ---
-title: "Tool Inventory"
+title: "Inventory Manifest"
 listing:
   contents: inventory_items
   type: grid
   categories: true
+  table-hover: true
+  
 ---
 

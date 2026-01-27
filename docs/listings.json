@@ -29,5 +29,12 @@
       "/tool_inventory/inventory_items/NexisUni.html",
       "/tool_inventory/inventory_items/ProQuest.html"
     ]
+  },
+  {
+    "listing": "/tool_inventory/inventory_manifest.html",
+    "items": [
+      "/tool_inventory/inventory_items/NexisUni.html",
+      "/tool_inventory/inventory_items/ProQuest.html"
+    ]
   }
 ]

@@ -334,11 +334,7 @@
     "href": "blog.html",
     "title": "Toolkit Blog",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTool & Company Incidents\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLibrary Databases for University Advancement Staffers\n\n\n\n\n\n\nGreg Brooks\n\n\nJan 30, 2026\n\n\n\n\n\n\n\n\n\n\n\nTool Reviews\n\n\n\n\n\n\nGreg Brooks\n\n\nJan 30, 2026\n\n\n\n\n\n\n\n\n\n\n\nInternal Data Contracts\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 14, 2025\n\n\n\n\n\n\n\n\n\n\n\nCreating the Fundraising Jobs Dataset (round 1)\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 13, 2025\n\n\n\n\n\n\n\n\n\n\n\nunfinished PRSPCT-L Roundup\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 4, 2025\n\n\n\n\n\n\n\n\n\n\n\nHelpful Technical Documentation\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 4, 2025\n\n\n\n\n\n\n\n\n\n\n\nTechnical Field Guide\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items\n Back to top",
-    "crumbs": [
-      "Home",
-      "Toolkit Blog"
-    ]
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTool & Company Incidents\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLibrary Databases for University Advancement Staffers\n\n\n\n\n\n\nGreg Brooks\n\n\nJan 30, 2026\n\n\n\n\n\n\n\n\n\n\n\nInternal Data Contracts\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 14, 2025\n\n\n\n\n\n\n\n\n\n\n\nCreating the Fundraising Jobs Dataset (round 1)\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 13, 2025\n\n\n\n\n\n\n\n\n\n\n\nunfinished PRSPCT-L Roundup\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 4, 2025\n\n\n\n\n\n\n\n\n\n\n\nHelpful Technical Documentation\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 4, 2025\n\n\n\n\n\n\n\n\n\n\n\nTechnical Field Guide\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "about.html",
@@ -922,7 +918,7 @@
     "href": "tool_inventory/tool_inventory.html",
     "title": "Tool Inventory",
     "section": "",
-    "text": "NexisUni\n\n\n\nnews-database\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProQuest\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n Back to top",
+    "text": "Nexis Uni\n\n\n\nnews-database\n\n\n\nNexis Uni is an affiliate database to LexisNexis. 15,000+ news and business sources.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProQuest\n\n\n\nnews-article-database\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n Back to top",
     "crumbs": [
       "Home",
       "Maps",
@@ -985,15 +981,15 @@
   {
     "objectID": "tool_inventory/inventory_items/NexisUni.html",
     "href": "tool_inventory/inventory_items/NexisUni.html",
-    "title": "NexisUni",
+    "title": "Nexis Uni",
     "section": "",
-    "text": "Back to top",
+    "text": "“”\n\n\n Back to top",
     "crumbs": [
       "Home",
       "Maps",
       "Tool Inventory",
       "Inventory Items",
-      "NexisUni"
+      "Nexis Uni"
     ]
   },
   {
@@ -1047,6 +1043,33 @@
       "Maps",
       "Tool Inventory",
       "Tool Reviews"
+    ]
+  },
+  {
+    "objectID": "website_build_templates/yaml_header_templates.html",
+    "href": "website_build_templates/yaml_header_templates.html",
+    "title": "Prospect Research Toolkit",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "website_build_templates/article_content_templates.html",
+    "href": "website_build_templates/article_content_templates.html",
+    "title": "article_content_templates",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "tool_inventory/inventory_manifest.html",
+    "href": "tool_inventory/inventory_manifest.html",
+    "title": "Inventory Manifest",
+    "section": "",
+    "text": "Nexis Uni\n\n\n\nnews-database\n\n\n\nNexis Uni is an affiliate database to LexisNexis. 15,000+ news and business sources.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProQuest\n\n\n\nnews-article-database\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n Back to top",
+    "crumbs": [
+      "Home",
+      "Maps",
+      "Tool Inventory",
+      "Inventory Manifest"
     ]
   }
 ]

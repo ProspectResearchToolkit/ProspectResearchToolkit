@@ -7,3 +7,4 @@
 *.db
 
 yaml_header_templates.qmd
+article_content_templates.qmd

@@ -1,5 +1,8 @@
 ---
 title: "ProQuest"
 format: html
+image: "https://static.wixstatic.com/media/e3113b_3433a1b76b6542cf956cecc1141f7749~mv2.png/v1/fill/w_560,h_354,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/wiley.png"
+description: ""
+categories: [news-article-database]
 ---
 
