@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Greg Brooks">
+<meta name="dcterms.date" content="2025-10-13">
 
-<title>article_content_templates – Prospect Research Toolkit</title>
+<title>Creating the Fundraising Jobs Dataset (round 1) – Prospect Research Toolkit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bb13281d9316958a9d6a631a999bd265.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-bb13281d9316958a9d6a631a999bd265.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,21 +70,34 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../site_libs/plotly-binding-4.11.0/plotly.js"></script>
+<script src="../../site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="../../site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="../../site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+<link href="../../site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="../../site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="article_content_templates – Prospect Research Toolkit">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Creating the Fundraising Jobs Dataset (round 1) – Prospect Research Toolkit">
+<meta property="og:description" content="A prospect research resource library created by Greg Brooks and Apra Utah">
+<meta property="og:image" content="https://prospectresearchtoolkit.github.io/ProspectResearchToolkit/field_notes/Creating_Jobs_Dataset/pr_jobtitles_over10.png">
 <meta property="og:site_name" content="Prospect Research Toolkit">
+<meta property="og:image:height" content="960">
+<meta property="og:image:width" content="1536">
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Prospect Research Toolkit</span>
     </a>
   </div>
@@ -93,12 +108,28 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../field_notes.html"> 
+<span class="menu-text">Field Notes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../inventory_manifest.html"> 
+<span class="menu-text">Inventory</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../inventory_table_version.html"> 
+<span class="menu-text">A-Z List</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../toolkit_dashboard1.html"> 
+<span class="menu-text">Software Dashboard</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -106,16 +137,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">article_content_templates</li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
   <div id="quarto-announcement" data-announcement-id="444c0cddf6e2c1d7a8c14e5032edf909" class="alert alert-info hidden"><i class="bi bi-info-square-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
 <p><strong>Welcome!</strong> - this website is a work in progress, and some pages/features may be empty, unfinished, or broken. Thank you for your patience!</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
@@ -123,93 +144,54 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Maps</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">Tool Inventory</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tool_inventory/inventory_manifest.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Inventory Manifest</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tool_inventory/tool_feature_matrix.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tool Feature Matrix</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tool_inventory/tool_reviews_old.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tool Reviews</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
- <span class="menu-text">Inventory Items</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth3 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tool_inventory/inventory_items/NexisUni.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Nexis Uni</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tool_inventory/inventory_items/ProQuest.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ProQuest</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#cmap-prospect-research-subset" id="toc-cmap-prospect-research-subset" class="nav-link" data-scroll-target="#cmap-prospect-research-subset">CMAP Prospect Research Subset</a>
+  <ul class="collapse">
+  <li><a href="#general-statistics" id="toc-general-statistics" class="nav-link" data-scroll-target="#general-statistics">General Statistics</a></li>
+  </ul></li>
+  <li><a href="#cmap-2017" id="toc-cmap-2017" class="nav-link" data-scroll-target="#cmap-2017">CMAP 2017</a>
+  <ul class="collapse">
+  <li><a href="#explainer" id="toc-explainer" class="nav-link" data-scroll-target="#explainer">Explainer</a></li>
+  <li><a href="#drawbacks-to-my-analysis-so-far" id="toc-drawbacks-to-my-analysis-so-far" class="nav-link" data-scroll-target="#drawbacks-to-my-analysis-so-far">Drawbacks to my analysis so far</a></li>
+  <li><a href="#further-resources" id="toc-further-resources" class="nav-link" data-scroll-target="#further-resources">Further resources</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">article_content_templates</h1>
+<h1 class="title">Creating the Fundraising Jobs Dataset (round 1)</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Greg Brooks </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 13, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -219,8 +201,70 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Perhaps this has already been done - but I’ve been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I’ll list below. I have a very small private dataset of recent job titles / descriptions, but the most comprehensive info exists within a recently published public dataset called CMAP.</p>
+<hr>
+<section id="cmap-prospect-research-subset" class="level2">
+<h2 class="anchored" data-anchor-id="cmap-prospect-research-subset">CMAP Prospect Research Subset</h2>
+<section id="general-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="general-statistics">General Statistics</h3>
+<ul>
+<li><strong>Total Records</strong>: <code>430</code></li>
+<li><strong>Unique Job Titles</strong>: <code>113</code></li>
+<li><strong>Unique Sectors</strong>: <code>22</code></li>
+</ul>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-25c0008f9923c4beed9c" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-25c0008f9923c4beed9c">{"x":{"visdat":{"10241dbe5bef":["function () ","plotlyVisDat"]},"cur_data":"10241dbe5bef","attrs":{"10241dbe5bef":{"labels":{},"values":{},"textinfo":"label+value","insidetextorientation":"radial","hole":0.40000000000000002,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"pie"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Distribution of Job Titles per Sector","showlegend":true,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"labels":["Non-Profit","Education","Business Services","Information Technology","Health Care","Arts, Entertainment & Recreation","Finance","Media","Government","Accounting & Legal","Oil, Gas, Energy & Utilities","Retail","Real Estate","Manufacturing","Insurance","Transportation & Logistics","Travel & Tourism","Biotech & Pharmaceuticals","Consumer Services","Construction, Repair & Maintenance","Telecommunications","Aerospace & Defense"],"values":[113,58,52,32,31,23,18,17,15,15,10,8,7,7,7,4,4,3,2,2,1,1],"textinfo":"label+value","insidetextorientation":"radial","hole":0.40000000000000002,"type":"pie","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(255,255,255,1)"}},"frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>```</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./pr_jobtitles_over10.png" class="img-fluid figure-img"></p>
+<figcaption>…</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+</section>
+<section id="cmap-2017" class="level2">
+<h2 class="anchored" data-anchor-id="cmap-2017">CMAP 2017</h2>
+<section id="explainer" class="level3">
+<h3 class="anchored" data-anchor-id="explainer">Explainer</h3>
+<p>I’ve attempted to subset Prospect Development and Major Gift Officer job titles from the 2025 Career Map (CMap) dataset released in July 2025 (citation below) from the CMAP readme.</p>
+<p>Quoting from the <a href="https://www.nature.com/articles/s41597-025-05526-3#Abs1">paper</a>:</p>
+<p>“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017.</p>
+<p>However, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.”</p>
+<p><em>Tangent:</em> You’ll notice that “Prospect Researcher” is the most common job title, by far, for that niche, and ends up becoming their standardized term for that role at a junior level. However, as soon as you add the word “analyst” to the title (e.g.&nbsp;Senior Prospect Research Analyst), that word becomes the standard - so Senior Prospect Research Analysts become standardized into Senior Analysts. This was useful for their analysis, but to properly understand how many “Prospect Researchers” there are - those aggregates will have to be recalculated using a more ecclectic definition. However, given the massive overlap between these niche Prospect Dev roles, perhaps the best aggregate is actually “Prospect Development Professional” to get more accurate totals from the dataset.</p>
+</section>
+<section id="drawbacks-to-my-analysis-so-far" class="level3">
+<h3 class="anchored" data-anchor-id="drawbacks-to-my-analysis-so-far">Drawbacks to my analysis so far</h3>
+<ul>
+<li>There are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche’s, something especially difficult given the variety of titles especially for Major Gift Officers.</li>
+<li>I have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.</li>
+<li>I created a smaller dataset for the MGO niche, that only includes the non-profit sector. If you sort by frequency, you’ll see familiar titles at the top. The “title_generalized” column is arguably the most helpful, because it attempts to standardize the highly variable development officer roles into several categories.</li>
+<li>In my dataset filenames, I have been calling this CMAP 2017, to remind me that this is somewhat old data. But because of how comprehensive this data is, and because the methods and code are open-source, future dataset creation could follow in the same vein: the main limiting factor being the cost of purchasing public and anonymized CV data. There may be more recent public sector-specific datasets out there that could be appended to this one, or transformed to match their unique standardization system, and potentially avoid this cost.</li>
+<li>I have not uploaded the sector files or massive original dataset, to save on repo space, but they can be downloaded <a href="https://doi.org/10.5281/zenodo.15260189">here</a>.</li>
+</ul>
+</section>
+<section id="further-resources" class="level3">
+<h3 class="anchored" data-anchor-id="further-resources">Further resources</h3>
+<p>Direct links, if you want to download my filtered data from GitHub as .csv: - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/PRSPDEV_JobTitles_CMAP_2017_ALLSECTORS.csv">Prospect Development job titles</a> - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/MGO_nonprofitsector_titles_CMAP_2017.csv">Major Gift Officer nonprofit sector titles</a> - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/MGO_ALLSECTORS_unfinished_CMAP_2017_dataset.csv">Major Gift Officer all sector titles - full of irrelevant titles right now, until I filter it better</a></p>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<ul>
+<li>Citation: Subhani, S., Memon, S.A. &amp; AlShebli, B. CMap: a database for mapping job titles, sector specialization, and promotions across 24 sectors. Sci Data 12, 1214 (2025). https://doi.org/10.1038/s41597-025-05526-3</li>
+</ul>
 
 
+</section>
+</section>
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
