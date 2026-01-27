@@ -17,9 +17,23 @@ This list is mostly for Greg as he maintains this website.
 
 ## Quarto Extensions
 - [Quarto Extensions and also great example of a quarto website](https://m.canouil.dev/quarto-extensions/)
+
 ### Visualization Extensions
 - [Diagrams](https://github.com/pandoc-ext/diagram)
 - [Svelte components](https://quarto-svelte.jamesgoldie.dev/#installation)
+
+### Article Interactivity 
+- [Lightboxes](https://github.com/quarto-ext/lightbox)
+- [expanding "nutshell" notes so people don't have to switch tabs](https://github.com/schochastics/quarto-nutshell)
+
+### Embedding
+- [social media embeds, easy to embed YouTube](https://quarto-social-embeds.sellorm.com/)
+- [PDF embeddig](https://jmgirard.github.io/embedpdf/example.html)
+
+### User Experience
+- [downloading embedded data or images](https://shafayetshafee.github.io/downloadthis/example.html)
+- [list of links at end of page](https://github.com/coatless-quarto/linkate)
+- [Quarto badges](https://m.canouil.dev/quarto-badge/), lets you make fun stuff like {{< badge toolbadge this! >}}
 
 ## Example Quarto Sites
 - [good example of webr and download capabilities](https://insightsengineering.github.io/tlg-catalog/stable/)

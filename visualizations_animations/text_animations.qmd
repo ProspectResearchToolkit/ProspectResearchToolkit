@@ -2,7 +2,7 @@
 title: "text_animations"
 format: html
 execute: 
-  enabled: true
+  enabled: false
 extensions:
   animate:
     delay: 1s
@@ -11,4 +11,6 @@ extensions:
 ---
 
 {{< animate hinge "Some text" >}}
+
+# {{< animate bounceIn "Factiva" >}}
 

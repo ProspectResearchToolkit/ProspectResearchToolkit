@@ -1,10 +1,8 @@
 ---
-title: "Library Databases for University Advancement Staffers"
+title: "Library Databases for Prospect Dev Analysts"
 author: Greg Brooks
 date: 01-30-2026
 ---
-
-outlined by copilot, needs to be rewritten
 
 # Expanding Our Research Toolkit
 
@@ -63,4 +61,4 @@ We’re building a spreadsheet with links and feature comparisons for all tools 
 
 ---
 
-
+{{< var ai-disclaimer >}}
