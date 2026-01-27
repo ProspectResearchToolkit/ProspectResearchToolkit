@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>fundraisingdatamarketplace – Prospect Research Toolkit</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-5e1263a3e648c3fb134f0f0789b12e9b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Prospect Research Toolkit">
+<meta property="og:description" content="A prospect research resource library created by Greg Brooks and Apra Utah">
+<meta property="og:site_name" content="Prospect Research Toolkit">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Prospect Research Toolkit</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">Field Guide</span>
+    </span>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+  <div id="quarto-announcement" data-announcement-id="444c0cddf6e2c1d7a8c14e5032edf909" class="alert alert-info hidden"><i class="bi bi-info-square-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Welcome!</strong> - this website is a work in progress, and some pages/features may be empty, unfinished, or broken. Thank you for your patience!</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Tools</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Templates</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../toolkit_dashboard1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Toolkit Dashboard</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Education</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tutorials &amp; How-to</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Toolkit Blog</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">External Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../free_resources_links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Free External Resources</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#citations-supporting-key-points" id="toc-citations-supporting-key-points" class="nav-link active" data-scroll-target="#citations-supporting-key-points"><strong>Citations Supporting Key Points</strong></a>
+  <ul class="collapse">
+  <li><a href="#fundraising-intelligence-as-a-data-driven-practice" id="toc-fundraising-intelligence-as-a-data-driven-practice" class="nav-link" data-scroll-target="#fundraising-intelligence-as-a-data-driven-practice"><strong>Fundraising Intelligence as a Data-Driven Practice</strong></a></li>
+  <li><a href="#prospect-research-tools-and-market-context" id="toc-prospect-research-tools-and-market-context" class="nav-link" data-scroll-target="#prospect-research-tools-and-market-context"><strong>Prospect Research Tools and Market Context</strong></a></li>
+  <li><a href="#business-intelligence-as-foundational-technology" id="toc-business-intelligence-as-foundational-technology" class="nav-link" data-scroll-target="#business-intelligence-as-foundational-technology"><strong>Business Intelligence as Foundational Technology</strong></a></li>
+  <li><a href="#examples-of-larger-business-intelligence-databases" id="toc-examples-of-larger-business-intelligence-databases" class="nav-link" data-scroll-target="#examples-of-larger-business-intelligence-databases"><strong>Examples of Larger Business Intelligence Databases</strong></a></li>
+  </ul></li>
+  <li><a href="#possible-additional-academic-support-contextual" id="toc-possible-additional-academic-support-contextual" class="nav-link" data-scroll-target="#possible-additional-academic-support-contextual"><strong>Possible Additional Academic Support (Contextual)</strong></a></li>
+  <li><a href="#how-you-could-cite-these-in-your-text" id="toc-how-you-could-cite-these-in-your-text" class="nav-link" data-scroll-target="#how-you-could-cite-these-in-your-text"><strong>How You Could Cite These in Your Text</strong></a></li>
+  <li><a href="#plaintext-urls-for-your-reference-list" id="toc-plaintext-urls-for-your-reference-list" class="nav-link" data-scroll-target="#plaintext-urls-for-your-reference-list"><strong>Plaintext URLs for Your Reference List</strong></a></li>
+  <li><a href="#i.-research-program-architecture-primary" id="toc-i.-research-program-architecture-primary" class="nav-link" data-scroll-target="#i.-research-program-architecture-primary">I. Research Program Architecture (Primary)</a>
+  <ul class="collapse">
+  <li><a href="#core-research-question" id="toc-core-research-question" class="nav-link" data-scroll-target="#core-research-question">1. Core research question</a></li>
+  <li><a href="#object-of-study" id="toc-object-of-study" class="nav-link" data-scroll-target="#object-of-study">2. Object of study</a>
+  <ul class="collapse">
+  <li><a href="#market-boundary" id="toc-market-boundary" class="nav-link" data-scroll-target="#market-boundary">Market boundary</a></li>
+  </ul></li>
+  <li><a href="#data-lineage-model" id="toc-data-lineage-model" class="nav-link" data-scroll-target="#data-lineage-model">3. Data lineage model</a></li>
+  <li><a href="#pricing-observation-layer" id="toc-pricing-observation-layer" class="nav-link" data-scroll-target="#pricing-observation-layer">4. Pricing observation layer</a>
+  <ul class="collapse">
+  <li><a href="#raw-pricing-inputs" id="toc-raw-pricing-inputs" class="nav-link" data-scroll-target="#raw-pricing-inputs">Raw pricing inputs</a></li>
+  <li><a href="#normalize-across-dimensions" id="toc-normalize-across-dimensions" class="nav-link" data-scroll-target="#normalize-across-dimensions">Normalize across dimensions</a></li>
+  </ul></li>
+  <li><a href="#analytical-lenses" id="toc-analytical-lenses" class="nav-link" data-scroll-target="#analytical-lenses">5. Analytical lenses</a>
+  <ul class="collapse">
+  <li><a href="#market-structure" id="toc-market-structure" class="nav-link" data-scroll-target="#market-structure">Market structure</a></li>
+  <li><a href="#pricing-mechanics" id="toc-pricing-mechanics" class="nav-link" data-scroll-target="#pricing-mechanics">Pricing mechanics</a></li>
+  <li><a href="#information-asymmetry" id="toc-information-asymmetry" class="nav-link" data-scroll-target="#information-asymmetry">Information asymmetry</a></li>
+  </ul></li>
+  <li><a href="#comparative-anchors" id="toc-comparative-anchors" class="nav-link" data-scroll-target="#comparative-anchors">6. Comparative anchors</a></li>
+  <li><a href="#governance-and-ethics-layer" id="toc-governance-and-ethics-layer" class="nav-link" data-scroll-target="#governance-and-ethics-layer">7. Governance and ethics layer</a></li>
+  <li><a href="#iterative-outputs" id="toc-iterative-outputs" class="nav-link" data-scroll-target="#iterative-outputs">8. Iterative outputs</a></li>
+  </ul></li>
+  <li><a href="#ii.-eventual-paper-outline-secondary-artifact" id="toc-ii.-eventual-paper-outline-secondary-artifact" class="nav-link" data-scroll-target="#ii.-eventual-paper-outline-secondary-artifact">II. Eventual Paper Outline (Secondary Artifact)</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">1. Introduction</a></li>
+  <li><a href="#related-work" id="toc-related-work" class="nav-link" data-scroll-target="#related-work">2. Related Work</a>
+  <ul class="collapse">
+  <li><a href="#data-brokers-and-data-markets" id="toc-data-brokers-and-data-markets" class="nav-link" data-scroll-target="#data-brokers-and-data-markets">2.1 Data brokers and data markets</a></li>
+  <li><a href="#financial-intelligence-and-osint" id="toc-financial-intelligence-and-osint" class="nav-link" data-scroll-target="#financial-intelligence-and-osint">2.2 Financial intelligence and OSINT</a></li>
+  <li><a href="#fundraising-and-prospect-research" id="toc-fundraising-and-prospect-research" class="nav-link" data-scroll-target="#fundraising-and-prospect-research">2.3 Fundraising and prospect research</a></li>
+  </ul></li>
+  <li><a href="#market-and-data-description" id="toc-market-and-data-description" class="nav-link" data-scroll-target="#market-and-data-description">3. Market and Data Description</a>
+  <ul class="collapse">
+  <li><a href="#actors-and-data-flows" id="toc-actors-and-data-flows" class="nav-link" data-scroll-target="#actors-and-data-flows">3.1 Actors and data flows</a></li>
+  <li><a href="#products-and-bundles" id="toc-products-and-bundles" class="nav-link" data-scroll-target="#products-and-bundles">3.2 Products and bundles</a></li>
+  </ul></li>
+  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods">4. Data and Methods</a>
+  <ul class="collapse">
+  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">4.1 Data sources</a></li>
+  <li><a href="#normalization-methodology" id="toc-normalization-methodology" class="nav-link" data-scroll-target="#normalization-methodology">4.2 Normalization methodology</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">4.3 Limitations</a></li>
+  </ul></li>
+  <li><a href="#pricing-structures-and-patterns" id="toc-pricing-structures-and-patterns" class="nav-link" data-scroll-target="#pricing-structures-and-patterns">5. Pricing Structures and Patterns</a>
+  <ul class="collapse">
+  <li><a href="#price-levels-and-dispersion" id="toc-price-levels-and-dispersion" class="nav-link" data-scroll-target="#price-levels-and-dispersion">5.1 Price levels and dispersion</a></li>
+  <li><a href="#bundling-strategies" id="toc-bundling-strategies" class="nav-link" data-scroll-target="#bundling-strategies">5.2 Bundling strategies</a></li>
+  <li><a href="#evidence-of-price-discrimination" id="toc-evidence-of-price-discrimination" class="nav-link" data-scroll-target="#evidence-of-price-discrimination">5.3 Evidence of price discrimination</a></li>
+  <li><a href="#lock-in-and-switching-costs" id="toc-lock-in-and-switching-costs" class="nav-link" data-scroll-target="#lock-in-and-switching-costs">5.4 Lock in and switching costs</a></li>
+  </ul></li>
+  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">6. Interpretation</a>
+  <ul class="collapse">
+  <li><a href="#comparison-to-general-data-markets" id="toc-comparison-to-general-data-markets" class="nav-link" data-scroll-target="#comparison-to-general-data-markets">6.1 Comparison to general data markets</a></li>
+  <li><a href="#comparison-to-financial-intelligence-services" id="toc-comparison-to-financial-intelligence-services" class="nav-link" data-scroll-target="#comparison-to-financial-intelligence-services">6.2 Comparison to financial intelligence services</a></li>
+  <li><a href="#implications-for-nonprofits" id="toc-implications-for-nonprofits" class="nav-link" data-scroll-target="#implications-for-nonprofits">6.3 Implications for nonprofits</a></li>
+  </ul></li>
+  <li><a href="#governance-and-policy-implications" id="toc-governance-and-policy-implications" class="nav-link" data-scroll-target="#governance-and-policy-implications">7. Governance and Policy Implications</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">8. Conclusion</a></li>
+  </ul></li>
+  <li><a href="#iii.-why-this-works-as-an-ongoing-project" id="toc-iii.-why-this-works-as-an-ongoing-project" class="nav-link" data-scroll-target="#iii.-why-this-works-as-an-ongoing-project">III. Why this works as an ongoing project</a>
+  <ul class="collapse">
+  <li><a href="#one-sentence-synthesis" id="toc-one-sentence-synthesis" class="nav-link" data-scroll-target="#one-sentence-synthesis">One sentence synthesis</a></li>
+  </ul></li>
+  <li><a href="#evidence-summary-why-no-academic-catalog-exists" id="toc-evidence-summary-why-no-academic-catalog-exists" class="nav-link" data-scroll-target="#evidence-summary-why-no-academic-catalog-exists">Evidence summary (why no academic catalog exists)</a></li>
+  <li><a href="#typical-field-categories-you-will-encounter-use-these-as-canonical-column-headers-in-your-mapping" id="toc-typical-field-categories-you-will-encounter-use-these-as-canonical-column-headers-in-your-mapping" class="nav-link" data-scroll-target="#typical-field-categories-you-will-encounter-use-these-as-canonical-column-headers-in-your-mapping">Typical field categories you will encounter (use these as canonical column headers in your mapping)</a></li>
+  <li><a href="#suggested-mapping-data-model-table-schema" id="toc-suggested-mapping-data-model-table-schema" class="nav-link" data-scroll-target="#suggested-mapping-data-model-table-schema">Suggested mapping data model (table schema)</a></li>
+  <li><a href="#how-to-build-the-map-step-by-step-practical" id="toc-how-to-build-the-map-step-by-step-practical" class="nav-link" data-scroll-target="#how-to-build-the-map-step-by-step-practical">How to build the map step by step (practical)</a></li>
+  <li><a href="#what-to-expect-in-practice-pitfalls-and-quirks" id="toc-what-to-expect-in-practice-pitfalls-and-quirks" class="nav-link" data-scroll-target="#what-to-expect-in-practice-pitfalls-and-quirks">What to expect in practice (pitfalls and quirks)</a></li>
+  <li><a href="#are-there-existing-partial-lists-or-practitioner-guides" id="toc-are-there-existing-partial-lists-or-practitioner-guides" class="nav-link" data-scroll-target="#are-there-existing-partial-lists-or-practitioner-guides">Are there existing partial lists or practitioner guides?</a></li>
+  <li><a href="#quick-next-steps-i-can-do-for-you-right-now-pick-any" id="toc-quick-next-steps-i-can-do-for-you-right-now-pick-any" class="nav-link" data-scroll-target="#quick-next-steps-i-can-do-for-you-right-now-pick-any">Quick next steps I can do for you right now (pick any)</a></li>
+  <li><a href="#references-plaintext-urls" id="toc-references-plaintext-urls" class="nav-link" data-scroll-target="#references-plaintext-urls">References (plaintext URLs)</a></li>
+  <li><a href="#core-academic-surveys-on-data-marketplaces-and-pricing" id="toc-core-academic-surveys-on-data-marketplaces-and-pricing" class="nav-link" data-scroll-target="#core-academic-surveys-on-data-marketplaces-and-pricing">1) Core academic surveys on data marketplaces and pricing</a></li>
+  <li><a href="#open-source-data-marketplace-platforms-and-experimental-systems" id="toc-open-source-data-marketplace-platforms-and-experimental-systems" class="nav-link" data-scroll-target="#open-source-data-marketplace-platforms-and-experimental-systems">2) Open source data marketplace platforms and experimental systems</a></li>
+  <li><a href="#governance-models-and-practical-frameworks-data-trusts-commons-licenses" id="toc-governance-models-and-practical-frameworks-data-trusts-commons-licenses" class="nav-link" data-scroll-target="#governance-models-and-practical-frameworks-data-trusts-commons-licenses">3) Governance models and practical frameworks (data trusts / commons / licenses)</a></li>
+  <li><a href="#decentralized-user-centric-projects-privacy-first-alternatives" id="toc-decentralized-user-centric-projects-privacy-first-alternatives" class="nav-link" data-scroll-target="#decentralized-user-centric-projects-privacy-first-alternatives">4) Decentralized / user-centric projects (privacy first alternatives)</a></li>
+  <li><a href="#implementation-case-studies-and-engineering-papers" id="toc-implementation-case-studies-and-engineering-papers" class="nav-link" data-scroll-target="#implementation-case-studies-and-engineering-papers">5) Implementation case studies and engineering papers</a></li>
+  <li><a href="#supplementary-resources-and-communities" id="toc-supplementary-resources-and-communities" class="nav-link" data-scroll-target="#supplementary-resources-and-communities">6) Supplementary resources and communities</a></li>
+  <li><a href="#suggested-reading-order-for-your-project" id="toc-suggested-reading-order-for-your-project" class="nav-link" data-scroll-target="#suggested-reading-order-for-your-project">Suggested reading order for your project</a></li>
+  <li><a href="#practical-next-steps-i-can-do-for-you-right-now" id="toc-practical-next-steps-i-can-do-for-you-right-now" class="nav-link" data-scroll-target="#practical-next-steps-i-can-do-for-you-right-now">Practical next steps I can do for you right now</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<p>From ChatGPT, after prompting about surveying the fundraising data marketplace.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Here are <strong>citations you can use to support the framing statement</strong> about fundraising intelligence being a niche within larger data ecosystems and how fundraising tools draw on broader business, financial, and investigative data markets.</td>
+</tr>
+</tbody>
+</table>
+<section id="citations-supporting-key-points" class="level2">
+<h2 class="anchored" data-anchor-id="citations-supporting-key-points"><strong>Citations Supporting Key Points</strong></h2>
+<section id="fundraising-intelligence-as-a-data-driven-practice" class="level3">
+<h3 class="anchored" data-anchor-id="fundraising-intelligence-as-a-data-driven-practice"><strong>Fundraising Intelligence as a Data-Driven Practice</strong></h3>
+<p>Fundraising and prospect research are explicitly described as involving <strong>data analytics and business intelligence methods</strong> to identify, analyze, and prioritize potential donors. This illustrates how fundraising adopts general analytic approaches from larger intelligence fields. (<a href="https://webfiles-sc1.blackbaud.com/files/researchpoint.datasheet.pdf?utm_source=chatgpt.com" title="ResearchPoint - Blackbaud">DataCalculus</a>)</p>
+<p><strong>Citation:</strong> Prospect research has evolved to include advanced data analytics and BI methods for donor identification and engagement. (<a href="https://webfiles-sc1.blackbaud.com/files/researchpoint.datasheet.pdf?utm_source=chatgpt.com" title="ResearchPoint - Blackbaud">DataCalculus</a>)</p>
+<hr>
+</section>
+<section id="prospect-research-tools-and-market-context" class="level3">
+<h3 class="anchored" data-anchor-id="prospect-research-tools-and-market-context"><strong>Prospect Research Tools and Market Context</strong></h3>
+<p>Multiple survey and overview pages list and describe <strong>specialized prospect research software</strong> used by nonprofits, situating them within a broader landscape of data-driven tools. This supports your point that nonprofit platforms are part of a larger technology ecosystem rather than isolated inventions. (<a href="https://wealthengine.com/?utm_source=chatgpt.com" title="Home - WealthEngine">Double the Donation</a>)</p>
+<p><strong>Citations:</strong></p>
+<ul>
+<li>Specialized fundraising tools now rely on integrated data and analytics to help nonprofits focus on high-value prospects. (<a href="https://wealthengine.com/?utm_source=chatgpt.com" title="Home - WealthEngine">Double the Donation</a>)</li>
+<li>Prospect research tools include software, data appending services, and integration with donor databases—all drawing on underlying business data sources. (<a href="https://www.livealumni.com/?utm_source=chatgpt.com" title="LiveAlumni | Verified Donor &amp; Alumni Data | Seattle, Washington">DonorSearch</a>)</li>
+</ul>
+<hr>
+</section>
+<section id="business-intelligence-as-foundational-technology" class="level3">
+<h3 class="anchored" data-anchor-id="business-intelligence-as-foundational-technology"><strong>Business Intelligence as Foundational Technology</strong></h3>
+<p>Descriptions of <strong>business intelligence (BI)</strong> show how broad data aggregation and analysis tools are used across sectors, and by analogy how similar practices underlie fundraising analytics. This supports the point that fundraising borrows from general BI. (<a href="https://softerware-uploads.s3.amazonaws.com/community/donorperfect/attachments/DonorSearch%20Profile%20guide_2020.compressed%20%284%29%20%281%29.pdf?utm_source=chatgpt.com" title="The DS profile edsb3">Data Stack Hub</a>)</p>
+<p><strong>Citations:</strong></p>
+<ul>
+<li>Business intelligence refers broadly to data collection, analysis, visualization, and decision support across organizations. (<a href="https://softerware-uploads.s3.amazonaws.com/community/donorperfect/attachments/DonorSearch%20Profile%20guide_2020.compressed%20%284%29%20%281%29.pdf?utm_source=chatgpt.com" title="The DS profile edsb3">Data Stack Hub</a>)</li>
+<li>Open-source BI tools connect to many data sources and support reporting and analytic workflows. (<a href="https://www.trailblz.com/kb/images/kb0380/Donor%20Search_Definitions.pdf?utm_source=chatgpt.com" title="Donor Search: Wealth Information Profile Terms/Definitions">FanRuan Software</a>)</li>
+</ul>
+<hr>
+</section>
+<section id="examples-of-larger-business-intelligence-databases" class="level3">
+<h3 class="anchored" data-anchor-id="examples-of-larger-business-intelligence-databases"><strong>Examples of Larger Business Intelligence Databases</strong></h3>
+<p>While not strictly academic, public descriptions of widely used business data platforms (such as Crunchbase) illustrate how rich business datasets exist outside nonprofit-specific tooling and underlie broader intelligence work. (<a href="https://kb.blackbaud.com/knowledgebase/Knowledge/194112?utm_source=chatgpt.com" title="List of all data entry fields in ResearchPoint">Wikipedia</a>)</p>
+<p><strong>Citation:</strong> Crunchbase is a public/private business intelligence database of companies and startups used across industries for market research and analysis. (<a href="https://kb.blackbaud.com/knowledgebase/Knowledge/194112?utm_source=chatgpt.com" title="List of all data entry fields in ResearchPoint">Wikipedia</a>)</p>
+<hr>
+</section>
+</section>
+<section id="possible-additional-academic-support-contextual" class="level2">
+<h2 class="anchored" data-anchor-id="possible-additional-academic-support-contextual"><strong>Possible Additional Academic Support (Contextual)</strong></h2>
+<p>Although not specific to fundraising, scholarly work on <strong>open-source intelligence ecosystems and curated intelligence databases</strong> demonstrates how specialized domains can be supported by broader intelligence infrastructure. This analogy reinforces your argument about niche markets drawing on shared technical foundations. (<a href="https://arxiv.org/abs/2408.03868?utm_source=chatgpt.com" title="'Intelligence Studies Network': A human-curated database for indexing resources with open-source tools">arXiv</a>)</p>
+<p><strong>Citation:</strong> The <em>Intelligence Studies Network</em> shows how intelligence fields build shared infrastructure and curated resources using open-source tools and data. (<a href="https://arxiv.org/abs/2408.03868?utm_source=chatgpt.com" title="'Intelligence Studies Network': A human-curated database for indexing resources with open-source tools">arXiv</a>)</p>
+<hr>
+</section>
+<section id="how-you-could-cite-these-in-your-text" class="level2">
+<h2 class="anchored" data-anchor-id="how-you-could-cite-these-in-your-text"><strong>How You Could Cite These in Your Text</strong></h2>
+<p>Here are examples of how you might weave them into your framing:</p>
+<blockquote class="blockquote">
+<p>Modern fundraising and prospect research increasingly relies on <strong>data analytics and business intelligence techniques</strong> to identify and prioritize prospective donors, moving beyond intuition toward structured analytic workflows derived from broader BI practice. (<a href="https://webfiles-sc1.blackbaud.com/files/researchpoint.datasheet.pdf?utm_source=chatgpt.com" title="ResearchPoint - Blackbaud">DataCalculus</a>)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Specialized fundraising tools sit atop wider data markets: they leverage integrated datasets and analytic services much like other sectors do for <strong>strategic decision-making and insight generation</strong>. (<a href="https://wealthengine.com/?utm_source=chatgpt.com" title="Home - WealthEngine">Double the Donation</a>)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Business intelligence encompasses a wide range of <strong>data integration, visualization and analytics capabilities</strong>, illustrating the larger infrastructure that fundraising analytics borrows from. (<a href="https://softerware-uploads.s3.amazonaws.com/community/donorperfect/attachments/DonorSearch%20Profile%20guide_2020.compressed%20%284%29%20%281%29.pdf?utm_source=chatgpt.com" title="The DS profile edsb3">Data Stack Hub</a>)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Public business intelligence platforms such as Crunchbase show how <strong>rich commercial datasets</strong> are used across industries, including research functions often repurposed in academic and nonprofit environments. (<a href="https://kb.blackbaud.com/knowledgebase/Knowledge/194112?utm_source=chatgpt.com" title="List of all data entry fields in ResearchPoint">Wikipedia</a>)</p>
+</blockquote>
+<hr>
+</section>
+<section id="plaintext-urls-for-your-reference-list" class="level2">
+<h2 class="anchored" data-anchor-id="plaintext-urls-for-your-reference-list"><strong>Plaintext URLs for Your Reference List</strong></h2>
+<ul>
+<li><a href="https://datacalculus.com/en/blog/fundraising/fundraising-engagement-manager/prospect-research-and-identification-for-fundraising">https://datacalculus.com/en/blog/fundraising/fundraising-engagement-manager/prospect-research-and-identification-for-fundraising</a></li>
+<li><a href="https://doublethedonation.com/prospect-research-tools">https://doublethedonation.com/prospect-research-tools</a></li>
+<li><a href="https://www.donorsearch.net/resources/prospect-research-tools">https://www.donorsearch.net/resources/prospect-research-tools</a></li>
+<li><a href="https://www.datastackhub.com/top-tools/open-source-business-intelligence-tools">https://www.datastackhub.com/top-tools/open-source-business-intelligence-tools</a></li>
+<li><a href="https://www.fanruan.com/en/blog/open-source-business-intelligence-tools">https://www.fanruan.com/en/blog/open-source-business-intelligence-tools</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Crunchbase">https://en.wikipedia.org/wiki/Crunchbase</a></li>
+<li><a href="https://arxiv.org/abs/2408.03868">https://arxiv.org/abs/2408.03868</a></li>
+</ul>
+<hr>
+<p>If you want <strong>academic sources specifically on the economic structure of data markets</strong> (not specific to fundraising), I can provide titles with open-access links from SSRN, arXiv, or university repositories that explain data brokerage ecosystems, pricing theory, and marketplace design.</p>
+<hr>
+<p>If the <strong>analysis is primary</strong> and the <strong>paper is a downstream artifact</strong> then the outline should reflect a <strong>living research program</strong>, not a one off publication.</p>
+<p>Below is a structure that is deliberately <strong>analysis first</strong>, <strong>paper second</strong>, and explicitly incorporates everything we discussed about data brokers, financial intelligence services, fundraising tools, and pricing opacity.</p>
+<p>I will separate <strong>the research program architecture</strong> from <strong>the eventual paper outline</strong> so you can evolve the work without being constrained by publication format.</p>
+<hr>
+</section>
+<section id="i.-research-program-architecture-primary" class="level1">
+<h1>I. Research Program Architecture (Primary)</h1>
+<p>Think of this as the <strong>scaffold you actually build and maintain</strong>.</p>
+<section id="core-research-question" class="level2">
+<h2 class="anchored" data-anchor-id="core-research-question">1. Core research question</h2>
+<p>How is fundraising intelligence data priced structured and bundled and how does that pricing reflect deeper market dynamics in data brokerage and financial intelligence ecosystems</p>
+<p>This framing lets you pivot across:</p>
+<ul>
+<li>Economics</li>
+<li>Information systems</li>
+<li>Governance</li>
+<li>Ethics</li>
+<li>Market design</li>
+</ul>
+<p>without changing the underlying dataset.</p>
+<hr>
+</section>
+<section id="object-of-study" class="level2">
+<h2 class="anchored" data-anchor-id="object-of-study">2. Object of study</h2>
+<p>Define the market <em>operationally</em> not rhetorically.</p>
+<section id="market-boundary" class="level3">
+<h3 class="anchored" data-anchor-id="market-boundary">Market boundary</h3>
+<ul>
+<li>Prospect research data</li>
+<li>Wealth screening services</li>
+<li>Alumni employment verification</li>
+<li>Donor enrichment and scoring</li>
+<li>Embedded intelligence within CRMs</li>
+</ul>
+<p>Explicitly <strong>exclude</strong>:</p>
+<ul>
+<li>Pure marketing lists</li>
+<li>Consumer ad tech</li>
+<li>Public filings databases without enrichment</li>
+</ul>
+<p>This distinction matters for credibility.</p>
+<hr>
+</section>
+</section>
+<section id="data-lineage-model" class="level2">
+<h2 class="anchored" data-anchor-id="data-lineage-model">3. Data lineage model</h2>
+<p>You already have this conceptually. Formalize it.</p>
+<p>Primary sources → Data brokers → Financial intelligence style enrichment → Fundraising platforms → End users</p>
+<p>This is your <strong>analytic backbone</strong>. Everything else attaches to it.</p>
+<hr>
+</section>
+<section id="pricing-observation-layer" class="level2">
+<h2 class="anchored" data-anchor-id="pricing-observation-layer">4. Pricing observation layer</h2>
+<p>This is the heart of the project.</p>
+<section id="raw-pricing-inputs" class="level3">
+<h3 class="anchored" data-anchor-id="raw-pricing-inputs">Raw pricing inputs</h3>
+<ul>
+<li>Vendor quotes</li>
+<li>Contracts or invoices</li>
+<li>RFP responses</li>
+<li>Public nonprofit disclosures</li>
+<li>Interview reported price bands</li>
+<li>Historical snapshots</li>
+</ul>
+</section>
+<section id="normalize-across-dimensions" class="level3">
+<h3 class="anchored" data-anchor-id="normalize-across-dimensions">Normalize across dimensions</h3>
+<ul>
+<li>Organization size</li>
+<li>Records screened</li>
+<li>Attributes appended</li>
+<li>Update frequency</li>
+<li>Integration depth</li>
+</ul>
+<p>Treat this as a <strong>time series dataset</strong>, even if sparsely populated at first.</p>
+<hr>
+</section>
+</section>
+<section id="analytical-lenses" class="level2">
+<h2 class="anchored" data-anchor-id="analytical-lenses">5. Analytical lenses</h2>
+<p>You will return to these repeatedly.</p>
+<section id="market-structure" class="level3">
+<h3 class="anchored" data-anchor-id="market-structure">Market structure</h3>
+<ul>
+<li>Bundling vs unbundling</li>
+<li>Vertical integration</li>
+<li>Switching costs</li>
+<li>Lock in via CRM ecosystems</li>
+</ul>
+</section>
+<section id="pricing-mechanics" class="level3">
+<h3 class="anchored" data-anchor-id="pricing-mechanics">Pricing mechanics</h3>
+<ul>
+<li>Subscription vs usage</li>
+<li>Price discrimination</li>
+<li>Opaque negotiation</li>
+<li>Value based pricing claims</li>
+</ul>
+</section>
+<section id="information-asymmetry" class="level3">
+<h3 class="anchored" data-anchor-id="information-asymmetry">Information asymmetry</h3>
+<ul>
+<li>Vendors know prices</li>
+<li>Buyers do not</li>
+<li>Donors are unaware</li>
+</ul>
+<p>This directly connects to data market theory.</p>
+<hr>
+</section>
+</section>
+<section id="comparative-anchors" class="level2">
+<h2 class="anchored" data-anchor-id="comparative-anchors">6. Comparative anchors</h2>
+<p>You need comparison points to avoid being seen as niche.</p>
+<p>Use:</p>
+<ul>
+<li>General data marketplace pricing theory</li>
+<li>Financial intelligence data pricing</li>
+<li>OSINT monetization models</li>
+<li>LEI DUNS identity markets</li>
+</ul>
+<p>You are not claiming uniqueness you are showing <strong>structural similarity</strong>.</p>
+<hr>
+</section>
+<section id="governance-and-ethics-layer" class="level2">
+<h2 class="anchored" data-anchor-id="governance-and-ethics-layer">7. Governance and ethics layer</h2>
+<p>Not moralizing but analytical.</p>
+<ul>
+<li>Consent structures</li>
+<li>Data provenance</li>
+<li>Regulatory oversight gaps</li>
+<li>Nonprofit exceptionalism narratives</li>
+</ul>
+<p>This expands the relevance of the work.</p>
+<hr>
+</section>
+<section id="iterative-outputs" class="level2">
+<h2 class="anchored" data-anchor-id="iterative-outputs">8. Iterative outputs</h2>
+<p>Your project should produce:</p>
+<ul>
+<li>Internal memos</li>
+<li>Working datasets</li>
+<li>Visualizations</li>
+<li>Method notes</li>
+<li>Interim blog posts if desired</li>
+</ul>
+<p>The paper comes <em>last</em>.</p>
+<hr>
+</section>
+</section>
+<section id="ii.-eventual-paper-outline-secondary-artifact" class="level1">
+<h1>II. Eventual Paper Outline (Secondary Artifact)</h1>
+<p>This is how the analysis collapses into a publishable form.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">1. Introduction</h2>
+<ul>
+<li>Fundraising intelligence is a large but understudied data market</li>
+<li>Pricing is opaque yet consequential</li>
+<li>This paper provides the first structured analysis of pricing in this domain</li>
+</ul>
+<p>State the contribution narrowly and defensibly.</p>
+<hr>
+</section>
+<section id="related-work" class="level2">
+<h2 class="anchored" data-anchor-id="related-work">2. Related Work</h2>
+<section id="data-brokers-and-data-markets" class="level3">
+<h3 class="anchored" data-anchor-id="data-brokers-and-data-markets">2.1 Data brokers and data markets</h3>
+<p>Draw from general pricing surveys and broker literature.</p>
+</section>
+<section id="financial-intelligence-and-osint" class="level3">
+<h3 class="anchored" data-anchor-id="financial-intelligence-and-osint">2.2 Financial intelligence and OSINT</h3>
+<p>Show conceptual overlap with AML and FININT markets.</p>
+</section>
+<section id="fundraising-and-prospect-research" class="level3">
+<h3 class="anchored" data-anchor-id="fundraising-and-prospect-research">2.3 Fundraising and prospect research</h3>
+<p>Demonstrate descriptive gap not ignorance.</p>
+<hr>
+</section>
+</section>
+<section id="market-and-data-description" class="level2">
+<h2 class="anchored" data-anchor-id="market-and-data-description">3. Market and Data Description</h2>
+<section id="actors-and-data-flows" class="level3">
+<h3 class="anchored" data-anchor-id="actors-and-data-flows">3.1 Actors and data flows</h3>
+<p>Reuse your lineage model.</p>
+</section>
+<section id="products-and-bundles" class="level3">
+<h3 class="anchored" data-anchor-id="products-and-bundles">3.2 Products and bundles</h3>
+<p>Define what is being priced.</p>
+<hr>
+</section>
+</section>
+<section id="data-and-methods" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-methods">4. Data and Methods</h2>
+<section id="data-sources" class="level3">
+<h3 class="anchored" data-anchor-id="data-sources">4.1 Data sources</h3>
+<p>Be explicit about estimation and uncertainty.</p>
+</section>
+<section id="normalization-methodology" class="level3">
+<h3 class="anchored" data-anchor-id="normalization-methodology">4.2 Normalization methodology</h3>
+<p>This is where novelty lives.</p>
+</section>
+<section id="limitations" class="level3">
+<h3 class="anchored" data-anchor-id="limitations">4.3 Limitations</h3>
+<p>Disarm reviewers early.</p>
+<hr>
+</section>
+</section>
+<section id="pricing-structures-and-patterns" class="level2">
+<h2 class="anchored" data-anchor-id="pricing-structures-and-patterns">5. Pricing Structures and Patterns</h2>
+<section id="price-levels-and-dispersion" class="level3">
+<h3 class="anchored" data-anchor-id="price-levels-and-dispersion">5.1 Price levels and dispersion</h3>
+</section>
+<section id="bundling-strategies" class="level3">
+<h3 class="anchored" data-anchor-id="bundling-strategies">5.2 Bundling strategies</h3>
+</section>
+<section id="evidence-of-price-discrimination" class="level3">
+<h3 class="anchored" data-anchor-id="evidence-of-price-discrimination">5.3 Evidence of price discrimination</h3>
+</section>
+<section id="lock-in-and-switching-costs" class="level3">
+<h3 class="anchored" data-anchor-id="lock-in-and-switching-costs">5.4 Lock in and switching costs</h3>
+<p>This is the analytic core.</p>
+<hr>
+</section>
+</section>
+<section id="interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="interpretation">6. Interpretation</h2>
+<section id="comparison-to-general-data-markets" class="level3">
+<h3 class="anchored" data-anchor-id="comparison-to-general-data-markets">6.1 Comparison to general data markets</h3>
+</section>
+<section id="comparison-to-financial-intelligence-services" class="level3">
+<h3 class="anchored" data-anchor-id="comparison-to-financial-intelligence-services">6.2 Comparison to financial intelligence services</h3>
+</section>
+<section id="implications-for-nonprofits" class="level3">
+<h3 class="anchored" data-anchor-id="implications-for-nonprofits">6.3 Implications for nonprofits</h3>
+<p>You are synthesizing not advocating.</p>
+<hr>
+</section>
+</section>
+<section id="governance-and-policy-implications" class="level2">
+<h2 class="anchored" data-anchor-id="governance-and-policy-implications">7. Governance and Policy Implications</h2>
+<ul>
+<li>Transparency</li>
+<li>Accountability</li>
+<li>Sector specific regulation</li>
+<li>Risks of unexamined intelligence markets</li>
+</ul>
+<p>Keep this restrained.</p>
+<hr>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">8. Conclusion</h2>
+<ul>
+<li>Restate contributions</li>
+<li>Emphasize dataset and method</li>
+<li>Point to future research</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="iii.-why-this-works-as-an-ongoing-project" class="level1">
+<h1>III. Why this works as an ongoing project</h1>
+<ul>
+<li>You can add vendors without rewriting theory</li>
+<li>You can add years of data</li>
+<li>You can fork analyses for ethics economics or policy</li>
+<li>You are building <strong>infrastructure for insight</strong>, not just a paper</li>
+</ul>
+<p>The paper is just one compression of the work.</p>
+<hr>
+<section id="one-sentence-synthesis" class="level2">
+<h2 class="anchored" data-anchor-id="one-sentence-synthesis">One sentence synthesis</h2>
+<p>You are not writing a paper about fundraising tools; you are <strong>building the first empirical window into a hidden data market</strong>, and the paper is simply how that window eventually gets formal recognition.</p>
+<hr>
+<p>No peer reviewed paper that I can find <strong>systematically catalogs the exact data fields provided by prospect research / fundraising vendors</strong> (e.g., WealthEngine DonorSearch iWave ResearchPoint LiveAlumni) and maps them side-by-side. What <em>does</em> exist are vendor data dictionaries product datasheets KB articles and practitioner guides that together let you construct the field-level map yourself. (<a href="https://webfiles-sc1.blackbaud.com/files/researchpoint.datasheet.pdf?utm_source=chatgpt.com" title="ResearchPoint - Blackbaud">Blackbaud Web Files</a>)</p>
+<p>Below I’ll give a compact evidence-backed plan for how to build that mapping the typical field set you’ll find across vendors and a recommended data model so you can start collecting or estimating pricing and coverage in parallel.</p>
+</section>
+</section>
+<section id="evidence-summary-why-no-academic-catalog-exists" class="level1">
+<h1>Evidence summary (why no academic catalog exists)</h1>
+<ul>
+<li>Academic work focuses on general data pricing theory and marketplaces not on vendor by vendor field inventories for fundraising intelligence. See the data pricing surveys for methods not field lists. (<a href="https://wealthengine.com/?utm_source=chatgpt.com" title="Home - WealthEngine">WealthEngine</a>)</li>
+<li>Vendor level detail is available but scattered: product datasheets KB articles API docs and integration guides contain the canonical field lists. You need to gather those primary vendor docs and normalize them. Examples include ResearchPoint field lists WealthEngine manuals DonorSearch definitions iWave field mapping and LiveAlumni integration pages. (<a href="https://webfiles-sc1.blackbaud.com/files/researchpoint.datasheet.pdf?utm_source=chatgpt.com" title="ResearchPoint - Blackbaud">Blackbaud Web Files</a>)</li>
+</ul>
+</section>
+<section id="typical-field-categories-you-will-encounter-use-these-as-canonical-column-headers-in-your-mapping" class="level1">
+<h1>Typical field categories you will encounter (use these as canonical column headers in your mapping)</h1>
+<ol type="1">
+<li><p>Identity &amp; contact</p>
+<ul>
+<li>full name legal name aliases email phone mailing address</li>
+</ul></li>
+<li><p>Biographic &amp; demographics</p>
+<ul>
+<li>DOB approximate age gender household composition</li>
+</ul></li>
+<li><p>Employment &amp; firmographics</p>
+<ul>
+<li>current employer title industry employer history job change timestamps. (<a href="https://www.livealumni.com/?utm_source=chatgpt.com" title="LiveAlumni | Verified Donor &amp; Alumni Data | Seattle, Washington">LiveAlumni</a>)</li>
+</ul></li>
+<li><p>Wealth indicators / capacity proxies</p>
+<ul>
+<li>estimated net worth estimated investable assets income real estate holdings stock ownership business ownership luxury asset flags</li>
+<li>prebuilt scores or pyramids (WealthEngine scores etc.). (<a href="https://wealthengine.com/?utm_source=chatgpt.com" title="Home - WealthEngine">WealthEngine</a>)</li>
+</ul></li>
+<li><p>Philanthropic history</p>
+<ul>
+<li>recorded major gifts pledged and paid giving to named orgs dates gift amounts publicly reported donations political donations and charity board service. (<a href="https://softerware-uploads.s3.amazonaws.com/community/donorperfect/attachments/DonorSearch%20Profile%20guide_2020.compressed%20%284%29%20%281%29.pdf?utm_source=chatgpt.com" title="The DS profile edsb3">SofterWare Uploads</a>)</li>
+</ul></li>
+<li><p>Engagement &amp; affinity signals</p>
+<ul>
+<li>event attendance volunteer roles memberships subscription interactions volunteer/board affiliations</li>
+</ul></li>
+<li><p>Relationship &amp; network data</p>
+<ul>
+<li>household links household members board memberships executive relationships corporate board links shared addresses</li>
+</ul></li>
+<li><p>Identifiers &amp; crosswalks</p>
+<ul>
+<li>D-U-N-S LEI tax or registry IDs stock tickers CIK (SEC) internal vendor ids</li>
+</ul></li>
+<li><p>Derived scores &amp; models</p>
+<ul>
+<li>propensity to give scores wealth scores capacity bands match-gift eligibility</li>
+</ul></li>
+<li><p>Provenance &amp; confidence metadata</p></li>
+</ol>
+<ul>
+<li>last verified timestamp source type (public record scraped user supplied vendor inferred) match quality score. (<a href="https://www.trailblz.com/kb/images/kb0380/Donor%20Search_Definitions.pdf?utm_source=chatgpt.com" title="Donor Search: Wealth Information Profile Terms/Definitions">Trail Blazer</a>)</li>
+</ul>
+</section>
+<section id="suggested-mapping-data-model-table-schema" class="level1">
+<h1>Suggested mapping data model (table schema)</h1>
+<p>Columns (your canonical master schema)</p>
+<ul>
+<li>vendor_name</li>
+<li>vendor_field_name</li>
+<li>canonical_field (one of the categories above e.g.&nbsp;current_employer)</li>
+<li>data_type (string number date boolean)</li>
+<li>cardinality (single value multiple values)</li>
+<li>provenance (public_record broker_scrape vendor_contributed)</li>
+<li>freshness (update_frequency e.g., realtime monthly)</li>
+<li>coverage_notes (geography coverage sector limits)</li>
+<li>sample_value (example)</li>
+<li>price_implied (if you have price per record or per attribute)</li>
+<li>confidence_interval (estimate quality)</li>
+</ul>
+<p>Use the canonical_field column to normalize synonyms across vendors (e.g., Employer EmployerName CurrentEmployer → current_employer).</p>
+</section>
+<section id="how-to-build-the-map-step-by-step-practical" class="level1">
+<h1>How to build the map step by step (practical)</h1>
+<ol type="1">
+<li><p><strong>Inventory vendor source docs</strong></p>
+<ul>
+<li>Download KB articles API docs datasheets and data dictionaries (the vendors publish these). Start with ResearchPoint WealthEngine DonorSearch iWave LiveAlumni. (<a href="https://webfiles-sc1.blackbaud.com/files/researchpoint.datasheet.pdf?utm_source=chatgpt.com" title="ResearchPoint - Blackbaud">Blackbaud Web Files</a>)</li>
+</ul></li>
+<li><p><strong>Automate extraction where possible</strong></p>
+<ul>
+<li>Scrape HTML/ PDFs to extract field lists into CSV. Many vendor KB pages already list “fields” or “definitions” you can parse. (<a href="https://kb.blackbaud.com/knowledgebase/Knowledge/194112?utm_source=chatgpt.com" title="List of all data entry fields in ResearchPoint">Blackbaud Knowledgebase</a>)</li>
+</ul></li>
+<li><p><strong>Normalize to canonical schema</strong></p>
+<ul>
+<li>Map each vendor_field_name → canonical_field. Record mapping rules and ambiguous cases.</li>
+</ul></li>
+<li><p><strong>Add provenance and coverage</strong></p>
+<ul>
+<li>For each field note the vendor’s stated source and geographic coverage. This is critical for comparing e.g., real estate data coverage across vendors.</li>
+</ul></li>
+<li><p><strong>Add pricing and confidence</strong></p>
+<ul>
+<li>Where you have price data attach it. If you only have ranges or estimates record them plus method (quote interview invoice). Use price_implied and confidence_interval fields.</li>
+</ul></li>
+<li><p><strong>Produce visual outputs</strong></p>
+<ul>
+<li>Heatmap of field coverage by vendor (rows vendors columns canonical fields)</li>
+<li>Price per attribute or bundle scatterplots</li>
+<li>Network map of who licenses from whom (if you can infer upstream brokers)</li>
+</ul></li>
+</ol>
+</section>
+<section id="what-to-expect-in-practice-pitfalls-and-quirks" class="level1">
+<h1>What to expect in practice (pitfalls and quirks)</h1>
+<ul>
+<li><strong>Synonym chaos</strong> — the same concept is named differently across vendors and sometimes split into subfields. Normalization is the hardest part. (<a href="https://kb.blackbaud.com/knowledgebase/Knowledge/194112?utm_source=chatgpt.com" title="List of all data entry fields in ResearchPoint">Blackbaud Knowledgebase</a>)</li>
+<li><strong>Provenance opacity</strong> — vendors often do not fully disclose raw upstream sources for commercial reasons. You will need to rely on vendor statements and triangulation. (<a href="https://wealthengine.com/?utm_source=chatgpt.com" title="Home - WealthEngine">WealthEngine</a>)</li>
+<li><strong>Coverage heterogeneity</strong> — some vendors have excellent US real estate or political giving coverage but weak international data. Capture geography explicitly. (<a href="https://webfiles-sc1.blackbaud.com/files/researchpoint.datasheet.pdf?utm_source=chatgpt.com" title="ResearchPoint - Blackbaud">Blackbaud Web Files</a>)</li>
+</ul>
+</section>
+<section id="are-there-existing-partial-lists-or-practitioner-guides" class="level1">
+<h1>Are there existing partial lists or practitioner guides?</h1>
+<p>Yes there are KB articles guides and vendor definition PDFs you can use as primary sources rather than academic citations. Representative examples: Blackbaud ResearchPoint field list WealthEngine user manual DonorSearch profile definitions iWave field mapping LiveAlumni integration docs. (<a href="https://kb.blackbaud.com/knowledgebase/Knowledge/194112?utm_source=chatgpt.com" title="List of all data entry fields in ResearchPoint">Blackbaud Knowledgebase</a>)</p>
+</section>
+<section id="quick-next-steps-i-can-do-for-you-right-now-pick-any" class="level1">
+<h1>Quick next steps I can do for you right now (pick any)</h1>
+<ul>
+<li>Pull and normalize field lists for 3 vendors you care about and return the mapping table.</li>
+<li>Create the blank canonical schema CSV you can fill with vendor data.</li>
+<li>Start the field coverage heatmap for 5 vendors.</li>
+</ul>
+<p>If you want me to start mapping now tell me which vendors to prioritize and whether you already have any price observations. If you prefer I will start with the canonical five mentioned above: WealthEngine DonorSearch iWave ResearchPoint LiveAlumni.</p>
+<hr>
+</section>
+<section id="references-plaintext-urls" class="level1">
+<h1>References (plaintext URLs)</h1>
+<p>Blackbaud ResearchPoint datasheet and field list <a href="https://webfiles-sc1.blackbaud.com/files/researchpoint.datasheet.pdf">https://webfiles-sc1.blackbaud.com/files/researchpoint.datasheet.pdf</a> <a href="https://kb.blackbaud.com/knowledgebase/Knowledge/194112">https://kb.blackbaud.com/knowledgebase/Knowledge/194112</a></p>
+<p>WealthEngine product and manual <a href="https://wealthengine.com/">https://wealthengine.com/</a> <a href="https://www.softerware.com/doclib/DP/Manuals/DP_SUP_Manual_WealthEngine.pdf">https://www.softerware.com/doclib/DP/Manuals/DP_SUP_Manual_WealthEngine.pdf</a></p>
+<p>DonorSearch data definitions &amp; profile guide <a href="https://www.donorsearch.net/our-data/">https://www.donorsearch.net/our-data/</a> <a href="https://softerware-uploads.s3.amazonaws.com/community/donorperfect/attachments/DonorSearch%20Profile%20guide_2020.compressed%20%284%29%20%281%29.pdf">https://softerware-uploads.s3.amazonaws.com/community/donorperfect/attachments/DonorSearch%20Profile%20guide_2020.compressed%20%284%29%20%281%29.pdf</a></p>
+<p>iWave field mapping / Salesforce integration docs <a href="https://support.iwave.com/s/article/Salesforce-Field-Mapping">https://support.iwave.com/s/article/Salesforce-Field-Mapping</a> <a href="https://knowledge.technolutions.net/docs/iwave-research-integration">https://knowledge.technolutions.net/docs/iwave-research-integration</a></p>
+<p>LiveAlumni homepage and integrations <a href="https://www.livealumni.com/">https://www.livealumni.com/</a> <a href="https://www.livealumni.com/integrations">https://www.livealumni.com/integrations</a></p>
+<p>Prospect research practitioner guide (useful canonical categories) <a href="https://campaignforaction.org/wp-content/uploads/2014/09/ProspectResearchSourceGuide-4-2020.pdf">https://campaignforaction.org/wp-content/uploads/2014/09/ProspectResearchSourceGuide-4-2020.pdf</a></p>
+<hr>
+<p>Would you like me to begin by extracting the field lists for WealthEngine DonorSearch and ResearchPoint and normalizing them into the canonical schema I proposed? I can produce the CSV and a coverage heatmap on the first pass.</p>
+<p>Nice — below is a compact <strong>reading + resource pack</strong> you can use to study data marketplaces and practical open source alternatives. I’ve grouped items by theme so you can pick what fits your project stage. Each entry includes a one-line summary and a plaintext URL so you can jump straight to the source.</p>
+<hr>
+</section>
+<section id="core-academic-surveys-on-data-marketplaces-and-pricing" class="level1">
+<h1>1) Core academic surveys on data marketplaces and pricing</h1>
+<p>These give you theory and methods you can adapt to fundraising data pricing.</p>
+<ul>
+<li><p><strong>A Survey of Data Pricing for Data Marketplaces</strong> — taxonomy of pricing models sell/buy/two-sided markets and gaps. <a href="https://arxiv.org/abs/2303.04810">https://arxiv.org/abs/2303.04810</a></p></li>
+<li><p><strong>Modern Data Pricing Models: Taxonomy and Comprehensive Survey</strong> — expands pricing approaches including query and value-based pricing. <a href="https://arxiv.org/abs/2306.04945">https://arxiv.org/abs/2306.04945</a></p></li>
+<li><p><strong>Pricing Data in Data Marketplaces: A Systematic Literature Review</strong> (Springer chapter) — recent SLR that synthesizes interdisciplinary work on pricing. <a href="https://link.springer.com/chapter/10.1007/978-3-032-06164-5_33">https://link.springer.com/chapter/10.1007/978-3-032-06164-5_33</a></p></li>
+</ul>
+<hr>
+</section>
+<section id="open-source-data-marketplace-platforms-and-experimental-systems" class="level1">
+<h1>2) Open source data marketplace platforms and experimental systems</h1>
+<p>These show practical implementations you can fork or study.</p>
+<ul>
+<li><p><strong>Topio — An open-source web platform for trading geospatial data</strong> — engineering paper describing an open modular marketplace you can reuse. <a href="https://link.springer.com/chapter/10.1007/978-3-031-34444-2_25">https://link.springer.com/chapter/10.1007/978-3-031-34444-2_25</a></p></li>
+<li><p><strong>Magentic Marketplace (Microsoft)</strong> — open source simulation environment for studying agentic markets and data-market dynamics. Good for running experiments. <a href="https://www.microsoft.com/en-us/research/blog/magentic-marketplace-an-open-source-simulation-environment-for-studying-agentic-markets/">https://www.microsoft.com/en-us/research/blog/magentic-marketplace-an-open-source-simulation-environment-for-studying-agentic-markets/</a></p></li>
+<li><p><strong>Ocean Protocol (whitepapers &amp; tech docs)</strong> — a Web3 open source stack for decentralized data marketplaces and compute-to-data patterns. Useful if you want tokenized or privacy preserving designs. <a href="https://oceanprotocol.com/tech-whitepaper.pdf">https://oceanprotocol.com/tech-whitepaper.pdf</a> <a href="https://github.com/oceanprotocol/papers">https://github.com/oceanprotocol/papers</a></p></li>
+<li><p><strong>Data Commons (Google / academic)</strong> — architecture and papers on building large interoperable commons with shared schemas and APIs. Great for “open data as infrastructure.” <a href="https://research.google/pubs/data-commons/">https://research.google/pubs/data-commons/</a> <a href="https://docs.datacommons.org/papers/">https://docs.datacommons.org/papers/</a></p></li>
+<li><p><strong>DataHub (LinkedIn originally / open source)</strong> — modern open source metadata catalog and discovery platform you can use to surface and govern datasets. <a href="https://datahub.com/">https://datahub.com/</a></p></li>
+<li><p><strong>CKAN (open source data portal)</strong> — the canonical open data portal software used by governments and open data initiatives. <a href="https://ckan.org/">https://ckan.org/</a> <a href="https://github.com/ckan/ckan">https://github.com/ckan/ckan</a></p></li>
+<li><p><strong>Dataverse</strong> — academic data repository platform for publishing and citing datasets. Useful for scholarly data publication workflows. <a href="https://dataverse.org/">https://dataverse.org/</a></p></li>
+</ul>
+<hr>
+</section>
+<section id="governance-models-and-practical-frameworks-data-trusts-commons-licenses" class="level1">
+<h1>3) Governance models and practical frameworks (data trusts / commons / licenses)</h1>
+<p>These papers explain governance and legal design you’ll need for open alternatives.</p>
+<ul>
+<li><p><strong>Data Trusts: Ethics Architecture and Governance for Trustworthy Data</strong> — conceptual and practical approaches to operating data trusts. <a href="https://kieronohara.com/wp-content/uploads/2023/11/WSI-data-trust-White-Paper-1.pdf">https://kieronohara.com/wp-content/uploads/2023/11/WSI-data-trust-White-Paper-1.pdf</a></p></li>
+<li><p><strong>Open Licensing and Data Trust for Personal and Non-Personal Data</strong> — law review style paper on creating open data licenses and trust architectures. <a href="https://link.springer.com/article/10.1007/s40319-025-01636-y">https://link.springer.com/article/10.1007/s40319-025-01636-y</a></p></li>
+<li><p><strong>White Paper: Data trusts data intermediation services and Gaia-X</strong> — EU-focused policy / architecture guidance for sovereign open sharing. <a href="https://gaia-x-hub.de/wp-content/uploads/2023/11/GX-White-Paper-Data-Trusts.pdf">https://gaia-x-hub.de/wp-content/uploads/2023/11/GX-White-Paper-Data-Trusts.pdf</a></p></li>
+<li><p><strong>Ten lessons for data sharing with a data commons</strong> — practical lessons from building data commons (Nature Scientific Data). <a href="https://www.nature.com/articles/s41597-023-02029-x.pdf">https://www.nature.com/articles/s41597-023-02029-x.pdf</a></p></li>
+<li><p><strong>Open Data Institute / Data Trusts legal report</strong> — ODI synthesis of pilots and legal considerations. <a href="https://theodi.cdn.ngo/media/documents/General-legal-report-on-data-trust.pdf">https://theodi.cdn.ngo/media/documents/General-legal-report-on-data-trust.pdf</a></p></li>
+</ul>
+<hr>
+</section>
+<section id="decentralized-user-centric-projects-privacy-first-alternatives" class="level1">
+<h1>4) Decentralized / user-centric projects (privacy first alternatives)</h1>
+<p>If your goal is to avoid broker lock-in and centralization these are essential.</p>
+<ul>
+<li><p><strong>Solid (Tim Berners-Lee)</strong> — personal data pods and decentralized access control to let data owners expose datasets to apps on their terms. Good model for consented alumni/donor data. <a href="https://solidproject.org/">https://solidproject.org/</a> <a href="https://emansour.com/research/lusail/solid_protocols.pdf">https://emansour.com/research/lusail/solid_protocols.pdf</a></p></li>
+<li><p><strong>Ocean Protocol (again)</strong> — compute-to-data pattern avoids moving raw data off premises while enabling monetization and discovery. <a href="https://oceanprotocol.com/tech-whitepaper.pdf">https://oceanprotocol.com/tech-whitepaper.pdf</a></p></li>
+</ul>
+<hr>
+</section>
+<section id="implementation-case-studies-and-engineering-papers" class="level1">
+<h1>5) Implementation case studies and engineering papers</h1>
+<p>These are practical references to copy patterns from.</p>
+<ul>
+<li><p><strong>Topio open marketplace implementation</strong> (see above) — practical modular code and experiments for geospatial markets. <a href="https://link.springer.com/chapter/10.1007/978-3-031-34444-2_25">https://link.springer.com/chapter/10.1007/978-3-031-34444-2_25</a></p></li>
+<li><p><strong>Data Commons architecture paper</strong> — concrete architecture for large scale joined datasets and shared schemas. <a href="https://papers.rgrossman.com/journal-056.pdf">https://papers.rgrossman.com/journal-056.pdf</a></p></li>
+</ul>
+<hr>
+</section>
+<section id="supplementary-resources-and-communities" class="level1">
+<h1>6) Supplementary resources and communities</h1>
+<p>Places to find tooling examples and collaborators.</p>
+<ul>
+<li><p><strong>GitHub: Ocean Protocol papers &amp; repos</strong> — code and whitepapers. <a href="https://github.com/oceanprotocol/papers">https://github.com/oceanprotocol/papers</a></p></li>
+<li><p><strong>CKAN GitHub</strong> — production ready open data portal codebase. <a href="https://github.com/ckan/ckan">https://github.com/ckan/ckan</a></p></li>
+<li><p><strong>DataHub project</strong> — open source metadata catalog and connectors. <a href="https://datahub.com/">https://datahub.com/</a></p></li>
+<li><p><strong>Open Data Institute</strong> — policy pilots and guides on data stewardship and trust models. <a href="https://theodi.org/">https://theodi.org/</a></p></li>
+</ul>
+<hr>
+</section>
+<section id="suggested-reading-order-for-your-project" class="level1">
+<h1>Suggested reading order for your project</h1>
+<ol type="1">
+<li><strong>Survey papers</strong> (arXiv 2303.04810 and 2306.04945) — get the pricing theory and taxonomy.</li>
+<li><strong>Data Commons + Ten Lessons</strong> — understand how shared schemas and commons are built.</li>
+<li><strong>Topio + Magentic</strong> — see concrete open marketplace engineering and simulation tools.</li>
+<li><strong>Ocean Protocol + Solid</strong> — evaluate decentralized privacy first alternatives and compute-to-data.</li>
+<li><strong>Governance pieces (ODI / Data Trusts / Gaia-X)</strong> — design the legal / stewardship layer you will need.</li>
+</ol>
+<hr>
+</section>
+<section id="practical-next-steps-i-can-do-for-you-right-now" class="level1">
+<h1>Practical next steps I can do for you right now</h1>
+<ul>
+<li>Produce an annotated reading list with 1 paragraph summaries and key takeaways for each paper.</li>
+<li>Pull and summarize the technical architecture sections (diagrams) from 3 chosen implementations (Topio Ocean Data Commons).</li>
+<li>Sketch a small open source reference stack (e.g., CKAN + DataHub + compute gateway + access controls + minimal marketplace front end) with component responsibilities and example OSS projects to use.</li>
+</ul>
+<hr>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/prospectresearchtoolkit\.github\.io\/ProspectResearchToolkit\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Website updated: 10/9/2025</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

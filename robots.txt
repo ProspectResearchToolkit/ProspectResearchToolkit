@@ -1,1 +1,1 @@
-Sitemap: https://aprautah.github.io/ProspectResearchToolkit/sitemap.xml
+Sitemap: https://prospectresearchtoolkit.github.io/ProspectResearchToolkit/sitemap.xml
