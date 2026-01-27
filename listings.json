@@ -1,23 +1,29 @@
 [
   {
+    "listing": "/tool_inventory/inventory_manifest.html",
+    "items": [
+      "/tool_inventory/inventory_items/ProQuest.html",
+      "/tool_inventory/inventory_items/NexisUni.html"
+    ]
+  },
+  {
+    "listing": "/toolkit_tutorials/tutorials.html",
+    "items": []
+  },
+  {
+    "listing": "/website_build_templates/yaml_header_templates.html",
+    "items": []
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/toolkit_blog/Tool_Incidents/index.html",
       "/toolkit_blog/LibraryDatabases/index.html",
-      "/toolkit_blog/Tool_reviews/index.html",
       "/toolkit_blog/datacontracts/index.html",
       "/toolkit_blog/Creating_Jobs_Dataset/index.html",
       "/toolkit_blog/PRSPCT-L_roundup/index.html",
       "/toolkit_blog/HelpfulTechDocumentation/index.html",
       "/toolkit_blog/technical_field_guide/index.html"
-    ]
-  },
-  {
-    "listing": "/tutorials.html",
-    "items": [
-      "/toolkit_tutorials/CodeBlockTesting/index.html",
-      "/toolkit_tutorials/toolkit_templates/obsidian_toolkit/readme.html",
-      "/toolkit_tutorials/UsingPowerQuery/index.html"
     ]
   }
 ]
