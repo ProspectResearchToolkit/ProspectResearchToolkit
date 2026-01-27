@@ -5,8 +5,6 @@ title: "Prospect Research Toolkit"
 ![...](https://i.postimg.cc/W1STySKW/prospect-research-toolkit-large-logo-prototype-one-1.png)
 :::
 
-**Version: {{< var version >}}**
-
 ***
 Howdy, partner. Welcome to camp!
 
@@ -20,6 +18,8 @@ Thanks for reading and happy trails.
 
 ***
 
+---
+**Version: {{< var version >}}**
 
 
 

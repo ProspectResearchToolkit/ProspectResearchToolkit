@@ -427,7 +427,7 @@
     "href": "index.html",
     "title": "Prospect Research Toolkit",
     "section": "",
-    "text": "…\n\n\nVersion: 0.1.1-alpha\n\nHowdy, partner. Welcome to camp!\nYou know how they say, “there’s gold in them thar hills?” - well, I’ve set out to create the resource I always wish existed: a free, community-driven library of tools for the scrappy fundraising prospector, along with a field guide to put all of them into practice.\nHopefully this toolkit will expand to be an invaluable resource for those splashing through the data streams, Excel sluice boxes and CRM picks a’clankin’! In the meantime, it’s just a hobby project with big dreams.\nFor more info about the scope of this project, feel free to check out the About page.\nThanks for reading and happy trails.\n\n\n\n\n Back to top"
+    "text": "…\n\n\n\nHowdy, partner. Welcome to camp!\nYou know how they say, “there’s gold in them thar hills?” - well, I’ve set out to create the resource I always wish existed: a free, community-driven library of tools for the scrappy fundraising prospector, along with a field guide to put all of them into practice.\nHopefully this toolkit will expand to be an invaluable resource for those splashing through the data streams, Excel sluice boxes and CRM picks a’clankin’! In the meantime, it’s just a hobby project with big dreams.\nFor more info about the scope of this project, feel free to check out the About page.\nThanks for reading and happy trails.\n\n\nVersion: 0.1.2-alpha\n\n\n\n Back to top"
   },
   {
     "objectID": "website_build_templates/yaml_header_templates.html",
@@ -671,7 +671,7 @@
     "href": "research_templates/templates.html",
     "title": "Templates",
     "section": "",
-    "text": "Excel templates\n\n\nother templates (?)\n\n\n\n\n Back to top"
+    "text": "Overview\nThis is an pie-in-the-sky page, one that will one day explain some templates that may be helpful for prospect research, across a variety of platforms.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "toolkit_blog/technical_field_guide/index.html",
@@ -784,5 +784,26 @@
     "title": "unfinished PRSPCT-L Roundup",
     "section": "Prospect Research articles beyond PRSPCT-L",
     "text": "Prospect Research articles beyond PRSPCT-L\n\nThe Major Gifts Report\n\n\n\n\n\n\n\nReferences\nI’ve included links to the posts, so you can follow the original conversation. Not sure how folks would like me to attribute their contributions, so in lieu of posting names / job titles here, I figure folks can follow the links and log into PRSPCT-L to thank folks directly. In every case, I am transforming the content somehow, not directly quoting."
+  },
+  {
+    "objectID": "animations/animation_blocks.html",
+    "href": "animations/animation_blocks.html",
+    "title": "animation_blocks",
+    "section": "",
+    "text": "{\n  const radius = 1\n  const width = 1\n  const height = 1\n  \n  const context = DOM.context2d(width, height);\n  while (true) {\n    const x = (Math.sin(Date.now() / 1000) + 1) / 2 * (width - 2 * radius) + radius;\n    context.clearRect(0, 0, width, height);\n    context.beginPath();\n    context.arc(x, height / 2, radius, 0, 2 * Math.PI);\n    context.fill();\n    yield context.canvas;\n  }\n}\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "visualizations_animations/text_animations.html",
+    "href": "visualizations_animations/text_animations.html",
+    "title": "text_animations",
+    "section": "",
+    "text": "Some text\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "visualizations_animations/animation_blocks.html",
+    "href": "visualizations_animations/animation_blocks.html",
+    "title": "animation_blocks",
+    "section": "",
+    "text": "{\n  const radius = 1\n  const width = 1\n  const height = 1\n  \n  const context = DOM.context2d(width, height);\n  while (true) {\n    const x = (Math.sin(Date.now() / 1000) + 1) / 2 * (width - 2 * radius) + radius;\n    context.clearRect(0, 0, width, height);\n    context.beginPath();\n    context.arc(x, height / 2, radius, 0, 2 * Math.PI);\n    context.fill();\n    yield context.canvas;\n  }\n}\n\n\n\n\n\n\n\n\n\n Back to top"
   }
 ]

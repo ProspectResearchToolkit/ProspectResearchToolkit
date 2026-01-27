@@ -2,10 +2,17 @@
 title: "Tool Reviews"
 author: Greg Brooks
 date: 01-30-2026
+execute: 
+  enabled: true
+extensions:
+  animate:
+    delay: 1s
+   # duration: 10s
+    #repeat: 3
 ---
 
 # Factiva
-Factiva could be a great place to hit first when researching a company, but may be less useful the deeper your research project goes and the more private the company happens to be. The company snapshot looks familiar because it is using the same data that many other tools use. However, I appreciate that Factiva often includes its source in any given module. Its weaknesses are shared by many other platforms that rely on data brokers: public data just rerendered, not necessarily any original research being done on the platform, which means many other services have the same exact data. Factivity's main strength is its simplicity. 
+{{< animate bounceIn "Factiva" >}} could be a great place to hit first when researching a company, but may be less useful the deeper your research project goes and the more private the company happens to be. The company snapshot looks familiar because it is using the same data that many other tools use. However, I appreciate that Factiva often includes its source in any given module. Its weaknesses are shared by many other platforms that rely on data brokers: public data just rerendered, not necessarily any original research being done on the platform, which means many other services have the same exact data. Factivity's main strength is its simplicity. 
 
 ## Factiva Features
 - Company Snapshot

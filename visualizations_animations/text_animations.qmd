@@ -1,0 +1,14 @@
+---
+title: "text_animations"
+format: html
+execute: 
+  enabled: true
+extensions:
+  animate:
+    delay: 1s
+    duration: 10s
+    repeat: 3
+---
+
+{{< animate hinge "Some text" >}}
+

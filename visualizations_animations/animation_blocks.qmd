@@ -1,0 +1,26 @@
+---
+title: "animation_blocks"
+format: html
+execute: 
+  eval: false
+---
+
+```{ojs}
+
+{
+  const radius = 1
+  const width = 1
+  const height = 1
+  
+  const context = DOM.context2d(width, height);
+  while (true) {
+    const x = (Math.sin(Date.now() / 1000) + 1) / 2 * (width - 2 * radius) + radius;
+    context.clearRect(0, 0, width, height);
+    context.beginPath();
+    context.arc(x, height / 2, radius, 0, 2 * Math.PI);
+    context.fill();
+    yield context.canvas;
+  }
+}
+
+```

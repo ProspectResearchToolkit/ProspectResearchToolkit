@@ -4,7 +4,7 @@ title: "About"
 This toolkit is maintained by [Greg Brooks](https://github.com/analyst-greg/){.external} in collaboration with [Apra Utah](https://aprautah.wildapricot.org/){.external}.
 
 Other contributors include: 
-- Kensuke Uma (add linkedin here)
+- Kensuke Uma
 
 ---
 

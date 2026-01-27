@@ -1,6 +1,8 @@
 ---
 title: "Free External Resources"
 format: html
+execute: 
+  enable: false
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=WtT4pf9XbkBq1s0P&amp;list=PL1o1mIqf6YgcO05dtgRtUj0w9mDN81ODk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
