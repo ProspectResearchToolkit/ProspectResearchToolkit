@@ -22,5 +22,12 @@
   {
     "listing": "/toolkit_tutorials/tutorials.html",
     "items": []
+  },
+  {
+    "listing": "/tool_inventory/tool_inventory.html",
+    "items": [
+      "/tool_inventory/inventory_items/NexisUni.html",
+      "/tool_inventory/inventory_items/ProQuest.html"
+    ]
   }
 ]

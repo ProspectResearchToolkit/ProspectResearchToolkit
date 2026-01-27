@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://prospectresearchtoolkit.github.io/ProspectResearchToolkit/tool_inventory/tool_inventory.html</loc>
-    <lastmod>2026-01-27T04:17:02.364Z</lastmod>
+    <lastmod>2026-01-27T04:43:12.037Z</lastmod>
   </url>
   <url>
     <loc>https://prospectresearchtoolkit.github.io/ProspectResearchToolkit/tool_inventory/tool_reviews.html</loc>
@@ -155,5 +155,17 @@
   <url>
     <loc>https://prospectresearchtoolkit.github.io/ProspectResearchToolkit/tool_inventory/tool_feature_matrix.html</loc>
     <lastmod>2026-01-27T03:58:26.355Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prospectresearchtoolkit.github.io/ProspectResearchToolkit/tool_inventory/inventory_items/NexisUni.html</loc>
+    <lastmod>2026-01-27T04:42:30.300Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prospectresearchtoolkit.github.io/ProspectResearchToolkit/tool_inventory/inventory_items/ProQuest.html</loc>
+    <lastmod>2026-01-27T04:19:47.723Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prospectresearchtoolkit.github.io/ProspectResearchToolkit/tool_inventory/tool_reviews_old.html</loc>
+    <lastmod>2026-01-27T03:32:31.374Z</lastmod>
   </url>
 </urlset>

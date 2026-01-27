@@ -920,14 +920,14 @@
   {
     "objectID": "tool_inventory/tool_inventory.html",
     "href": "tool_inventory/tool_inventory.html",
-    "title": "tool_inventory",
+    "title": "Tool Inventory",
     "section": "",
-    "text": "Back to top",
+    "text": "NexisUni\n\n\n\nnews-database\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProQuest\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n Back to top",
     "crumbs": [
       "Home",
       "Maps",
       "Tool Inventory",
-      "tool_inventory"
+      "Tool Inventory"
     ]
   },
   {
@@ -980,6 +980,73 @@
       "Maps",
       "Tool Inventory",
       "Tool Feature Matrix"
+    ]
+  },
+  {
+    "objectID": "tool_inventory/inventory_items/NexisUni.html",
+    "href": "tool_inventory/inventory_items/NexisUni.html",
+    "title": "NexisUni",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Home",
+      "Maps",
+      "Tool Inventory",
+      "Inventory Items",
+      "NexisUni"
+    ]
+  },
+  {
+    "objectID": "tool_inventory/inventory_items/ProQuest.html",
+    "href": "tool_inventory/inventory_items/ProQuest.html",
+    "title": "ProQuest",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Home",
+      "Maps",
+      "Tool Inventory",
+      "Inventory Items",
+      "ProQuest"
+    ]
+  },
+  {
+    "objectID": "tool_inventory/tool_reviews_old.html",
+    "href": "tool_inventory/tool_reviews_old.html",
+    "title": "Tool Reviews",
+    "section": "",
+    "text": "Factiva could be a great place to hit first when researching a company, but may be less useful the deeper your research project goes and the more private the company happens to be. The company snapshot looks familiar because it is using the same data that many other tools use. However, I appreciate that Factiva often includes its source in any given module. Its weaknesses are shared by many other platforms that rely on data brokers: public data just rerendered, not necessarily any original research being done on the platform, which means many other services have the same exact data. Factivity’s main strength is its simplicity.\n\n\n\nCompany Snapshot\nNews\n\nLatest News\nWeb News\n\nSignals\nKey Developments\nPeer Comparison\n\nLots of options here, with spreadsheet export\nYou can see similar companies based on sales, employee count, or market cap\nPotentially useful when brainstorming proactive research, since you can see the top 10 most similar companies, the names attached to those companies may also be relevant to your project.\n\nCorporate Family\n\nOne of the best features, in my opinion, very simple rendering of Dun & Bradstreet information but with some nice additional touches\nThey have developed different symbols to indicate parent vs. primary subsidiary vs. regular subsidiary vs. branch location\nYou can see all branch and subsidiary names and locations\n\nFinancial Results\n\nMost of this category is not relevant for prospect research,\n\nOwnership\n\nInstead of digging through SEC filings to find insiders who own stock, Factiva has the top 10 within a couple clicks, which could save time\n\nAnalysis and Profiles\n\nGeared more toward investment advice, but provides some useful or interesting context about a company when you look at the most recent financials. The Wright Quality rating, for example, gives you an at-a-glance letter grade to consider when evaluating the company’s charitability, and could be a useful small infographic to include in a report from a prospect researcher.\n\nReports\n\nThe “company report” stitches together almost all of the individual pieces into one PDF or html, and seems like the most comprehensive, but most is potentially irrelevant to a prospect research\n\nChrome/Edge Browser Extension\n\nHaven’t tested it yet, but it functions as an additional way to search during your workflow\n\n\n\n\n\n\n3-source verify: Factiva is a quick place to verify public information about companies, especially the relationship between parent or holding companies and their subsidiaries.\nWrangling Corporate Sprawl: When deep diving in on companies, mapping out the parents and subsidiaries is only the beginning. Factiva provides a concise, sourced, and reliable source of industry information that can help understand big companies and their so-called sprawl sometimes across several markets.\nC-Suite Searching: In the subjects on the right side of the News module, you can click “Senior Level Management” and it will bring up the latest news regarding senior management. One of the unique sources there: “The Official Board” which is sometimes behind a pay wall",
+    "crumbs": [
+      "Home",
+      "Maps",
+      "Tool Inventory",
+      "Tool Reviews"
+    ]
+  },
+  {
+    "objectID": "tool_inventory/tool_reviews_old.html#factiva-features",
+    "href": "tool_inventory/tool_reviews_old.html#factiva-features",
+    "title": "Tool Reviews",
+    "section": "",
+    "text": "Company Snapshot\nNews\n\nLatest News\nWeb News\n\nSignals\nKey Developments\nPeer Comparison\n\nLots of options here, with spreadsheet export\nYou can see similar companies based on sales, employee count, or market cap\nPotentially useful when brainstorming proactive research, since you can see the top 10 most similar companies, the names attached to those companies may also be relevant to your project.\n\nCorporate Family\n\nOne of the best features, in my opinion, very simple rendering of Dun & Bradstreet information but with some nice additional touches\nThey have developed different symbols to indicate parent vs. primary subsidiary vs. regular subsidiary vs. branch location\nYou can see all branch and subsidiary names and locations\n\nFinancial Results\n\nMost of this category is not relevant for prospect research,\n\nOwnership\n\nInstead of digging through SEC filings to find insiders who own stock, Factiva has the top 10 within a couple clicks, which could save time\n\nAnalysis and Profiles\n\nGeared more toward investment advice, but provides some useful or interesting context about a company when you look at the most recent financials. The Wright Quality rating, for example, gives you an at-a-glance letter grade to consider when evaluating the company’s charitability, and could be a useful small infographic to include in a report from a prospect researcher.\n\nReports\n\nThe “company report” stitches together almost all of the individual pieces into one PDF or html, and seems like the most comprehensive, but most is potentially irrelevant to a prospect research\n\nChrome/Edge Browser Extension\n\nHaven’t tested it yet, but it functions as an additional way to search during your workflow",
+    "crumbs": [
+      "Home",
+      "Maps",
+      "Tool Inventory",
+      "Tool Reviews"
+    ]
+  },
+  {
+    "objectID": "tool_inventory/tool_reviews_old.html#use-cases",
+    "href": "tool_inventory/tool_reviews_old.html#use-cases",
+    "title": "Tool Reviews",
+    "section": "",
+    "text": "3-source verify: Factiva is a quick place to verify public information about companies, especially the relationship between parent or holding companies and their subsidiaries.\nWrangling Corporate Sprawl: When deep diving in on companies, mapping out the parents and subsidiaries is only the beginning. Factiva provides a concise, sourced, and reliable source of industry information that can help understand big companies and their so-called sprawl sometimes across several markets.\nC-Suite Searching: In the subjects on the right side of the News module, you can click “Senior Level Management” and it will bring up the latest news regarding senior management. One of the unique sources there: “The Official Board” which is sometimes behind a pay wall",
+    "crumbs": [
+      "Home",
+      "Maps",
+      "Tool Inventory",
+      "Tool Reviews"
     ]
   }
 ]
