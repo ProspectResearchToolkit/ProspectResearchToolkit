@@ -1,10 +1,5 @@
 ---
 title: "Pitchbook"
-
-image: /images/tool_logos/pitchbook_logo.jpg
 categories: [news-database, library-database]
 description: "PitchBook is a financial data platform used by university libraries to provide detailed information on venture capital, private equity, and merger and acquisition activity across the private and public markets."
 ---
-::: {.column-margin}
-![](/images/tool_logos/pitchbook_logo.jpg)
-:::
