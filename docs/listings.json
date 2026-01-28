@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/inventory_table_version.html",
+    "items": [
+      "/tool_inventory/inventory_items/NexisUni.html",
+      "/tool_inventory/inventory_items/Pitchbook.html",
+      "/tool_inventory/inventory_items/ProQuest.html"
+    ]
+  },
+  {
     "listing": "/field_notes.html",
     "items": [
       "/field_notes/Tool_Incidents/index.html",
@@ -11,19 +19,11 @@
     ]
   },
   {
-    "listing": "/tool_inventory/inventory_table_version.html",
-    "items": [
-      "/tool_inventory/inventory_items/NexisUni.html",
-      "/tool_inventory/inventory_items/Pitchbook.html",
-      "/tool_inventory/inventory_items/ProQuest.html"
-    ]
-  },
-  {
     "listing": "/toolkit_tutorials/tutorials.html",
     "items": []
   },
   {
-    "listing": "/inventory_table_version.html",
+    "listing": "/tool_inventory/inventory_table_version.html",
     "items": [
       "/tool_inventory/inventory_items/NexisUni.html",
       "/tool_inventory/inventory_items/Pitchbook.html",
