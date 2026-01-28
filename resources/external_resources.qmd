@@ -1,0 +1,11 @@
+---
+title: "External Resources"
+format: html
+execute: 
+  enable: false
+---
+
+
+# Prospect Research Resource Lists
+- [Chase Solutions list](https://prospectresearch.com/resources/)
+- [Staupell Analytics list](https://library.staupell.com/home)

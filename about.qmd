@@ -4,32 +4,24 @@ filters:
   - linkate
 ---
 # Overview
-Latest website version: The latest release is {{< var version >}}
+The prospect research toolkit is an independently maintained repository of fundraising industry analysis, software information, and research methodology. This is a hobby coding project, first and foremost, but projects are refined based on conversations with development professionals.
 
-There are plenty of excellent paid resources available: Apra, private consultants, subscription tools, books, but not everyone has the budget to access them. This toolkit is being created to bridge that gap, or supplement what's already out there, not to replace any of those things. The goal is to keep it simple, open-source, community-driven, free and regularly updated.
-
-This toolkit is maintained by [Greg Brooks](https://github.com/analyst-greg/){.external} in collaboration with [Apra Utah](https://aprautah.wildapricot.org/){.external}.
-
-Other contributors include: Kensuke Uma.
-
+There are plenty of excellent paid resources available: Apra, private consultant firms, subscription tools, books...but not everyone has the budget to access them. This toolkit was created to bridge that gap, or supplement what's already out there, and create original content that is interactive. The goal is to keep it simple, fun, open-source, community-driven, regularly updated, and always free.
 
 ---
 
 # Short-term Goals
-- Keep exploring [extensions and Quarto capabilities](https://quarto.org/docs/extensions/)
-- Synthetic donor dataset for training, examples, and presentations
-- AI Prompt library and use-cases, as well as "helper files" for creating stronger research posture without having to initialize an entire agent
-- Software tool comparisons, paid and free
-- Templates
-- Tutorials and Blog posts that will be refined and compiled into the field guide: [*"Prospectin' in Philanthropy Country"*](toolkit_blog/technical_field_guide/index.qmd)
+- Keep adding to the toolkit database and website structure
+- Refine a synthetic donor dataset for training, examples, and presentations
+- focus on interactive elements
+- Software tool comparisons in dashboard format
+
 
 ***
 # Long-term Goals
+- Create AI Prompt library and use-cases, as well as "helper files" for creating stronger research posture without having to initialize an entire agent
 - Extensions or add-ins, or community plugins (potentially starting with Obsidian or Excel)
-- Standalone app that integrates with free and paid tools
 - Collaboration with other Apra chapters and Apra International
-- A completed prospect research field guide that combines tools, blog posts, tutorials, and education into one cohesive whole - and can be downloaded as PDF as well as read online
-- One-off donations to pay for site assets or coffee money if I get a friend to glance at the site and give advice, not planning for ongoing sponsorship for this site, which is currently maintained as a volunteer effort using free tools. No users will be solicited, but a link to a "buymeacoffee" will be set up.
 
 ***
 # FAQ
@@ -51,9 +43,17 @@ I come from a psychology background and am largely self-taught in data analytics
 
 ## How often is the website updated?
 
-In small ways, frequently! Larger changes and resources are on a slower schedule, since I'm doing this in my free time. I expect to have more tutorials, resources, and tools online by 2026. A project board is being maintained with the [features / goals](https://github.com/orgs/ProspectResearchToolkit/projects/1/views/1) currently being worked on!
+In small ways, frequently! You can read the [latest release notes](https://github.com/ProspectResearchToolkit/ProspectResearchToolkit/releases/tag/v01.2-alpha) for some of the technical details.
 
-## How is Apra Utah involved?
+---
+# Contributors
 
-I started this website as part of my education initiative for 2025 while I'm serving on the Apra Utah board, and hope to keep collaborating with Apra Utah after my term ends. The opinions expressed on this website are my own and do not necessarily reflect those of Apra Utah or my employer.
+This toolkit is maintained by [Greg Brooks](https://github.com/analyst-greg/){.external} in collaboration with [Apra Utah](https://aprautah.wildapricot.org/){.external}.
+
+Other contributors include: Kensuke Uma.
+
+If you'd like to collaborate on this project, please [connect with Greg on LinkedIn!](https://www.linkedin.com/in/analyst-greg/). It would be really fun to work with fellow coding and analytics nerds in the prospect research niche!
+
+---
+Latest website version: The latest release is {{< var version >}}
 

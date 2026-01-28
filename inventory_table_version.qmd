@@ -6,6 +6,6 @@ listing:
   categories: true
   table-striped: true
   table-hover: true
-  fields: [image, title, description]
+  fields: [title, description]
 ---
 

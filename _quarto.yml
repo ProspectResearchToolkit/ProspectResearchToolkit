@@ -23,19 +23,11 @@ website:
         href: about.qmd
       - text: "Field Notes"
         href: field_notes.qmd
-      - text: "Inventory"
-        href: inventory_manifest.qmd
       - text: "A-Z List"
         href: inventory_table_version.qmd
-      - text: "Software Dashboard"
+      - text: "Dashboard"
         href: toolkit_dashboard1.qmd
       
-  announcement: 
-    content: "**Welcome!** - this website is a work in progress, and some pages/features may be empty, unfinished, or broken. Thank you for your patience!" 
-    position: below-navbar 
-    type: info
-    icon: info-square-fill
-
   reader-mode: false
   page-footer: 
     left: " "

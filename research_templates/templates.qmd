@@ -1,6 +1,0 @@
----
-title: "Templates"
----
-# Overview
-
-This is an pie-in-the-sky page, one that will one day explain some templates that may be helpful for prospect research, across a variety of platforms.
