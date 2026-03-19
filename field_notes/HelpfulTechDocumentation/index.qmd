@@ -79,9 +79,6 @@ Remove or comment out the `render: - "!scripts/**"` line
 | VS Code Quarto preview        | Integrated, easy         | Requires VS Code & extension    |
 | Disable exclusion temporarily | Full site preview        | Changes site config temporarily |
 
-
-
-
 ---
 ## Database Architecture
 - [RSQLite](https://ecorepsci.github.io/reproducible-science/rsqlite.html#a-note-on-reproducibility)
@@ -104,7 +101,7 @@ Remove or comment out the `render: - "!scripts/**"` line
 
 ### Embedding
 - [social media embeds, easy to embed YouTube](https://quarto-social-embeds.sellorm.com/)
-- [PDF embeddig](https://jmgirard.github.io/embedpdf/example.html)
+- [PDF embedding](https://jmgirard.github.io/embedpdf/example.html)
 
 ### User Experience
 - [downloading embedded data or images](https://shafayetshafee.github.io/downloadthis/example.html)

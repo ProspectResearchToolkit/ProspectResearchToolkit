@@ -12,7 +12,7 @@ You know how they say, "there's gold in them thar hills?" - well, I've set out t
 
 Hopefully this toolkit will expand to be an invaluable resource for those splashing through the data streams, Excel sluice boxes and CRM picks a'clankin'! In the meantime, it's just a hobby project with big dreams.
 
-For more info about the scope of this project, feel free to check out the [About](about.qmd) page.
+For more info about the scope of this project, feel free to check out the [About](about.qmd) page. Some unpolished [Field Notes](field_notes.qmd) are available, but the tool comparison dashboard and other more interesting things are still in development.
 
 Thanks for reading and happy trails.
 

@@ -2,5 +2,7 @@
 title: "Tool Feature Matrix"
 format: html
 categories: [software-comparisons]
+execute: 
+  enabled: false
 ---
 

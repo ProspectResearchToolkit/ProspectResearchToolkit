@@ -1,6 +1,18 @@
 [
   {
+    "listing": "/toolkit_tutorials/tutorials.html",
+    "items": []
+  },
+  {
     "listing": "/tool_inventory/inventory_table_version.html",
+    "items": [
+      "/tool_inventory/inventory_items/NexisUni.html",
+      "/tool_inventory/inventory_items/Pitchbook.html",
+      "/tool_inventory/inventory_items/ProQuest.html"
+    ]
+  },
+  {
+    "listing": "/inventory_table_version.html",
     "items": [
       "/tool_inventory/inventory_items/NexisUni.html",
       "/tool_inventory/inventory_items/Pitchbook.html",
@@ -17,17 +29,5 @@
       "/field_notes/HelpfulTechDocumentation/index.html",
       "/field_notes/PRSPCT-L_roundup/index.html"
     ]
-  },
-  {
-    "listing": "/inventory_table_version.html",
-    "items": [
-      "/tool_inventory/inventory_items/NexisUni.html",
-      "/tool_inventory/inventory_items/Pitchbook.html",
-      "/tool_inventory/inventory_items/ProQuest.html"
-    ]
-  },
-  {
-    "listing": "/toolkit_tutorials/tutorials.html",
-    "items": []
   }
 ]
