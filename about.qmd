@@ -5,18 +5,20 @@ title: "About"
 # Overview
 The prospect research toolkit is an independently maintained repository of fundraising industry analysis, software information, and research methodology. This is a hobby coding project, first and foremost, but projects are refined based on conversations with development professionals.
 
-There are plenty of excellent paid resources available: Apra, private consultant firms, subscription tools, books...but not everyone has the budget to access them. This toolkit was created to bridge that gap, or supplement what's already out there, and create original content that is interactive. The goal is to keep it simple, fun, open-source, community-driven, regularly updated, and always free.
+There are plenty of excellent paid resources already available: Apra, private consultant firms, subscription tools, books...but not everyone has the budget to access them. This toolkit was created to bridge that gap, or supplement what's already out there, and create original content that is interactive. The goal is to keep it simple, fun, open-source, community-driven, regularly updated, and always free.
 
 # Short-term Goals
 - Keep adding to the toolkit database and website structure
-- Refine a synthetic donor dataset for training, examples, and presentations
+- Automate the ETL process so the website can be regularly updated directly from the database
+- Create software/tool comparison dashboard and tool reviews
+- Keep building prospect dev jobs dataset and create data visualizations highlighting salary trends
 - focus on interactive elements
-- Software tool comparisons in dashboard format
 
 # Long-term Goals
 - Create AI Prompt library and use-cases, as well as "helper files" for creating stronger research posture without having to initialize an entire agent
 - Extensions or add-ins, or community plugins (potentially starting with Obsidian or Excel)
 - Collaboration with other Apra chapters and Apra International
+- Refine a synthetic donor dataset for training, examples, and presentations
 
 # FAQ
 
@@ -25,15 +27,13 @@ There will be an entire write-up explaining how I source pricing information, bu
 
 In order of most to least accuracy (probably): 
 
-1. General tool or feature information
+1. General tool, feature, or company information
 2. Tutorials
-3. Data breaches reported publicly by the press
-4. Service outages reported by users to public websites or from the companies themselves
-5. Pricing information
+3. Pricing information
 
 ## Who is this guy anyway?
 
-I come from a psychology background and am largely self-taught in data analytics, information science, data science, etc. This website is guaranteed to have some bugs.
+I come from a psychology background and am largely self-taught in data analytics, information science, data science, etc. This website is guaranteed to have some bugs, or occasionally be broken.
 
 ## How often is the website updated?
 
