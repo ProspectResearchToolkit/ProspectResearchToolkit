@@ -3,9 +3,84 @@ title: "Helpful Technical Documentation"
 author: Greg Brooks
 date: 10-4-2025
 categories: [website-maintenance]
+execute: 
+    freeze: true
 ---
 
 This list is mostly for Greg as he maintains this website.
+
+# Quarto Tips
+
+## Website Maintenance
+- Use the [drafts feature](https://quarto.org/docs/websites/website-drafts.html) to preview and plan content
+- Learn how to use the profiles feature
+- Prevent all unnecessary folders and files from rendering to the website (how?)
+- learn [incremental render](https://quarto.org/docs/projects/code-execution.html)
+
+Yes, you can preview `.qmd` files inside an excluded folder like `scripts/` **without moving them**, but it requires a bit of manual action because Quarto won’t render them automatically during your site build.
+
+Here’s how to do it:
+
+---
+
+## How to preview `.qmd` files in excluded folders without moving them
+
+### 1. Render them manually, one at a time
+
+From your project root, run:
+
+```bash
+quarto render scripts/your_file.qmd
+```
+
+* This renders just that file (ignores your site’s `render` exclusion)
+* Output goes to `_output` folder by default (not your website’s `docs/`)
+* You can open the generated HTML in your browser to preview
+
+---
+
+### 2. Use the `quarto preview` command for that file
+
+```bash
+quarto preview scripts/your_file.qmd
+```
+
+* Opens a local preview server with live reload for that file
+* Handy for iterative editing and testing
+
+---
+
+### 3. Use VS Code Quarto extension to preview
+
+If you have the Quarto extension in VS Code:
+
+* Open `scripts/your_file.qmd`
+* Use **“Preview”** button in editor (usually top right or right-click menu)
+* This previews the current file regardless of site config
+
+---
+
+### 4. Temporarily disable the exclusion (if you want full site preview)
+
+Remove or comment out the `render: - "!scripts/**"` line
+
+* Run `quarto render` to include those files
+* Preview site with those pages included
+* Re-enable exclusion when done
+
+---
+
+## Summary
+
+| Method                        | Pros                     | Cons                            |
+| ----------------------------- | ------------------------ | ------------------------------- |
+| `quarto render file.qmd`      | Fast, manual render      | Manual, one file at a time      |
+| `quarto preview file.qmd`     | Live reload, interactive | One file only                   |
+| VS Code Quarto preview        | Integrated, easy         | Requires VS Code & extension    |
+| Disable exclusion temporarily | Full site preview        | Changes site config temporarily |
+
+
+
 
 ---
 ## Database Architecture

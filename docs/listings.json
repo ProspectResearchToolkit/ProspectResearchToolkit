@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/inventory_table_version.html",
+    "listing": "/tool_inventory/inventory_table_version.html",
     "items": [
       "/tool_inventory/inventory_items/NexisUni.html",
       "/tool_inventory/inventory_items/Pitchbook.html",
@@ -19,15 +19,15 @@
     ]
   },
   {
-    "listing": "/toolkit_tutorials/tutorials.html",
-    "items": []
-  },
-  {
-    "listing": "/tool_inventory/inventory_table_version.html",
+    "listing": "/inventory_table_version.html",
     "items": [
       "/tool_inventory/inventory_items/NexisUni.html",
       "/tool_inventory/inventory_items/Pitchbook.html",
       "/tool_inventory/inventory_items/ProQuest.html"
     ]
+  },
+  {
+    "listing": "/toolkit_tutorials/tutorials.html",
+    "items": []
   }
 ]

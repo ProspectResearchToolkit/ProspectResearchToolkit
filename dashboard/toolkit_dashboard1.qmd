@@ -3,6 +3,7 @@ title: Toolkit Dashboard
 format: dashboard
 execute: 
   enabled: false
+draft: true
 ---
 # following this tutorial: https://medium.com/data-science-collective/simple-and-effective-python-dashboards-with-quarto-dbfc8e7add21
 # and this code: https://github.com/kensuke0529/Tool_Kit/blob/main/dashboard/tools_dashboard.py
