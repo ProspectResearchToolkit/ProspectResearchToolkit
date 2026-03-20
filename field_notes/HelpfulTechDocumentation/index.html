@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -39,10 +74,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-bb13281d9316958a9d6a631a999bd265.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-40df708e56c01fd9a8dec8814ca46660.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/badge/badge.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -86,6 +121,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Prospect Research Toolkit</span>
     </a>
@@ -109,16 +146,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Field Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../inventory_manifest.html"> 
-<span class="menu-text">Inventory</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../inventory_table_version.html"> 
 <span class="menu-text">A-Z List</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../toolkit_dashboard1.html"> 
-<span class="menu-text">Software Dashboard</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -126,12 +155,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="444c0cddf6e2c1d7a8c14e5032edf909" class="alert alert-info hidden"><i class="bi bi-info-square-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Welcome!</strong> - this website is a work in progress, and some pages/features may be empty, unfinished, or broken. Thank you for your patience!</p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -139,7 +165,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#database-architecture" id="toc-database-architecture" class="nav-link active" data-scroll-target="#database-architecture">Database Architecture</a></li>
+  <li><a href="#quarto-tips" id="toc-quarto-tips" class="nav-link active" data-scroll-target="#quarto-tips">Quarto Tips</a>
+  <ul class="collapse">
+  <li><a href="#quarto-guides" id="toc-quarto-guides" class="nav-link" data-scroll-target="#quarto-guides">Quarto guides</a></li>
+  <li><a href="#website-maintenance" id="toc-website-maintenance" class="nav-link" data-scroll-target="#website-maintenance">Website Maintenance</a></li>
+  <li><a href="#how-to-preview-.qmd-files-in-excluded-folders-without-moving-them" id="toc-how-to-preview-.qmd-files-in-excluded-folders-without-moving-them" class="nav-link" data-scroll-target="#how-to-preview-.qmd-files-in-excluded-folders-without-moving-them">How to preview <code>.qmd</code> files in excluded folders without moving them</a>
+  <ul class="collapse">
+  <li><a href="#render-them-manually-one-at-a-time" id="toc-render-them-manually-one-at-a-time" class="nav-link" data-scroll-target="#render-them-manually-one-at-a-time">1. Render them manually, one at a time</a></li>
+  <li><a href="#use-the-quarto-preview-command-for-that-file" id="toc-use-the-quarto-preview-command-for-that-file" class="nav-link" data-scroll-target="#use-the-quarto-preview-command-for-that-file">2. Use the <code>quarto preview</code> command for that file</a></li>
+  <li><a href="#use-vs-code-quarto-extension-to-preview" id="toc-use-vs-code-quarto-extension-to-preview" class="nav-link" data-scroll-target="#use-vs-code-quarto-extension-to-preview">3. Use VS Code Quarto extension to preview</a></li>
+  <li><a href="#temporarily-disable-the-exclusion-if-you-want-full-site-preview" id="toc-temporarily-disable-the-exclusion-if-you-want-full-site-preview" class="nav-link" data-scroll-target="#temporarily-disable-the-exclusion-if-you-want-full-site-preview">4. Temporarily disable the exclusion (if you want full site preview)</a></li>
+  </ul></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#database-architecture" id="toc-database-architecture" class="nav-link" data-scroll-target="#database-architecture">Database Architecture</a></li>
   <li><a href="#vs-code" id="toc-vs-code" class="nav-link" data-scroll-target="#vs-code">VS-Code</a></li>
   <li><a href="#quarto-extensions" id="toc-quarto-extensions" class="nav-link" data-scroll-target="#quarto-extensions">Quarto Extensions</a>
   <ul class="collapse">
@@ -149,11 +187,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#user-experience" id="toc-user-experience" class="nav-link" data-scroll-target="#user-experience">User Experience</a></li>
   </ul></li>
   <li><a href="#example-quarto-sites" id="toc-example-quarto-sites" class="nav-link" data-scroll-target="#example-quarto-sites">Example Quarto Sites</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -165,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
@@ -190,7 +229,109 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This list is mostly for Greg as he maintains this website.</p>
+<section id="quarto-tips" class="level1">
+<h1>Quarto Tips</h1>
+<section id="quarto-guides" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-guides">Quarto guides</h2>
+<ul>
+<li><a href="https://quarto-tdg.org/websites.html">Practical Quarto</a></li>
+</ul>
+</section>
+<section id="website-maintenance" class="level2">
+<h2 class="anchored" data-anchor-id="website-maintenance">Website Maintenance</h2>
+<ul>
+<li>Use the <a href="https://quarto.org/docs/websites/website-drafts.html">drafts feature</a> to preview and plan content</li>
+<li>Learn how to use the profiles feature</li>
+<li>Prevent all unnecessary folders and files from rendering to the website (how?)</li>
+<li>learn <a href="https://quarto.org/docs/projects/code-execution.html">incremental render</a></li>
+</ul>
+<p>Yes, you can preview <code>.qmd</code> files inside an excluded folder like <code>scripts/</code> <strong>without moving them</strong>, but it requires a bit of manual action because Quarto won’t render them automatically during your site build.</p>
+<p>Here’s how to do it:</p>
 <hr>
+</section>
+<section id="how-to-preview-.qmd-files-in-excluded-folders-without-moving-them" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-preview-.qmd-files-in-excluded-folders-without-moving-them">How to preview <code>.qmd</code> files in excluded folders without moving them</h2>
+<section id="render-them-manually-one-at-a-time" class="level3">
+<h3 class="anchored" data-anchor-id="render-them-manually-one-at-a-time">1. Render them manually, one at a time</h3>
+<p>From your project root, run:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render scripts/your_file.qmd</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>This renders just that file (ignores your site’s <code>render</code> exclusion)</li>
+<li>Output goes to <code>_output</code> folder by default (not your website’s <code>docs/</code>)</li>
+<li>You can open the generated HTML in your browser to preview</li>
+</ul>
+<hr>
+</section>
+<section id="use-the-quarto-preview-command-for-that-file" class="level3">
+<h3 class="anchored" data-anchor-id="use-the-quarto-preview-command-for-that-file">2. Use the <code>quarto preview</code> command for that file</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview scripts/your_file.qmd</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>Opens a local preview server with live reload for that file</li>
+<li>Handy for iterative editing and testing</li>
+</ul>
+<hr>
+</section>
+<section id="use-vs-code-quarto-extension-to-preview" class="level3">
+<h3 class="anchored" data-anchor-id="use-vs-code-quarto-extension-to-preview">3. Use VS Code Quarto extension to preview</h3>
+<p>If you have the Quarto extension in VS Code:</p>
+<ul>
+<li>Open <code>scripts/your_file.qmd</code></li>
+<li>Use <strong>“Preview”</strong> button in editor (usually top right or right-click menu)</li>
+<li>This previews the current file regardless of site config</li>
+</ul>
+<hr>
+</section>
+<section id="temporarily-disable-the-exclusion-if-you-want-full-site-preview" class="level3">
+<h3 class="anchored" data-anchor-id="temporarily-disable-the-exclusion-if-you-want-full-site-preview">4. Temporarily disable the exclusion (if you want full site preview)</h3>
+<p>Remove or comment out the <code>render: - "!scripts/**"</code> line</p>
+<ul>
+<li>Run <code>quarto render</code> to include those files</li>
+<li>Preview site with those pages included</li>
+<li>Re-enable exclusion when done</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 28%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>quarto render file.qmd</code></td>
+<td>Fast, manual render</td>
+<td>Manual, one file at a time</td>
+</tr>
+<tr class="even">
+<td><code>quarto preview file.qmd</code></td>
+<td>Live reload, interactive</td>
+<td>One file only</td>
+</tr>
+<tr class="odd">
+<td>VS Code Quarto preview</td>
+<td>Integrated, easy</td>
+<td>Requires VS Code &amp; extension</td>
+</tr>
+<tr class="even">
+<td>Disable exclusion temporarily</td>
+<td>Full site preview</td>
+<td>Changes site config temporarily</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
 <section id="database-architecture" class="level2">
 <h2 class="anchored" data-anchor-id="database-architecture">Database Architecture</h2>
 <ul>
@@ -228,7 +369,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="embedding">Embedding</h3>
 <ul>
 <li><a href="https://quarto-social-embeds.sellorm.com/">social media embeds, easy to embed YouTube</a></li>
-<li><a href="https://jmgirard.github.io/embedpdf/example.html">PDF embeddig</a></li>
+<li><a href="https://jmgirard.github.io/embedpdf/example.html">PDF embedding</a></li>
 </ul>
 </section>
 <section id="user-experience" class="level3">
@@ -247,6 +388,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
