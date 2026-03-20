@@ -2,6 +2,10 @@
 title: "Internal Data Contracts"
 author: Greg Brooks
 date: 10-14-2025
+categories:
+    - Research Strategy
+    - Prospect Dev Management
+    - Industry Commentary
 ---
 
 # Creating Internal Data Contracts: A Practical Guide

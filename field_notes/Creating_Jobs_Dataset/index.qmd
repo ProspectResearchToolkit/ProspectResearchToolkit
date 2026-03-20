@@ -2,13 +2,18 @@
 title: "Creating the Fundraising Jobs Dataset (round 1)"
 author: Greg Brooks
 date: 10-13-2025
+categories:
+    - Datasets
+    - Toolkit Original Research
+freeze: true
+draft: true
+execute: 
+  enabled: false
 ---
 
 # Overview
 Perhaps this has already been done - but I've been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I'll list below. 
 I have a very small private dataset of recent job titles / descriptions, but the most comprehensive info exists within a recently published public dataset called CMAP.
-
----
 
 ## CMAP Prospect Research Subset
 
@@ -17,32 +22,8 @@ I have a very small private dataset of recent job titles / descriptions, but the
 - **Unique Job Titles**: `113`
 - **Unique Sectors**: `22`
 
----
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-library(jsonlite)
-library(plotly)
-
-# Load JSON data
-sector_data <- fromJSON("donut_chart_sector_distribution.json")
-
-# Convert to data frame
-df <- as.data.frame(sector_data)
-
-# donut chart with plotly
-plot_ly(df, labels = ~sector, values = ~count, type = 'pie', 
-  textinfo = 'label+value', insidetextorientation = 'radial',
-  hole = 0.4) %>%
-layout(title = "Distribution of Job Titles per Sector",
-  showlegend = TRUE)
-  
-```
-
-```
-
 ![...](./pr_jobtitles_over10.png)
 
----
 ## CMAP 2017
 ### Explainer
 I've attempted to subset Prospect Development and Major Gift Officer job titles from the 2025 Career Map (CMap) dataset released in July 2025 (citation below)

@@ -1,0 +1,70 @@
+---
+title: "Tool Reviews Staging Ground"
+author: Greg Brooks
+date: 01-09-2025
+draft: true
+categories:
+    - Tool Reviews
+---
+
+# Overview
+
+
+# Tool Reviews
+
+## Factiva
+Factiva could be a great place to hit first when researching a company, but may be less useful the deeper your research project goes and the more private the company happens to be. The company snapshot looks familiar because it is using the same data that many other tools use. However, I appreciate that Factiva often includes its source in any given module. Its weaknesses are shared by many other platforms that rely on data brokers: public data just rerendered, not necessarily any original research being done on the platform, which means many other services have the same exact data. Factivity's main strength is its simplicity. Factiva makes SEC data clean enough that it may be an alternative to unwieldy EDGAR searches, depending on the use-case.
+
+### Factiva Features
+- Company Snapshot
+- News
+  - Latest News
+  - Web News
+- Signals
+- Key Developments
+- Peer Comparison
+  - Lots of options here, with spreadsheet export
+  - You can see similar companies based on sales, employee count, or market cap
+  - Potentially useful when brainstorming proactive research, since you can see the top 10 most similar companies, the names attached to those companies may also be relevant to your project.
+- Corporate Family
+  - One of the best features, in my opinion, very simple rendering of Dun & Bradstreet information but with some nice additional touches
+  - They have developed different symbols to indicate parent vs. primary subsidiary vs. regular subsidiary vs. branch location
+  - You can see all branch and subsidiary names and locations
+- Financial Results
+  - Most of this category is not relevant for prospect research, 
+- Ownership
+  - Instead of digging through SEC filings to find insiders who own stock, Factiva has the top 10 within a couple clicks, which could save time
+- Analysis and Profiles
+  - Geared more toward investment advice, but provides some useful or interesting context about a company when you look at the most recent financials. The Wright Quality rating, for example, gives you an at-a-glance letter grade to consider when evaluating the company's charitability, and could be a useful small infographic to include in a report from a prospect researcher.
+- Reports
+  - The "company report" stitches together almost all of the individual pieces into one PDF or html, and seems like the most comprehensive, but most is potentially irrelevant to a prospect research
+- Chrome/Edge Browser Extension
+  - Haven't tested it yet, but it functions as an additional way to search during your workflow
+
+### Use-cases
+- 3-source verify: Factiva is a quick place to verify public information about companies, especially the relationship between parent or holding companies and their subsidiaries.
+- Wrangling Corporate Sprawl:  When deep diving in on companies, mapping out the parents and subsidiaries is only the beginning. Factiva provides a concise, sourced, and reliable source of industry information that can help understand big companies and their so-called sprawl sometimes across several markets. 
+- C-Suite Searching: In the subjects on the right side of the News module, you can click "Senior Level Management" and it will bring up the latest news regarding senior management. One of the unique sources there: "The Official Board" which is sometimes behind a pay wall
+
+## The Official Board
+A website that is largely behind a paywall, but it also has some education on job titles that is particularly relevant. Mostly useful for big company org charts.
+
+
+## Library Consortiums
+
+"Quick pattern summary & tips for out-of-state access
+
+Most statewide consortia restrict remote access to residents or to people who hold a participating library/school account. (Examples above show Geo-IP or library-card authentication is common.)
+
+- Workarounds that often work in practice:
+
+  - Visit a member library in person — public/academic libraries usually allow on-site access to licensed business databases for any visitor using library terminals. (This is the most reliable route.)
+
+Get a guest card or temporary pass — some state libraries or public libraries offer short-term passes (e.g., 10-day NC LIVE pass) or guest cards; check the local library’s “e-resources” or access/FAQ pages.
+
+Interlibrary loan or research visits — for academic research, contact the consortium or a member university library to ask about visiting scholar policies or ILL/document delivery.
+
+Local public libraries’ reciprocal agreements — some public library systems participate in reciprocal programs (statewide cards, TexShare card, Access PA), so if you live nearby one state border check cross-state agreements."
+
+# Sources
+- {{< var ai_disclaimer >}}

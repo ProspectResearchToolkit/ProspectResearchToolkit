@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/toolkit_tutorials/tutorials.html",
-    "items": []
-  },
-  {
     "listing": "/tool_inventory/inventory_table_version.html",
     "items": [
       "/tool_inventory/inventory_items/NexisUni.html",
@@ -23,11 +19,14 @@
     "listing": "/field_notes.html",
     "items": [
       "/field_notes/Tool_Incidents/index.html",
+      "/field_notes/PRSPCT-L_roundup/index.html",
+      "/field_notes/Brokers_and_Sources/index.html",
       "/field_notes/LibraryDatabases/index.html",
       "/field_notes/datacontracts/index.html",
       "/field_notes/Creating_Jobs_Dataset/index.html",
       "/field_notes/HelpfulTechDocumentation/index.html",
-      "/field_notes/PRSPCT-L_roundup/index.html"
+      "/field_notes/UsingPowerQuery/index.html",
+      "/field_notes/tool_reviews/index.html"
     ]
   }
 ]

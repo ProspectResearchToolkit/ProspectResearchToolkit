@@ -1,6 +1,10 @@
 ---
 title: "Tool & Company Incidents"
 format: html
+draft: 
+categories:
+    - Industry Commentary
+    - Tool Reviews
 ---
 
 # Overview

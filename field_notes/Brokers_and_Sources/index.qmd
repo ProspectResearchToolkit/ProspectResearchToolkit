@@ -1,0 +1,24 @@
+---
+title: "Brokers & Sources"
+author: Greg Brooks
+date: 02-27-2026
+draft: true
+categories:
+    - Industry Commentary
+---
+
+# Brokers & Sources
+
+## Intro
+Gold flakes (useful information) flows into the prospect research's pan alongside countless useless grains of silt that you have to filter out. This process can be as simple as finding a source you trust, and riding with that for a while for specific situations - or something more complex, like evaluating and buying tools for mass data point validation. The dirty secret of prospect research is that there are massive gaps between what the researcher trusts and what is available, because data brokers and their downstream clients that build fundraising research tools are casting a wide net. The depth and breadth of this net often runs into ethical concerns from the public, which is something this toolkit will discuss in a different blog post. 
+
+This post is simple about understanding the river.
+
+We'll talk about sources in general, before we dive into data brokerages.
+
+## Sources
+
+### Primary sources
+
+
+Primary sources are a rich vein, and highly prized. Front-line fundraisers are often some of the most effective prospect researchers of all, because they are actively cultivating primary sources. Not every primary source translates into a gift, per se, but the wise fundraiser knows that disqualifying prospects clears the field and helps focus the mission. A prospect researcher's favorite kind of fundraiser is one that is appropriately detailed in their contact reports, or in their research requests, and provides whatever they have already found or been given (e.g. phone number). Research that relies on primary source information as the foundation 
