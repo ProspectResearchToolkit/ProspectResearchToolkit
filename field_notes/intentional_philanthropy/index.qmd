@@ -15,6 +15,11 @@ draft: true
 # Philanthropy Overview
 
 ## Welcome to the workshop!
+Notes to Greg: 
+- all the long, rambling bullet points need to be cut down to 5-10 words, put any other useful context in the speaker notes. - Add more questions to the audience. If possible, practice this out loud to see how it stacks up against the 20 minute slot.
+- Add more formatting or interesting stuff (e.g. images) to the presentation itself, right now, it's all text
+- Some Quarto extensions could add more engaging elements (e.g. nutshell)
+- Maybe make the ugly Google Sheet of prospect dev jobs available as a public link? Until the job board on the site is live?
 
 ## The Prospect Research Niche + Greg's Background
 - BS in Psychology
@@ -26,6 +31,7 @@ draft: true
 - Yes, you can connect with me on LinkedIn (I try to post about open jobs in my field, especially in Utah)
 
 ::: {.notes}
+- GO THROUGH AND MAKE ALL BULLET POINTS SHORTER, PUT LONGER STUFF IN SPEAKER NOTES
 - Psych BS: degree which I loved, but of the many classes I took, I think some of my research methods classes were the most relevant. I switched majors so much it took me ~8 years to finally finish. Don't do what I did, which was essentially spend a lot of money to learn that I don't want to be a therapist, and that running a peer support group is more than enough to occupy that impulse. 
 - I was a part-time student for most of my undergraduate studies, for financial reasons, until a bipolar scholarship got me more seriously into finishing school.
 - Tangent: That bipolar scholarship is a fascinating example of philanthropy, because it acknowledged how bipolar can affect your ability to graduate, complete advanced courses, etc. Not many people, including the Accessibility Office at UVU, when I went to them for help years ago, actually understand that lived experience and the accomodations that may help. (Baer Reintegration Scholarship). For example: it didn't require me to be a freshman, it allowed for a wide variety of paths, like cosmetology school, and crucially, it allowed for part-time schooling. Arguably one of the biggest gaps in our current scholarship environment are part-time scholarships, for reasons I may mention later on, but the gist of it is: major donors do not understand their value, they seem less prestigious or rigorous, they may not understand the financial situation of the average student, or they are just relying on the fundraisers and program directors for the details of the scholarship, and they default to full-time for a myriad of reasons. Unfortunately, for many things, if it looks weird to a donor, they won't fund it, and as you can imagine, the experience of a lower income student vs. a high dollar philanthropist is so disparate, that relying solely on the donor's judgement for those details is a flawed and biased way of structuring the philanthropy
@@ -34,7 +40,6 @@ draft: true
 - SIMLab: contributed to Project READ analysis, the social impact evaluation primer, and an analysis of the impact of college counselors on student performance. Didn't make any waves, and I was arguably the dumbest guy in a room with a highly trained economist, highly competent student coders, etc. When you can, try to get into the rooms where everyone else has more skills than you do, it makes for great ambient learning and personal development.
 - Easily my favorite college experience, and I think plenty of workplaces could learn important lessons about teamwork culture from what they do here at the center
 - I haven't done any public speaking in a while, because my day-to-day life involves sitting at a desk in a basement muttering curse words because ResearchPoint (a fundraising database) is suffering from another service outage, so I'm attempting to make this interesting, and failing that, useful for understanding opportunites in my career path, and in fundraising as a whole.
-
 :::
 
 ## Is philanthropy relevant to my life as a student?
@@ -53,6 +58,11 @@ draft: true
 - In the short term, easy to say yes
 - Taking the long view, things get complicated
 
+## Philanthropy at small scales
+- Less than, say, $1000 over 5 years
+- insert bullet points from email here
+- add DAF examples
+
 ## Macro-trends in Charitable Giving
 - Small-dollar donor participation is in steep decline (economy, wealth concentration, etc)
 - Similarly, total number of donors is going down (more high-dollar donors everyone is chasing after)
@@ -61,8 +71,58 @@ draft: true
 - Elon Musk quote that is very revealing: "My businesses are my philanthropy", as in, contributing to the overall economic output of the country via enterprise translates to downstream benefits for the average person more than giving them money via philanthropic vehicles. Any reactions to that? 
 
 # Fundraising as a career
- - 
 
+## Fundraising career paths
+- Many people end up doing at least some fundraising, if they work in the nonprofit sector
+- Generally every fundraising equivalent has a for-profit counterpart or close analogue (IT, sales, marketing, accounting, etc)
+- Like in business, the highest paid professionals tend to be those with a portfolio (in this case, of donors instead of accounts), who bring in revenue, and then the C-suite or upper admin
+- Plenty of other operational roles, which deal with varying levels of chaos
+- In my role, I make $60k a year, started off in the mid-40s, full-time, with benefits
+- Many pros and many cons, like with any job, one of the pros for me is that I get to work for a University, and since I find education to be a fundamental social good, some of my personal values are represented in my job
+- Unfortunately, networking is the best way to improve your career (when I applied for my job at the U, they already knew me from a conference we attended together as colleagues, and from being in the same professional organization), and for those of us who are sometimes miserable in social situations, I promise there is a way to make it work for you, usually by focusing on those things you are passionate about and seeking out people's advice or expertise
+
+## Job descriptions and Keywords
+- It helps to save a list of keywords that help you filter the job titles down to what you want
+- Insert some examples, potentially curated based on the majors in the room, or maybe have a list and ask if anyone is interested in zooming in on something specific
+
+## Prospect Dev
+- Overview
+- management:
+- research:
+- day-to-day life:
+- Prospect research toolkit
+
+## Other Advancement & Development roles
+- Center for Social Impact education, student jobs, and fellowships is actually great prep for many of the roles I'm highlighting (e.g. you are studying accounting or business, but don't have fundraising experience yet)
+- At the University of Utah, where I work, the org chart is a bit more complicated, but similar. Intermountain Health is another good one to look at.
+- Org charts are a great way to get key words for job searches, especially because sometimes some careers just rename jobs so they can feel fancy (fundraising does this constantly, though it's not as bad as the tech field)
+
+## How it looks at UVU
+- Division is called "Institutional Advancement", UVU does a couple odd things with how their org chart has shaken out in its details, but generally you'll see these roles / teams in other higher ed fundraising teams, and many similarities with Hospital fundraising teams, Nonprofits are highly varied, so they may diverge, but the bigger ones also tend to have similar org charts
+- VP is in the University President's Cabinet, one of the lead fundraisers, alongside the President
+- AVP of Development is the leader of the frontline fundraisers, and is a fundraiser themselves, they lead the development team (at UVU they are called Directors of Development, but job titles vary, like Major Gift Officer), these folks tend to be more extroverted, often working with specific colleges especially alongside the Deans to fund programs, scholarships, etc...and you have several related teams like Annual Giving, Planned Giving, Alumni Relations (if there wasn't so much event planning, I would personally love to work in this world more), and Prospect Dev (sometimes Prospect Dev is on the data team instead, people sometimes don't know where it fits)
+- Senior Director of Foundation Finance and Compliance, runs the endowment, has to host auditors when they drop by (a stressful day), leads the accountants, tries to keep everybody realistic
+- AVP of Strategic Engagement, leads the Executive Events team, and the Marketing & Communications (Marcom is common jargon there) team: this is where you have your web designers, your graphic designers, content creators, and event planners.
+- All these leaders often have executive assistants
+
+## How it looks in the for-profit world
+- Many companies have foundations or social impact missions that require operational staff
+- You will make more many in the for-profit world (e.g. an account manager at a Fortune 500 company instead of a development officer at a college)
+
+## Your values vs. your job
+- In nonprofit and for-profit sectors, your values may drive some of your career moves, and you have to draw your own lines in the sand (e.g. would you work for a Political Action Committee? What kind? Religious orgs are the biggest recipents of charitable donations, many of them need fundraising staff, but what if the one you are working for has a scandal?)
+- A single year can bring massive changes, especially if you don't work for an institution that has an endowment, those changes can test you
+- If, like me when I graduated, you just want to land any job that can pay the rent and give you healthcare, it can be difficult to take your values into account if they feel like roadblocks
+
+# Final Thoughts
+
+## Philanthropy learning resources
+
+## Fundraising Career resources
+
+## Small-scale donating links & resources
+
+# Thank you!
 
 
 

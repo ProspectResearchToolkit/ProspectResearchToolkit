@@ -13,6 +13,7 @@ This list is mostly for Greg as he maintains this website.
 
 ## Quarto guides
 - [Practical Quarto](https://quarto-tdg.org/websites.html)
+- [Quarto presentations](https://quarto.org/docs/presentations/revealjs/presenting.html)
 
 ## Website Maintenance
 - Use the [drafts feature](https://quarto.org/docs/websites/website-drafts.html) to preview and plan content
