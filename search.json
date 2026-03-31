@@ -49,165 +49,32 @@
     "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nNexis Uni\n\n\nNexis Uni contains 15,000+ news and business sources.\n\n\n\n\n\n\nPitchbook\n\n\nPitchBook is a financial data platform used by university libraries to provide detailed information on venture capital, private equity, and merger and acquisition activity across the private and public markets.\n\n\n\n\n\n\nProQuest\n\n\nProQuest is a global information-content and technology company that provides academic libraries and researchers with access to a massive collection of digitized dissertations, historical newspapers, scholarly journals, and primary source documents.\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
-    "objectID": "field_notes/UsingPowerQuery/index.html",
-    "href": "field_notes/UsingPowerQuery/index.html",
-    "title": "Using PowerQuery",
-    "section": "",
-    "text": "Power Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\n\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
-  },
-  {
     "objectID": "field_notes/UsingPowerQuery/index.html#what-is-powerquery",
     "href": "field_notes/UsingPowerQuery/index.html#what-is-powerquery",
-    "title": "Using PowerQuery",
-    "section": "",
-    "text": "Power Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\n\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
+    "title": "Using PowerQuery (part 1)",
+    "section": "What is PowerQuery?",
+    "text": "What is PowerQuery?\nPower Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\nKey Features\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
   },
   {
     "objectID": "field_notes/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
     "href": "field_notes/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
-    "title": "Using PowerQuery",
+    "title": "Using PowerQuery (part 1)",
     "section": "PowerQuery vs. VLookup",
     "text": "PowerQuery vs. VLookup\n\n\n\n\n\n\n\n\nFeature\nPower Query\nVLOOKUP\n\n\n\n\nPurpose\nData transformation and preparation\nLook up and retrieve specific data values\n\n\nData Sources\nConnects to multiple sources (Excel, SQL, web, etc.)\nLimited to data within the worksheet\n\n\nComplexity\nMore complex with advanced capabilities\nSimpler and straightforward\n\n\nOutput\nCreates tables or queries in Excel\nReturns a single value based on a match\n\n\nFlexibility\nHighly versatile, allows for data shaping\nLess flexible; limited to a single match type\n\n\nUse Cases\nIdeal for ETL processes and bulk data manipulation\nBest for simple lookups within a single dataset\n\n\nMaintenance\nRequires more setup but easier to update over time\nSimple to set up but can be error-prone if data changes"
   },
   {
     "objectID": "field_notes/UsingPowerQuery/index.html#use-cases",
     "href": "field_notes/UsingPowerQuery/index.html#use-cases",
-    "title": "Using PowerQuery",
+    "title": "Using PowerQuery (part 1)",
     "section": "Use-cases",
-    "text": "Use-cases\nYour workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.\n\nAbstrqct Example\nYou have data in your CRM that you want to combine with another dataset you’ve found or created. For example, perhaps you’ve created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.\n\n\nSteps to Achieve This\n\nExport Data from CRM: Start by exporting the relevant data from your CRM into a CSV or Excel format.\nImport Data into Power Query: Open Excel, go to the Data tab, and select “Get Data” to import your CRM data and your custom dataset.\nCombine Datasets: Use Power Query tools to merge or append the datasets based on a common identifier.\nTransform Data: Clean, filter, or reshape the data as necessary.\nLoad the Combined Data: Once satisfied with the combined data, load it back into Excel for analysis or reporting.\n\nMore complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI"
+    "text": "Use-cases\nYour workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.\n\nAbstract Example\nYou have data in your CRM that you want to combine with another dataset you’ve found or created. For example, perhaps you’ve created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.\n\n\nSteps to Achieve This\n\nExport Data from CRM: Start by exporting the relevant data from your CRM into a CSV or Excel format.\nImport Data into Power Query: Open Excel, go to the Data tab, and select “Get Data” to import your CRM data and your custom dataset.\nCombine Datasets: Use Power Query tools to merge or append the datasets based on a common identifier.\nTransform Data: Clean, filter, or reshape the data as necessary.\nLoad the Combined Data: Once satisfied with the combined data, load it back into Excel for analysis or reporting.\n\nMore complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI"
   },
   {
     "objectID": "field_notes/UsingPowerQuery/index.html#power-query-m-code-for-filtering-job-titles-with-dynamic-keywords",
     "href": "field_notes/UsingPowerQuery/index.html#power-query-m-code-for-filtering-job-titles-with-dynamic-keywords",
-    "title": "Using PowerQuery",
+    "title": "Using PowerQuery (part 1)",
     "section": "Power Query M Code for Filtering Job Titles with Dynamic Keywords",
     "text": "Power Query M Code for Filtering Job Titles with Dynamic Keywords\nThis document outlines a Power Query M script that dynamically loads keyword lists from parameters and filters job title datasets across multiple sectors. The goal is to identify roles related to Major Gifts while excluding irrelevant ones.\n\nDynamic Keyword Parameters\nInstead of hardcoding the keywords, we define them as parameters:\nlet\n    IncludeKeywords = Text.Split(\"Major Gift,Director Of Development,Development Officer,Major Gift Officer,Fundraiser,Philanthropy Officer,Philanthropy Manager\", \",\"),\n    ExcludeKeywords = Text.Split(\"Prospect Research,Event\", \",\")\n\n\nLoad and Filter Nonprofit Dataset\nWe load the nonprofit dataset and filter it using the dynamic keyword lists:\n    Source = Csv.Document(File.Contents(\"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198385_nonprofit.csv\"), [Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),\n    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {\n        {\"sector\", type text}, \n        {\"title_cleaned\", type text}, \n        {\"frequency_cleaned\", Int64.Type}, \n        {\"title_generalized\", type text}, \n        {\"frequency_generalized\", Int64.Type}, \n        {\"title_simplified\", type text}, \n        {\"frequency_simplified\", Int64.Type}\n    }),\n    IncludedRows = Table.SelectRows(ChangedType, each List.AnyTrue(List.Transform(IncludeKeywords, (kw) =&gt; Text.Contains([title_cleaned], kw)))),\n    FinalFilteredRows = Table.SelectRows(IncludedRows, each List.AllTrue(List.Transform(ExcludeKeywords, (kw) =&gt; not Text.Contains([title_cleaned], kw)))),\n    TitleList = Table.SelectColumns(FinalFilteredRows, {\"title_cleaned\"}),\n\n\nReusable Filtering Function\nWe define a reusable function to apply the same filtering logic to other datasets:\n    FilterDataset = (filePath as text) =&gt;\n        let\n            Source = Csv.Document(File.Contents(filePath), [Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),\n            Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),\n            ChangedType = Table.TransformColumnTypes(Promoted, {\n                {\"sector\", type text}, \n                {\"title_cleaned\", type text}, \n                {\"frequency_cleaned\", Int64.Type}, \n                {\"title_generalized\", type text}, \n                {\"frequency_generalized\", Int64.Type}, \n                {\"title_simplified\", type text}, \n                {\"frequency_simplified\", Int64.Type}\n            }),\n            Matched = Table.Join(ChangedType, \"title_cleaned\", TitleList, \"title_cleaned\", JoinKind.Inner)\n        in\n            Matched,\n\n\nDataset Paths and Execution\nWe list all dataset paths and apply the filtering function:\n    DatasetPaths = {\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198352_travel_and_tourism.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198376_transportation_and_logistics.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55197857_restaurants_bars_and_food_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198349_real_estate.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198379_telecommunications.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198388_oil_gas_energy_and_utilities.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198394_retail.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198373_media.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198403_manufacturing.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198358_insurance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198406_information_technology.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198382_government.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198397_health_care.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198391_education.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198400_finance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198190_consumer_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198364_construction_repair_and_maintenance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198409_business_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55197803_agriculture_and_forestry.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198355_arts_entertainment_and_recreation.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198370_biotech_and_pharmaceuticals.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198361_aerospace_and_defense.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198367_accounting_and_legal.csv\"\n    },\n    FilteredTables = List.Transform(DatasetPaths, each FilterDataset(_)),\n    CombinedResults = Table.Combine(FilteredTables)\nin\n    CombinedResults\n\n\nSummary\nThis script dynamically loads keyword lists and applies consistent filtering across multiple datasets. It improves maintainability and scalability by avoiding hardcoded values."
-  },
-  {
-    "objectID": "field_notes/Tool_Incidents/index.html",
-    "href": "field_notes/Tool_Incidents/index.html",
-    "title": "Tool & Company Incidents",
-    "section": "",
-    "text": "Incidents include events like data breaches, service outages, and any press about abandoned features. This website gathers ad hoc data reported publicly online, focused primarily on fundraising software relating to prospect research. As far as I’m aware, this is the first repository of fundraising software niche information of its kind - intended to be a transparent and independent collation of incidents for research purposes. These incidents contribute to the rating of any given software tool, with more severe incidents having a bigger impact on the score. The methodology for the tool ratings will be published in a different blog post.\nThe goal is to make this incident reporting useful especially for shops that are evaluating new tools, so they can make an educated decision on where they place their budgetary resources."
-  },
-  {
-    "objectID": "field_notes/Tool_Incidents/index.html#data-breaches",
-    "href": "field_notes/Tool_Incidents/index.html#data-breaches",
-    "title": "Tool & Company Incidents",
-    "section": "Data breaches",
-    "text": "Data breaches\n…"
-  },
-  {
-    "objectID": "field_notes/Tool_Incidents/index.html#service-outages",
-    "href": "field_notes/Tool_Incidents/index.html#service-outages",
-    "title": "Tool & Company Incidents",
-    "section": "Service Outages",
-    "text": "Service Outages\n…"
-  },
-  {
-    "objectID": "field_notes/Tool_Incidents/index.html#feature-timeline-issues",
-    "href": "field_notes/Tool_Incidents/index.html#feature-timeline-issues",
-    "title": "Tool & Company Incidents",
-    "section": "Feature Timeline issues",
-    "text": "Feature Timeline issues\n…"
-  },
-  {
-    "objectID": "field_notes/Tool_Incidents/index.html#privacy-and-transparency",
-    "href": "field_notes/Tool_Incidents/index.html#privacy-and-transparency",
-    "title": "Tool & Company Incidents",
-    "section": "Privacy and Transparency",
-    "text": "Privacy and Transparency\nDonors also have a right to know about the logistics of fundraising, in detail, so they can make decisions about where they place their money and more to the point: their information. A foundation’s choice of software is relevant to the overall mission of philanthropy, and is part of the ongoing conversation about how fundraising resources are deployed in service of the institution’s mission.\nFor some countries, like those in the European Union, there are laws that help protect citizens from incidents like data breaches. However, this Prospect Research Toolkit is focused on the USA, where the laws vary by state, and tech companies are given wide leeway to innovate - occasionally at the cost of user safety.\nThe tech world moves fast, and the engineers are not always on the same page as their front line sales people. Rapid changes in the industry can alter the feature catalog, the data storage, structure, and dissemination practices of any given tool. It would be an impossible and tangential task for any given prospect dev shop to try and keep up with it all on their own.\nSimilarly, fundraising institutions do not share pricing information with each other and many fundraising-niche software companies are highly secretive about pricing tiers - preferring to negotiate with clients individually. However, I believe that transparency can actually drive prices down while improving quality of service - which is why these incidents are carefully evaluated to make sure they are accurate."
-  },
-  {
-    "objectID": "field_notes/LibraryDatabases/index.html",
-    "href": "field_notes/LibraryDatabases/index.html",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "",
-    "text": "University libraries often pay for access to powerful databases and research platforms—many of which are underutilized by fundraising and advancement teams. These resources can provide valuable insights for prospect research, verification, and strategic decision-making. This post explores how we can better leverage these tools, understand their data sources, and even automate workflows to make research more efficient.\n\n\n\nIdentifying potential tools is fairly easy. The real challenge lies in defining use cases and determining how to export and correlate information from different systems. This process also helps us understand our data sources better. For example, many platforms—such as iWave, Factiva, and others—rely on Dun & Bradstreet data when compiling reports. Factiva even publishes a monthly update listing new sources, with a total of 30,000+ sources available.\n\n\n\n\nA detailed list of tools gives us more confidence when verifying research. The reliability of any piece of information increases when it appears across multiple sources (e.g., two independent news articles confirming a job title). These tools can be great for spot checks when confirming details.\n\n\n\n\nMost platforms aggregate data from large brokerages, but each has its own way of processing and presenting that information. For example, iWave uses proprietary techniques to build profiles. While these methods likely follow standard data science practices, the exact process is often unclear—this is known as the “black box” problem.\nWe can reduce this uncertainty by:\n\nIdentifying as many sources as possible.\nUnderstanding the data brokers behind those sources.\nDrawing conclusions about how platforms transform raw data.\n\nThis knowledge adds confidence to the reports we share internally and helps us explain where information originates—even if some steps remain opaque.\n\n\n\n\nSome tools specialize in niche areas. For example, Pitchbook focuses on venture capital and startup funding rounds. This project may reveal which tools are best suited for specific research problems.\n\n\n\n\nComparing results across multiple sources is a common practice for prospect researchers. Doing this manually across 20+ tools can be time-consuming. In OSINT (open-source intelligence), developers have created tools that search hundreds of sources simultaneously and categorize results. However, most OSINT tools aren’t ethical for prospect research because they rely on breach data or are designed for law enforcement.\nOur use case is different, so we’d need to build our own multi-channel search solution or support existing efforts like the Prospect Research Toolkit. Possible approaches include:\n\nPower Automate Desktop: Create a flow that prompts for a search term and runs searches across selected channels (e.g., Privco, Mergent Online).\nPower Query Integration: Automate data export and correlation for comprehensive reports. For example, if we have a list of names for an event, automation could pull data from multiple databases and compile it into a spreadsheet with columns for each source.\n\nCompanies like Xapien already do advanced versions of this using custom algorithms and web scraping to verify information.\n\n\n\n\nWe’re building a spreadsheet with links and feature comparisons for all tools under review. This will serve as a reference for choosing the right tool for the right research problem.\n\nDisclaimer - This text was either summarized, re-organized, or partially generated by AI."
-  },
-  {
-    "objectID": "field_notes/LibraryDatabases/index.html#potential-use-cases",
-    "href": "field_notes/LibraryDatabases/index.html#potential-use-cases",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "",
-    "text": "Identifying potential tools is fairly easy. The real challenge lies in defining use cases and determining how to export and correlate information from different systems. This process also helps us understand our data sources better. For example, many platforms—such as iWave, Factiva, and others—rely on Dun & Bradstreet data when compiling reports. Factiva even publishes a monthly update listing new sources, with a total of 30,000+ sources available."
-  },
-  {
-    "objectID": "field_notes/LibraryDatabases/index.html#verification-and-spot-checks",
-    "href": "field_notes/LibraryDatabases/index.html#verification-and-spot-checks",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "",
-    "text": "A detailed list of tools gives us more confidence when verifying research. The reliability of any piece of information increases when it appears across multiple sources (e.g., two independent news articles confirming a job title). These tools can be great for spot checks when confirming details."
-  },
-  {
-    "objectID": "field_notes/LibraryDatabases/index.html#addressing-the-black-box-problem",
-    "href": "field_notes/LibraryDatabases/index.html#addressing-the-black-box-problem",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "",
-    "text": "Most platforms aggregate data from large brokerages, but each has its own way of processing and presenting that information. For example, iWave uses proprietary techniques to build profiles. While these methods likely follow standard data science practices, the exact process is often unclear—this is known as the “black box” problem.\nWe can reduce this uncertainty by:\n\nIdentifying as many sources as possible.\nUnderstanding the data brokers behind those sources.\nDrawing conclusions about how platforms transform raw data.\n\nThis knowledge adds confidence to the reports we share internally and helps us explain where information originates—even if some steps remain opaque."
-  },
-  {
-    "objectID": "field_notes/LibraryDatabases/index.html#original-research",
-    "href": "field_notes/LibraryDatabases/index.html#original-research",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "",
-    "text": "Some tools specialize in niche areas. For example, Pitchbook focuses on venture capital and startup funding rounds. This project may reveal which tools are best suited for specific research problems."
-  },
-  {
-    "objectID": "field_notes/LibraryDatabases/index.html#multi-channel-search",
-    "href": "field_notes/LibraryDatabases/index.html#multi-channel-search",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "",
-    "text": "Comparing results across multiple sources is a common practice for prospect researchers. Doing this manually across 20+ tools can be time-consuming. In OSINT (open-source intelligence), developers have created tools that search hundreds of sources simultaneously and categorize results. However, most OSINT tools aren’t ethical for prospect research because they rely on breach data or are designed for law enforcement.\nOur use case is different, so we’d need to build our own multi-channel search solution or support existing efforts like the Prospect Research Toolkit. Possible approaches include:\n\nPower Automate Desktop: Create a flow that prompts for a search term and runs searches across selected channels (e.g., Privco, Mergent Online).\nPower Query Integration: Automate data export and correlation for comprehensive reports. For example, if we have a list of names for an event, automation could pull data from multiple databases and compile it into a spreadsheet with columns for each source.\n\nCompanies like Xapien already do advanced versions of this using custom algorithms and web scraping to verify information."
-  },
-  {
-    "objectID": "field_notes/LibraryDatabases/index.html#next-steps",
-    "href": "field_notes/LibraryDatabases/index.html#next-steps",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "",
-    "text": "We’re building a spreadsheet with links and feature comparisons for all tools under review. This will serve as a reference for choosing the right tool for the right research problem.\n\nDisclaimer - This text was either summarized, re-organized, or partially generated by AI."
-  },
-  {
-    "objectID": "field_notes.html",
-    "href": "field_notes.html",
-    "title": "Field Notes",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTool & Company Incidents\n\n\n\nIndustry Commentary\n\nTool Reviews\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUVU Philanthropy Workshop\n\n\n\nSocial Impact\n\nPhilanthropy\n\n\n\n\n\n\n\nGreg Brooks\n\n\nMar 23, 2026\n\n\n\n\n\n\n\n\n\n\n\nLibrary Databases for Prospect Dev Analysts\n\n\n\nFree tools\n\n\n\n\n\n\n\nGreg Brooks\n\n\nJan 30, 2026\n\n\n\n\n\n\n\n\n\n\n\nInternal Data Contracts\n\n\n\nResearch Strategy\n\nProspect Dev Management\n\nIndustry Commentary\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 14, 2025\n\n\n\n\n\n\n\n\n\n\n\nHelpful Technical Documentation\n\n\n\nwebsite-maintenance\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 4, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery\n\n\n\nPaid tool\n\nExcel\n\nTutorials\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
-  },
-  {
-    "objectID": "data/database/gregs_mermaid_db_experiment.html",
-    "href": "data/database/gregs_mermaid_db_experiment.html",
-    "title": "Database ERD draft",
-    "section": "",
-    "text": "Database ERD draft\n2025-12-9 Mermaid documentation for ERDs\n\n\n\n\n\n---\ntitle: Prospect Research Toolkit ERD\n---\nerDiagram\n\n%% ===TOOLS===\n  tools{\n    int id PK\n    str name\n    str type\n    int cost\n    str integrations\n    str notes\n    int company_id FK\n    numeric created_at\n  }\n  companies{}\n  university_tools{}\n  universities{}\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "The prospect research toolkit is an independently maintained repository of fundraising industry analysis, software information, and research methodology. This is a hobby coding project, first and foremost, but projects are refined based on conversations with development professionals.\nThere are plenty of excellent paid resources already available: Apra, private consultant firms, subscription tools, books…but not everyone has the budget to access them. This toolkit was created to bridge that gap, or supplement what’s already out there, and create original content that is interactive. The goal is to keep it simple, fun, open-source, community-driven, regularly updated, and always free."
-  },
-  {
-    "objectID": "about.html#how-accurate-is-this-website",
-    "href": "about.html#how-accurate-is-this-website",
-    "title": "About",
-    "section": "How accurate is this website?",
-    "text": "How accurate is this website?\nThere will be an entire write-up explaining how I source pricing information, but generally speaking, the prices on this website will be prone to errors and should be understood as estimates. The incidents, however, given their public nature, are a more reliable metric to contribute to the overall rating scheme of the software tools.\nIn order of most to least accuracy (probably):\n\nGeneral tool, feature, or company information\nTutorials\nPricing information"
-  },
-  {
-    "objectID": "about.html#who-is-this-guy-anyway",
-    "href": "about.html#who-is-this-guy-anyway",
-    "title": "About",
-    "section": "Who is this guy anyway?",
-    "text": "Who is this guy anyway?\nI come from a psychology background and am largely self-taught in data analytics, information science, data science, etc. This website is guaranteed to have some bugs, or occasionally be broken."
-  },
-  {
-    "objectID": "about.html#how-often-is-the-website-updated",
-    "href": "about.html#how-often-is-the-website-updated",
-    "title": "About",
-    "section": "How often is the website updated?",
-    "text": "How often is the website updated?\nIn small ways, frequently! You can read the latest release notes for some of the technical details."
   },
   {
     "objectID": "data/readme.html",
@@ -238,221 +105,130 @@
     "text": "3. Niche Fundraising Tools (e.g., ResearchPoint & LiveAlumni)\nThese products are end-user applications built for nonprofit development, advancement, and alumni relations. They consume data from brokers and other sources to help fundraising professionals prioritize prospects and manage engagement.\n\nBlackbaud ResearchPoint\n\nA donor prospect research platform that integrates multiple data feeds (including wealth, philanthropic history, biographical, and asset data). (Blackbaud Help)\nIt supports bulk lists, wealth screening, and rich prospect profiles used to guide major gift fundraising. (Blackbaud Help)\n\n\n\nLiveAlumni\n\nA niche provider focused on verified alumni and donor employment data, job changes, industry and employer details. (LiveAlumni)\nUseful in fundraising to identify job changes, matching gift eligibility, and engagement signals.\n\nThese platforms often license or embed multiple broker data feeds to enrich constituent records and analytics."
   },
   {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html",
-    "href": "field_notes/HelpfulTechDocumentation/index.html",
-    "title": "Helpful Technical Documentation",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "This list is mostly for Greg as he maintains this website."
+    "text": "These prospect research field notes are an independently maintained repository of fundraising industry analysis, software information, and research methodology. This also functions as a hobby coding and research project.\nThere are plenty of excellent paid resources already available: Apra, private consultant firms, subscription tools, books…but not everyone has the budget to access them. This toolkit was created to bridge that gap, or supplement what’s already out there, and create original content that is interactive. The goal is to keep it simple, fun, open-source, community-driven, regularly updated, and always free."
   },
   {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#quarto-guides",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#quarto-guides",
-    "title": "Helpful Technical Documentation",
-    "section": "Quarto guides",
-    "text": "Quarto guides\n\nPractical Quarto\nQuarto presentations"
+    "objectID": "about.html#how-accurate-is-this-website",
+    "href": "about.html#how-accurate-is-this-website",
+    "title": "About",
+    "section": "How accurate is this website?",
+    "text": "How accurate is this website?\nThere will be an entire write-up explaining how I source pricing information, but generally speaking, the prices on this website will be prone to errors and should be understood as estimates. The incidents, however, given their public nature, are a more reliable metric to contribute to the overall rating scheme of the software tools.\nIn order of most to least accuracy (probably):\n\nGeneral tool, feature, or company information\nTutorials\nPricing information"
   },
   {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#website-maintenance",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#website-maintenance",
-    "title": "Helpful Technical Documentation",
-    "section": "Website Maintenance",
-    "text": "Website Maintenance\n\nUse the drafts feature to preview and plan content\nLearn how to use the profiles feature\nPrevent all unnecessary folders and files from rendering to the website (how?)\nlearn incremental render\n\nYes, you can preview .qmd files inside an excluded folder like scripts/ without moving them, but it requires a bit of manual action because Quarto won’t render them automatically during your site build.\nHere’s how to do it:"
+    "objectID": "about.html#who-is-this-guy-anyway",
+    "href": "about.html#who-is-this-guy-anyway",
+    "title": "About",
+    "section": "Who is this guy anyway?",
+    "text": "Who is this guy anyway?\nI come from a psychology background and am largely self-taught in data analytics, information science, data science, etc. This website is guaranteed to have some bugs, or occasionally be broken."
   },
   {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#how-to-preview-.qmd-files-in-excluded-folders-without-moving-them",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#how-to-preview-.qmd-files-in-excluded-folders-without-moving-them",
-    "title": "Helpful Technical Documentation",
-    "section": "How to preview .qmd files in excluded folders without moving them",
-    "text": "How to preview .qmd files in excluded folders without moving them\n\n1. Render them manually, one at a time\nFrom your project root, run:\nquarto render scripts/your_file.qmd\n\nThis renders just that file (ignores your site’s render exclusion)\nOutput goes to _output folder by default (not your website’s docs/)\nYou can open the generated HTML in your browser to preview\n\n\n\n\n2. Use the quarto preview command for that file\nquarto preview scripts/your_file.qmd\n\nOpens a local preview server with live reload for that file\nHandy for iterative editing and testing\n\n\n\n\n3. Use VS Code Quarto extension to preview\nIf you have the Quarto extension in VS Code:\n\nOpen scripts/your_file.qmd\nUse “Preview” button in editor (usually top right or right-click menu)\nThis previews the current file regardless of site config\n\n\n\n\n4. Temporarily disable the exclusion (if you want full site preview)\nRemove or comment out the render: - \"!scripts/**\" line\n\nRun quarto render to include those files\nPreview site with those pages included\nRe-enable exclusion when done"
+    "objectID": "about.html#how-often-is-the-website-updated",
+    "href": "about.html#how-often-is-the-website-updated",
+    "title": "About",
+    "section": "How often is the website updated?",
+    "text": "How often is the website updated?\nIn small ways, frequently! You can read the latest release notes for some of the technical details."
   },
   {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#summary",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#summary",
-    "title": "Helpful Technical Documentation",
-    "section": "Summary",
-    "text": "Summary\n\n\n\n\n\n\n\n\nMethod\nPros\nCons\n\n\n\n\nquarto render file.qmd\nFast, manual render\nManual, one file at a time\n\n\nquarto preview file.qmd\nLive reload, interactive\nOne file only\n\n\nVS Code Quarto preview\nIntegrated, easy\nRequires VS Code & extension\n\n\nDisable exclusion temporarily\nFull site preview\nChanges site config temporarily"
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#database-architecture",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#database-architecture",
-    "title": "Helpful Technical Documentation",
-    "section": "Database Architecture",
-    "text": "Database Architecture\n\nRSQLite\nSQLite mobile editing\nBaserow docs"
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#vs-code",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#vs-code",
-    "title": "Helpful Technical Documentation",
-    "section": "VS-Code",
-    "text": "VS-Code\n\nMarkdown All-in-One commands"
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#quarto-extensions",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#quarto-extensions",
-    "title": "Helpful Technical Documentation",
-    "section": "Quarto Extensions",
-    "text": "Quarto Extensions\n\nQuarto Extensions and also great example of a quarto website\nembedio for presentations embedded in a Quarto website\neditable reveal js lets you do some basic editing within revealjs presentations themselves, and then save it back to your QMD, which makes for a nice workflow similar to working in powerpoint\n\n\nVisualization Extensions\n\nDiagrams\nSvelte components\n\n\n\nArticle Interactivity\n\nLightboxes\nexpanding “nutshell” notes so people don’t have to switch tabs\n\n\n\nEmbedding\n\nsocial media embeds, easy to embed YouTube\nPDF embedding\n\n\n\nUser Experience\n\ndownloading embedded data or images\nlist of links at end of page\nQuarto badges, lets you make fun stuff like this!"
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#example-quarto-sites",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#example-quarto-sites",
-    "title": "Helpful Technical Documentation",
-    "section": "Example Quarto Sites",
-    "text": "Example Quarto Sites\n\ngood example of webr and download capabilities"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#welcome-to-the-workshop",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#welcome-to-the-workshop",
-    "title": "UVU Philanthropy Workshop",
-    "section": "Welcome to the workshop!",
-    "text": "Welcome to the workshop!\n\n\nall the long, rambling bullet points need to be cut down to 5-10 words, put any other useful context in the speaker notes. - Add more questions to the audience. If possible, practice this out loud to see how it stacks up against the 20 minute slot.\nAdd more formatting or interesting stuff (e.g. images) to the presentation itself, right now, it’s all text\nSome Quarto extensions could add more engaging elements (e.g. nutshell)\nMaybe make the ugly Google Sheet of prospect dev jobs available as a public link? Until the job board on the site is live?"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#gregs-background",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#gregs-background",
-    "title": "UVU Philanthropy Workshop",
-    "section": "Greg’s Background",
-    "text": "Greg’s Background\n\nBS in Psychology\nProspect research analyst, but more on that later\nEarly-career fundraising professional\nVP at Apra Utah, a local professional org for those in my niche\nFormer SIMLab contributer\nFormer Impact Evaluation Fellow at the Center for Social Impact\n\n\n\nYes, you can connect with me on LinkedIn (I try to post about open jobs in my field, especially in Utah)\nGO THROUGH AND MAKE ALL BULLET POINTS SHORTER, PUT LONGER STUFF IN SPEAKER NOTES\nPsych BS: degree which I loved, but of the many classes I took, I think some of my research methods classes were the most relevant. I switched majors so much it took me ~8 years to finally finish. Don’t do what I did, which was essentially spend a lot of money to learn that I don’t want to be a therapist, and that running a peer support group is more than enough to occupy that impulse.\nI was a part-time student for most of my undergraduate studies, for financial reasons, until a bipolar scholarship got me more seriously into finishing school.\nTangent: That bipolar scholarship is a fascinating example of philanthropy, because it acknowledged how bipolar can affect your ability to graduate, complete advanced courses, etc. Not many people, including the Accessibility Office at UVU, when I went to them for help years ago, actually understand that lived experience and the accomodations that may help. (Baer Reintegration Scholarship). For example: it didn’t require me to be a freshman, it allowed for a wide variety of paths, like cosmetology school, and crucially, it allowed for part-time schooling. Arguably one of the biggest gaps in our current scholarship environment are part-time scholarships, for reasons I may mention later on, but the gist of it is: major donors do not understand their value, they seem less prestigious or rigorous, they may not understand the financial situation of the average student, or they are just relying on the fundraisers and program directors for the details of the scholarship, and they default to full-time for a myriad of reasons. Unfortunately, for many things, if it looks weird to a donor, they won’t fund it, and as you can imagine, the experience of a lower income student vs. a high dollar philanthropist is so disparate, that relying solely on the donor’s judgement for those details is a flawed and biased way of structuring the philanthropy\nMy professional background colors my opinion on philanthropy, and may make me a touch more skeptical in my tone, but that’s because I believe philanthropy is surprisingly difficult to do well from a social impact perspective: if we are trying to do no harm to ourselves, interpersonally, communally, and at a broader cultural level. But a bit more on that later\nWorked as an analyst for UVU’s “advancement” division (industry jargon for higher-ed fundraising), now at the University of Utah doing the same thing (though with more zeros involved with all the numbers I look at)\nSIMLab: contributed to Project READ analysis, the social impact evaluation primer, and an analysis of the impact of college counselors on student performance. Didn’t make any waves, and I was arguably the dumbest guy in a room with a highly trained economist, highly competent student coders, etc. When you can, try to get into the rooms where everyone else has more skills than you do, it makes for great ambient learning and personal development.\nEasily my favorite college experience, and I think plenty of workplaces could learn important lessons about teamwork culture from what they do here at the center\nI haven’t done any public speaking in a while, because my day-to-day life involves sitting at a desk in a basement muttering curse words because ResearchPoint (a fundraising database) is suffering from another service outage, so I’m attempting to make this interesting, and failing that, useful for understanding opportunites in my career path, and in fundraising as a whole."
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#is-philanthropy-relevant-to-my-life-as-a-student",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#is-philanthropy-relevant-to-my-life-as-a-student",
-    "title": "UVU Philanthropy Workshop",
-    "section": "Is philanthropy relevant to my life as a student?",
-    "text": "Is philanthropy relevant to my life as a student?\n\nYes, though the average student is not a high-dollar philanthropist (or connected to one via family)\nMore relevant as the source of student aid (e.g. scholarships)\nPhilanthropy is connected to industries where a student might find employment (e.g. fundraising)"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#what-is-philanthropy",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#what-is-philanthropy",
-    "title": "UVU Philanthropy Workshop",
-    "section": "What is philanthropy?",
-    "text": "What is philanthropy?\n\nTax efficient PR strategy (individual & corporate)\nStrategic means for community or legislative impact\nFodder for a boring slide-deck if I’m not careful\n\n\n\nThere’s that quote about journalism: journalism is printing something somebody else does not want to be printed, everything else is PR."
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#is-philanthropy-effective",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#is-philanthropy-effective",
-    "title": "UVU Philanthropy Workshop",
-    "section": "Is philanthropy effective?",
-    "text": "Is philanthropy effective?\n\nIn the short term, easy to say yes\nTaking the long view, things get complicated\nCriticism of philanthropy is a storied tradition\nProgress since the Gilded Age? 1\n\n\n\nThe 2010s saw a slew of increasingly dire book titles, “No such thing as a free gift: The Gates Foundation and the price of philanthropy”, “Just giving: why philanthropy is failing democracy and how it can do better”, “winners take all: the elite charade of changing the world”, “The tyranny of generosity: why philanthropy corrupts our politics and how we can fix it”\ncriticism and accountability are good things, especially when backed up by data. The truth is always more complicated, of course, but even though I actively work in philanthropy, I certainly agree with many of the broad strokes criticisms\nAcademics are constantly connecting poverty and lower income to health problems\nmention bruce bastian and alan ashton if there is time (word perfect, dueling philanthropy, quote about wallets, etc)\n“The U.S. Attorney General at this time, George Wickersham, went so far as to write off philanthropic foundations as “scheme[s] for perpetuating mass wealth” and “entirely inconsistent with the public interest,” while other critics expressed their opinion that philanthropy “was merely a ploy to secure the wealth and clean up the reputations of business moguls who amassed fortunes during the robber baron years” (McGoey, 2015, p. 4; Barkan, 2013, p. 635). Even Theodore Roosevelt opposed Rockefeller’s effort to establish a private foundation, claiming that “no amount of charity in spending such fortunes [as Rockefeller’s] can compensate in any way for the misconduct in acquiring them Scholar Lindsay McGoey lists three main criticisms of philanthrocapitalism: The erosion of support for government spending on health and education due to the channeling of private funds toward public services, the potential lack of accountability and transparency of private philanthropists, and the exacerbation of of socioeconomic inequalities through unethical business strategies that are mainly concerned with maximizing profit (McGoey, 2015, pp. 9-10). he main concern is that the donor gains too much power and influence over how the recipient organization spends its money, reducing the independence of that organization, and affecting the population that it serves. stems from evidence showing that extremely wealthy philanthropists earn their fortunes through business tactics that have “compounded financial instability, eroded labour protections, and entrenched global economic inequalities,” including violating antitrust laws and using their monopoly power to stifle competition- from Big Philanthropy in The United States: Do the Benefits Outweigh the Risks? by Rachel N Clift for her grant writing class at portland state"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#tangent",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#tangent",
-    "title": "UVU Philanthropy Workshop",
-    "section": "tangent…",
-    "text": "tangent…\n\nRockefeller as King"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#philanthropy-at-the-student-scale",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#philanthropy-at-the-student-scale",
-    "title": "UVU Philanthropy Workshop",
-    "section": "Philanthropy at the Student Scale",
-    "text": "Philanthropy at the Student Scale\n\nLess than, say, $1000 or less over ~5 years\nThe Brooklyn Org example, micro DAF 2\nGiving Days at the U example, some mini drives led by students + matching programs\nMatching gifts and Microsoft rewards 3\n\n\n\nEven more than making a private, small donation - a program/project/non-profit may appreciate you organizing a small drive or campaign on their behalf. Some jobs, for example, will match your donation to a list of approved non-profits, which makes your money stretch farther and have more impact. Your coworkers may not know about the matching program, so organizing a small office drive to take advantage of the matching (which is often limited by time) doesn’t require a bigger donation from you, just a bit more time.\nOrganizing a small campaign like this is something you can also put on your resume, if you are applying for fundraising positions as a graphic designer, data analyst, event planner, prospect researcher, and more. There are ways to donate money without pulling directly from your wallet: for example, if you use Bing for a few search engine queries every month, you can donate the Microsoft Reward points to many causes: including UVU! When I worked at UVU, I had a job that required me to search online constantly for information, and I ended up raising $50+ for the University’s general fund. Not a huge amount, but I did not have to dip into my own finances for that particular donation.\nThere are other programs like this out there, and for a student on a budget (vs. a wealthy philanthropist) they are a simple way to contribute smaller one-time gifts to causes you want to support, but can’t justify using your own limited resources.\nBrooklyn Org: what’s a DAF? Why is the Brooklyn Org interesting?\ndue dilligence is exhausting, so sometimes it’s nice to have an org that does it for you"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#macro-trends-in-charitable-giving",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#macro-trends-in-charitable-giving",
-    "title": "UVU Philanthropy Workshop",
-    "section": "Macro-trends in Charitable Giving",
-    "text": "Macro-trends in Charitable Giving\n\nSmall-dollar donor participation is in steep decline\nSimilarly, total number of donors is going down\nInstitutional trust frequently shredded by scandal\n\n\n\nlower total donors = small group of high-dollar donors everyone is chasing\nYour average donor who isn’t a billionaire or multi-millionaire may be more compelled by one-off projects, or local programs, or things that they think have social impact that aren’t explicitly philanthropy\nElon Musk quote that is very revealing: “My businesses are my philanthropy”, as in, contributing to the overall economic output of the country via enterprise translates to downstream benefits for the average person more than giving them money via philanthropic vehicles. Any reactions to that?"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#fundraising-career-paths",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#fundraising-career-paths",
-    "title": "UVU Philanthropy Workshop",
-    "section": "Fundraising career paths",
-    "text": "Fundraising career paths\n\nGenerally every fundraising role has a for-profit counterpart or close analogue (IT, sales, marketing, accounting, etc)\nPublic (hospitals, universities, etc)\nPrivate foundations\n\n\n\nLike in business, the highest paid professionals tend to be those with a portfolio (in this case, of donors instead of accounts), who bring in revenue, and then the C-suite or upper admin\nIn my role, I make $60k a year, started off in the mid-40s, full-time, with benefits\nPlenty of other operational roles, which deal with varying levels of chaos\nsomewhat seasonal, circling around events\nMany pros and many cons, like with any job, one of the pros for me is that I get to work for a University, and since I find education to be a fundamental social good, some of my personal values are represented in my job\nIt helps to save a list of keywords that help you filter the job titles down to what you want\nInsert some examples, potentially curated based on the majors in the room, or maybe have a list and ask if anyone is interested in zooming in on something specific - maybe the brooklyn org, or UVU advancement"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#prospect-dev",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#prospect-dev",
-    "title": "UVU Philanthropy Workshop",
-    "section": "Prospect Dev",
-    "text": "Prospect Dev\n\nOverview\nWhat’s prospect management?\nWhat’s prospect research?\nWhy should I care? (finding your niche)\n\n\n\nCenter for Social Impact education, student jobs, and fellowships is actually great prep for many of the roles I’m highlighting (e.g. you are studying accounting or business, but don’t have fundraising experience yet)\nAt the University of Utah, where I work, the org chart is a bit more complicated, but similar. Intermountain Health is another good one to look at.\nOrg charts are a great way to get key words for job searches, especially because sometimes some careers just rename jobs so they can feel fancy (fundraising does this constantly, though it’s not as bad as the tech field)"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#how-it-looks-at-uvu",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#how-it-looks-at-uvu",
-    "title": "UVU Philanthropy Workshop",
-    "section": "How it looks at UVU",
-    "text": "How it looks at UVU\n\nDivision is called Institutional Advancement\nCampaigns are busy times at work\nUVU set a goal of $350 million (they hit $250M)\n\n\n\nadvancement being the fancy higher ed word for fundraising\nUVU does a couple odd things with how their org chart has shaken out in its details, but generally you’ll see these roles / teams in other higher ed fundraising teams, and many similarities with Hospital fundraising teams, Nonprofits are highly varied, so they may diverge, but the bigger ones also tend to have similar org charts\nVP is in the University President’s Cabinet, one of the lead fundraisers, alongside the President\nAVP of Development is the leader of the frontline fundraisers, and is a fundraiser themselves, they lead the development team (at UVU they are called Directors of Development, but job titles vary, like Major Gift Officer), these folks tend to be more extroverted, often working with specific colleges especially alongside the Deans to fund programs, scholarships, etc…and you have several related teams like Annual Giving, Planned Giving, Alumni Relations (if there wasn’t so much event planning, I would personally love to work in this world more), and Prospect Dev (sometimes Prospect Dev is on the data team instead, people sometimes don’t know where it fits)\nSenior Director of Foundation Finance and Compliance, runs the endowment, has to host auditors when they drop by (a stressful day), leads the accountants, tries to keep everybody realistic\nAVP of Strategic Engagement, leads the Executive Events team, and the Marketing & Communications (Marcom is common jargon there) team: this is where you have your web designers, your graphic designers, content creators, and event planners.\nAll these leaders often have executive assistants"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#how-it-looks-in-the-for-profit-world",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#how-it-looks-in-the-for-profit-world",
-    "title": "UVU Philanthropy Workshop",
-    "section": "How it looks in the for-profit world",
-    "text": "How it looks in the for-profit world\n\nMany companies have foundations or social impact missions that require operational staff\nYou will make more money in the for-profit world (e.g. an account manager at a Fortune 500 company instead of a development officer at a college)"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#your-values-vs.-your-job",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#your-values-vs.-your-job",
-    "title": "UVU Philanthropy Workshop",
-    "section": "Your values vs. your job",
-    "text": "Your values vs. your job\n\nValues may drive many of your career moves\nA single year can bring massive changes\nUtah culture around “make the money, be a philanthropist later”\n\n\n\nand you have to draw your own lines in the sand (e.g. would you work for a Political Action Committee? What kind? Religious orgs are the biggest recipents of charitable donations, many of them need fundraising staff, but what if the one you are working for has a scandal?)\nEspecially if you don’t work for an institution that has an endowment, those changes can test you\nIf, like me when I graduated, you just want to land any job that can pay the rent and give you healthcare, it can be difficult to take your values into account if they feel like roadblocks"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#references",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#references",
-    "title": "UVU Philanthropy Workshop",
-    "section": "References",
-    "text": "References\n\nCommunity Foundation of Utah DAFs\nBrooklyn Org - DAFs and Community Impact\nFunraise’s state of fundraising 2026"
-  },
-  {
-    "objectID": "field_notes/UVU_Philanthropy_Workshop2025/index.html#footnotes",
-    "href": "field_notes/UVU_Philanthropy_Workshop2025/index.html#footnotes",
-    "title": "UVU Philanthropy Workshop",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nhttps://www.si.edu/sidedoor/giving-game\nhttps://brooklyn.org/\nhttps://causeshelp.benevity.org/hc/en-us/articles/360059297592-What-are-Microsoft-rewards"
-  },
-  {
-    "objectID": "field_notes/datacontracts/index.html",
-    "href": "field_notes/datacontracts/index.html",
-    "title": "Internal Data Contracts",
+    "objectID": "data/database/gregs_mermaid_db_experiment.html",
+    "href": "data/database/gregs_mermaid_db_experiment.html",
+    "title": "Database ERD draft",
     "section": "",
-    "text": "As organizations grow, data becomes increasingly complex and distributed across multiple teams and systems. Without clear agreements on how data is structured, maintained, and shared, teams risk miscommunication, broken pipelines, and unreliable analytics. Internal data contracts solve this problem by formalizing expectations between data producers and consumers—similar to API contracts, but for data.\nThis post will cover: - What internal data contracts are - A sample contract template - Best practices for implementation - How they can apply to fundraising analysis teams\n\n\n\n\nAn internal data contract is a documented agreement that defines: - Schema: The structure and types of data fields - Quality guarantees: Rules for completeness, accuracy, and freshness - Ownership: Who is responsible for producing and consuming the data - Access and security: Permissions and compliance requirements - Change management: How updates are communicated and versioned\nThese contracts reduce breakages, improve trust, and enable scalable data sharing across teams.\n\n\n\n\nTitle: Customer Data Contract\nVersion: 1.0\nOwner: Data Engineering Team\nEffective Date: 2025-11-12\n\n\n\nThis contract defines the structure, quality, and governance of the customer dataset shared between the CRM system (producer) and Analytics team (consumer).\n\n\n\n\n\n\n\n\n\n\n\n\n\nField Name\nData Type\nNullable\nDescription\n\n\n\n\ncustomer_id\nSTRING\nNo\nUnique customer identifier\n\n\nname\nSTRING\nNo\nFull name of the customer\n\n\nemail\nSTRING\nNo\nCustomer email address\n\n\nsignup_date\nDATE\nNo\nDate of account creation\n\n\nstatus\nSTRING\nYes\nActive, Inactive, Pending\n\n\n\nVersioning:\n- Backward-compatible changes allowed (adding new nullable fields).\n- Breaking changes require 30-day notice and version increment.\n\n\n\n\n\nFreshness: Data updated within 15 minutes of CRM changes.\n\nCompleteness: 99% of records must have email populated.\n\nAccuracy: status must match CRM system values.\n\n\n\n\n\n\nProducer: CRM Engineering Team\n\nConsumer: Analytics Team\n\nEscalation: Contact data-support@company.com for issues.\n\n\n\n\n\n\nData accessible via internal data warehouse with role-based permissions.\n\nPII fields (e.g., email) must comply with GDPR and internal privacy policies.\n\n\n\n\n\n\nAll schema changes documented in the internal data catalog.\n\nBreaking changes require approval from both producer and consumer teams.\n\n\n\n\n\n\n\nStart Simple, Iterate Begin with critical datasets and expand as adoption grows.\nUse Versioning Always version schemas to avoid breaking downstream systems.\nAutomate Validation Implement automated checks for schema compliance and data quality.\nCentralize Documentation Maintain contracts in a shared repository or data catalog for visibility.\nDefine SLAs Include clear expectations for freshness, completeness, and uptime.\nCommunicate Changes Early Use automated alerts or Slack notifications for schema updates.\nEnforce Ownership Assign clear owners for both producer and consumer sides.\nIntegrate with CI/CD Validate data contracts during deployment to catch issues before production.\nMonitor & Audit Track compliance and log violations for continuous improvement.\nAlign with Governance Ensure contracts comply with regulatory and internal security standards.\n\n\n\n\n\nPlaceholder: Explain how prospect research and development teams can use data contracts to ensure donor data consistency and reliability across CRM, wealth screening tools, and analytics platforms.\nOne obstacle when writing profiles is getting accurate information from your own institution. If you have many internal boards, the chairs and members of those boards are always in flux, and there isn’t necessarily accurate information in the database or websites to verify the reality on the ground. In theory, it makes sense to have board memberships strictly tracked in your CRM. But like with anything, it all depends on the people responsible for maintaining and providing the data in the first place.\nOld or inacurrate information in your internal systems is a constant battle, and there may be some areas where you know the information tends to be more inaccurate than others, a “quirk of the system” that you’ve just learned to deal with, and one where a fix is not necessarily going to happen soon.\nHowever, if you are ever in the position to try and fix some of these data problems, at a director-level, you can advocate for creating internal data contracts specifically to benefit your prospect development and research teams.\nWith the board membership example, a strong internal data contract that provides accurate, timely board information means that profiles get done faster, obvious mistakes are avoided, and researchers can spend less time spinning their wheels trying to find information that the institution already knows. Ideally, the goal of a prospect research team should be to get the most efficient process possible for highly accurate profiles, so there is more time for proactive research and expanding the prospect pool. The amount of money that is lost every year is staggering: any given team is being paid for their time, and expanding the prospect pool actually increases campaign revenues, while fiddling around with verifications can run counter to the overall momentum needed to meet fundraising goals.\nOf course, if you aren’t tracking your efficiency, then it would be hard to know for sure."
+    "text": "Database ERD draft\n2025-12-9 Mermaid documentation for ERDs\n\n\n\n\n\n---\ntitle: Prospect Research Toolkit ERD\n---\nerDiagram\n\n%% ===TOOLS===\n  tools{\n    int id PK\n    str name\n    str type\n    int cost\n    str integrations\n    str notes\n    int company_id FK\n    numeric created_at\n  }\n  companies{}\n  university_tools{}\n  universities{}\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "field_notes.html",
+    "href": "field_notes.html",
+    "title": "Field Notes",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nLibrary Databases for Prospect Dev Analysts\n\n\n\nFree tools\n\n\n\n\n\n\n\nGreg Brooks\n\n\nJan 30, 2026\n\n\n\n\n\n\n\n\n\n\n\nInternal Data Contracts\n\n\n\nResearch Strategy\n\nProspect Dev Management\n\nIndustry Commentary\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 14, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery (part 1)\n\n\n\nPaid tool\n\nTutorials\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "field_notes/LibraryDatabases/index.html#potential-use-cases",
+    "href": "field_notes/LibraryDatabases/index.html#potential-use-cases",
+    "title": "Library Databases for Prospect Dev Analysts",
+    "section": "Potential Use Cases",
+    "text": "Potential Use Cases\nIdentifying potential tools is fairly easy. The real challenge lies in defining use cases and determining how to export and correlate information from different systems. This process also helps us understand our data sources better. For example, many platforms—such as iWave, Factiva, and others—rely on Dun & Bradstreet data when compiling reports. Factiva even publishes a monthly update listing new sources, with a total of 30,000+ sources available."
+  },
+  {
+    "objectID": "field_notes/LibraryDatabases/index.html#verification-and-spot-checks",
+    "href": "field_notes/LibraryDatabases/index.html#verification-and-spot-checks",
+    "title": "Library Databases for Prospect Dev Analysts",
+    "section": "Verification and “Spot Checks”",
+    "text": "Verification and “Spot Checks”\nA detailed list of tools gives us more confidence when verifying research. The reliability of any piece of information increases when it appears across multiple sources (e.g., two independent news articles confirming a job title). These tools can be great for spot checks when confirming details."
+  },
+  {
+    "objectID": "field_notes/LibraryDatabases/index.html#addressing-the-black-box-problem",
+    "href": "field_notes/LibraryDatabases/index.html#addressing-the-black-box-problem",
+    "title": "Library Databases for Prospect Dev Analysts",
+    "section": "Addressing the “Black Box” Problem",
+    "text": "Addressing the “Black Box” Problem\nMost platforms aggregate data from large brokerages, but each has its own way of processing and presenting that information. For example, iWave uses proprietary techniques to build profiles. While these methods likely follow standard data science practices, the exact process is often unclear—this is known as the “black box” problem.\nWe can reduce this uncertainty by:\n\nIdentifying as many sources as possible.\nUnderstanding the data brokers behind those sources.\nDrawing conclusions about how platforms transform raw data.\n\nThis knowledge adds confidence to the reports we share internally and helps us explain where information originates—even if some steps remain opaque."
+  },
+  {
+    "objectID": "field_notes/LibraryDatabases/index.html#original-research",
+    "href": "field_notes/LibraryDatabases/index.html#original-research",
+    "title": "Library Databases for Prospect Dev Analysts",
+    "section": "Original Research",
+    "text": "Original Research\nSome tools specialize in niche areas. For example, Pitchbook focuses on venture capital and startup funding rounds. This project may reveal which tools are best suited for specific research problems."
+  },
+  {
+    "objectID": "field_notes/LibraryDatabases/index.html#multi-channel-search",
+    "href": "field_notes/LibraryDatabases/index.html#multi-channel-search",
+    "title": "Library Databases for Prospect Dev Analysts",
+    "section": "Multi-Channel Search",
+    "text": "Multi-Channel Search\nComparing results across multiple sources is a common practice for prospect researchers. Doing this manually across 20+ tools can be time-consuming. In OSINT (open-source intelligence), developers have created tools that search hundreds of sources simultaneously and categorize results. However, most OSINT tools aren’t ethical for prospect research because they rely on breach data or are designed for law enforcement.\nOur use case is different, so we’d need to build our own multi-channel search solution or support existing efforts like the Prospect Research Toolkit. Possible approaches include:\n\nPower Automate Desktop: Create a flow that prompts for a search term and runs searches across selected channels (e.g., Privco, Mergent Online).\nPower Query Integration: Automate data export and correlation for comprehensive reports. For example, if we have a list of names for an event, automation could pull data from multiple databases and compile it into a spreadsheet with columns for each source.\n\nCompanies like Xapien already do advanced versions of this using custom algorithms and web scraping to verify information."
+  },
+  {
+    "objectID": "field_notes/LibraryDatabases/index.html#next-steps",
+    "href": "field_notes/LibraryDatabases/index.html#next-steps",
+    "title": "Library Databases for Prospect Dev Analysts",
+    "section": "Next Steps",
+    "text": "Next Steps\nWe’re building a spreadsheet with links and feature comparisons for all tools under review. This will serve as a reference for choosing the right tool for the right research problem."
   },
   {
     "objectID": "field_notes/datacontracts/index.html#introduction",
     "href": "field_notes/datacontracts/index.html#introduction",
     "title": "Internal Data Contracts",
-    "section": "",
-    "text": "As organizations grow, data becomes increasingly complex and distributed across multiple teams and systems. Without clear agreements on how data is structured, maintained, and shared, teams risk miscommunication, broken pipelines, and unreliable analytics. Internal data contracts solve this problem by formalizing expectations between data producers and consumers—similar to API contracts, but for data.\nThis post will cover: - What internal data contracts are - A sample contract template - Best practices for implementation - How they can apply to fundraising analysis teams"
+    "section": "Introduction",
+    "text": "Introduction\nAs organizations grow, data becomes increasingly complex and distributed across multiple teams and systems. Without clear agreements on how data is structured, maintained, and shared, teams risk miscommunication, broken pipelines, and unreliable analytics. Internal data contracts solve this problem by formalizing expectations between data producers and consumers—similar to API contracts, but for data.\nThis post will cover: - What internal data contracts are - A sample contract template - Best practices for implementation - How they can apply to fundraising analysis teams"
   },
   {
     "objectID": "field_notes/datacontracts/index.html#what-is-an-internal-data-contract",
     "href": "field_notes/datacontracts/index.html#what-is-an-internal-data-contract",
     "title": "Internal Data Contracts",
-    "section": "",
-    "text": "An internal data contract is a documented agreement that defines: - Schema: The structure and types of data fields - Quality guarantees: Rules for completeness, accuracy, and freshness - Ownership: Who is responsible for producing and consuming the data - Access and security: Permissions and compliance requirements - Change management: How updates are communicated and versioned\nThese contracts reduce breakages, improve trust, and enable scalable data sharing across teams."
+    "section": "What is an Internal Data Contract?",
+    "text": "What is an Internal Data Contract?\nAn internal data contract is a documented agreement that defines: - Schema: The structure and types of data fields - Quality guarantees: Rules for completeness, accuracy, and freshness - Ownership: Who is responsible for producing and consuming the data - Access and security: Permissions and compliance requirements - Change management: How updates are communicated and versioned\nThese contracts reduce breakages, improve trust, and enable scalable data sharing across teams."
   },
   {
     "objectID": "field_notes/datacontracts/index.html#sample-internal-data-contract-template",
     "href": "field_notes/datacontracts/index.html#sample-internal-data-contract-template",
     "title": "Internal Data Contracts",
-    "section": "",
-    "text": "Title: Customer Data Contract\nVersion: 1.0\nOwner: Data Engineering Team\nEffective Date: 2025-11-12\n\n\n\nThis contract defines the structure, quality, and governance of the customer dataset shared between the CRM system (producer) and Analytics team (consumer).\n\n\n\n\n\n\n\n\n\n\n\n\n\nField Name\nData Type\nNullable\nDescription\n\n\n\n\ncustomer_id\nSTRING\nNo\nUnique customer identifier\n\n\nname\nSTRING\nNo\nFull name of the customer\n\n\nemail\nSTRING\nNo\nCustomer email address\n\n\nsignup_date\nDATE\nNo\nDate of account creation\n\n\nstatus\nSTRING\nYes\nActive, Inactive, Pending\n\n\n\nVersioning:\n- Backward-compatible changes allowed (adding new nullable fields).\n- Breaking changes require 30-day notice and version increment.\n\n\n\n\n\nFreshness: Data updated within 15 minutes of CRM changes.\n\nCompleteness: 99% of records must have email populated.\n\nAccuracy: status must match CRM system values.\n\n\n\n\n\n\nProducer: CRM Engineering Team\n\nConsumer: Analytics Team\n\nEscalation: Contact data-support@company.com for issues.\n\n\n\n\n\n\nData accessible via internal data warehouse with role-based permissions.\n\nPII fields (e.g., email) must comply with GDPR and internal privacy policies.\n\n\n\n\n\n\nAll schema changes documented in the internal data catalog.\n\nBreaking changes require approval from both producer and consumer teams."
+    "section": "Sample Internal Data Contract Template",
+    "text": "Sample Internal Data Contract Template\nTitle: Customer Data Contract\nVersion: 1.0\nOwner: Data Engineering Team\nEffective Date: 2025-11-12\n\n\n1. Purpose\nThis contract defines the structure, quality, and governance of the customer dataset shared between the CRM system (producer) and Analytics team (consumer).\n\n\n\n2. Schema Definition\n\n\n\n\n\n\n\n\n\nField Name\nData Type\nNullable\nDescription\n\n\n\n\ncustomer_id\nSTRING\nNo\nUnique customer identifier\n\n\nname\nSTRING\nNo\nFull name of the customer\n\n\nemail\nSTRING\nNo\nCustomer email address\n\n\nsignup_date\nDATE\nNo\nDate of account creation\n\n\nstatus\nSTRING\nYes\nActive, Inactive, Pending\n\n\n\nVersioning:\n- Backward-compatible changes allowed (adding new nullable fields).\n- Breaking changes require 30-day notice and version increment.\n\n\n\n3. Data Quality Guarantees\n\nFreshness: Data updated within 15 minutes of CRM changes.\n\nCompleteness: 99% of records must have email populated.\n\nAccuracy: status must match CRM system values.\n\n\n\n\n4. Ownership & Responsibilities\n\nProducer: CRM Engineering Team\n\nConsumer: Analytics Team\n\nEscalation: Contact data-support@company.com for issues.\n\n\n\n\n5. Access & Security\n\nData accessible via internal data warehouse with role-based permissions.\n\nPII fields (e.g., email) must comply with GDPR and internal privacy policies.\n\n\n\n\n6. Change Management\n\nAll schema changes documented in the internal data catalog.\n\nBreaking changes require approval from both producer and consumer teams."
   },
   {
     "objectID": "field_notes/datacontracts/index.html#best-practices-for-internal-data-contracts",
     "href": "field_notes/datacontracts/index.html#best-practices-for-internal-data-contracts",
     "title": "Internal Data Contracts",
-    "section": "",
-    "text": "Start Simple, Iterate Begin with critical datasets and expand as adoption grows.\nUse Versioning Always version schemas to avoid breaking downstream systems.\nAutomate Validation Implement automated checks for schema compliance and data quality.\nCentralize Documentation Maintain contracts in a shared repository or data catalog for visibility.\nDefine SLAs Include clear expectations for freshness, completeness, and uptime.\nCommunicate Changes Early Use automated alerts or Slack notifications for schema updates.\nEnforce Ownership Assign clear owners for both producer and consumer sides.\nIntegrate with CI/CD Validate data contracts during deployment to catch issues before production.\nMonitor & Audit Track compliance and log violations for continuous improvement.\nAlign with Governance Ensure contracts comply with regulatory and internal security standards."
+    "section": "Best Practices for Internal Data Contracts",
+    "text": "Best Practices for Internal Data Contracts\n\nStart Simple, Iterate Begin with critical datasets and expand as adoption grows.\nUse Versioning Always version schemas to avoid breaking downstream systems.\nAutomate Validation Implement automated checks for schema compliance and data quality.\nCentralize Documentation Maintain contracts in a shared repository or data catalog for visibility.\nDefine SLAs Include clear expectations for freshness, completeness, and uptime.\nCommunicate Changes Early Use automated alerts or Slack notifications for schema updates.\nEnforce Ownership Assign clear owners for both producer and consumer sides.\nIntegrate with CI/CD Validate data contracts during deployment to catch issues before production.\nMonitor & Audit Track compliance and log violations for continuous improvement.\nAlign with Governance Ensure contracts comply with regulatory and internal security standards."
   },
   {
     "objectID": "field_notes/datacontracts/index.html#applying-internal-data-contracts-to-fundraising-analysis-teams",
     "href": "field_notes/datacontracts/index.html#applying-internal-data-contracts-to-fundraising-analysis-teams",
     "title": "Internal Data Contracts",
-    "section": "",
-    "text": "Placeholder: Explain how prospect research and development teams can use data contracts to ensure donor data consistency and reliability across CRM, wealth screening tools, and analytics platforms.\nOne obstacle when writing profiles is getting accurate information from your own institution. If you have many internal boards, the chairs and members of those boards are always in flux, and there isn’t necessarily accurate information in the database or websites to verify the reality on the ground. In theory, it makes sense to have board memberships strictly tracked in your CRM. But like with anything, it all depends on the people responsible for maintaining and providing the data in the first place.\nOld or inacurrate information in your internal systems is a constant battle, and there may be some areas where you know the information tends to be more inaccurate than others, a “quirk of the system” that you’ve just learned to deal with, and one where a fix is not necessarily going to happen soon.\nHowever, if you are ever in the position to try and fix some of these data problems, at a director-level, you can advocate for creating internal data contracts specifically to benefit your prospect development and research teams.\nWith the board membership example, a strong internal data contract that provides accurate, timely board information means that profiles get done faster, obvious mistakes are avoided, and researchers can spend less time spinning their wheels trying to find information that the institution already knows. Ideally, the goal of a prospect research team should be to get the most efficient process possible for highly accurate profiles, so there is more time for proactive research and expanding the prospect pool. The amount of money that is lost every year is staggering: any given team is being paid for their time, and expanding the prospect pool actually increases campaign revenues, while fiddling around with verifications can run counter to the overall momentum needed to meet fundraising goals.\nOf course, if you aren’t tracking your efficiency, then it would be hard to know for sure."
+    "section": "Applying Internal Data Contracts to Fundraising Analysis Teams",
+    "text": "Applying Internal Data Contracts to Fundraising Analysis Teams\nPlaceholder: Explain how prospect research and development teams can use data contracts to ensure donor data consistency and reliability across CRM, wealth screening tools, and analytics platforms.\nOne obstacle when writing profiles is getting accurate information from your own institution. If you have many internal boards, the chairs and members of those boards are always in flux, and there isn’t necessarily accurate information in the database or websites to verify the reality on the ground. In theory, it makes sense to have board memberships strictly tracked in your CRM. But like with anything, it all depends on the people responsible for maintaining and providing the data in the first place.\nOld or inacurrate information in your internal systems is a constant battle, and there may be some areas where you know the information tends to be more inaccurate than others, a “quirk of the system” that you’ve just learned to deal with, and one where a fix is not necessarily going to happen soon.\nHowever, if you are ever in the position to try and fix some of these data problems, at a director-level, you can advocate for creating internal data contracts specifically to benefit your prospect development and research teams.\nWith the board membership example, a strong internal data contract that provides accurate, timely board information means that profiles get done faster, obvious mistakes are avoided, and researchers can spend less time spinning their wheels trying to find information that the institution already knows. Ideally, the goal of a prospect research team should be to get the most efficient process possible for highly accurate profiles, so there is more time for proactive research and expanding the prospect pool. The amount of money that is lost every year is staggering: any given team is being paid for their time, and expanding the prospect pool actually increases campaign revenues, while fiddling around with verifications can run counter to the overall momentum needed to meet fundraising goals.\nOf course, if you aren’t tracking your efficiency, then it would be hard to know for sure."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Prospect Research Toolkit",
+    "title": "Welcome to Camp!",
     "section": "",
-    "text": "…\n\n\n\nHowdy, partner. Welcome to camp!\nYou know how they say, “there’s gold in them thar hills?” - well, I’ve set out to create the resource I always wish existed: a free, community-driven library of tools for the scrappy fundraising prospector, along with a field guide to put all of them into practice.\nHopefully this toolkit will expand to be an invaluable resource for those splashing through the data streams, Excel sluice boxes and CRM picks a’clankin’! In the meantime, it’s just a hobby project with big dreams.\nFor more info about the scope of this project, feel free to check out the About page. Some unpolished Field Notes are available, but the tool comparison dashboard and other more interesting things are still in development.\nThanks for reading and happy trails.\n\n\nVersion: 0.1.2-alpha\n\n\n\n Back to top"
+    "text": "Howdy, partner!\nThis is a working blog hailing from the world of prospect development, management, and research. I’m Greg, a somewhat-less-than-expert fundraising professional, keen to improve as much as I can - at least until the robots replace me.\nFirst conceived as a fully comprehensive, open-source toolkit, I’ve finally come to my senses: this is now an eclectic collection of field notes, held together by tongue-in-cheek gold prospecting metaphors.\n\n\nMy Tale of Woe\nI have been frustrated in the past with the lack of widely-accepted methodology or cross-industry comparisons in prospect research. It often feels like webinars are heavy on vendor advertisements and light on technical details. Everything lives behind a paywall - or are geared for leadership, not those of us in the trenches.\n\nSo this is me attempting to document my journey: reviewing tools, mapping out research obstacles or skills, and trying to find anything that helps make the day-to-day work in prospect dev both easier and higher quality.\n\n\nThanks for stopping by!\nFor a FAQ and other needlessly long details about this project, feel free to check out the About page. Main content of the blog can be found in the Field Notes.\n\nVersion: 0.1.2-alpha\n\n\n\n\n Back to top"
   },
   {
     "objectID": "resources/education/free_external/index.html",

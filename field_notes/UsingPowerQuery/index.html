@@ -9,7 +9,7 @@
 <meta name="author" content="Greg Brooks">
 <meta name="dcterms.date" content="2025-10-03">
 
-<title>Using PowerQuery – Prospect Research Toolkit</title>
+<title>Using PowerQuery (part 1) – A Prospect Dev Field Notebook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -77,7 +77,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-40df708e56c01fd9a8dec8814ca46660.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-97621fa876bce3aca47675870f29e9e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,9 +108,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Using PowerQuery – Prospect Research Toolkit">
-<meta property="og:description" content="A prospect research resource library created by Greg Brooks and Apra Utah">
-<meta property="og:site_name" content="Prospect Research Toolkit">
+<meta property="og:title" content="Using PowerQuery (part 1) – A Prospect Dev Field Notebook">
+<meta property="og:description" content="Insider notes and analysis on prospect dev, management, and research">
+<meta property="og:image" content="https://prospectresearchtoolkit.github.io/ProspectResearchToolkit/images/powerquery.jpg">
+<meta property="og:site_name" content="A Prospect Dev Field Notebook">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -123,7 +124,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Prospect Research Toolkit</span>
+    <span class="navbar-title">A Prospect Dev Field Notebook</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -143,10 +144,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li class="nav-item">
     <a class="nav-link" href="../../field_notes.html"> 
 <span class="menu-text">Field Notes</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../inventory_table_version.html"> 
-<span class="menu-text">A-Z List</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -171,7 +168,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#powerquery-vs.-vlookup" id="toc-powerquery-vs.-vlookup" class="nav-link" data-scroll-target="#powerquery-vs.-vlookup">PowerQuery vs.&nbsp;VLookup</a></li>
   <li><a href="#use-cases" id="toc-use-cases" class="nav-link" data-scroll-target="#use-cases">Use-cases</a>
   <ul class="collapse">
-  <li><a href="#abstrqct-example" id="toc-abstrqct-example" class="nav-link" data-scroll-target="#abstrqct-example">Abstrqct Example</a></li>
+  <li><a href="#abstract-example" id="toc-abstract-example" class="nav-link" data-scroll-target="#abstract-example">Abstract Example</a></li>
   <li><a href="#steps-to-achieve-this" id="toc-steps-to-achieve-this" class="nav-link" data-scroll-target="#steps-to-achieve-this">Steps to Achieve This</a></li>
   </ul></li>
   <li><a href="#example-from-the-fundraising-job-title-dataset-project" id="toc-example-from-the-fundraising-job-title-dataset-project" class="nav-link" data-scroll-target="#example-from-the-fundraising-job-title-dataset-project">Example from the Fundraising Job Title dataset project</a>
@@ -185,6 +182,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   </ul></li>
   </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -193,10 +191,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Using PowerQuery</h1>
+<h1 class="title">Using PowerQuery (part 1)</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Paid tool</div>
-    <div class="quarto-category">Excel</div>
     <div class="quarto-category">Tutorials</div>
   </div>
   </div>
@@ -227,6 +224,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<p><img src="../../images/powerquery.jpg" class="img-fluid" style="width:25.0%"></p>
 <section id="what-is-powerquery" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-powerquery">What is PowerQuery?</h2>
 <p><strong>Power Query</strong> is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.</p>
@@ -298,8 +296,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="use-cases" class="level2">
 <h2 class="anchored" data-anchor-id="use-cases">Use-cases</h2>
 <p>Your workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.</p>
-<section id="abstrqct-example" class="level3">
-<h3 class="anchored" data-anchor-id="abstrqct-example">Abstrqct Example</h3>
+<section id="abstract-example" class="level3">
+<h3 class="anchored" data-anchor-id="abstract-example">Abstract Example</h3>
 <p>You have data in your CRM that you want to combine with another dataset you’ve found or created. For example, perhaps you’ve created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.</p>
 </section>
 <section id="steps-to-achieve-this" class="level3">
@@ -400,10 +398,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="summary" class="level3">
 <h3 class="anchored" data-anchor-id="summary">Summary</h3>
 <p>This script dynamically loads keyword lists and applies consistent filtering across multiple datasets. It improves maintainability and scalability by avoiding hardcoded values.</p>
-
-
+<hr>
 </section>
 </section>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<ul>
+<li><p>Disclaimer - This content was summarized or partially generated by AI.</p></li>
+</ul>
+
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

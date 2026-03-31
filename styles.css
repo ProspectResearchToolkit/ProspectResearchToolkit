@@ -1,1 +1,30 @@
 /* css styles */
+
+/* Import Cabin Sketch from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+/* Apply Cabin Sketch to all headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cabin Sketch';
+  letter-spacing: 1px;
+}
+
+/* Style the main page/post title */
+.quarto-title-block .title {
+  font-family: 'Cabin Sketch';
+  letter-spacing: 1px;
+}
+
+/* Style subtitles (optional) */
+.quarto-title-block .subtitle {
+  font-family: 'Cabin Sketch';
+}
+
+/* Optional: navbar brand */
+.navbar-brand {
+  font-family: 'Cabin Sketch';
+}
+
+
+body {
+}
