@@ -6,7 +6,6 @@ sidebar:
     width: 150px
 ---
 
-
 # Overview
 These prospect research field notes are an independently maintained repository of fundraising industry analysis, software information, and research methodology. This also functions as a hobby coding and research project. 
 
