@@ -49,13 +49,6 @@
     "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nNexis Uni\n\n\nNexis Uni contains 15,000+ news and business sources.\n\n\n\n\n\n\nPitchbook\n\n\nPitchBook is a financial data platform used by university libraries to provide detailed information on venture capital, private equity, and merger and acquisition activity across the private and public markets.\n\n\n\n\n\n\nProQuest\n\n\nProQuest is a global information-content and technology company that provides academic libraries and researchers with access to a massive collection of digitized dissertations, historical newspapers, scholarly journals, and primary source documents.\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
-    "objectID": "field_notes/UsingPowerQuery/index.html",
-    "href": "field_notes/UsingPowerQuery/index.html",
-    "title": "Using PowerQuery (part 1)",
-    "section": "",
-    "text": "Power Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\n\n\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
-  },
-  {
     "objectID": "field_notes/UsingPowerQuery/index.html#what-is-powerquery",
     "href": "field_notes/UsingPowerQuery/index.html#what-is-powerquery",
     "title": "Using PowerQuery (part 1)",
@@ -84,11 +77,74 @@
     "text": "Power Query M Code for Filtering Job Titles with Dynamic Keywords\nThis document outlines a Power Query M script that dynamically loads keyword lists from parameters and filters job title datasets across multiple sectors. The goal is to identify roles related to Major Gifts while excluding irrelevant ones.\n\nDynamic Keyword Parameters\nInstead of hardcoding the keywords, we define them as parameters:\nlet\n    IncludeKeywords = Text.Split(\"Major Gift,Director Of Development,Development Officer,Major Gift Officer,Fundraiser,Philanthropy Officer,Philanthropy Manager\", \",\"),\n    ExcludeKeywords = Text.Split(\"Prospect Research,Event\", \",\")\n\n\nLoad and Filter Nonprofit Dataset\nWe load the nonprofit dataset and filter it using the dynamic keyword lists:\n    Source = Csv.Document(File.Contents(\"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198385_nonprofit.csv\"), [Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),\n    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {\n        {\"sector\", type text}, \n        {\"title_cleaned\", type text}, \n        {\"frequency_cleaned\", Int64.Type}, \n        {\"title_generalized\", type text}, \n        {\"frequency_generalized\", Int64.Type}, \n        {\"title_simplified\", type text}, \n        {\"frequency_simplified\", Int64.Type}\n    }),\n    IncludedRows = Table.SelectRows(ChangedType, each List.AnyTrue(List.Transform(IncludeKeywords, (kw) =&gt; Text.Contains([title_cleaned], kw)))),\n    FinalFilteredRows = Table.SelectRows(IncludedRows, each List.AllTrue(List.Transform(ExcludeKeywords, (kw) =&gt; not Text.Contains([title_cleaned], kw)))),\n    TitleList = Table.SelectColumns(FinalFilteredRows, {\"title_cleaned\"}),\n\n\nReusable Filtering Function\nWe define a reusable function to apply the same filtering logic to other datasets:\n    FilterDataset = (filePath as text) =&gt;\n        let\n            Source = Csv.Document(File.Contents(filePath), [Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),\n            Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),\n            ChangedType = Table.TransformColumnTypes(Promoted, {\n                {\"sector\", type text}, \n                {\"title_cleaned\", type text}, \n                {\"frequency_cleaned\", Int64.Type}, \n                {\"title_generalized\", type text}, \n                {\"frequency_generalized\", Int64.Type}, \n                {\"title_simplified\", type text}, \n                {\"frequency_simplified\", Int64.Type}\n            }),\n            Matched = Table.Join(ChangedType, \"title_cleaned\", TitleList, \"title_cleaned\", JoinKind.Inner)\n        in\n            Matched,\n\n\nDataset Paths and Execution\nWe list all dataset paths and apply the filtering function:\n    DatasetPaths = {\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198352_travel_and_tourism.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198376_transportation_and_logistics.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55197857_restaurants_bars_and_food_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198349_real_estate.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198379_telecommunications.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198388_oil_gas_energy_and_utilities.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198394_retail.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198373_media.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198403_manufacturing.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198358_insurance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198406_information_technology.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198382_government.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198397_health_care.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198391_education.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198400_finance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198190_consumer_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198364_construction_repair_and_maintenance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198409_business_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55197803_agriculture_and_forestry.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198355_arts_entertainment_and_recreation.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198370_biotech_and_pharmaceuticals.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198361_aerospace_and_defense.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198367_accounting_and_legal.csv\"\n    },\n    FilteredTables = List.Transform(DatasetPaths, each FilterDataset(_)),\n    CombinedResults = Table.Combine(FilteredTables)\nin\n    CombinedResults\n\n\nSummary\nThis script dynamically loads keyword lists and applies consistent filtering across multiple datasets. It improves maintainability and scalability by avoiding hardcoded values."
   },
   {
-    "objectID": "field_notes/LibraryDatabases/index.html",
-    "href": "field_notes/LibraryDatabases/index.html",
-    "title": "Library Databases for Prospect Dev Analysts",
+    "objectID": "data/readme.html",
+    "href": "data/readme.html",
+    "title": "Overview: Data Flow and Actors",
     "section": "",
-    "text": "University libraries often pay for access to powerful databases and research platforms—many of which are underutilized by fundraising and advancement teams. These resources can provide valuable insights for prospect research, verification, and strategic decision-making. This post explores how we can better leverage these tools, understand their data sources, and even automate workflows to make research more efficient.\n\n\n\nIdentifying potential tools is fairly easy. The real challenge lies in defining use cases and determining how to export and correlate information from different systems. This process also helps us understand our data sources better. For example, many platforms—such as iWave, Factiva, and others—rely on Dun & Bradstreet data when compiling reports. Factiva even publishes a monthly update listing new sources, with a total of 30,000+ sources available.\n\n\n\n\nA detailed list of tools gives us more confidence when verifying research. The reliability of any piece of information increases when it appears across multiple sources (e.g., two independent news articles confirming a job title). These tools can be great for spot checks when confirming details.\n\n\n\n\nMost platforms aggregate data from large brokerages, but each has its own way of processing and presenting that information. For example, iWave uses proprietary techniques to build profiles. While these methods likely follow standard data science practices, the exact process is often unclear—this is known as the “black box” problem.\nWe can reduce this uncertainty by:\n\nIdentifying as many sources as possible.\nUnderstanding the data brokers behind those sources.\nDrawing conclusions about how platforms transform raw data.\n\nThis knowledge adds confidence to the reports we share internally and helps us explain where information originates—even if some steps remain opaque.\n\n\n\n\nSome tools specialize in niche areas. For example, Pitchbook focuses on venture capital and startup funding rounds. This project may reveal which tools are best suited for specific research problems.\n\n\n\n\nComparing results across multiple sources is a common practice for prospect researchers. Doing this manually across 20+ tools can be time-consuming. In OSINT (open-source intelligence), developers have created tools that search hundreds of sources simultaneously and categorize results. However, most OSINT tools aren’t ethical for prospect research because they rely on breach data or are designed for law enforcement.\nOur use case is different, so we’d need to build our own multi-channel search solution or support existing efforts like the Prospect Research Toolkit. Possible approaches include:\n\nPower Automate Desktop: Create a flow that prompts for a search term and runs searches across selected channels (e.g., Privco, Mergent Online).\nPower Query Integration: Automate data export and correlation for comprehensive reports. For example, if we have a list of names for an event, automation could pull data from multiple databases and compile it into a spreadsheet with columns for each source.\n\nCompanies like Xapien already do advanced versions of this using custom algorithms and web scraping to verify information.\n\n\n\n\nWe’re building a spreadsheet with links and feature comparisons for all tools under review. This will serve as a reference for choosing the right tool for the right research problem.\n\nDisclaimer - This content was summarized or partially generated by AI."
+    "text": "From ChatGPT:\nHere is the same breakdown of the relationship between data brokers, financial intelligence services, and niche fundraising tools — with a References section including plaintext URLs at the end so you can follow the sources yourself."
+  },
+  {
+    "objectID": "data/readme.html#data-brokers",
+    "href": "data/readme.html#data-brokers",
+    "title": "Overview: Data Flow and Actors",
+    "section": "1. Data Brokers",
+    "text": "1. Data Brokers\nWhat they are: Data brokers collect, clean, link, standardize, and resell data about people and businesses to third parties. They pull from public records, commercial databases, and other sources and package the information for clients. (Wikipedia)\nWhat they provide:\n\nAggregated datasets\nIdentity attributes\nEmployment histories\nWealth proxies\nProprietary linkages used for analytics Clients include marketers, compliance teams, financial institutions, and software vendors. (Wikipedia)\n\nAcademic perspective: Studies on data marketplaces show how brokers function as intermediaries in commoditized information markets, pricing and trading data between owners and consumers. (arXiv)"
+  },
+  {
+    "objectID": "data/readme.html#financial-intelligence-services-fius-private-finint-vendors",
+    "href": "data/readme.html#financial-intelligence-services-fius-private-finint-vendors",
+    "title": "Overview: Data Flow and Actors",
+    "section": "2. Financial Intelligence Services (FIUs & Private FININT Vendors)",
+    "text": "2. Financial Intelligence Services (FIUs & Private FININT Vendors)\nWhat they are: Financial intelligence services include government Financial Intelligence Units (FIUs) and private FININT vendors that analyze data for purposes such as anti–money-laundering (AML), sanctions screening, risk assessment, and compliance.\nHow they use data: They ingest:\n\nTransaction records\nWatchlists\nProprietary and open source intelligence\nBroker data\n\nto produce actionable intelligence. Open-source intelligence (OSINT) — including public records and some broker data — is explicitly used to support investigations. (Egmont Group)\nFIUs and OSINT: The Egmont Group, which coordinates global FIU collaboration, reports that OSINT contributes to operational and strategic analysis by helping identify links, patterns, and risks not visible in transaction data alone. (Egmont Group)"
+  },
+  {
+    "objectID": "data/readme.html#niche-fundraising-tools-e.g.-researchpoint-livealumni",
+    "href": "data/readme.html#niche-fundraising-tools-e.g.-researchpoint-livealumni",
+    "title": "Overview: Data Flow and Actors",
+    "section": "3. Niche Fundraising Tools (e.g., ResearchPoint & LiveAlumni)",
+    "text": "3. Niche Fundraising Tools (e.g., ResearchPoint & LiveAlumni)\nThese products are end-user applications built for nonprofit development, advancement, and alumni relations. They consume data from brokers and other sources to help fundraising professionals prioritize prospects and manage engagement.\n\nBlackbaud ResearchPoint\n\nA donor prospect research platform that integrates multiple data feeds (including wealth, philanthropic history, biographical, and asset data). (Blackbaud Help)\nIt supports bulk lists, wealth screening, and rich prospect profiles used to guide major gift fundraising. (Blackbaud Help)\n\n\n\nLiveAlumni\n\nA niche provider focused on verified alumni and donor employment data, job changes, industry and employer details. (LiveAlumni)\nUseful in fundraising to identify job changes, matching gift eligibility, and engagement signals.\n\nThese platforms often license or embed multiple broker data feeds to enrich constituent records and analytics."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "These prospect research field notes are an independently maintained repository of fundraising industry analysis, software information, and research methodology. This also functions as a hobby coding and research project.\nThere are plenty of excellent paid resources already available: Apra, private consultant firms, subscription tools, books…but not everyone has the budget to access them. This toolkit was created to bridge that gap, or supplement what’s already out there, and create original content that is interactive. The goal is to keep it simple, fun, open-source, community-driven, regularly updated, and always free."
+  },
+  {
+    "objectID": "about.html#how-accurate-is-this-website",
+    "href": "about.html#how-accurate-is-this-website",
+    "title": "About",
+    "section": "How accurate is this website?",
+    "text": "How accurate is this website?\nThere will be an entire write-up explaining how I source pricing information, but generally speaking, the prices on this website will be prone to errors and should be understood as estimates. The incidents, however, given their public nature, are a more reliable metric to contribute to the overall rating scheme of the software tools.\nIn order of most to least accuracy (probably):\n\nGeneral tool, feature, or company information\nTutorials\nPricing information"
+  },
+  {
+    "objectID": "about.html#who-is-this-guy-anyway",
+    "href": "about.html#who-is-this-guy-anyway",
+    "title": "About",
+    "section": "Who is this guy anyway?",
+    "text": "Who is this guy anyway?\nI come from a psychology background and am largely self-taught in data analytics, information science, data science, etc. This website is guaranteed to have some bugs, or occasionally be broken."
+  },
+  {
+    "objectID": "about.html#how-often-is-the-website-updated",
+    "href": "about.html#how-often-is-the-website-updated",
+    "title": "About",
+    "section": "How often is the website updated?",
+    "text": "How often is the website updated?\nIn small ways, frequently! You can read the latest release notes for some of the technical details."
+  },
+  {
+    "objectID": "data/database/gregs_mermaid_db_experiment.html",
+    "href": "data/database/gregs_mermaid_db_experiment.html",
+    "title": "Database ERD draft",
+    "section": "",
+    "text": "Database ERD draft\n2025-12-9 Mermaid documentation for ERDs\n\n\n\n\n\n---\ntitle: Prospect Research Toolkit ERD\n---\nerDiagram\n\n%% ===TOOLS===\n  tools{\n    int id PK\n    str name\n    str type\n    int cost\n    str integrations\n    str notes\n    int company_id FK\n    numeric created_at\n  }\n  companies{}\n  university_tools{}\n  universities{}\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "field_notes.html",
+    "href": "field_notes.html",
+    "title": "Field Notes",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nLibrary Databases for Prospect Dev Analysts\n\n\n\nFree tools\n\n\n\n\n\n\n\nGreg Brooks\n\n\nJan 30, 2026\n\n\n\n\n\n\n\n\n\n\n\nInternal Data Contracts\n\n\n\nResearch Strategy\n\nProspect Dev Management\n\nIndustry Commentary\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 14, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery (part 1)\n\n\n\nPaid tool\n\nTutorials\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "field_notes/LibraryDatabases/index.html#potential-use-cases",
@@ -131,83 +187,6 @@
     "title": "Library Databases for Prospect Dev Analysts",
     "section": "Next Steps",
     "text": "Next Steps\nWe’re building a spreadsheet with links and feature comparisons for all tools under review. This will serve as a reference for choosing the right tool for the right research problem."
-  },
-  {
-    "objectID": "field_notes.html",
-    "href": "field_notes.html",
-    "title": "Field Notes",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTool & Company Incidents\n\n\n\nIndustry Commentary\n\nTool Reviews\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProspect Dev Skills & Roles Snapshot 2017-2026\n\n\n\nIndustry Commentary\n\n\n\n\n\n\n\nGreg Brooks\n\n\nApr 19, 2026\n\n\n\n\n\n\n\n\n\n\n\nUVU Philanthropy Workshop\n\n\n\nSocial Impact\n\nPhilanthropy\n\n\n\n\n\n\n\nGreg Brooks\n\n\nMar 23, 2026\n\n\n\n\n\n\n\n\n\n\n\nMarch PRSPCT-L Roundup\n\n\n\nIndustry Commentary\n\nApra & AFP\n\n\n\n\n\n\n\nGreg Brooks\n\n\nMar 20, 2026\n\n\n\n\n\n\n\n\n\n\n\nBrokers & Sources\n\n\n\nIndustry Commentary\n\n\n\n\n\n\n\nGreg Brooks\n\n\nFeb 27, 2026\n\n\n\n\n\n\n\n\n\n\n\nLibrary Databases for Prospect Dev Analysts\n\n\n\nFree tools\n\n\n\n\n\n\n\nGreg Brooks\n\n\nJan 30, 2026\n\n\n\n\n\n\n\n\n\n\n\nInternal Data Contracts\n\n\n\nResearch Strategy\n\nProspect Dev Management\n\nIndustry Commentary\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 14, 2025\n\n\n\n\n\n\n\n\n\n\n\nCreating the Fundraising Jobs Dataset (round 1)\n\n\n\nDatasets\n\nToolkit Original Research\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 13, 2025\n\n\n\n\n\n\n\n\n\n\n\nHelpful Technical Documentation\n\n\n\nwebsite-maintenance\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 4, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery (part 1)\n\n\n\nPaid tool\n\nTutorials\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\n\n\n\n\n\nTool Reviews Staging Ground\n\n\n\nTool Reviews\n\n\n\n\n\n\n\nGreg Brooks\n\n\nJan 9, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
-  },
-  {
-    "objectID": "data/database/gregs_mermaid_db_experiment.html",
-    "href": "data/database/gregs_mermaid_db_experiment.html",
-    "title": "Database ERD draft",
-    "section": "",
-    "text": "Database ERD draft\n2025-12-9 Mermaid documentation for ERDs\n\n\n\n\n\n---\ntitle: Prospect Research Toolkit ERD\n---\nerDiagram\n\n%% ===TOOLS===\n  tools{\n    int id PK\n    str name\n    str type\n    int cost\n    str integrations\n    str notes\n    int company_id FK\n    numeric created_at\n  }\n  companies{}\n  university_tools{}\n  universities{}\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "These prospect research field notes are an independently maintained repository of fundraising industry analysis, software information, and research methodology. This also functions as a hobby coding and research project.\nThere are plenty of excellent paid resources already available: Apra, private consultant firms, subscription tools, books…but not everyone has the budget to access them. This toolkit was created to bridge that gap, or supplement what’s already out there, and create original content that is interactive. The goal is to keep it simple, fun, open-source, community-driven, regularly updated, and always free."
-  },
-  {
-    "objectID": "about.html#how-accurate-is-this-website",
-    "href": "about.html#how-accurate-is-this-website",
-    "title": "About",
-    "section": "How accurate is this website?",
-    "text": "How accurate is this website?\nThere will be an entire write-up explaining how I source pricing information, but generally speaking, the prices on this website will be prone to errors and should be understood as estimates. The incidents, however, given their public nature, are a more reliable metric to contribute to the overall rating scheme of the software tools.\nIn order of most to least accuracy (probably):\n\nGeneral tool, feature, or company information\nTutorials\nPricing information"
-  },
-  {
-    "objectID": "about.html#who-is-this-guy-anyway",
-    "href": "about.html#who-is-this-guy-anyway",
-    "title": "About",
-    "section": "Who is this guy anyway?",
-    "text": "Who is this guy anyway?\nI come from a psychology background and am largely self-taught in data analytics, information science, data science, etc. This website is guaranteed to have some bugs, or occasionally be broken."
-  },
-  {
-    "objectID": "about.html#how-often-is-the-website-updated",
-    "href": "about.html#how-often-is-the-website-updated",
-    "title": "About",
-    "section": "How often is the website updated?",
-    "text": "How often is the website updated?\nIn small ways, frequently! You can read the latest release notes for some of the technical details."
-  },
-  {
-    "objectID": "data/readme.html",
-    "href": "data/readme.html",
-    "title": "Overview: Data Flow and Actors",
-    "section": "",
-    "text": "From ChatGPT:\nHere is the same breakdown of the relationship between data brokers, financial intelligence services, and niche fundraising tools — with a References section including plaintext URLs at the end so you can follow the sources yourself."
-  },
-  {
-    "objectID": "data/readme.html#data-brokers",
-    "href": "data/readme.html#data-brokers",
-    "title": "Overview: Data Flow and Actors",
-    "section": "1. Data Brokers",
-    "text": "1. Data Brokers\nWhat they are: Data brokers collect, clean, link, standardize, and resell data about people and businesses to third parties. They pull from public records, commercial databases, and other sources and package the information for clients. (Wikipedia)\nWhat they provide:\n\nAggregated datasets\nIdentity attributes\nEmployment histories\nWealth proxies\nProprietary linkages used for analytics Clients include marketers, compliance teams, financial institutions, and software vendors. (Wikipedia)\n\nAcademic perspective: Studies on data marketplaces show how brokers function as intermediaries in commoditized information markets, pricing and trading data between owners and consumers. (arXiv)"
-  },
-  {
-    "objectID": "data/readme.html#financial-intelligence-services-fius-private-finint-vendors",
-    "href": "data/readme.html#financial-intelligence-services-fius-private-finint-vendors",
-    "title": "Overview: Data Flow and Actors",
-    "section": "2. Financial Intelligence Services (FIUs & Private FININT Vendors)",
-    "text": "2. Financial Intelligence Services (FIUs & Private FININT Vendors)\nWhat they are: Financial intelligence services include government Financial Intelligence Units (FIUs) and private FININT vendors that analyze data for purposes such as anti–money-laundering (AML), sanctions screening, risk assessment, and compliance.\nHow they use data: They ingest:\n\nTransaction records\nWatchlists\nProprietary and open source intelligence\nBroker data\n\nto produce actionable intelligence. Open-source intelligence (OSINT) — including public records and some broker data — is explicitly used to support investigations. (Egmont Group)\nFIUs and OSINT: The Egmont Group, which coordinates global FIU collaboration, reports that OSINT contributes to operational and strategic analysis by helping identify links, patterns, and risks not visible in transaction data alone. (Egmont Group)"
-  },
-  {
-    "objectID": "data/readme.html#niche-fundraising-tools-e.g.-researchpoint-livealumni",
-    "href": "data/readme.html#niche-fundraising-tools-e.g.-researchpoint-livealumni",
-    "title": "Overview: Data Flow and Actors",
-    "section": "3. Niche Fundraising Tools (e.g., ResearchPoint & LiveAlumni)",
-    "text": "3. Niche Fundraising Tools (e.g., ResearchPoint & LiveAlumni)\nThese products are end-user applications built for nonprofit development, advancement, and alumni relations. They consume data from brokers and other sources to help fundraising professionals prioritize prospects and manage engagement.\n\nBlackbaud ResearchPoint\n\nA donor prospect research platform that integrates multiple data feeds (including wealth, philanthropic history, biographical, and asset data). (Blackbaud Help)\nIt supports bulk lists, wealth screening, and rich prospect profiles used to guide major gift fundraising. (Blackbaud Help)\n\n\n\nLiveAlumni\n\nA niche provider focused on verified alumni and donor employment data, job changes, industry and employer details. (LiveAlumni)\nUseful in fundraising to identify job changes, matching gift eligibility, and engagement signals.\n\nThese platforms often license or embed multiple broker data feeds to enrich constituent records and analytics."
-  },
-  {
-    "objectID": "field_notes/datacontracts/index.html",
-    "href": "field_notes/datacontracts/index.html",
-    "title": "Internal Data Contracts",
-    "section": "",
-    "text": "alt text"
   },
   {
     "objectID": "field_notes/datacontracts/index.html#introduction",
@@ -278,12 +257,5 @@
     "title": "Tool Feature Matrix",
     "section": "",
     "text": "Back to top"
-  },
-  {
-    "objectID": "field_notes/datacontracts/index.html#references",
-    "href": "field_notes/datacontracts/index.html#references",
-    "title": "Internal Data Contracts",
-    "section": "# References",
-    "text": "# References"
   }
 ]
