@@ -18,18 +18,9 @@
   {
     "listing": "/field_notes.html",
     "items": [
-      "/field_notes/Tool_Incidents/index.html",
-      "/field_notes/Prospect_Salary_Snapshot_2025/index.html",
-      "/field_notes/Prospect_Skills_Roles_Snapshot_2025/index.html",
-      "/field_notes/UVU_Philanthropy_Workshop2025/index.html",
-      "/field_notes/PRSPCT-L_roundup/index.html",
-      "/field_notes/Brokers_and_Sources/index.html",
       "/field_notes/LibraryDatabases/index.html",
       "/field_notes/datacontracts/index.html",
-      "/field_notes/Creating_Jobs_Dataset/index.html",
-      "/field_notes/HelpfulTechDocumentation/index.html",
-      "/field_notes/UsingPowerQuery/index.html",
-      "/field_notes/tool_reviews/index.html"
+      "/field_notes/UsingPowerQuery/index.html"
     ]
   }
 ]

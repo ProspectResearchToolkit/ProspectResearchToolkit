@@ -11,24 +11,55 @@ Salary research for prospect dev roles curated from LinkedIn, public databases, 
 
 ***
 
-[](../../images/cash2.jpg){width=50%}
+![](cash2.jpg){width=50%}
 
 # Overview
-#### The Bad News
-This is substantially worse than the [Apra International Salary Survey](https://aprahome.org/Resources/Salary-Survey){target="_blank"}. If you want stronger methodology, more comprehensive data (e.g. demographics), and mild abuse of the "3d" effect for bar charts (yuck) - the report they commission from the Smithbucklin corp. has got you covered. Though, if my math is right, we won't see another survey from them until 2027.[^paywall] This blog post is basically napkin math in comparison.
+This is exactly what it sounds like: a little snapshot of industry data, independendly curated. I'm not trying to compete with the [Apra International Salary Survey](https://aprahome.org/Resources/Salary-Survey){target="_blank"}, and I doubt any of my findings will be all that surprising.
 
 #### The Good News
-My little snapshot is free to explore via dashboard on this blog, or download as .csv. This was a natural extension to my research on prospect dev job descriptions, and it fits with my mission to be an independent source of information about my field. I also think my analyses potentially pull in data that is publicly available, but was not gathered by the Apra Survey. 
+The data I have gathered is free to explore and download - instead of being locked down in a PDF. Also, I don't have the 3.5% margin of error the Apra Salary Survey does, because I'm avoiding self-report data entirely, except as a means for comparison.
+
+#### The Bad News
+If you want stronger methodology, more comprehensive data (e.g. demographics), broader scope, and mild abuse of the "3d" effect for bar charts...you'll have to wait until the next Apra Salary Survey comes out in 2027.[^paywall] I limited myself to public information, which as any prospect researcher will tell you, can sometimes be prone to massive gaps.
 
 # Intro
-Given the 14%-31% response rate of the Apra survey, I figured I might be able to dig up salaries that are publicly posted (e.g. by government websites) that potentially don't get collected within the Apra survey. It should make for interesting comparison, at the very least.
+The first attempt at cobbling this dataset together yielded:
 
-#### Scope
-My research is decidedly more narrow in scope, placing a priority on run-of-the-mill analyst jobs in prospect dev. Focusing less on management and other fundraising operations. 
+- 1507 individuals, with varying levels of missing information, but that can be enriched over time
+- 152 jobs tied to individuals, with salary information from 2017-2025
+- 84 job listings, between 2024-2026, including descriptions, some salary information, and number of applicants as of the date researched
 
-Last year, I pulled 430 fundraising-related job titles from the [CMAP dataset](../../field_notes/Creating_Jobs_Dataset/index.qmd), and at least 150 prospect dev job titles as a subset. So my independent analyses are actually not far off from the scale of the Apra Survey, in terms of sample size. If we combine the "Relationship / Prospect Managment" and "Prospect Research" respondents of Apra's 2024 report, we end up with ~446 people. 
+The job listings dataset will be analyzed and published later, though I'm including some of the salary highlights in this post.
 
-#### 
+I focused on public university employees, since their salaries are easy to find via government websites.
+
+# Initial Data
+
+```{python}
+#| echo: false
+#| message: false
+#| warning: false
+
+import pandas as pd
+import panel as pn
+
+pn.extension('tabulator')
+
+# read job salary CSV
+salary_df = pd.read_csv("higher_ed_prospect_dev_salary_data.csv")
+
+# format table
+table = pn.widgets.Tabulator(
+    salary_df, 
+    pagination='local', 
+    page_size=20, 
+    selectable=True)
+
+# render table
+table  # this will render inline
+
+
+```
 
 
 
