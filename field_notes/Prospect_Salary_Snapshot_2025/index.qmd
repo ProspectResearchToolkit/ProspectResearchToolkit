@@ -14,7 +14,7 @@ Salary research for prospect dev roles curated from LinkedIn, public databases, 
 ![](cash2.jpg){width=50%}
 
 # Overview
-This is exactly what it sounds like: a little snapshot of industry data, independendly curated. I'm not trying to compete with the [Apra International Salary Survey](https://aprahome.org/Resources/Salary-Survey){target="_blank"}, and I doubt any of my findings will be all that surprising.
+This is exactly what it sounds like: a little snapshot of industry data, independently curated. I'm not trying to compete with the [Apra International Salary Survey](https://aprahome.org/Resources/Salary-Survey){target="_blank"}, and I doubt any of my findings will be all that surprising to those who have read any of the 100+ pages of that report.
 
 #### The Good News
 The data I have gathered is free to explore and download - instead of being locked down in a PDF. Also, I don't have the 3.5% margin of error the Apra Salary Survey does, because I'm avoiding self-report data entirely, except as a means for comparison.
@@ -22,7 +22,7 @@ The data I have gathered is free to explore and download - instead of being lock
 #### The Bad News
 If you want stronger methodology, more comprehensive data (e.g. demographics), broader scope, and mild abuse of the "3d" effect for bar charts...you'll have to wait until the next Apra Salary Survey comes out in 2027.[^paywall] I limited myself to public information, which as any prospect researcher will tell you, can sometimes be prone to massive gaps.
 
-# Intro
+# The Prospect Dev Salary Dataset
 The first attempt at cobbling this dataset together yielded:
 
 - 1507 individuals, with varying levels of missing information, but that can be enriched over time

@@ -341,5 +341,19 @@
     "title": "Helpful Technical Documentation",
     "section": "Example Quarto Sites",
     "text": "Example Quarto Sites\n\ngood example of webr and download capabilities"
+  },
+  {
+    "objectID": "field_notes/Prospect_Salary_Snapshot_2025/index.html",
+    "href": "field_notes/Prospect_Salary_Snapshot_2025/index.html",
+    "title": "Prospect Dev Salary Snapshot 2025",
+    "section": "",
+    "text": "Salary research for prospect dev roles curated from LinkedIn, public databases, and more."
+  },
+  {
+    "objectID": "field_notes/Prospect_Salary_Snapshot_2025/index.html#footnotes",
+    "href": "field_notes/Prospect_Salary_Snapshot_2025/index.html#footnotes",
+    "title": "Prospect Dev Salary Snapshot 2025",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nI’m also curious who actually pays the $275 non-member fee to access the salary survey…which seems too steep to be realistic as an actual product people would buy. I’m guessing that number was chosen to make the Professional Membership benefits seem all that more attractive, a psychological pricing technique that nudges users toward the ongoing subscription. Presumably, though, there are some folks in prospect dev who don’t have access to the Professional Membership, which is another reason to have independent and free data for all.↩︎"
   }
 ]
