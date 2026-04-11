@@ -5,6 +5,7 @@ date: 04/25/2026
 draft: true
 categories:
     - Industry Commentary
+    - Higher Ed
 execute: 
   enabled: false
 ---
@@ -90,8 +91,18 @@ National bulk data for prospect dev roles remains out of reach, for now, so I ha
 **Years:** 2017-2024
 **Search:** searched by title, used "Prospect", there may be other key words to use or job titles, arguably more data in there - especially since digital records go back to 2010, just need to find the right keywords
 Problems: This is the first time I'm seeing Gross Pay vs. Regular pay vs. overtime pay vs. other pay. I have realized I am actually not 100% sure about whether some of my other data is gross, regular, or some mysterious aggregate. Generally speaking, I'm always taking the lower number, with no extras (e.g. benefits) for this version of the dataset. I'm still saving all the other data, but don't want to bother with it yet. California has one of the larger fundraising worker populations in the country, and is a great example of why cost of living analyses will be important to compare across states and get more accurate averages. Their higher pay will drive up the mean and make the salaries across the country seem rosier than they actually are.
-**Job titles:** Prospect Rsch Spec 1-5. The only place that calls them specialists? Too early to say.
+**Job titles:** Prospect Rsch Spec 1-5. Presumably "Prospect Research Specialist"
 
+#### Utah
+**Data:** [Transparent Utah data dashboard and downloads](https://old.transparent.utah.gov/entity_comp.php)
+**Years:** 2014-2026
+
+***
+
+### Ad Hoc Job Listings
+I have several job alerts on LinkedIn for prospect development related roles, but data is also coming from Indeed, Regional Apra Job postings, etc. For now, I'm only including the bottom of the range for salaries, but these are fresh listings - so the data is from 2025-2026. I add to this list every week or so, but my workflow leaves something to be desired.
+
+I'm mostly tracking these to capture skills and experience levels.
 
 ***
 
