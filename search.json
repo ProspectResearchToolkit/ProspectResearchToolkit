@@ -49,60 +49,39 @@
     "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nNexis Uni\n\n\nNexis Uni contains 15,000+ news and business sources.\n\n\n\n\n\n\nPitchbook\n\n\nPitchBook is a financial data platform used by university libraries to provide detailed information on venture capital, private equity, and merger and acquisition activity across the private and public markets.\n\n\n\n\n\n\nProQuest\n\n\nProQuest is a global information-content and technology company that provides academic libraries and researchers with access to a massive collection of digitized dissertations, historical newspapers, scholarly journals, and primary source documents.\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
-    "objectID": "field_notes/UsingPowerQuery/index.html#what-is-powerquery",
-    "href": "field_notes/UsingPowerQuery/index.html#what-is-powerquery",
-    "title": "Using PowerQuery (part 1)",
-    "section": "What is PowerQuery?",
-    "text": "What is PowerQuery?\nPower Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\nKey Features\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
-  },
-  {
-    "objectID": "field_notes/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
-    "href": "field_notes/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
-    "title": "Using PowerQuery (part 1)",
-    "section": "PowerQuery vs. VLookup",
-    "text": "PowerQuery vs. VLookup\n\n\n\n\n\n\n\n\nFeature\nPower Query\nVLOOKUP\n\n\n\n\nPurpose\nData transformation and preparation\nLook up and retrieve specific data values\n\n\nData Sources\nConnects to multiple sources (Excel, SQL, web, etc.)\nLimited to data within the worksheet\n\n\nComplexity\nMore complex with advanced capabilities\nSimpler and straightforward\n\n\nOutput\nCreates tables or queries in Excel\nReturns a single value based on a match\n\n\nFlexibility\nHighly versatile, allows for data shaping\nLess flexible; limited to a single match type\n\n\nUse Cases\nIdeal for ETL processes and bulk data manipulation\nBest for simple lookups within a single dataset\n\n\nMaintenance\nRequires more setup but easier to update over time\nSimple to set up but can be error-prone if data changes"
-  },
-  {
-    "objectID": "field_notes/UsingPowerQuery/index.html#use-cases",
-    "href": "field_notes/UsingPowerQuery/index.html#use-cases",
-    "title": "Using PowerQuery (part 1)",
-    "section": "Use-cases",
-    "text": "Use-cases\nYour workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.\n\nAbstract Example\nYou have data in your CRM that you want to combine with another dataset you’ve found or created. For example, perhaps you’ve created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.\n\n\nSteps to Achieve This\n\nExport Data from CRM: Start by exporting the relevant data from your CRM into a CSV or Excel format.\nImport Data into Power Query: Open Excel, go to the Data tab, and select “Get Data” to import your CRM data and your custom dataset.\nCombine Datasets: Use Power Query tools to merge or append the datasets based on a common identifier.\nTransform Data: Clean, filter, or reshape the data as necessary.\nLoad the Combined Data: Once satisfied with the combined data, load it back into Excel for analysis or reporting.\n\nMore complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI"
-  },
-  {
-    "objectID": "field_notes/UsingPowerQuery/index.html#power-query-m-code-for-filtering-job-titles-with-dynamic-keywords",
-    "href": "field_notes/UsingPowerQuery/index.html#power-query-m-code-for-filtering-job-titles-with-dynamic-keywords",
-    "title": "Using PowerQuery (part 1)",
-    "section": "Power Query M Code for Filtering Job Titles with Dynamic Keywords",
-    "text": "Power Query M Code for Filtering Job Titles with Dynamic Keywords\nThis document outlines a Power Query M script that dynamically loads keyword lists from parameters and filters job title datasets across multiple sectors. The goal is to identify roles related to Major Gifts while excluding irrelevant ones.\n\nDynamic Keyword Parameters\nInstead of hardcoding the keywords, we define them as parameters:\nlet\n    IncludeKeywords = Text.Split(\"Major Gift,Director Of Development,Development Officer,Major Gift Officer,Fundraiser,Philanthropy Officer,Philanthropy Manager\", \",\"),\n    ExcludeKeywords = Text.Split(\"Prospect Research,Event\", \",\")\n\n\nLoad and Filter Nonprofit Dataset\nWe load the nonprofit dataset and filter it using the dynamic keyword lists:\n    Source = Csv.Document(File.Contents(\"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198385_nonprofit.csv\"), [Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),\n    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),\n    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {\n        {\"sector\", type text}, \n        {\"title_cleaned\", type text}, \n        {\"frequency_cleaned\", Int64.Type}, \n        {\"title_generalized\", type text}, \n        {\"frequency_generalized\", Int64.Type}, \n        {\"title_simplified\", type text}, \n        {\"frequency_simplified\", Int64.Type}\n    }),\n    IncludedRows = Table.SelectRows(ChangedType, each List.AnyTrue(List.Transform(IncludeKeywords, (kw) =&gt; Text.Contains([title_cleaned], kw)))),\n    FinalFilteredRows = Table.SelectRows(IncludedRows, each List.AllTrue(List.Transform(ExcludeKeywords, (kw) =&gt; not Text.Contains([title_cleaned], kw)))),\n    TitleList = Table.SelectColumns(FinalFilteredRows, {\"title_cleaned\"}),\n\n\nReusable Filtering Function\nWe define a reusable function to apply the same filtering logic to other datasets:\n    FilterDataset = (filePath as text) =&gt;\n        let\n            Source = Csv.Document(File.Contents(filePath), [Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),\n            Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),\n            ChangedType = Table.TransformColumnTypes(Promoted, {\n                {\"sector\", type text}, \n                {\"title_cleaned\", type text}, \n                {\"frequency_cleaned\", Int64.Type}, \n                {\"title_generalized\", type text}, \n                {\"frequency_generalized\", Int64.Type}, \n                {\"title_simplified\", type text}, \n                {\"frequency_simplified\", Int64.Type}\n            }),\n            Matched = Table.Join(ChangedType, \"title_cleaned\", TitleList, \"title_cleaned\", JoinKind.Inner)\n        in\n            Matched,\n\n\nDataset Paths and Execution\nWe list all dataset paths and apply the filtering function:\n    DatasetPaths = {\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198352_travel_and_tourism.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198376_transportation_and_logistics.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55197857_restaurants_bars_and_food_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198349_real_estate.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198379_telecommunications.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198388_oil_gas_energy_and_utilities.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198394_retail.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198373_media.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198403_manufacturing.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198358_insurance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198406_information_technology.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198382_government.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198397_health_care.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198391_education.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198400_finance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198190_consumer_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198364_construction_repair_and_maintenance.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198409_business_services.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55197803_agriculture_and_forestry.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198355_arts_entertainment_and_recreation.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198370_biotech_and_pharmaceuticals.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198361_aerospace_and_defense.csv\",\n        \"..\\jobtitlesdataset\\Figure 4\\dataset\\titles\\map\\55198367_accounting_and_legal.csv\"\n    },\n    FilteredTables = List.Transform(DatasetPaths, each FilterDataset(_)),\n    CombinedResults = Table.Combine(FilteredTables)\nin\n    CombinedResults\n\n\nSummary\nThis script dynamically loads keyword lists and applies consistent filtering across multiple datasets. It improves maintainability and scalability by avoiding hardcoded values."
-  },
-  {
-    "objectID": "data/readme.html",
-    "href": "data/readme.html",
-    "title": "Overview: Data Flow and Actors",
+    "objectID": "field_notes/Prospect_Salary_Snapshot_2025/index.html",
+    "href": "field_notes/Prospect_Salary_Snapshot_2025/index.html",
+    "title": "Prospect Dev Salary Dataset - Part 1",
     "section": "",
-    "text": "From ChatGPT:\nHere is the same breakdown of the relationship between data brokers, financial intelligence services, and niche fundraising tools — with a References section including plaintext URLs at the end so you can follow the sources yourself."
+    "text": "An snapshot of salary research for prospect dev roles curated from LinkedIn, public databases, and more."
   },
   {
-    "objectID": "data/readme.html#data-brokers",
-    "href": "data/readme.html#data-brokers",
-    "title": "Overview: Data Flow and Actors",
-    "section": "1. Data Brokers",
-    "text": "1. Data Brokers\nWhat they are: Data brokers collect, clean, link, standardize, and resell data about people and businesses to third parties. They pull from public records, commercial databases, and other sources and package the information for clients. (Wikipedia)\nWhat they provide:\n\nAggregated datasets\nIdentity attributes\nEmployment histories\nWealth proxies\nProprietary linkages used for analytics Clients include marketers, compliance teams, financial institutions, and software vendors. (Wikipedia)\n\nAcademic perspective: Studies on data marketplaces show how brokers function as intermediaries in commoditized information markets, pricing and trading data between owners and consumers. (arXiv)"
+    "objectID": "field_notes/Prospect_Salary_Snapshot_2025/index.html#salary-sourcing-pre-processing",
+    "href": "field_notes/Prospect_Salary_Snapshot_2025/index.html#salary-sourcing-pre-processing",
+    "title": "Prospect Dev Salary Dataset - Part 1",
+    "section": "Salary Sourcing & Pre-processing",
+    "text": "Salary Sourcing & Pre-processing\n\nBulk Data\nI made a data request to the National Labor Exchange (NLx) Research Hub, to try and get access to a larger corpus of online job adds, occupation codes, tools, salaries, etc. However, I don’t think my research case is as compelling as the guys at Loyola who trained an entire model on billions of data points to make very slick job analysis modules in Python. Luckily, their Job Ad Analysis Toolkit will help me with my unstructured text problem - which has been building up as I grab job descriptions and other data from LinkedIn. However, their giant corpus, as far as I know, is under an agreement with NLx that may specify what they can or can’t publish.\nI need the job-level data so I can filter for prospect dev roles, and I’m tempted to email them to ask for a subset of their corpus, but again, the NLx agreement may prevent that.\nNational bulk data for prospect dev roles remains out of reach, for now, so I had to do a state-by-state approach, starting with large public universities.\n\n\nLarge Public Universities\nSome notes below about the data aggregation process for states where I dug deeper than national websites like OpenGovPay.com - which seem to have pretty major gaps. Those gaps were what drove me to state-level websites in the first place. When I ran into years where I knew for certain there should be salary data, because the development department existed and had prospect development professionals on the payroll, but the data didn’t fully filter into whatever source those websites use.\n\nCalifornia\nData: University of California compensation\nYears: 2017-2024\nNote: searched by title, used “Prospect”, there may be other key words to use or job titles, arguably more data in there - especially since digital records go back to 2010, just need to find the right keywords Problems: This is the first time I’m seeing Gross Pay vs. Regular pay vs. overtime pay vs. other pay. I have realized I am actually not 100% sure about whether some of my other data is gross, regular, or some mysterious aggregate. Generally speaking, I’m always taking the lower number, with no extras (e.g. benefits) for this version of the dataset. I’m still saving all the other data, but don’t want to bother with it yet. California has one of the larger fundraising worker populations in the country, and is a great example of why cost of living analyses will be important to compare across states and get more accurate averages. Their higher pay will drive up the mean and make the salaries across the country seem rosier than they actually are.\nJob titles: Prospect Rsch Spec 1-5. Presumably “Prospect Research Specialist”\n\n\nUtah\nData: Transparent Utah data dashboard and downloads\nYears: 2014-2026\nNote: I wish the data went back farther. It seems the mid-2010s is a common starting point for these state-level data dashboards. Older salary data is locked within PDFs, which may be public, but hard to find. Once you hit the mid-2000s and before, some of the data may not be digitized, and exist within “special collections” in libraries that you have to be in-person to access.\n\n\nIndiana\nData: Indiana gateway\nYears: 2012-2025\nNote: I’m sure there is a better way to do this, but I just went university by university in the “Search by Unit” tab. Filtering can be annoying, because sometimes the name of the division changes in the documents halfway through the year range. Still, with 13 years worth of data across several Indiana universities, this will be useful for longer time-frame analyses.\n\n\nWyoming\nData: Various fiscal reports\nYears: 2018-2026\nNote: There’s got to be a data dashboard somewhere, I found a bunch of PDFs with salary schedules, but it was unclear to my untrained eye if that data was actual expenditures, or just what they were approved to list as the salaries? In any case, it took too long to retrieve only a little data, so I really want the National Labor Exchange to respond to my request. Or see what I can do about finding a better PDF data extraction tool. ChatGPT does alright, but it’s still full of mistakes. OCR is always a pain…\n\n\n\n\nAd Hoc Job Listings\nI have several job alerts on LinkedIn for prospect development related roles, but data is also coming from Indeed, Regional Apra Job postings, etc. For now, I’m only including the bottom of the range for salaries, but these are fresh listings - so the data is from 2025-2026. I add to this list every week or so, but my workflow leaves something to be desired.\nI’m mostly tracking these to capture skills and experience levels."
   },
   {
-    "objectID": "data/readme.html#financial-intelligence-services-fius-private-finint-vendors",
-    "href": "data/readme.html#financial-intelligence-services-fius-private-finint-vendors",
-    "title": "Overview: Data Flow and Actors",
-    "section": "2. Financial Intelligence Services (FIUs & Private FININT Vendors)",
-    "text": "2. Financial Intelligence Services (FIUs & Private FININT Vendors)\nWhat they are: Financial intelligence services include government Financial Intelligence Units (FIUs) and private FININT vendors that analyze data for purposes such as anti–money-laundering (AML), sanctions screening, risk assessment, and compliance.\nHow they use data: They ingest:\n\nTransaction records\nWatchlists\nProprietary and open source intelligence\nBroker data\n\nto produce actionable intelligence. Open-source intelligence (OSINT) — including public records and some broker data — is explicitly used to support investigations. (Egmont Group)\nFIUs and OSINT: The Egmont Group, which coordinates global FIU collaboration, reports that OSINT contributes to operational and strategic analysis by helping identify links, patterns, and risks not visible in transaction data alone. (Egmont Group)"
+    "objectID": "field_notes/Prospect_Salary_Snapshot_2025/index.html#footnotes",
+    "href": "field_notes/Prospect_Salary_Snapshot_2025/index.html#footnotes",
+    "title": "Prospect Dev Salary Dataset - Part 1",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nI’m also curious who actually pays the $275 non-member fee to access the salary survey…which seems too steep to be realistic as an actual product people would buy. I’m guessing that number was chosen to make the Professional Membership benefits seem all that more attractive, a psychological pricing technique that nudges users toward the ongoing subscription. Presumably, though, there are some folks in prospect dev who don’t have access to the Professional Membership, which is another reason to have independent and free data for all.↩︎"
   },
   {
-    "objectID": "data/readme.html#niche-fundraising-tools-e.g.-researchpoint-livealumni",
-    "href": "data/readme.html#niche-fundraising-tools-e.g.-researchpoint-livealumni",
-    "title": "Overview: Data Flow and Actors",
-    "section": "3. Niche Fundraising Tools (e.g., ResearchPoint & LiveAlumni)",
-    "text": "3. Niche Fundraising Tools (e.g., ResearchPoint & LiveAlumni)\nThese products are end-user applications built for nonprofit development, advancement, and alumni relations. They consume data from brokers and other sources to help fundraising professionals prioritize prospects and manage engagement.\n\nBlackbaud ResearchPoint\n\nA donor prospect research platform that integrates multiple data feeds (including wealth, philanthropic history, biographical, and asset data). (Blackbaud Help)\nIt supports bulk lists, wealth screening, and rich prospect profiles used to guide major gift fundraising. (Blackbaud Help)\n\n\n\nLiveAlumni\n\nA niche provider focused on verified alumni and donor employment data, job changes, industry and employer details. (LiveAlumni)\nUseful in fundraising to identify job changes, matching gift eligibility, and engagement signals.\n\nThese platforms often license or embed multiple broker data feeds to enrich constituent records and analytics."
+    "objectID": "field_notes.html",
+    "href": "field_notes.html",
+    "title": "Field Notes",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nProspect Dev Salary Dataset - Part 1\n\n\n\nIndustry Commentary\n\nHigher Ed\n\n\n\n\n\n\n\nGreg Brooks\n\n\nApr 12, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "data/database/gregs_mermaid_db_experiment.html",
+    "href": "data/database/gregs_mermaid_db_experiment.html",
+    "title": "Database ERD draft",
+    "section": "",
+    "text": "Database ERD draft\n2025-12-9 Mermaid documentation for ERDs\n\n\n\n\n\n---\ntitle: Prospect Research Toolkit ERD\n---\nerDiagram\n\n%% ===TOOLS===\n  tools{\n    int id PK\n    str name\n    str type\n    int cost\n    str integrations\n    str notes\n    int company_id FK\n    numeric created_at\n  }\n  companies{}\n  university_tools{}\n  universities{}\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html",
@@ -133,95 +112,32 @@
     "text": "How often is the website updated?\nIn small ways, frequently! You can read the latest release notes for some of the technical details."
   },
   {
-    "objectID": "data/database/gregs_mermaid_db_experiment.html",
-    "href": "data/database/gregs_mermaid_db_experiment.html",
-    "title": "Database ERD draft",
+    "objectID": "data/readme.html",
+    "href": "data/readme.html",
+    "title": "Overview: Data Flow and Actors",
     "section": "",
-    "text": "Database ERD draft\n2025-12-9 Mermaid documentation for ERDs\n\n\n\n\n\n---\ntitle: Prospect Research Toolkit ERD\n---\nerDiagram\n\n%% ===TOOLS===\n  tools{\n    int id PK\n    str name\n    str type\n    int cost\n    str integrations\n    str notes\n    int company_id FK\n    numeric created_at\n  }\n  companies{}\n  university_tools{}\n  universities{}\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "From ChatGPT:\nHere is the same breakdown of the relationship between data brokers, financial intelligence services, and niche fundraising tools — with a References section including plaintext URLs at the end so you can follow the sources yourself."
   },
   {
-    "objectID": "field_notes.html",
-    "href": "field_notes.html",
-    "title": "Field Notes",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nLibrary Databases for Prospect Dev Analysts\n\n\n\nFree tools\n\n\n\n\n\n\n\nGreg Brooks\n\n\nJan 30, 2026\n\n\n\n\n\n\n\n\n\n\n\nInternal Data Contracts\n\n\n\nResearch Strategy\n\nProspect Dev Management\n\nIndustry Commentary\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 14, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery (part 1)\n\n\n\nPaid tool\n\nTutorials\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "objectID": "data/readme.html#data-brokers",
+    "href": "data/readme.html#data-brokers",
+    "title": "Overview: Data Flow and Actors",
+    "section": "1. Data Brokers",
+    "text": "1. Data Brokers\nWhat they are: Data brokers collect, clean, link, standardize, and resell data about people and businesses to third parties. They pull from public records, commercial databases, and other sources and package the information for clients. (Wikipedia)\nWhat they provide:\n\nAggregated datasets\nIdentity attributes\nEmployment histories\nWealth proxies\nProprietary linkages used for analytics Clients include marketers, compliance teams, financial institutions, and software vendors. (Wikipedia)\n\nAcademic perspective: Studies on data marketplaces show how brokers function as intermediaries in commoditized information markets, pricing and trading data between owners and consumers. (arXiv)"
   },
   {
-    "objectID": "field_notes/LibraryDatabases/index.html#potential-use-cases",
-    "href": "field_notes/LibraryDatabases/index.html#potential-use-cases",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "Potential Use Cases",
-    "text": "Potential Use Cases\nIdentifying potential tools is fairly easy. The real challenge lies in defining use cases and determining how to export and correlate information from different systems. This process also helps us understand our data sources better. For example, many platforms—such as iWave, Factiva, and others—rely on Dun & Bradstreet data when compiling reports. Factiva even publishes a monthly update listing new sources, with a total of 30,000+ sources available."
+    "objectID": "data/readme.html#financial-intelligence-services-fius-private-finint-vendors",
+    "href": "data/readme.html#financial-intelligence-services-fius-private-finint-vendors",
+    "title": "Overview: Data Flow and Actors",
+    "section": "2. Financial Intelligence Services (FIUs & Private FININT Vendors)",
+    "text": "2. Financial Intelligence Services (FIUs & Private FININT Vendors)\nWhat they are: Financial intelligence services include government Financial Intelligence Units (FIUs) and private FININT vendors that analyze data for purposes such as anti–money-laundering (AML), sanctions screening, risk assessment, and compliance.\nHow they use data: They ingest:\n\nTransaction records\nWatchlists\nProprietary and open source intelligence\nBroker data\n\nto produce actionable intelligence. Open-source intelligence (OSINT) — including public records and some broker data — is explicitly used to support investigations. (Egmont Group)\nFIUs and OSINT: The Egmont Group, which coordinates global FIU collaboration, reports that OSINT contributes to operational and strategic analysis by helping identify links, patterns, and risks not visible in transaction data alone. (Egmont Group)"
   },
   {
-    "objectID": "field_notes/LibraryDatabases/index.html#verification-and-spot-checks",
-    "href": "field_notes/LibraryDatabases/index.html#verification-and-spot-checks",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "Verification and “Spot Checks”",
-    "text": "Verification and “Spot Checks”\nA detailed list of tools gives us more confidence when verifying research. The reliability of any piece of information increases when it appears across multiple sources (e.g., two independent news articles confirming a job title). These tools can be great for spot checks when confirming details."
-  },
-  {
-    "objectID": "field_notes/LibraryDatabases/index.html#addressing-the-black-box-problem",
-    "href": "field_notes/LibraryDatabases/index.html#addressing-the-black-box-problem",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "Addressing the “Black Box” Problem",
-    "text": "Addressing the “Black Box” Problem\nMost platforms aggregate data from large brokerages, but each has its own way of processing and presenting that information. For example, iWave uses proprietary techniques to build profiles. While these methods likely follow standard data science practices, the exact process is often unclear—this is known as the “black box” problem.\nWe can reduce this uncertainty by:\n\nIdentifying as many sources as possible.\nUnderstanding the data brokers behind those sources.\nDrawing conclusions about how platforms transform raw data.\n\nThis knowledge adds confidence to the reports we share internally and helps us explain where information originates—even if some steps remain opaque."
-  },
-  {
-    "objectID": "field_notes/LibraryDatabases/index.html#original-research",
-    "href": "field_notes/LibraryDatabases/index.html#original-research",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "Original Research",
-    "text": "Original Research\nSome tools specialize in niche areas. For example, Pitchbook focuses on venture capital and startup funding rounds. This project may reveal which tools are best suited for specific research problems."
-  },
-  {
-    "objectID": "field_notes/LibraryDatabases/index.html#multi-channel-search",
-    "href": "field_notes/LibraryDatabases/index.html#multi-channel-search",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "Multi-Channel Search",
-    "text": "Multi-Channel Search\nComparing results across multiple sources is a common practice for prospect researchers. Doing this manually across 20+ tools can be time-consuming. In OSINT (open-source intelligence), developers have created tools that search hundreds of sources simultaneously and categorize results. However, most OSINT tools aren’t ethical for prospect research because they rely on breach data or are designed for law enforcement.\nOur use case is different, so we’d need to build our own multi-channel search solution or support existing efforts like the Prospect Research Toolkit. Possible approaches include:\n\nPower Automate Desktop: Create a flow that prompts for a search term and runs searches across selected channels (e.g., Privco, Mergent Online).\nPower Query Integration: Automate data export and correlation for comprehensive reports. For example, if we have a list of names for an event, automation could pull data from multiple databases and compile it into a spreadsheet with columns for each source.\n\nCompanies like Xapien already do advanced versions of this using custom algorithms and web scraping to verify information."
-  },
-  {
-    "objectID": "field_notes/LibraryDatabases/index.html#next-steps",
-    "href": "field_notes/LibraryDatabases/index.html#next-steps",
-    "title": "Library Databases for Prospect Dev Analysts",
-    "section": "Next Steps",
-    "text": "Next Steps\nWe’re building a spreadsheet with links and feature comparisons for all tools under review. This will serve as a reference for choosing the right tool for the right research problem."
-  },
-  {
-    "objectID": "field_notes/datacontracts/index.html#introduction",
-    "href": "field_notes/datacontracts/index.html#introduction",
-    "title": "Internal Data Contracts",
-    "section": "Introduction",
-    "text": "Introduction\nAs organizations grow, data becomes increasingly complex and distributed across multiple teams and systems. Without clear agreements on how data is structured, maintained, and shared, teams risk miscommunication, broken pipelines, and unreliable analytics. Internal data contracts solve this problem by formalizing expectations between data producers and consumers—similar to API contracts, but for data.\nThis post will cover: - What internal data contracts are - A sample contract template - Best practices for implementation - How they can apply to fundraising analysis teams"
-  },
-  {
-    "objectID": "field_notes/datacontracts/index.html#what-is-an-internal-data-contract",
-    "href": "field_notes/datacontracts/index.html#what-is-an-internal-data-contract",
-    "title": "Internal Data Contracts",
-    "section": "What is an Internal Data Contract?",
-    "text": "What is an Internal Data Contract?\nAn internal data contract is a documented agreement that defines: - Schema: The structure and types of data fields - Quality guarantees: Rules for completeness, accuracy, and freshness - Ownership: Who is responsible for producing and consuming the data - Access and security: Permissions and compliance requirements - Change management: How updates are communicated and versioned\nThese contracts reduce breakages, improve trust, and enable scalable data sharing across teams."
-  },
-  {
-    "objectID": "field_notes/datacontracts/index.html#sample-internal-data-contract-template",
-    "href": "field_notes/datacontracts/index.html#sample-internal-data-contract-template",
-    "title": "Internal Data Contracts",
-    "section": "Sample Internal Data Contract Template",
-    "text": "Sample Internal Data Contract Template\nTitle: Customer Data Contract\nVersion: 1.0\nOwner: Data Engineering Team\nEffective Date: 2025-11-12\n\n\n1. Purpose\nThis contract defines the structure, quality, and governance of the customer dataset shared between the CRM system (producer) and Analytics team (consumer).\n\n\n\n2. Schema Definition\n\n\n\n\n\n\n\n\n\nField Name\nData Type\nNullable\nDescription\n\n\n\n\ncustomer_id\nSTRING\nNo\nUnique customer identifier\n\n\nname\nSTRING\nNo\nFull name of the customer\n\n\nemail\nSTRING\nNo\nCustomer email address\n\n\nsignup_date\nDATE\nNo\nDate of account creation\n\n\nstatus\nSTRING\nYes\nActive, Inactive, Pending\n\n\n\nVersioning:\n- Backward-compatible changes allowed (adding new nullable fields).\n- Breaking changes require 30-day notice and version increment.\n\n\n\n3. Data Quality Guarantees\n\nFreshness: Data updated within 15 minutes of CRM changes.\n\nCompleteness: 99% of records must have email populated.\n\nAccuracy: status must match CRM system values.\n\n\n\n\n4. Ownership & Responsibilities\n\nProducer: CRM Engineering Team\n\nConsumer: Analytics Team\n\nEscalation: Contact data-support@company.com for issues.\n\n\n\n\n5. Access & Security\n\nData accessible via internal data warehouse with role-based permissions.\n\nPII fields (e.g., email) must comply with GDPR and internal privacy policies.\n\n\n\n\n6. Change Management\n\nAll schema changes documented in the internal data catalog.\n\nBreaking changes require approval from both producer and consumer teams."
-  },
-  {
-    "objectID": "field_notes/datacontracts/index.html#best-practices-for-internal-data-contracts",
-    "href": "field_notes/datacontracts/index.html#best-practices-for-internal-data-contracts",
-    "title": "Internal Data Contracts",
-    "section": "Best Practices for Internal Data Contracts",
-    "text": "Best Practices for Internal Data Contracts\n\nStart Simple, Iterate Begin with critical datasets and expand as adoption grows.\nUse Versioning Always version schemas to avoid breaking downstream systems.\nAutomate Validation Implement automated checks for schema compliance and data quality.\nCentralize Documentation Maintain contracts in a shared repository or data catalog for visibility.\nDefine SLAs Include clear expectations for freshness, completeness, and uptime.\nCommunicate Changes Early Use automated alerts or Slack notifications for schema updates.\nEnforce Ownership Assign clear owners for both producer and consumer sides.\nIntegrate with CI/CD Validate data contracts during deployment to catch issues before production.\nMonitor & Audit Track compliance and log violations for continuous improvement.\nAlign with Governance Ensure contracts comply with regulatory and internal security standards."
-  },
-  {
-    "objectID": "field_notes/datacontracts/index.html#applying-internal-data-contracts-to-fundraising-analysis-teams",
-    "href": "field_notes/datacontracts/index.html#applying-internal-data-contracts-to-fundraising-analysis-teams",
-    "title": "Internal Data Contracts",
-    "section": "Applying Internal Data Contracts to Fundraising Analysis Teams",
-    "text": "Applying Internal Data Contracts to Fundraising Analysis Teams\nPlaceholder: Explain how prospect research and development teams can use data contracts to ensure donor data consistency and reliability across CRM, wealth screening tools, and analytics platforms.\nOne obstacle when writing profiles is getting accurate information from your own institution. If you have many internal boards, the chairs and members of those boards are always in flux, and there isn’t necessarily accurate information in the database or websites to verify the reality on the ground. In theory, it makes sense to have board memberships strictly tracked in your CRM. But like with anything, it all depends on the people responsible for maintaining and providing the data in the first place.\nOld or inacurrate information in your internal systems is a constant battle, and there may be some areas where you know the information tends to be more inaccurate than others, a “quirk of the system” that you’ve just learned to deal with, and one where a fix is not necessarily going to happen soon.\nHowever, if you are ever in the position to try and fix some of these data problems, at a director-level, you can advocate for creating internal data contracts specifically to benefit your prospect development and research teams.\nWith the board membership example, a strong internal data contract that provides accurate, timely board information means that profiles get done faster, obvious mistakes are avoided, and researchers can spend less time spinning their wheels trying to find information that the institution already knows. Ideally, the goal of a prospect research team should be to get the most efficient process possible for highly accurate profiles, so there is more time for proactive research and expanding the prospect pool. The amount of money that is lost every year is staggering: any given team is being paid for their time, and expanding the prospect pool actually increases campaign revenues, while fiddling around with verifications can run counter to the overall momentum needed to meet fundraising goals.\nOf course, if you aren’t tracking your efficiency, then it would be hard to know for sure."
+    "objectID": "data/readme.html#niche-fundraising-tools-e.g.-researchpoint-livealumni",
+    "href": "data/readme.html#niche-fundraising-tools-e.g.-researchpoint-livealumni",
+    "title": "Overview: Data Flow and Actors",
+    "section": "3. Niche Fundraising Tools (e.g., ResearchPoint & LiveAlumni)",
+    "text": "3. Niche Fundraising Tools (e.g., ResearchPoint & LiveAlumni)\nThese products are end-user applications built for nonprofit development, advancement, and alumni relations. They consume data from brokers and other sources to help fundraising professionals prioritize prospects and manage engagement.\n\nBlackbaud ResearchPoint\n\nA donor prospect research platform that integrates multiple data feeds (including wealth, philanthropic history, biographical, and asset data). (Blackbaud Help)\nIt supports bulk lists, wealth screening, and rich prospect profiles used to guide major gift fundraising. (Blackbaud Help)\n\n\n\nLiveAlumni\n\nA niche provider focused on verified alumni and donor employment data, job changes, industry and employer details. (LiveAlumni)\nUseful in fundraising to identify job changes, matching gift eligibility, and engagement signals.\n\nThese platforms often license or embed multiple broker data feeds to enrich constituent records and analytics."
   },
   {
     "objectID": "index.html",
