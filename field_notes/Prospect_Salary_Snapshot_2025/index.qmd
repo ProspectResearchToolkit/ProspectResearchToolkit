@@ -49,7 +49,7 @@ library(here)
 # import data
 salary_dfr <- read_csv(
     here(
-        "data/industry_data/salary_data/prospdev_highered_salaries_2026-04-08.csv"), 
+        "data/industry_data/salary_data/prospdev_highered_salaries_2026-04-16-copy.csv"), 
         col_types = cols(
             Salary = col_number()
             )
@@ -118,7 +118,12 @@ Problems: This is the first time I'm seeing Gross Pay vs. Regular pay vs. overti
 
 **Note:** There's got to be a data dashboard somewhere, I found a bunch of PDFs with salary schedules, but it was unclear to my untrained eye if that data was actual expenditures, or just what they were approved to list as the salaries? In any case, it took too long to retrieve only a little data, so I really want the National Labor Exchange to respond to my request. Or see what I can do about finding a better PDF data extraction tool. ChatGPT does alright, but it's still full of mistakes. OCR is always a pain...
 
-***
+#### Ohio
+**Data:** from The Buckeye Institute, and University-specific dashboards
+
+**Years:** 2012-2025
+
+**Note:** Added over 50 new salaries. I have data from The Ohio State University, but I'm thrown by the job titles, do they call fundraisers "Prospect Development Specialists" over there? Will have to do some LinkedIn research, for now, I'm keeping all that data out of this sample dataset. It seems like one of the most important filters when dealing with bulk downloads and data dashboards for higher education at the state-level, is the name of the department. Whether it's "Advancement Services" or "University Development", or whatever, it's the fastest way to pull as much of the relevant data quickly. However, those department names change over time - and I wasn't paying as close attention to that phenomenon earlier in the project, which makes me think I may have relied too much on "Advancement" as a keyword, while neglecting "Development"...
 
 ### Ad Hoc Job Listings
 I have several job alerts on LinkedIn for prospect development related roles, but data is also coming from Indeed, Regional Apra Job postings, etc. For now, I'm only including the bottom of the range for salaries, but these are fresh listings - so the data is from 2025-2026. I add to this list every week or so, but my workflow leaves something to be desired.
