@@ -1,0 +1,39 @@
+---
+title: "Development Podcast Round-up"
+author: Greg Brooks
+date: 04/21/2026
+draft: true
+categories:
+    - Industry Commentary
+    - Free resources
+    - Industry media
+execute: 
+  enabled: true
+  error: true
+---
+
+I am a podcast fanatic, though usually for more entertaining fare than fundraising. In any case, these are some reviews/reactions/highlights of podcasts in the fundraising, advancement, and development space!
+
+# Reviews
+
+Someone on PRSPCT-L posted about the Aspire Research Group's [list of resources](https://www.protopage.com/prospectresearch#Top_Aspire_Picks), which is a somewhat messy, but also rich vein to explore. They are using a tool called Protopage, which struck me as hailing from a different era of the internet, and indeed, [it actually is - circa 2005](https://www.protopage.com/). 
+
+Anyway, I'm taking a page from Aspire's book and including the RSS feeds as I go along.
+***
+
+::: {.callout-note collapse="true"}
+## Click to expand
+Hidden content here.
+:::
+
+***
+# Table of Podcast Links
+
+```{=html}
+<iframe
+  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRYwLehNfbyE2RH22vxmSTuY_4aA5GeEllb392dqq8mhzzD7KEHN10H5c78CUFBSBI8pHKOUEgKqhAo/pubhtml?widget=true&amp;headers=false"
+  width="100%"
+  height="600"
+  frameborder="2">
+</iframe>
+```

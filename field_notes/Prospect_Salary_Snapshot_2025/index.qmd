@@ -7,7 +7,7 @@ categories:
     - Industry Commentary
     - Higher Ed
 execute: 
-  enabled: true
+  enabled: false
   error: true
 ---
 
