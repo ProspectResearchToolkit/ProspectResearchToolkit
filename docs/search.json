@@ -175,69 +175,6 @@
     "text": "I’ve attempted to subset Prospect Development and Major Gift Officer job titles from the 2025 Career Map (CMap) dataset released in July 2025 (citation below) from the CMAP readme.\nQuoting from the paper:\n“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017.\nHowever, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.”\nTangent: You’ll notice that “Prospect Researcher” is the most common job title, by far, for that niche, and ends up becoming their standardized term for that role at a junior level. However, as soon as you add the word “analyst” to the title (e.g. Senior Prospect Research Analyst), that word becomes the standard - so Senior Prospect Research Analysts become standardized into Senior Analysts. This was useful for their analysis, but to properly understand how many “Prospect Researchers” there are - those aggregates will have to be recalculated using a more ecclectic definition. However, given the massive overlap between these niche Prospect Dev roles, perhaps the best aggregate is actually “Prospect Development Professional” to get more accurate totals from the dataset.\nThe 2018 Apra salary survey had 668 participants, which means the 2017 CMAP data covered potentially about 64% of the jobs along the same time frame. Obviously there are a million caveats to that - I’m guessing my filtering of CMAP maybe cut out some of the jobs, and there’s no guarantee that there was substantial overlap between those two datasets. That’s a rabbit hole for another day.\nAnd that’s just job titles, for salary and other data, my sample size continued to be winnowed down. When we look at AFP and Apra Membership numbers, we have at least 25,000 people, of which there is some mystery percentage that are full-time prospect dev professionals. And the even more mysterious percentage are those who aren’t among the hundreds of prospect dev job title variants I’ve identified, but who potentially should still be included in this research based on skills or job description. Yet another rabbit hole for another day. Geeze.\n\n\n\n\nThere are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche’s, something especially difficult given the variety of titles especially for Major Gift Officers.\nI have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.\nI created a smaller dataset for the MGO niche, that only includes the non-profit sector. If you sort by frequency, you’ll see familiar titles at the top. The “title_generalized” column is arguably the most helpful, because it attempts to standardize the highly variable development officer roles into several categories.\nIn my dataset filenames, I have been calling this CMAP 2017, to remind me that this is somewhat old data. But because of how comprehensive this data is, and because the methods and code are open-source, future dataset creation could follow in the same vein: the main limiting factor being the cost of purchasing public and anonymized CV data. There may be more recent public sector-specific datasets out there that could be appended to this one, or transformed to match their unique standardization system, and potentially avoid this cost.\nI have not uploaded the sector files or massive original dataset, to save on repo space, but they can be downloaded here.\n\n\n\n\nDirect links, if you want to download my filtered data from GitHub as .csv: - Prospect Development job titles - Major Gift Officer nonprofit sector titles - Major Gift Officer all sector titles - full of irrelevant titles right now, until I filter it better\n\n\n\n\nCitation: Subhani, S., Memon, S.A. & AlShebli, B. CMap: a database for mapping job titles, sector specialization, and promotions across 24 sectors. Sci Data 12, 1214 (2025). https://doi.org/10.1038/s41597-025-05526-3"
   },
   {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html",
-    "href": "field_notes/HelpfulTechDocumentation/index.html",
-    "title": "Helpful Technical Documentation",
-    "section": "",
-    "text": "This list is mostly for Greg as he maintains this website."
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#quarto-guides",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#quarto-guides",
-    "title": "Helpful Technical Documentation",
-    "section": "Quarto guides",
-    "text": "Quarto guides\n\nPractical Quarto\nQuarto presentations"
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#website-maintenance",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#website-maintenance",
-    "title": "Helpful Technical Documentation",
-    "section": "Website Maintenance",
-    "text": "Website Maintenance\n\nUse the drafts feature to preview and plan content\nLearn how to use the profiles feature\nPrevent all unnecessary folders and files from rendering to the website (how?)\nlearn incremental render\n\nYes, you can preview .qmd files inside an excluded folder like scripts/ without moving them, but it requires a bit of manual action because Quarto won’t render them automatically during your site build.\nHere’s how to do it:"
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#how-to-preview-.qmd-files-in-excluded-folders-without-moving-them",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#how-to-preview-.qmd-files-in-excluded-folders-without-moving-them",
-    "title": "Helpful Technical Documentation",
-    "section": "How to preview .qmd files in excluded folders without moving them",
-    "text": "How to preview .qmd files in excluded folders without moving them\n\n1. Render them manually, one at a time\nFrom your project root, run:\nquarto render scripts/your_file.qmd\n\nThis renders just that file (ignores your site’s render exclusion)\nOutput goes to _output folder by default (not your website’s docs/)\nYou can open the generated HTML in your browser to preview\n\n\n\n\n2. Use the quarto preview command for that file\nquarto preview scripts/your_file.qmd\n\nOpens a local preview server with live reload for that file\nHandy for iterative editing and testing\n\n\n\n\n3. Use VS Code Quarto extension to preview\nIf you have the Quarto extension in VS Code:\n\nOpen scripts/your_file.qmd\nUse “Preview” button in editor (usually top right or right-click menu)\nThis previews the current file regardless of site config\n\n\n\n\n4. Temporarily disable the exclusion (if you want full site preview)\nRemove or comment out the render: - \"!scripts/**\" line\n\nRun quarto render to include those files\nPreview site with those pages included\nRe-enable exclusion when done"
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#summary",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#summary",
-    "title": "Helpful Technical Documentation",
-    "section": "Summary",
-    "text": "Summary\n\n\n\n\n\n\n\n\nMethod\nPros\nCons\n\n\n\n\nquarto render file.qmd\nFast, manual render\nManual, one file at a time\n\n\nquarto preview file.qmd\nLive reload, interactive\nOne file only\n\n\nVS Code Quarto preview\nIntegrated, easy\nRequires VS Code & extension\n\n\nDisable exclusion temporarily\nFull site preview\nChanges site config temporarily"
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#database-architecture",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#database-architecture",
-    "title": "Helpful Technical Documentation",
-    "section": "Database Architecture",
-    "text": "Database Architecture\n\nRSQLite\nSQLite mobile editing\nBaserow docs"
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#vs-code",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#vs-code",
-    "title": "Helpful Technical Documentation",
-    "section": "VS-Code",
-    "text": "VS-Code\n\nMarkdown All-in-One commands"
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#quarto-extensions",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#quarto-extensions",
-    "title": "Helpful Technical Documentation",
-    "section": "Quarto Extensions",
-    "text": "Quarto Extensions\n\nQuarto Extensions and also great example of a quarto website\nembedio for presentations embedded in a Quarto website\neditable reveal js lets you do some basic editing within revealjs presentations themselves, and then save it back to your QMD, which makes for a nice workflow similar to working in powerpoint\n\n\nVisualization Extensions\n\nDiagrams\nSvelte components\n\n\n\nArticle Interactivity\n\nLightboxes\nexpanding “nutshell” notes so people don’t have to switch tabs\n\n\n\nEmbedding\n\nsocial media embeds, easy to embed YouTube\nPDF embedding\n\n\n\nUser Experience\n\ndownloading embedded data or images\nlist of links at end of page\nQuarto badges, lets you make fun stuff like this!"
-  },
-  {
-    "objectID": "field_notes/HelpfulTechDocumentation/index.html#example-quarto-sites",
-    "href": "field_notes/HelpfulTechDocumentation/index.html#example-quarto-sites",
-    "title": "Helpful Technical Documentation",
-    "section": "Example Quarto Sites",
-    "text": "Example Quarto Sites\n\ngood example of webr and download capabilities"
-  },
-  {
     "objectID": "field_notes/UsingPowerQuery/index.html#what-is-powerquery",
     "href": "field_notes/UsingPowerQuery/index.html#what-is-powerquery",
     "title": "Using PowerQuery (part 1)",
@@ -289,8 +226,8 @@
   {
     "objectID": "field_notes/podcast_reviews/index.html",
     "href": "field_notes/podcast_reviews/index.html",
-    "title": "Development Podcast Reviews",
+    "title": "Development Podcast Round-up",
     "section": "",
-    "text": "I am a podcast fanatic, though usually for more entertaining fare than fundraising. In any case, these are some reviews of podcasts in the fundraising, advancement, and development space!\n\nReviews\nadd reviews here…\n\n\n\nTable of Podcast Links\n\n\n\n\n\n\n Back to top"
+    "text": "I am a podcast fanatic, though usually for more entertaining fare than fundraising. In any case, these are some reviews/reactions/highlights of podcasts in the fundraising, advancement, and development space!\n\nNotes & Highlights\n\n\n\n\n\n\nNoteTangent…\n\n\n\n\n\nSomeone on PRSPCT-L posted about the Aspire Research Group’s list of resources, which is a somewhat messy, but also rich vein to explore. They are using a tool called Protopage, which struck me as hailing from a different era of the internet, and indeed, it actually is - circa 2005. I plan on working through as much of that list as I can, to learn about new tools.\n\n\n\n\n\n\nTable of Podcast Links\n\n\n\n\n\n\nNoteClick to expand\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   }
 ]

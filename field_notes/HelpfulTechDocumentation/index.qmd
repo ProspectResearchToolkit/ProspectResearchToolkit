@@ -15,6 +15,13 @@ This list is mostly for Greg as he maintains this website.
 - [alt text](../../images/soilsample_sketch.jpg){width=50%}
 - use *** instead of triple hyphen to avoid rendering errors (occasional, but annoying)
 - Example of how to make links open in a new window: [Apra International Salary Survey](https://aprahome.org/Resources/Salary-Survey){target="_blank"}
+- collapsible callout:
+  
+::: {.callout-note collapse="true"}
+## Click to expand
+Hidden content here.
+:::
+
 - internal links: 
 
 # Quarto Tips

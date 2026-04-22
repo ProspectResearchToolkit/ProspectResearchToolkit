@@ -7,6 +7,7 @@ categories:
     - Industry Commentary
     - Free resources
     - Industry media
+    - Podcasts
 execute: 
   enabled: true
   error: true
@@ -14,20 +15,21 @@ execute:
 
 I am a podcast fanatic, though usually for more entertaining fare than fundraising. In any case, these are some reviews/reactions/highlights of podcasts in the fundraising, advancement, and development space!
 
-# Reviews
-
-Someone on PRSPCT-L posted about the Aspire Research Group's [list of resources](https://www.protopage.com/prospectresearch#Top_Aspire_Picks), which is a somewhat messy, but also rich vein to explore. They are using a tool called Protopage, which struck me as hailing from a different era of the internet, and indeed, [it actually is - circa 2005](https://www.protopage.com/). 
-
-Anyway, I'm taking a page from Aspire's book and including the RSS feeds as I go along.
-***
-
+# Notes & Highlights
 ::: {.callout-note collapse="true"}
-## Click to expand
-Hidden content here.
+## Tangent...
+Someone on PRSPCT-L posted about the Aspire Research Group's [list of resources](https://www.protopage.com/prospectresearch#Top_Aspire_Picks), which is a somewhat messy, but also rich vein to explore. They are using a tool called Protopage, which struck me as hailing from a different era of the internet, and indeed, [it actually is - circa 2005](https://www.protopage.com/). Kudos to Protopage for resisting ensloppification after all these years. You love to see it. Anyway, I plan on working through as much of that list as I can, to learn about new tools.
 :::
+
+
+
+
+
 
 ***
 # Table of Podcast Links
+::: {.callout-note collapse="true"}
+## Click to expand
 
 ```{=html}
 <iframe
@@ -37,3 +39,5 @@ Hidden content here.
   frameborder="2">
 </iframe>
 ```
+
+:::
