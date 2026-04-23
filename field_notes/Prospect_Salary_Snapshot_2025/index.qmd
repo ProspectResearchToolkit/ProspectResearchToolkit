@@ -23,7 +23,7 @@ This is exactly what it sounds like: a little snapshot of industry data, indepen
 #### The Good News
 The data I have gathered is free to explore, though it is missing many useful columns at the moment. I have over 1700 individual salary observations from 2012 to 2026, which is not bad, considering I'm maybe 10% of the way through my identified potential sources. 
 
-{{< downloadthis prospdev_highered_salaries_2026-04-11.csv dname=ProspDev-HigherEdSalaries label="Download the higher ed prospect dev salary data .csv" >}}
+{{< downloadthis prospdev_highered_salaries_2026-04-16.csv dname=ProspDev-HigherEdSalaries label="Download the higher ed prospect dev salary data .csv" >}}
 
 #### The Bad News
 Big shocker: you probably won't get rich as a prospect development professional. However, it does seem like there is more stability in the higher education sector, similar to government jobs (at least, historically), compared to other types of analysts within industry. It feels like Business Intelligence analysts are often on the chopping block for layoffs because they are seen as helpful, but non-essential. I see really talented people on LinkedIn with much better resumes than me suddenly needing a new gig. I guess the trick is to get into management, not just analysis, or else continue to be a sacrificial lamb for the sake of an IPO, or whatever. I digress.
@@ -49,7 +49,7 @@ library(here)
 # import data
 salary_dfr <- read_csv(
     here(
-        "data/industry_data/salary_data/prospdev_highered_salaries_2026-04-16-copy.csv"), 
+        "data/industry_data/salary_data/prospdev_highered_salaries_2026-04-17-copy.csv"), 
         col_types = cols(
             Salary = col_number()
             )
@@ -125,10 +125,22 @@ Problems: This is the first time I'm seeing Gross Pay vs. Regular pay vs. overti
 
 **Note:** Added over 50 new salaries. I have data from The Ohio State University, but I'm thrown by the job titles, do they call fundraisers "Prospect Development Specialists" over there? Will have to do some LinkedIn research, for now, I'm keeping all that data out of this sample dataset. It seems like one of the most important filters when dealing with bulk downloads and data dashboards for higher education at the state-level, is the name of the department. Whether it's "Advancement Services" or "University Development", or whatever, it's the fastest way to pull as much of the relevant data quickly. However, those department names change over time - and I wasn't paying as close attention to that phenomenon earlier in the project, which makes me think I may have relied too much on "Advancement" as a keyword, while neglecting "Development"...
 
-### Ad Hoc Job Listings
-I have several job alerts on LinkedIn for prospect development related roles, but data is also coming from Indeed, Regional Apra Job postings, etc. For now, I'm only including the bottom of the range for salaries, but these are fresh listings - so the data is from 2025-2026. I add to this list every week or so, but my workflow leaves something to be desired.
+#### Idaho
+**Data:** from the [Transparent Idaho state worforce salary dashboard](https://transparent.idaho.gov/workforce-salary)
 
-I'm mostly tracking these to capture skills and experience levels.
+**Years:** 2026
+
+**Note:** Only added 5 new salaries, no idea how to get at the historical data for Idaho via their dashboard, if that's even possible. In this case there was a mix of hourly and salaried, and when they are marked full-time I assume 40 hour weeks. Obviously actual pay differs from the pay-rate, but it seems like actual paychecks are often aggregated in expenditure reports and can be hard to find. However, I'm only marking salary observations as estimates when they are not tied to a specific individual (e.g. from a job description, or payscale with no names). 
+
+***
+### Foundation-level data
+Some data cannot be found via state portals or national portals, and have to be tracked down by looking at any given university foundation's published salary tables, expenditures, etc. At least to get estimates. The problem, it turns out, is that Universities are often politically-fraught and budgets can be controversial. A few states, like New Mexico and Vermont, had investigative journalists who looked at the 990s for the big public universities in their state and then published paychecks or commentary - and sometimes led to public blowback. Usually lost in the conversation is the fact that a university foundation is invariably a revenue generating entity, and people make wild assumptions about paychecks that aren't legally required to be disclosed.
+
+The IRS requires that the top-paid administrators for a foundation have their compensation listed, with the rest being reported in one consolidated number. Most journalists are not assuming that the "hidden" millions of dollars in paychecks include jobs like prospect development - ones that don't have eye-popping numbers, but add to the overall total. Also left out of the conversation is the damage that staff turnover can have for ongoing fundraising operations. 
+
+Anyway, I found those "scandals" fascinating, because they impact this project. In states where there has been public conversations about salaries, foundations may not necessarily be as forthcoming if there are no state-level sunshine laws forcing their hand.
+
+Usually this is just the case with the biggest public universities - the smaller public colleges seem perfectly fine publishing at least salary tables...
 
 ***
 
