@@ -23,7 +23,7 @@ This is exactly what it sounds like: a little snapshot of industry data, indepen
 #### The Good News
 The data I have gathered is free to explore, though it is missing many useful columns at the moment. I have over 1700 individual salary observations from 2012 to 2026, which is not bad, considering I'm maybe 10% of the way through my identified potential sources. 
 
-{{< downloadthis prospdev_highered_salaries_2026-04-16.csv dname=ProspDev-HigherEdSalaries label="Download the higher ed prospect dev salary data .csv" >}}
+{{< downloadthis prospdev_highered_salaries_2026-04-17.csv dname=ProspDev-HigherEdSalaries label="Download the higher ed prospect dev salary data .csv" >}}
 
 #### The Bad News
 Big shocker: you probably won't get rich as a prospect development professional. However, it does seem like there is more stability in the higher education sector, similar to government jobs (at least, historically), compared to other types of analysts within industry. It feels like Business Intelligence analysts are often on the chopping block for layoffs because they are seen as helpful, but non-essential. I see really talented people on LinkedIn with much better resumes than me suddenly needing a new gig. I guess the trick is to get into management, not just analysis, or else continue to be a sacrificial lamb for the sake of an IPO, or whatever. I digress.
