@@ -51,7 +51,7 @@ And that's just job titles, for salary and other data, my sample size continued 
 
 ### Further resources
 Direct links, if you want to download my filtered data from GitHub as .csv: 
-- [Prospect Development job titles](https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/PRSPDEV_JobTitles_CMAP_2017_ALLSECTORS.csv)
+  - [Prospect Development job titles](https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/PRSPDEV_JobTitles_CMAP_2017_ALLSECTORS.csv)
 - [Major Gift Officer nonprofit sector titles](https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/MGO_nonprofitsector_titles_CMAP_2017.csv)
 - [Major Gift Officer all sector titles - full of irrelevant titles right now, until I filter it better](https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/MGO_ALLSECTORS_unfinished_CMAP_2017_dataset.csv)
 
