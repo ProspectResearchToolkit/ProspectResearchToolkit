@@ -1,5 +1,5 @@
 ---
-title: "AFP General Overview"
+title: "Panic at the Fundraising Disco: AFP 2026 Recap"
 author: Greg Brooks
 date: 04/26/2026
 draft: true
@@ -17,7 +17,26 @@ execute:
 Conference recap from the 2026 AFP blah blah blah you get it.
 
 # Overview
-First time at AFP - some sensible and useful breakout rooms, some not so much. This post is about the sensible ones. 
+First time at AFP - some sensible and useful breakout rooms, some not so much. This post is an unvarnished view of what I thought was helpful, from a prospect development perspective, not a frontline fundraiser's perspective. AFP certainly gave me insight into the water in which fundraisers swim. More suits and nice shoes, for sure, than at APRA. More books about emotional intelligence and burnout, which was interesting. And of course, the hilariously apocalyptic 
 
 ## Keynote address
 Just kidding, I skipped the keynote. Keynotes are pointless - the vestigial organ of professional conferences. Spare me.
+
+# Break out sessions
+Titles at conferences function much in the same way as YouTube clickbait, they're hooks. Not all clickbait ends up being bad content - and the exception to that rule
+
+## Seizing The Largest Intergenerational Wealth Transfer
+I wonder what prospective donors would think about using the weirdly aggressive word *seize* in relation to their wealth. Maybe the corporate connotations of that word line up closer to "sieze the day" style optimism, but casually, it certainly comes across as a shot across the bow. Minor quibble. *Leverage* might have been a better choice, but that's not as punchy - it doesn't set up the participant as a hero swooping down to seize all that Millenial and Gen X money! Capture their hearts!
+
+But forget all that. This session was genuinely sensible, using data from the Fundraising Effectiveness Project and GivingUSA, and did not downplay the risks of America's current economic situation. 
+
+Ultimately, I don't think that anyone can reverse the alarming economic trends that are shredding America into, I guess, a feudal system where we become war boys for the Immortan Nvidia Chief? It's unclear, but it sucks. 
+
+But in the meantime, we can use some logic about the nature of any given organizations donor base - what needs to happen to survive. Leaders would say the word "grow", but it depends on what we are talking about - dollars may grow, but if the number of donors continues to shrink, then organizations increasingly cede power and priorities to a smaller and smaller pool of individuals - which may be at odds with the original philanthropic mission. 
+
+Nothing new, of course, classic Gilded Age stuff. The difference is the scale, the moving parts, the technology, and the players involved.
+
+### Rich getting richer
+- $84 trillion will be passed down to the next generations (X, Millenial) over the next 20 year
+- Loyal donor bases are aging, and younger donors, sometimes the recipients of intergenerational wealth transfer, are not lining up at the door to replace them
+- 
