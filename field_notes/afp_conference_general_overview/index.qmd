@@ -17,7 +17,9 @@ execute:
 Conference recap from the 2026 AFP blah blah blah you get it.
 
 # Overview
-First time at AFP - some sensible and useful breakout rooms, some not so much. This post is an unvarnished view of what I thought was helpful, from a prospect development perspective, not a frontline fundraiser's perspective. AFP certainly gave me insight into the water in which fundraisers swim. More suits and nice shoes, for sure, than at APRA. More books about emotional intelligence and burnout, which was interesting. And of course, the hilariously apocalyptic 
+First time at AFP - some sensible and useful breakout rooms, some not so much. This post is an unvarnished view of what I thought was helpful, from a prospect development perspective, not a frontline fundraiser's perspective. AFP certainly gave me insight into the water in which fundraisers swim. More suits and nice shoes, for sure, than at APRA. More books about emotional intelligence and burnout, which was interesting. 
+
+And of course, my favorite microcosm of the whole affair: a hilariously apocalyptic banner hanging from one of the San Diego Convention Center archway's: **FUNDRAISERS CAN'T BE REPLACED** - and a breakout session called **The five types of fundraisers who will be replaced by AI**
 
 ## Keynote address
 Just kidding, I skipped the keynote. Keynotes are pointless - the vestigial organ of professional conferences. Spare me.
@@ -39,4 +41,22 @@ Nothing new, of course, classic Gilded Age stuff. The difference is the scale, t
 ### Rich getting richer
 - $84 trillion will be passed down to the next generations (X, Millenial) over the next 20 year
 - Loyal donor bases are aging, and younger donors, sometimes the recipients of intergenerational wealth transfer, are not lining up at the door to replace them
+- New donors should be tracked closely, no matter their initial donation size
+
+### Thinking differently
+- Salient points about how Gen X and Millenials will require completely different messaging and stewardship than Boomers, especially in the digital marketing space
+- Of course, all of the specific data points about new donors are about Australian Gen X and Millenials, which, for all I know, may be apples to oranges with America
+
+### Old audience vs. New audience
+- Finding new donors in new places - in terms of prospect research, where are Gen X and Millenials existing online that we may otherwise miss? I've never heard TikTok mentioned as a place to get donor context, and people are *always* underrating interview podcasts as a way to learn about affinity and even capacity
+- Prospect researchers are never marking people as "10 years out" for solicitation, but I think that would be a fascinating example of proactive research. This was not mentioned in the session, but with all the emphasis on "Lifetime Giving" it makes me wonder how to do prospect research "across the lifetime" instead of for an individual moment or project. I'll have to dig into this deeper. Call it "The Long Game: Building a 10-years Out Potential Prospect Pool"
+- "Look-alike audiences" - it seems like Prospect Research really needs to study market research in a more fundamental way, the words may be different (prospects vs. audience), but the research and reporting elements are miles ahead of what anybody in prospect research is doing
+- Is prospect research just amateur, clumsy market research?
+- Do any prospect research shops calculate "cost per lead"? That's a fascinating metric. If you aren't measuring how identified prospects move on into the donor giving cycle, in terms of donations, engagement, etc - then you can't give context for the "cost per lead" metric, because you essentially don't know what happens with the leads you "bought" in the first place
+- Affinity grows and changes over time, affinity and "brand awareness" overlap so much, in some cases they are almost identical
+- Some institutions look for prospects with a problematically simple line of logic: "To find nursing donors, we should look at nursing graduates" and then, when that turns up nothing, they move on - assuming the donors don't exist. But really, you should be creating affinity pools, informed but not limited by classic engagement and affinity anchors, and when the moment comes, diving deeper into those affinity pools. The thing about affinity pools, is that they should not put donors into one discrete lane, more likely, they are tagged with 3-10 affinity markers, and further research can clarify to what extend those markers are relevant, how they have changed over time, etc.
+- It's like how credit card companies and really any company with a big customer base track user and buyer habits over the long-term. You should not necessarily assume anything, you should create your clusters from those which are statistically significant along several dimensions. For example, which affinity tags are associated with higher conversion rates from non-donor to donor, donor to major giver, or repeated giver, or frequent giver? That dynamically changes what kind of prospect research you should do for each cluster.
+- what is the "cost per acquisition"? Would that be a formula including the "cost per lead generated"? So the leadgen cost added to the solicitation costs, marketing costs, and general operations costs.
+- Prospect research that is focusing on desperate projects on weekly timelines, vs. yearly timelines, then the resulting research will be shallow, clumsy, and often answer questions that most people could answer if they have an hour or two with basic Googling and database skills. If prospect researchers don't want to be replaced by market research firms (it may happen no matter what, honestly) then they need to level up their technical skills to emulate how for-profit institutions do research. Business intelligence teams and prospect researchers need to talk more, and in fact, have liasons or be on the same team if possible.
+- 
 - 
