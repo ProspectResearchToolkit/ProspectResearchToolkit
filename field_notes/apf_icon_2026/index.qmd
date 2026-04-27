@@ -1,0 +1,44 @@
+---
+title: "AFP 2026"
+author: Greg Brooks
+date: 04/21/2026
+draft: true
+categories:
+    - Industry Commentary
+    - Paid Resources
+    - Conference Recap
+execute: 
+  enabled: true
+  error: true
+---
+
+Conference recap from the 2026 AFP blah blah blah you get it.
+
+# Overview
+First time at AFP - some sensible and useful breakout rooms, some not so much. This post is about the sensible ones. 
+
+## Keynote address
+Just kidding, I skipped the keynote. Keynotes are pointless - the vestigial organ of professional conferences. Spare me.
+
+## Big Gifts
+**"How to Find your Next 10 Major Donors"**
+
+Jim Shapiro ran a clear-headed, practical breakout room. I especially appreciated, early on, the insight that the definition of a major giver as a function of their on-paper capacity or their past definitions can become an imperfect metric that drives work in the wrong direction. A major donor, to Jim, is "anyone who can be managed as a major donor" - something that seems glib at first but helps center fundraising work on the relationship, from which the metrics can further inform, instead of vice versa.
+
+I also appreciated his strong point about how many donations come in online - and he was diplomatic, saying that what these vendors can do with AI is "amazing" but that many major donors are at home wondering "where do I send my check?" - not necessarily as much of a problem for universities, but still very salient. 
+
+::: {.callout-note collapse="true"}
+## Tangent 1
+I remember creating a survey to gather event data at events hosted by Utah Valley University's "Center for Social Impact" and I decided to do an experiment. 
+
+I created a QR code *and* a paper-slip version of the short survey to give people the option. It turned out, it was more convenient for the average attendee to take 20 seconds or less to write a couple words about their experience at the event as they walked out the door. It was faster than pulling out their phone, opening the camera app or aiming the phone, waiting for the link to load, and *then* reading the survey...
+
+It certainly helped that a colleague of mine, who was very personable, was thanking people in person as they left the invent, and mentioning the survey.
+
+The result was surprising: wayyy more people that completed the physical survey. But it taught me a very real lesson about useability, the flow of information, etc.
+
+There is some unknown percentage of donors at any given time that are trying to donate, usually at the annual to LAG level, but are blocked by technical barriers. There is also some unknown percentage that didn't enjoy the process, and that is one reason among a million variables that leads to why their donations do not recur. 
+
+Who is trying to tackle these unknown percentages? In theory, the triage team for this problem is combination of information systems and fundraising operations people. In reality, this problem is only taken seriously when a major donor says something - but that still means there are people of annual to major capacity that are running into logistical walls that turn them off to giving. I think big fundraising orgs need dedicated triage teams to gather info about these "lost donors" and have enough power to create some of the infrastructure fixes.
+
+:::
