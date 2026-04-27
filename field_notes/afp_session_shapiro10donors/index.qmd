@@ -1,7 +1,7 @@
 ---
-title: "AFP 2026"
+title: "AFP session - Find your next 10 donors"
 author: Greg Brooks
-date: 04/21/2026
+date: 04/26/2026
 draft: true
 categories:
     - Industry Commentary
@@ -12,18 +12,11 @@ execute:
   error: true
 ---
 
-Conference recap from the 2026 AFP blah blah blah you get it.
+# How to Find your Next 10 Major Donors
 
-# Overview
-First time at AFP - some sensible and useful breakout rooms, some not so much. This post is about the sensible ones. 
+Jim Shapiro ran a clear-headed, practical breakout room. I don't plan on ever being a front-line fundraiser, but Jim's presentation style and general attitude was honestly a breath of a fresh air - and if I ever had to be a fundraiser (e.g. in my nightmares) I think his advice would be the first place to start.
 
-## Keynote address
-Just kidding, I skipped the keynote. Keynotes are pointless - the vestigial organ of professional conferences. Spare me.
-
-## Big Gifts
-**"How to Find your Next 10 Major Donors"**
-
-Jim Shapiro ran a clear-headed, practical breakout room. I especially appreciated, early on, the insight that the definition of a major giver as a function of their on-paper capacity or their past definitions can become an imperfect metric that drives work in the wrong direction. A major donor, to Jim, is "anyone who can be managed as a major donor" - something that seems glib at first but helps center fundraising work on the relationship, from which the metrics can further inform, instead of vice versa.
+I especially appreciated, early on, the insight that the definition of a major giver as a function of their on-paper capacity or their past definitions can become an imperfect metric that drives work in the wrong direction. A major donor, to Jim, is "anyone who can be managed as a major donor" - something that seems glib at first but helps center fundraising work on the relationship, from which the metrics can further inform, instead of vice versa.
 
 I also appreciated his strong point about how many donations come in online - and he was diplomatic, saying that what these vendors can do with AI is "amazing" but that many major donors are at home wondering "where do I send my check?" - not necessarily as much of a problem for universities, but still very salient. 
 

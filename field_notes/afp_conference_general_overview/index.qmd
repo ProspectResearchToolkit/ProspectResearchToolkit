@@ -1,0 +1,23 @@
+---
+title: "AFP General Overview"
+author: Greg Brooks
+date: 04/26/2026
+draft: true
+categories:
+    - Industry Commentary
+    - Paid Resources
+    - Conference Recap
+execute: 
+  enabled: true
+  error: true
+---
+
+
+
+Conference recap from the 2026 AFP blah blah blah you get it.
+
+# Overview
+First time at AFP - some sensible and useful breakout rooms, some not so much. This post is about the sensible ones. 
+
+## Keynote address
+Just kidding, I skipped the keynote. Keynotes are pointless - the vestigial organ of professional conferences. Spare me.
