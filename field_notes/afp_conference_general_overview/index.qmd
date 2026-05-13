@@ -94,3 +94,317 @@ Nothing new, of course, classic Gilded Age stuff. The difference is the scale, t
 - The importance of "not yet" when measuring and responding to disqualification factors
 - How to measure the prospects "most likely to be lost due to time" essentially those who may have "affinity events" that are temporary, and may ultimately be less potent a psychological factor (e.g. a parent with a student at your university on a sports scholarship), it doesn't mean you need to secure the major gift in a crazy short time frame, but it does mean they need to be identified and qualified or engaged in some way, because the timing will lead to linkage and alignment drift.
 - Doing identification in this presention is recommended as an occasional thing: I think it actually works better as a concurrent process that is working with portfolio openings as people are being disqualified. Or even better, you focus on longterm, alignment driven pool building, so you don't have do as much "shaping" when that alignment is ready for new identified prospects. It's difficult, but in a busy work environment, you actually are picking up suspected prospects (pre-identification) constantly, just because you are spending so much time in the database. There needs to be a system to catch these "not-aligned-with-critical-project-but-still-relevant-for-the-future" (need a short name for this haha) names as they are gleaned from all the other projects happening. Names are being lost because of alignment segmentation that isn't "bouncing" prospects with lower priority alignments or affinities into the right prospect pool. In a small org, this isn't as big of a problem, but I'm speaking from the perspective of a billion dollar capital campaign.
+
+# ChatGPT Summary of this and other notes so far:
+# Overview
+
+- First AFP conference experience:
+  - Mix of practical and less useful sessions.
+  - Noticeable cultural difference from APRA:
+    - More frontline fundraiser focus.
+    - Emphasis on emotional intelligence, burnout, and relationship-building.
+- Perspective of this recap:
+  - Filtered through **prospect development**, not frontline fundraising.
+  - Focus on **what is actionable, scalable, and analytical**.
+- Core tension observed:
+  - Simultaneous messaging:
+    - “Fundraisers can’t be replaced”
+    - “Some fundraisers will be replaced by AI”
+  - Reflects broader uncertainty about **technology, analytics, and role evolution**.
+
+# Core Themes Across Sessions
+
+## 1. From Lists → Systems of Variables
+
+- Prospect research is still largely treated as:
+  - Static **lists of names**
+- It should evolve into:
+  - **Dynamic systems of variables that generate names**
+- Key shift:
+  - From **reactive identification** → **predictive, data-driven modeling**
+- Parallel:
+  - “Moneyball” approach:
+    - Replace intuition-heavy processes with **quantifiable indicators**
+- Implication:
+  - Prospect researchers must:
+    - Build **methodologies**, not just outputs
+    - Develop **repeatable analytical frameworks**
+
+## 2. Data Gaps, Enrichment, and External Sources
+
+- Internal databases are:
+  - Overused (“overfished”)
+  - Incomplete, with major blind spots
+- Opportunity:
+  - **External data enrichment**, especially:
+    - DAF datasets (e.g., DAF Research Collaborative)
+- Example application:
+  - Compare:
+    - Expected DAF distributions vs. actual giving to organization
+  - Insight:
+    - Identify **underperforming donors with higher latent capacity**
+- Operational gap:
+  - Soft-credit data inconsistencies:
+    - Valuable signals exist but are not systematically captured
+- Strategic direction:
+  - Treat **data acquisition** as a core competency of prospect research
+
+## 3. Prospect Research ≈ Market Research (But Less Mature)
+
+- Other industries:
+  - Use **advanced market research and analytics**
+  - Track **hundreds of variables** (e.g., credit scoring systems)
+- Fundraising:
+  - Limited variable tracking
+  - Heavy reliance on:
+    - Heuristics
+    - Legacy assumptions
+- Key questions raised:
+  - What variables are we tracking?
+  - Which ones actually drive outcomes?
+  - What are we missing entirely?
+- Insight:
+  - Prospect research increasingly resembles:
+    - **amateur market research**
+- Recommendation:
+  - Integrate:
+    - Market research techniques
+    - Business intelligence collaboration
+  - Focus on:
+    - Segmentation
+    - Behavioral tracking
+    - Predictive modeling
+
+## 4. The Long Game: Pipeline Thinking
+
+- Major gap:
+  - Lack of **long-term prospect development strategy**
+- Observations:
+  - Little to no tracking of:
+    - “10-year-out” prospects
+  - Overfocus on:
+    - Immediate project needs
+- Key concept:
+  - Prospect pools should be:
+    - **Continuously built**
+    - Not just campaign-driven
+- Supporting ideas:
+  - Annual donors:
+    - Strong indicators of future major donors
+  - Affinity evolves over time:
+    - Requires **longitudinal tracking**
+- Proposed direction:
+  - Build:
+    - **future-facing prospect pools**
+    - Based on:
+      - Affinity trajectories
+      - Engagement signals
+      - Behavioral clustering
+
+## 5. Affinity, Segmentation, and Clustering
+
+- Current state:
+  - Oversimplified logic (e.g., “nursing donors = nursing grads”)
+- Recommended approach:
+  - Build **multi-dimensional affinity models**
+    - Individuals tagged with:
+      - 3–10 affinity markers
+- Key insight:
+  - Affinity is:
+    - Dynamic
+    - Contextual
+    - Not mutually exclusive
+- Advanced concept:
+  - Create **affinity pools**, not rigid segments
+- Analytical opportunity:
+  - Identify:
+    - Which affinity combinations correlate with:
+      - Conversion
+      - Upgrade
+      - Retention
+- Parallel:
+  - Consumer behavior tracking in financial/tech sectors
+
+## 6. Metrics, ROI, and Accountability
+
+- Major gap:
+  - Prospect research rarely measures:
+    - **ROI**
+    - **cost per lead**
+    - **cost per acquisition**
+- Consequence:
+  - Limited visibility into:
+    - Effectiveness of identification efforts
+- Required components:
+  - Track:
+    - Lead generation cost
+    - Conversion rates
+    - Downstream giving outcomes
+- Structural issue:
+  - Prospect research often excluded from:
+    - ROI strategy discussions
+- Recommendation:
+  - Align with:
+    - Business intelligence teams
+  - Develop:
+    - End-to-end performance tracking
+
+## 7. DAFs as an Immediate Opportunity
+
+- Practical, near-term application:
+  - Use DAF data for:
+    - Prospect identification
+    - Capacity reassessment
+- Method:
+  - Match:
+    - Donor → DAF → distribution patterns
+- Insight:
+  - Identify donors:
+    - Giving below expected levels to your organization
+- Limitation:
+  - Data fragmentation:
+    - Especially in soft-credit processes
+- Action item:
+  - Improve:
+    - Data capture
+    - Attribution workflows
+
+# Session Highlights
+
+## Seizing the Largest Intergenerational Wealth Transfer
+
+### Key Takeaways
+
+- ~$84 trillion wealth transfer over 20 years:
+  - Primarily to Gen X and Millennials
+- Risks:
+  - Aging donor base
+  - Declining donor counts
+- Strategic tension:
+  - Revenue growth vs. donor base contraction
+
+### Implications for Prospect Research
+
+- Track:
+  - **new donors early**, regardless of gift size
+- Shift focus:
+  - Identify prospects:
+    - Earlier in lifecycle (pre-qualification stage)
+- Expand sourcing:
+  - Digital environments (e.g., social platforms, long-form content)
+- Introduce:
+  - **long-term prospect tagging** (e.g., “10-year potential”)
+
+### Analytical Opportunities
+
+- “Look-alike” modeling:
+  - Underutilized in prospect research
+- Cost metrics:
+  - Cost per lead
+  - Cost per acquisition
+- Affinity tracking:
+  - Longitudinal, multi-variable models
+
+## 12-Month Guide to Capital Campaigns
+
+### Key Takeaways
+
+- Research should:
+  - Run **concurrently** with campaign planning
+- Identification strategies:
+  - “rich streets” analysis:
+    - Surface overlooked high-capacity individuals
+- Campaign framing:
+  - Focus:
+    - Maximum dollars
+    - Minimum donors
+    - Short timelines
+
+### Role of Prospect Development
+
+- Should be:
+  - Embedded in feasibility studies
+  - Active in methodology design (e.g., LIA model)
+- Current gap:
+  - Underrepresentation in:
+    - Strategic decision-making
+- Opportunity:
+  - Position prospect research as:
+    - **investment function**, not support function
+
+### Additional Insights
+
+- Donor engagement strategy:
+  - “catch and release” approach:
+    - Build relationships before solicitation
+- Incorporate:
+  - Donor objections
+  - Anti-affinity signals into segmentation
+
+## From Names to Relationships  
+*Identifying and Qualifying Donors Who Will Give*
+
+### Key Takeaways
+
+- Pipeline clarity:
+  - Distinction between:
+    - Suspected prospects
+    - Prospects
+    - Qualified prospects
+- Identification:
+  - Often treated as:
+    - Discrete process
+  - More effective as:
+    - **continuous system**
+
+### Prospect Research “Sweet Spot”
+
+- Highest value:
+  - Early engagement stages (1st–2nd meeting)
+- Role:
+  - Augment fundraiser knowledge with:
+    - Targeted, contextual insights
+
+### Structural Challenges
+
+- Data fragmentation:
+  - Especially in large organizations
+- Linkage tracking:
+  - Difficult across teams
+- Loss of prospects:
+  - Due to:
+    - Poor segmentation systems
+    - Lack of “future pool” tracking
+
+### Strategic Recommendations
+
+- Build systems to:
+  - Capture:
+    - “not now, but relevant later” prospects
+- Track:
+  - Time-sensitive affinity signals
+- Develop:
+  - Continuous identification pipelines
+
+# Final Takeaways
+
+- Prospect research is at an inflection point:
+  - Risk of being:
+    - Outpaced by market research and data science
+- To remain relevant, it must:
+  - Transition to:
+    - **data-driven, analytical discipline**
+- Priority areas:
+  - External data integration
+  - Variable-based modeling
+  - Long-term pipeline development
+  - ROI measurement
+- Immediate opportunities:
+  - DAF analysis
+  - Temporary scoring models
+  - Affinity-based clustering
+
+- Bottom line:
+  - The field must evolve from:
+    - **list generation → insight generation → predictive systems**
+
